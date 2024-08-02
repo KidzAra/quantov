@@ -1,0 +1,6 @@
+{
+    "parent": "block/flower_pot_cross/flower_pot_cross_22",
+    "textures": {
+        "plant": "block/oak_sapling"
+    }
+}

@@ -1,0 +1,76 @@
+info:
+  namespace: trauma_team
+armors_rendering:
+  my_armor:
+    color: "#d60000"
+    layer_1: armor/my_armor/layer_1
+    layer_2: armor/my_armor/layer_2
+items:
+  my_armor_helmet:
+    display_name: "Шлем медицинского костюма Травма Тим"
+    permission: my_armor
+    resource:
+      generate: true
+      textures:
+      - item/my_armor/helmet
+    durability:
+      max_custom_durability: 275
+    specific_properties:
+      armor:
+        slot: head
+        custom_armor: my_armor
+    attribute_modifiers:
+      head:
+        armor: 9
+        armorToughness: 1
+  my_armor_chestplate:
+    display_name: "Комбинезон медицинского костюма Травма Тим"
+    permission: my_armor
+    resource:
+      generate: true
+      textures:
+      - item/my_armor/chestplate
+    durability:
+      max_custom_durability: 400
+    specific_properties:
+      armor:
+        slot: chest
+        custom_armor: my_armor
+    attribute_modifiers:
+      chest:
+        armor: 7
+        armorToughness: 1
+  my_armor_leggings:
+    display_name: "Штаны медицинского костюма Травма Тим"
+    permission: my_armor
+    resource:
+      generate: true
+      textures:
+      - item/my_armor/leggings
+    durability:
+      max_custom_durability: 375
+    specific_properties:
+      armor:
+        slot: legs
+        custom_armor: my_armor
+    attribute_modifiers:
+      legs:
+        armor: 5
+        armorToughness: 1
+  my_armor_boots:
+    display_name: my_armor boots
+    permission: my_armor
+    resource:
+      generate: true
+      textures:
+      - item/my_armor/boots
+    durability:
+      max_custom_durability: 325
+    specific_properties:
+      armor:
+        slot: FEET
+        custom_armor: my_armor
+    attribute_modifiers:
+      feet:
+        armor: 3
+        armorToughness: 1

@@ -1,0 +1,161 @@
+info:
+  namespace: worlddeco
+items:
+  rose:
+    enabled: true
+    display_name: display-name-rose
+    resource:
+      generate: false
+      material: PAPER
+      model_path: rose
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+          custom_variants:
+            variant_1:
+              model: rose
+              y: 90
+            variant_2:
+              model: rose
+              y: 180
+            variant_3:
+              model: rose
+              y: 270
+        sound:
+          place:
+            name: block.grass.place
+          break:
+            name: block.grass.break
+  white_rose:
+    enabled: true
+    display_name: display-name-white_rose
+    resource:
+      generate: false
+      material: PAPER
+      model_path: white_rose
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+          custom_variants:
+            variant_1:
+              model: white_rose
+              y: 90
+            variant_2:
+              model: white_rose
+              y: 180
+            variant_3:
+              model: white_rose
+              y: 270
+        sound:
+          place:
+            name: block.grass.place
+          break:
+            name: block.grass.break
+  blue_rose:
+    enabled: true
+    display_name: display-name-blue_rose
+    resource:
+      generate: false
+      material: PAPER
+      model_path: blue_rose
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+          custom_variants:
+            variant_1:
+              model: blue_rose
+              y: 90
+            variant_2:
+              model: blue_rose
+              y: 180
+            variant_3:
+              model: blue_rose
+              y: 270
+        sound:
+          place:
+            name: block.grass.place
+          break:
+            name: block.grass.break
+  desert_rose:
+    enabled: true
+    display_name: display-name-desert_rose
+    resource:
+      generate: false
+      material: PAPER
+      model_path: desert_rose
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+          custom_variants:
+            variant_1:
+              model: desert_rose
+              y: 90
+            variant_2:
+              model: desert_rose
+              y: 180
+            variant_3:
+              model: desert_rose
+              y: 270
+        sound:
+          place:
+            name: block.grass.place
+          break:
+            name: block.grass.break
+  fallen_leaves:
+    enabled: true
+    display_name: display-name-fallen_leaves
+    resource:
+      generate: false
+      material: PAPER
+      model_path: fallen_leaves
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+          custom_variants:
+            variant_1:
+              model: fallen_leaves
+              y: 90
+            variant_2:
+              model: fallen_leaves
+              y: 180
+            variant_3:
+              model: fallen_leaves
+              y: 270
+        sound:
+          place:
+            name: block.grass.place
+          break:
+            name: block.grass.break
+  dead_tall_grass:
+    enabled: true
+    display_name: display-name-dead_tall_grass
+    resource:
+      generate: false
+      material: PAPER
+      model_path: dead_tall_grass
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+          custom_variants:
+            variant_1:
+              model: dead_tall_grass
+              y: 90
+            variant_2:
+              model: dead_tall_grass
+              y: 180
+            variant_3:
+              model: dead_tall_grass
+              y: 270
+          shift_up: true
+        cancel_drop: true
+        sound:
+          place:
+            name: block.grass.place
+          break:
+            name: block.grass.break

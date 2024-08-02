@@ -1,0 +1,72 @@
+info:
+  namespace: worlddeco
+surface_decorators:
+  rose:
+    block: rose
+    bottom_blocks:
+    - DIRT
+    - GRASS_BLOCK
+    biomes:
+    - PLAINS
+    - SUNFLOWER_PLAINS
+    - RIVER
+    - MOUNTAINS
+    - MOUNTAIN_EDGE
+    - BIRCH_FOREST
+    - BIRCH_FOREST_HILLS
+    - TALL_BIRCH_FOREST
+    - TALL_BIRCH_HILLS
+    worlds:
+      - world
+    chance: 10
+    max_height: 255 
+    min_height: 0
+    amount: 1
+  fallen_leaves:
+    block: fallen_leaves
+    bottom_blocks:
+    - DIRT
+    - GRASS_BLOCK
+    - PODZOL
+    biomes:
+    - TAIGA
+    - TAIGA_HILLS
+    - TAIGA_MOUNTAINS
+    - GIANT_SPRUCE_TAIGA
+    - GIANT_SPRUCE_TAIGA_HILLS
+    - GIANT_TREE_TAIGA
+    - GIANT_TREE_TAIGA_HILLS
+    - JUNGLE
+    - JUNGLE_EDGE
+    - JUNGLE_HILLS
+    - BAMBOO_JUNGLE
+    - BAMBOO_JUNGLE_HILLS
+    - MODIFIED_JUNGLE
+    - MODIFIED_JUNGLE_EDGE
+    - FOREST
+    - FLOWER_FOREST
+    - BIRCH_FOREST
+    - BIRCH_FOREST_HILLS
+    - DARK_FOREST
+    - DARK_FOREST_HILLS
+    - TALL_BIRCH_FOREST
+    worlds:
+      - world
+    chance: 45
+    max_height: 255 
+    min_height: 0
+    amount: 5
+  dead_tall_grass:
+    block: dead_tall_grass
+    bottom_blocks:
+    - SAND
+    biomes:
+    - DESERT
+    - DESERT_HILLS
+    - DESERT_LAKES
+    worlds:
+      - world
+    chance: 45
+    max_height: 255 
+    min_height: 0
+    amount: 3

@@ -1,0 +1,1916 @@
+info:
+  namespace: vanilla_blocks
+items:
+  acacia_lantern:
+    display_name: "Акацивая лампа"
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+        - acacia_lantern_top.png
+        - acacia_lantern_side.png
+        - acacia_lantern_side.png
+        - acacia_lantern_side.png
+        - acacia_lantern_top.png
+        - acacia_lantern_side.png
+    specific_properties:
+      block:
+        hardness: 1.5
+        blast_resistance: 1
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        break_tools_whitelist:
+          - AXE
+          - axe
+        sound:
+          break:
+            name: minecraft:block.wood.break
+          place:
+            name: minecraft:block.wood.place
+          hit:
+            name: minecraft:block.wood.hit
+          step:
+            name: minecraft:block.wood.step
+          fall:
+            name: minecraft:block.wood.fall
+  andesite_bricks:
+    display_name: "Андезитовые кирпичи"
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+      - andesite_bricks.png
+    specific_properties:
+      block:
+        hardness: 1
+        blast_resistance: 1
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        break_tools_whitelist:
+          - PICKAXE
+          - pickaxe
+        sound:
+          break:
+            name: minecraft:block.stone.break
+          place:
+            name: minecraft:block.stone.place
+          hit:
+            name: minecraft:block.stone.hit
+          step:
+            name: minecraft:block.stone.step
+          fall:
+            name: minecraft:block.stone.fall
+  bamboo_lantern:
+    display_name: "Бамбуковая лампа"
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+        - bamboo_lantern_top.png
+        - bamboo_lantern_side.png
+        - bamboo_lantern_side.png
+        - bamboo_lantern_side.png
+        - bamboo_lantern_top.png
+        - bamboo_lantern_side.png
+    specific_properties:
+      block:
+        hardness: 1.5
+        blast_resistance: 1
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        break_tools_whitelist:
+          - AXE
+          - axe
+        sound:
+          break:
+            name: minecraft:block.bamboo_wood.break
+          place:
+            name: minecraft:block.bamboo_wood.place
+          hit:
+            name: minecraft:block.bamboo_wood.hit
+          step:
+            name: minecraft:block.bamboo_wood.step
+          fall:
+            name: minecraft:block.bamboo_wood.fall
+  birch_lantern:
+    display_name: "Березовая лампа"
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+        - birch_lantern_top.png
+        - birch_lantern_side.png
+        - birch_lantern_side.png
+        - birch_lantern_side.png
+        - birch_lantern_top.png
+        - birch_lantern_side.png
+    specific_properties:
+      block:
+        hardness: 1.5
+        blast_resistance: 1
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        break_tools_whitelist:
+          - AXE
+          - axe
+        sound:
+          break:
+            name: minecraft:block.wood.break
+          place:
+            name: minecraft:block.wood.place
+          hit:
+            name: minecraft:block.wood.hit
+          step:
+            name: minecraft:block.wood.step
+          fall:
+            name: minecraft:block.wood.fall
+  carved_birch_planks:
+    display_name: "Резные берёзовые доски"
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+        - carved_birch_planks_top.png
+        - carved_birch_planks_side.png
+        - carved_birch_planks_side.png
+        - carved_birch_planks_side.png
+        - carved_birch_planks_top.png
+        - carved_birch_planks_side.png
+    specific_properties:
+      block:
+        hardness: 6
+        blast_resistance: 1
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        break_tools_whitelist:
+          - AXE
+          - axe
+        sound:
+          break:
+            name: minecraft:block.wood.break
+          place:
+            name: minecraft:block.wood.place
+          hit:
+            name: minecraft:block.wood.hit
+          step:
+            name: minecraft:block.wood.step
+          fall:
+            name: minecraft:block.wood.fall
+  carved_cherry_planks:
+    display_name: "Резные вишнёвые доски"
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+        - carved_cherry_planks_top.png
+        - carved_cherry_planks_side.png
+        - carved_cherry_planks_side.png
+        - carved_cherry_planks_side.png
+        - carved_cherry_planks_top.png
+        - carved_cherry_planks_side.png
+    specific_properties:
+      block:
+        hardness: 6
+        blast_resistance: 1
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        break_tools_whitelist:
+          - AXE
+          - axe
+        sound:
+          break:
+            name: minecraft:block.cherry_wood.break
+          place:
+            name: minecraft:block.cherry_wood.place
+          hit:
+            name: minecraft:block.cherry_wood.hit
+          step:
+            name: minecraft:block.cherry_wood.step
+          fall:
+            name: minecraft:block.cherry_wood.fall
+  carved_crimson_planks:
+    display_name: "Резные багровые доски"
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+        - carved_crimson_planks_top.png
+        - carved_crimson_planks_side.png
+        - carved_crimson_planks_side.png
+        - carved_crimson_planks_side.png
+        - carved_crimson_planks_top.png
+        - carved_crimson_planks_side.png
+    specific_properties:
+      block:
+        hardness: 6
+        blast_resistance: 1
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        break_tools_whitelist:
+          - AXE
+          - axe
+        sound:
+          break:
+            name: minecraft:block.wood.break
+          place:
+            name: minecraft:block.wood.place
+          hit:
+            name: minecraft:block.wood.hit
+          step:
+            name: minecraft:block.wood.step
+          fall:
+            name: minecraft:block.wood.fall
+  carved_dark_oak_planks:
+    display_name: "Резные доски из тёмного дуба"
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+        - carved_dark_oak_planks_top.png
+        - carved_dark_oak_planks_side.png
+        - carved_dark_oak_planks_side.png
+        - carved_dark_oak_planks_side.png
+        - carved_dark_oak_planks_top.png
+        - carved_dark_oak_planks_side.png
+    specific_properties:
+      block:
+        hardness: 6
+        blast_resistance: 1
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        break_tools_whitelist:
+          - AXE
+          - axe
+        sound:
+          break:
+            name: minecraft:block.wood.break
+          place:
+            name: minecraft:block.wood.place
+          hit:
+            name: minecraft:block.wood.hit
+          step:
+            name: minecraft:block.wood.step
+          fall:
+            name: minecraft:block.wood.fall
+  carved_jungle_planks:
+    display_name: "Резные джунглевые доски"
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+        - carved_jungle_planks_top.png
+        - carved_jungle_planks_side.png
+        - carved_jungle_planks_side.png
+        - carved_jungle_planks_side.png
+        - carved_jungle_planks_top.png
+        - carved_jungle_planks_side.png
+    specific_properties:
+      block:
+        hardness: 6
+        blast_resistance: 1
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        break_tools_whitelist:
+          - AXE
+          - axe
+        sound:
+          break:
+            name: minecraft:block.wood.break
+          place:
+            name: minecraft:block.wood.place
+          hit:
+            name: minecraft:block.wood.hit
+          step:
+            name: minecraft:block.wood.step
+          fall:
+            name: minecraft:block.wood.fall
+  carved_mangrove_planks:
+    display_name: "Резные мангровые доски"
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+        - carved_mangrove_planks_top.png
+        - carved_mangrove_planks_side.png
+        - carved_mangrove_planks_side.png
+        - carved_mangrove_planks_side.png
+        - carved_mangrove_planks_top.png
+        - carved_mangrove_planks_side.png
+    specific_properties:
+      block:
+        hardness: 6
+        blast_resistance: 1
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        break_tools_whitelist:
+          - AXE
+          - axe
+        sound:
+          break:
+            name: minecraft:block.wood.break
+          place:
+            name: minecraft:block.wood.place
+          hit:
+            name: minecraft:block.wood.hit
+          step:
+            name: minecraft:block.wood.step
+          fall:
+            name: minecraft:block.wood.fall
+  carved_oak_planks:
+    display_name: "Резные дубовые доски"
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+        - carved_oak_planks_top.png
+        - carved_oak_planks_side.png
+        - carved_oak_planks_side.png
+        - carved_oak_planks_side.png
+        - carved_oak_planks_top.png
+        - carved_oak_planks_side.png
+    specific_properties:
+      block:
+        hardness: 6
+        blast_resistance: 1
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        break_tools_whitelist:
+          - AXE
+          - axe
+        sound:
+          break:
+            name: minecraft:block.wood.break
+          place:
+            name: minecraft:block.wood.place
+          hit:
+            name: minecraft:block.wood.hit
+          step:
+            name: minecraft:block.wood.step
+          fall:
+            name: minecraft:block.wood.fall
+  carved_warped_planks:
+    display_name: "Резные искаженные доски"
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+        - carved_warped_planks_top.png
+        - carved_warped_planks_side.png
+        - carved_warped_planks_side.png
+        - carved_warped_planks_side.png
+        - carved_warped_planks_top.png
+        - carved_warped_planks_side.png
+    specific_properties:
+      block:
+        hardness: 6
+        blast_resistance: 1
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        break_tools_whitelist:
+          - AXE
+          - axe
+        sound:
+          break:
+            name: minecraft:block.wood.break
+          place:
+            name: minecraft:block.wood.place
+          hit:
+            name: minecraft:block.wood.hit
+          step:
+            name: minecraft:block.wood.step
+          fall:
+            name: minecraft:block.wood.fall
+  cherry_lantern:
+    display_name: "Вишнёвая лампа"
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+        - cherry_lantern_top.png
+        - cherry_lantern_side.png
+        - cherry_lantern_side.png
+        - cherry_lantern_side.png
+        - cherry_lantern_top.png
+        - cherry_lantern_side.png
+    specific_properties:
+      block:
+        hardness: 6
+        blast_resistance: 1
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        sound:
+          break:
+            name: minecraft:block.lantern.break
+          place:
+            name: minecraft:block.lantern.place
+          hit:
+            name: minecraft:block.lantern.hit
+          step:
+            name: minecraft:block.lantern.step
+          fall:
+            name: minecraft:block.lantern.fall
+  chiseled_andesite:
+    display_name: "Точеный андезит"
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+        - chiseled_andesite_top.png
+        - chiseled_andesite_side.png
+        - chiseled_andesite_side.png
+        - chiseled_andesite_side.png
+        - chiseled_andesite_top.png
+        - chiseled_andesite_side.png
+    specific_properties:
+      block:
+        hardness: 6
+        blast_resistance: 1
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        break_tools_whitelist:
+          - PICKAXE
+          - pickaxe
+        sound:
+          break:
+            name: minecraft:block.stone.break
+          place:
+            name: minecraft:block.stone.place
+          hit:
+            name: minecraft:block.stone.hit
+          step:
+            name: minecraft:block.stone.step
+          fall:
+            name: minecraft:block.stone.fall
+  chiseled_diorite:
+    display_name: "Точеный диорит"
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+        - chiseled_diorite_top.png
+        - chiseled_diorite_side.png
+        - chiseled_diorite_side.png
+        - chiseled_diorite_side.png
+        - chiseled_diorite_top.png
+        - chiseled_diorite_side.png
+    specific_properties:
+      block:
+        hardness: 6
+        blast_resistance: 1
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        break_tools_whitelist:
+          - PICKAXE
+          - pickaxe
+        sound:
+          break:
+            name: minecraft:block.stone.break
+          place:
+            name: minecraft:block.stone.place
+          hit:
+            name: minecraft:block.stone.hit
+          step:
+            name: minecraft:block.stone.step
+          fall:
+            name: minecraft:block.stone.fall
+  chiseled_granite:
+    display_name: "Точеный гранит"
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+        - chiseled_granite_top.png
+        - chiseled_granite_side.png
+        - chiseled_granite_side.png
+        - chiseled_granite_side.png
+        - chiseled_granite_top.png
+        - chiseled_granite_side.png
+    specific_properties:
+      block:
+        hardness: 6
+        blast_resistance: 1
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        break_tools_whitelist:
+          - PICKAXE
+          - pickaxe
+        sound:
+          break:
+            name: minecraft:block.stone.break
+          place:
+            name: minecraft:block.stone.place
+          hit:
+            name: minecraft:block.stone.hit
+          step:
+            name: minecraft:block.stone.step
+          fall:
+            name: minecraft:block.stone.fall
+  chiseled_diamond:
+    display_name: "Граненный алмаз"
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+        - chiseled_diamond.png
+        - chiseled_diamond.png
+        - chiseled_diamond.png
+        - chiseled_diamond.png
+        - chiseled_diamond.png
+        - chiseled_diamond.png
+    specific_properties:
+      block:
+        hardness: 6
+        blast_resistance: 1
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        break_tools_whitelist:
+          - PICKAXE
+          - pickaxe
+        sound:
+          break:
+            name: minecraft:block.stone.break
+          place:
+            name: minecraft:block.stone.place
+          hit:
+            name: minecraft:block.stone.hit
+          step:
+            name: minecraft:block.stone.step
+          fall:
+            name: minecraft:block.stone.fall
+  chiseled_emerald:
+    display_name: "Гранённый изумруд"
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+        - chiseled_emerald.png
+        - chiseled_emerald.png
+        - chiseled_emerald.png
+        - chiseled_emerald.png
+        - chiseled_emerald.png
+        - chiseled_emerald.png
+    specific_properties:
+      block:
+        hardness: 6
+        blast_resistance: 1
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        break_tools_whitelist:
+          - PICKAXE
+          - pickaxe
+        sound:
+          break:
+            name: minecraft:block.stone.break
+          place:
+            name: minecraft:block.stone.place
+          hit:
+            name: minecraft:block.stone.hit
+          step:
+            name: minecraft:block.stone.step
+          fall:
+            name: minecraft:block.stone.fall
+  chiseled_gold:
+    display_name: "Гранённое золото"
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+        - chiseled_gold.png
+        - chiseled_gold.png
+        - chiseled_gold.png
+        - chiseled_gold.png
+        - chiseled_gold.png
+        - chiseled_gold.png
+    specific_properties:
+      block:
+        hardness: 6
+        blast_resistance: 1
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        break_tools_whitelist:
+          - PICKAXE
+          - pickaxe
+        sound:
+          break:
+            name: minecraft:block.stone.break
+          place:
+            name: minecraft:block.stone.place
+          hit:
+            name: minecraft:block.stone.hit
+          step:
+            name: minecraft:block.stone.step
+          fall:
+            name: minecraft:block.stone.fall
+  chiseled_iron:
+    display_name: "Гранённое железо"
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+        - chiseled_iron.png
+        - chiseled_iron.png
+        - chiseled_iron.png
+        - chiseled_iron.png
+        - chiseled_iron.png
+        - chiseled_iron.png
+    specific_properties:
+      block:
+        hardness: 6
+        blast_resistance: 1
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        break_tools_whitelist:
+          - PICKAXE
+          - pickaxe
+        sound:
+          break:
+            name: minecraft:block.stone.break
+          place:
+            name: minecraft:block.stone.place
+          hit:
+            name: minecraft:block.stone.hit
+          step:
+            name: minecraft:block.stone.step
+          fall:
+            name: minecraft:block.stone.fall
+  chiseled_lapis:
+    display_name: "Гранённый лазурит"
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+        - chiseled_lapis.png
+        - chiseled_lapis.png
+        - chiseled_lapis.png
+        - chiseled_lapis.png
+        - chiseled_lapis.png
+        - chiseled_lapis.png
+    specific_properties:
+      block:
+        hardness: 6
+        blast_resistance: 1
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        break_tools_whitelist:
+          - PICKAXE
+          - pickaxe
+        sound:
+          break:
+            name: minecraft:block.stone.break
+          place:
+            name: minecraft:block.stone.place
+          hit:
+            name: minecraft:block.stone.hit
+          step:
+            name: minecraft:block.stone.step
+          fall:
+            name: minecraft:block.stone.fall
+  chiseled_mud:
+    display_name: "Резная глина"
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+        - chiseled_mud.png
+        - chiseled_mud.png
+        - chiseled_mud.png
+        - chiseled_mud.png
+        - chiseled_mud.png
+        - chiseled_mud.png
+    specific_properties:
+      block:
+        hardness: 6
+        blast_resistance: 1
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        break_tools_whitelist:
+          - SHOVEL
+          - shovel
+        sound:
+          break:
+            name: minecraft:block.stone.break
+          place:
+            name: minecraft:block.stone.place
+          hit:
+            name: minecraft:block.stone.hit
+          step:
+            name: minecraft:block.stone.step
+          fall:
+            name: minecraft:block.stone.fall
+  chiseled_netherite:
+    display_name: "Гранённый незерит"
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+        - chiseled_netherite.png
+        - chiseled_netherite.png
+        - chiseled_netherite.png
+        - chiseled_netherite.png
+        - chiseled_netherite.png
+        - chiseled_netherite.png
+    specific_properties:
+      block:
+        hardness: 6
+        blast_resistance: 1
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        break_tools_whitelist:
+          - PICKAXE
+          - pickaxe
+        sound:
+          break:
+            name: minecraft:block.stone.break
+          place:
+            name: minecraft:block.stone.place
+          hit:
+            name: minecraft:block.stone.hit
+          step:
+            name: minecraft:block.stone.step
+          fall:
+            name: minecraft:block.stone.fall
+  chiseled_packed_ice_bricks:
+    display_name: "Кирпичи из колотого льда"
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+        - chiseled_packed_ice_bricks_top.png
+        - chiseled_packed_ice_bricks.png
+        - chiseled_packed_ice_bricks.png
+        - chiseled_packed_ice_bricks.png
+        - chiseled_packed_ice_bricks_top.png
+        - chiseled_packed_ice_bricks.png
+    specific_properties:
+      block:
+        hardness: 6
+        blast_resistance: 1
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        break_tools_whitelist:
+          - PICKAXE
+          - pickaxe
+        sound:
+          break:
+            name: minecraft:block.stone.break
+          place:
+            name: minecraft:block.stone.place
+          hit:
+            name: minecraft:block.stone.hit
+          step:
+            name: minecraft:block.stone.step
+          fall:
+            name: minecraft:block.stone.fall
+  chiseled_red_nether_bricks:
+    display_name: "Высеченные красные незерские кирпичи"
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+        - chiseled_red_nether_bricks_top.png
+        - chiseled_red_nether_bricks.png
+        - chiseled_red_nether_bricks.png
+        - chiseled_red_nether_bricks.png
+        - chiseled_red_nether_bricks_top.png
+        - chiseled_red_nether_bricks.png
+    specific_properties:
+      block:
+        hardness: 6
+        blast_resistance: 1
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        break_tools_whitelist:
+          - PICKAXE
+          - pickaxe
+        sound:
+          break:
+            name: minecraft:block.stone.break
+          place:
+            name: minecraft:block.stone.place
+          hit:
+            name: minecraft:block.stone.hit
+          step:
+            name: minecraft:block.stone.step
+          fall:
+            name: minecraft:block.stone.fall
+  chiseled_redstone:
+    display_name: "Точеный красный камень"
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+        - chiseled_redstone.png
+        - chiseled_redstone.png
+        - chiseled_redstone.png
+        - chiseled_redstone.png
+        - chiseled_redstone.png
+        - chiseled_redstone.png
+    specific_properties:
+      block:
+        hardness: 6
+        blast_resistance: 1
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        break_tools_whitelist:
+          - PICKAXE
+          - pickaxe
+        sound:
+          break:
+            name: minecraft:block.stone.break
+          place:
+            name: minecraft:block.stone.place
+          hit:
+            name: minecraft:block.stone.hit
+          step:
+            name: minecraft:block.stone.step
+          fall:
+            name: minecraft:block.stone.fall
+  chiseled_soul_bricks:
+    display_name: "Высеченные кирпичи души"
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+        - chiseled_soul_bricks_top.png
+        - chiseled_soul_bricks.png
+        - chiseled_soul_bricks.png
+        - chiseled_soul_bricks.png
+        - chiseled_soul_bricks_top.png
+        - chiseled_soul_bricks.png
+    specific_properties:
+      block:
+        hardness: 6
+        blast_resistance: 1
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        break_tools_whitelist:
+          - PICKAXE
+          - pickaxe
+        sound:
+          break:
+            name: minecraft:block.stone.break
+          place:
+            name: minecraft:block.stone.place
+          hit:
+            name: minecraft:block.stone.hit
+          step:
+            name: minecraft:block.stone.step
+          fall:
+            name: minecraft:block.stone.fall
+  chiseled_stone:
+    display_name: "Точеный камень"
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+        - chiseled_stone_top.png
+        - chiseled_stone_side.png
+        - chiseled_stone_side.png
+        - chiseled_stone_side.png
+        - chiseled_stone_top.png
+        - chiseled_stone_side.png
+    specific_properties:
+      block:
+        hardness: 6
+        blast_resistance: 1
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        break_tools_whitelist:
+          - PICKAXE
+          - pickaxe
+        sound:
+          break:
+            name: minecraft:block.stone.break
+          place:
+            name: minecraft:block.stone.place
+          hit:
+            name: minecraft:block.stone.hit
+          step:
+            name: minecraft:block.stone.step
+          fall:
+            name: minecraft:block.stone.fall
+  copper_bricks:
+    display_name: "Медные кирпичи"
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+        - copper_bricks.png
+        - copper_bricks.png
+        - copper_bricks.png
+        - copper_bricks.png
+        - copper_bricks.png
+        - copper_bricks.png
+    specific_properties:
+      block:
+        hardness: 6
+        blast_resistance: 1
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        break_tools_whitelist:
+          - PICKAXE
+          - pickaxe
+        sound:
+          break:
+            name: minecraft:block.stone.break
+          place:
+            name: minecraft:block.stone.place
+          hit:
+            name: minecraft:block.stone.hit
+          step:
+            name: minecraft:block.stone.step
+          fall:
+            name: minecraft:block.stone.fall
+  crimson_lantern:
+    display_name: "Багровый фонарь"
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+        - crimson_lantern_top.png
+        - crimson_lantern_side.png
+        - crimson_lantern_side.png
+        - crimson_lantern_side.png
+        - crimson_lantern_top.png
+        - crimson_lantern_side.png
+    specific_properties:
+      block:
+        hardness: 6
+        blast_resistance: 1
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        sound:
+          break:
+            name: minecraft:block.lantern.break
+          place:
+            name: minecraft:block.lantern.place
+          hit:
+            name: minecraft:block.lantern.hit
+          step:
+            name: minecraft:block.lantern.step
+          fall:
+            name: minecraft:block.lantern.fall
+  dark_oak_lantern:
+    display_name: "Фонарь из темного дуба"
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+        - dark_oak_lantern_top.png
+        - dark_oak_lantern_side.png
+        - dark_oak_lantern_side.png
+        - dark_oak_lantern_side.png
+        - dark_oak_lantern_top.png
+        - dark_oak_lantern_side.png
+    specific_properties:
+      block:
+        hardness: 6
+        blast_resistance: 1
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        sound:
+          break:
+            name: minecraft:block.lantern.break
+          place:
+            name: minecraft:block.lantern.place
+          hit:
+            name: minecraft:block.lantern.hit
+          step:
+            name: minecraft:block.lantern.step
+          fall:
+            name: minecraft:block.lantern.fall
+  diamond_bricks:
+    display_name: "Алмазные кирпичи"
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+        - diamond_bricks.png
+        - diamond_bricks.png
+        - diamond_bricks.png
+        - diamond_bricks.png
+        - diamond_bricks.png
+        - diamond_bricks.png
+    specific_properties:
+      block:
+        hardness: 6
+        blast_resistance: 1
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        break_tools_whitelist:
+          - PICKAXE
+          - pickaxe
+        sound:
+          break:
+            name: minecraft:block.stone.break
+          place:
+            name: minecraft:block.stone.place
+          hit:
+            name: minecraft:block.stone.hit
+          step:
+            name: minecraft:block.stone.step
+          fall:
+            name: minecraft:block.stone.fall
+  diorite_bricks:
+    display_name: "Диоритовые кирпичи"
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+        - diorite_bricks.png
+        - diorite_bricks.png
+        - diorite_bricks.png
+        - diorite_bricks.png
+        - diorite_bricks.png
+        - diorite_bricks.png
+    specific_properties:
+      block:
+        hardness: 6
+        blast_resistance: 1
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        break_tools_whitelist:
+          - PICKAXE
+          - pickaxe
+        sound:
+          break:
+            name: minecraft:block.stone.break
+          place:
+            name: minecraft:block.stone.place
+          hit:
+            name: minecraft:block.stone.hit
+          step:
+            name: minecraft:block.stone.step
+          fall:
+            name: minecraft:block.stone.fall
+  emerald_bricks:
+    display_name: "Изумрудные кирпичи"
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+        - emerald_bricks.png
+        - emerald_bricks.png
+        - emerald_bricks.png
+        - emerald_bricks.png
+        - emerald_bricks.png
+        - emerald_bricks.png
+    specific_properties:
+      block:
+        hardness: 6
+        blast_resistance: 1
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        break_tools_whitelist:
+          - PICKAXE
+          - pickaxe
+        sound:
+          break:
+            name: minecraft:block.stone.break
+          place:
+            name: minecraft:block.stone.place
+          hit:
+            name: minecraft:block.stone.hit
+          step:
+            name: minecraft:block.stone.step
+          fall:
+            name: minecraft:block.stone.fall
+  exposed_copper_bricks:
+    display_name: "Немного окисленные медные кирпичи"
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+        - exposed_copper_bricks.png
+        - exposed_copper_bricks.png
+        - exposed_copper_bricks.png
+        - exposed_copper_bricks.png
+        - exposed_copper_bricks.png
+        - exposed_copper_bricks.png
+    specific_properties:
+      block:
+        hardness: 6
+        blast_resistance: 1
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        break_tools_whitelist:
+          - PICKAXE
+          - pickaxe
+        sound:
+          break:
+            name: minecraft:block.stone.break
+          place:
+            name: minecraft:block.stone.place
+          hit:
+            name: minecraft:block.stone.hit
+          step:
+            name: minecraft:block.stone.step
+          fall:
+            name: minecraft:block.stone.fall
+  gold_bricks:
+    display_name: "Золотые кирпичи"
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+        - gold_bricks.png
+        - gold_bricks.png
+        - gold_bricks.png
+        - gold_bricks.png
+        - gold_bricks.png
+        - gold_bricks.png
+    specific_properties:
+      block:
+        hardness: 6
+        blast_resistance: 1
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        break_tools_whitelist:
+          - PICKAXE
+          - pickaxe
+        sound:
+          break:
+            name: minecraft:block.stone.break
+          place:
+            name: minecraft:block.stone.place
+          hit:
+            name: minecraft:block.stone.hit
+          step:
+            name: minecraft:block.stone.step
+          fall:
+            name: minecraft:block.stone.fall
+  granite_bricks:
+    display_name: "Гранитные кирпичи"
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+        - granite_bricks.png
+        - granite_bricks.png
+        - granite_bricks.png
+        - granite_bricks.png
+        - granite_bricks.png
+        - granite_bricks.png
+    specific_properties:
+      block:
+        hardness: 6
+        blast_resistance: 1
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        break_tools_whitelist:
+          - PICKAXE
+          - pickaxe
+        sound:
+          break:
+            name: minecraft:block.stone.break
+          place:
+            name: minecraft:block.stone.place
+          hit:
+            name: minecraft:block.stone.hit
+          step:
+            name: minecraft:block.stone.step
+          fall:
+            name: minecraft:block.stone.fall
+  iron_bricks:
+    display_name: "Железные кирпичи"
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+        - iron_bricks.png
+        - iron_bricks.png
+        - iron_bricks.png
+        - iron_bricks.png
+        - iron_bricks.png
+        - iron_bricks.png
+    specific_properties:
+      block:
+        hardness: 6
+        blast_resistance: 1
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        break_tools_whitelist:
+          - PICKAXE
+          - pickaxe
+        sound:
+          break:
+            name: minecraft:block.stone.break
+          place:
+            name: minecraft:block.stone.place
+          hit:
+            name: minecraft:block.stone.hit
+          step:
+            name: minecraft:block.stone.step
+          fall:
+            name: minecraft:block.stone.fall
+  jungle_lantern:
+    display_name: "Фонарь джунглей"
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+        - jungle_lantern_top.png
+        - jungle_lantern_side.png
+        - jungle_lantern_side.png
+        - jungle_lantern_side.png
+        - jungle_lantern_top.png
+        - jungle_lantern_side.png
+    specific_properties:
+      block:
+        hardness: 6
+        blast_resistance: 1
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        sound:
+          break:
+            name: minecraft:block.lantern.break
+          place:
+            name: minecraft:block.lantern.place
+          hit:
+            name: minecraft:block.lantern.hit
+          step:
+            name: minecraft:block.lantern.step
+          fall:
+            name: minecraft:block.lantern.fall
+  lapis_bricks:
+    display_name: "Кирпичи из ляписа"
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+        - lapis_bricks.png
+        - lapis_bricks.png
+        - lapis_bricks.png
+        - lapis_bricks.png
+        - lapis_bricks.png
+        - lapis_bricks.png
+    specific_properties:
+      block:
+        hardness: 6
+        blast_resistance: 1
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        break_tools_whitelist:
+          - PICKAXE
+          - pickaxe
+        sound:
+          break:
+            name: minecraft:block.stone.break
+          place:
+            name: minecraft:block.stone.place
+          hit:
+            name: minecraft:block.stone.hit
+          step:
+            name: minecraft:block.stone.step
+          fall:
+            name: minecraft:block.stone.fall
+  mangrove_lantern:
+    display_name: "Мангровый фонарь"
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+        - mangrove_lantern_top.png
+        - mangrove_lantern_side.png
+        - mangrove_lantern_side.png
+        - mangrove_lantern_side.png
+        - mangrove_lantern_top.png
+        - mangrove_lantern_side.png
+    specific_properties:
+      block:
+        hardness: 6
+        blast_resistance: 1
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        sound:
+          break:
+            name: minecraft:block.lantern.break
+          place:
+            name: minecraft:block.lantern.place
+          hit:
+            name: minecraft:block.lantern.hit
+          step:
+            name: minecraft:block.lantern.step
+          fall:
+            name: minecraft:block.lantern.fall
+  molten_scoria_bricks:
+    display_name: "Кирпичи из расплавленного скория"
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+        - molten_scoria_bricks.png
+        - molten_scoria_bricks.png
+        - molten_scoria_bricks.png
+        - molten_scoria_bricks.png
+        - molten_scoria_bricks.png
+        - molten_scoria_bricks.png
+    specific_properties:
+      block:
+        hardness: 6
+        blast_resistance: 1
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        break_tools_whitelist:
+          - PICKAXE
+          - pickaxe
+        sound:
+          break:
+            name: minecraft:block.stone.break
+          place:
+            name: minecraft:block.stone.place
+          hit:
+            name: minecraft:block.stone.hit
+          step:
+            name: minecraft:block.stone.step
+          fall:
+            name: minecraft:block.stone.fall
+  molten_scoria:
+    display_name: "Расплавленный скорий"
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+        - molten_scoria_top.png
+        - molten_scoria_side.png
+        - molten_scoria_side.png
+        - molten_scoria_side.png
+        - molten_scoria_top.png
+        - molten_scoria_side.png
+    specific_properties:
+      block:
+        hardness: 6
+        blast_resistance: 1
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        break_tools_whitelist:
+          - PICKAXE
+          - pickaxe
+        sound:
+          break:
+            name: minecraft:block.stone.break
+          place:
+            name: minecraft:block.stone.place
+          hit:
+            name: minecraft:block.stone.hit
+          step:
+            name: minecraft:block.stone.step
+          fall:
+            name: minecraft:block.stone.fall
+  netherite_bricks:
+    display_name: "Незеритовые кирпичи"
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+        - netherite_bricks.png
+        - netherite_bricks.png
+        - netherite_bricks.png
+        - netherite_bricks.png
+        - netherite_bricks.png
+        - netherite_bricks.png
+    specific_properties:
+      block:
+        hardness: 6
+        blast_resistance: 1
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        break_tools_whitelist:
+          - PICKAXE
+          - pickaxe
+        sound:
+          break:
+            name: minecraft:block.stone.break
+          place:
+            name: minecraft:block.stone.place
+          hit:
+            name: minecraft:block.stone.hit
+          step:
+            name: minecraft:block.stone.step
+          fall:
+            name: minecraft:block.stone.fall
+  oak_lantern:
+    display_name: "Дубовый фонарь"
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+        - oak_lantern_top.png
+        - oak_lantern_side.png
+        - oak_lantern_side.png
+        - oak_lantern_side.png
+        - oak_lantern_top.png
+        - oak_lantern_side.png
+    specific_properties:
+      block:
+        hardness: 6
+        blast_resistance: 1
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        sound:
+          break:
+            name: minecraft:block.lantern.break
+          place:
+            name: minecraft:block.lantern.place
+          hit:
+            name: minecraft:block.lantern.hit
+          step:
+            name: minecraft:block.lantern.step
+          fall:
+            name: minecraft:block.lantern.fall
+  oxidized_copper_bricks:
+    display_name: "Окисленные медные кирпичи"
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+        - oxidized_copper_bricks.png
+        - oxidized_copper_bricks.png
+        - oxidized_copper_bricks.png
+        - oxidized_copper_bricks.png
+        - oxidized_copper_bricks.png
+        - oxidized_copper_bricks.png
+    specific_properties:
+      block:
+        hardness: 6
+        blast_resistance: 1
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        break_tools_whitelist:
+          - PICKAXE
+          - pickaxe
+        sound:
+          break:
+            name: minecraft:block.stone.break
+          place:
+            name: minecraft:block.stone.place
+          hit:
+            name: minecraft:block.stone.hit
+          step:
+            name: minecraft:block.stone.step
+          fall:
+            name: minecraft:block.stone.fall
+  packed_dirt:
+    display_name: "Сжатая грязь"
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+        - packed_dirt.png
+        - packed_dirt.png
+        - packed_dirt.png
+        - packed_dirt.png
+        - packed_dirt.png
+        - packed_dirt.png
+    specific_properties:
+      block:
+        hardness: 6
+        blast_resistance: 1
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        break_tools_whitelist:
+          - SHOVEL
+          - shovel
+        sound:
+          break:
+            name: minecraft:block.stone.break
+          place:
+            name: minecraft:block.stone.place
+          hit:
+            name: minecraft:block.stone.hit
+          step:
+            name: minecraft:block.stone.step
+          fall:
+            name: minecraft:block.stone.fall
+  packed_ice_bricks:
+    display_name: "Сжатые ледяные кирпичи"
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+        - packed_ice_bricks.png
+        - packed_ice_bricks.png
+        - packed_ice_bricks.png
+        - packed_ice_bricks.png
+        - packed_ice_bricks.png
+        - packed_ice_bricks.png
+    specific_properties:
+      block:
+        hardness: 6
+        blast_resistance: 1
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        break_tools_whitelist:
+          - PICKAXE
+          - pickaxe
+        sound:
+          break:
+            name: minecraft:block.stone.break
+          place:
+            name: minecraft:block.stone.place
+          hit:
+            name: minecraft:block.stone.hit
+          step:
+            name: minecraft:block.stone.step
+          fall:
+            name: minecraft:block.stone.fall
+  polished_mud:
+    display_name: "Полированная грязь"
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+        - polished_mud.png
+        - polished_mud.png
+        - polished_mud.png
+        - polished_mud.png
+        - polished_mud.png
+        - polished_mud.png
+    specific_properties:
+      block:
+        hardness: 6
+        blast_resistance: 1
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        break_tools_whitelist:
+          - SHOVEL
+          - shovel
+        sound:
+          break:
+            name: minecraft:block.stone.break
+          place:
+            name: minecraft:block.stone.place
+          hit:
+            name: minecraft:block.stone.hit
+          step:
+            name: minecraft:block.stone.step
+          fall:
+            name: minecraft:block.stone.fall
+  polished_packed_ice:
+    display_name: "Полированный сжатый лед"
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+        - polished_packed_ice.png
+        - polished_packed_ice.png
+        - polished_packed_ice.png
+        - polished_packed_ice.png
+        - polished_packed_ice.png
+        - polished_packed_ice.png
+    specific_properties:
+      block:
+        hardness: 6
+        blast_resistance: 1
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        sound:
+          break:
+            name: minecraft:block.stone.break
+          place:
+            name: minecraft:block.stone.place
+          hit:
+            name: minecraft:block.stone.hit
+          step:
+            name: minecraft:block.stone.step
+          fall:
+            name: minecraft:block.stone.fall
+  redstone_bricks:
+    display_name: "Кирпичи из красного камня"
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+        - redstone_bricks.png
+        - redstone_bricks.png
+        - redstone_bricks.png
+        - redstone_bricks.png
+        - redstone_bricks.png
+        - redstone_bricks.png
+    specific_properties:
+      block:
+        hardness: 6
+        blast_resistance: 1
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        break_tools_whitelist:
+          - PICKAXE
+          - pickaxe
+        sound:
+          break:
+            name: minecraft:block.stone.break
+          place:
+            name: minecraft:block.stone.place
+          hit:
+            name: minecraft:block.stone.hit
+          step:
+            name: minecraft:block.stone.step
+          fall:
+            name: minecraft:block.stone.fall
+  scoria_bricks:
+    display_name: "Кирпичи из Скория"
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+        - scoria_bricks.png
+        - scoria_bricks.png
+        - scoria_bricks.png
+        - scoria_bricks.png
+        - scoria_bricks.png
+        - scoria_bricks.png
+    specific_properties:
+      block:
+        hardness: 6
+        blast_resistance: 1
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        break_tools_whitelist:
+          - PICKAXE
+          - pickaxe
+        sound:
+          break:
+            name: minecraft:block.stone.break
+          place:
+            name: minecraft:block.stone.place
+          hit:
+            name: minecraft:block.stone.hit
+          step:
+            name: minecraft:block.stone.step
+          fall:
+            name: minecraft:block.stone.fall
+  scoria:
+    display_name: "Скория"
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+        - scoria_top.png
+        - scoria_side.png
+        - scoria_side.png
+        - scoria_side.png
+        - scoria_top.png
+        - scoria_side.png
+    specific_properties:
+      block:
+        hardness: 6
+        blast_resistance: 1
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        break_tools_whitelist:
+          - PICKAXE
+          - pickaxe
+        sound:
+          break:
+            name: minecraft:block.stone.break
+          place:
+            name: minecraft:block.stone.place
+          hit:
+            name: minecraft:block.stone.hit
+          step:
+            name: minecraft:block.stone.step
+          fall:
+            name: minecraft:block.stone.fall
+  soul_bricks:
+    display_name: "Кирпичи души"
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+        - soul_bricks.png
+        - soul_bricks.png
+        - soul_bricks.png
+        - soul_bricks.png
+        - soul_bricks.png
+    specific_properties:
+      block:
+        hardness: 6
+        blast_resistance: 1
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        break_tools_whitelist:
+          - PICKAXE
+          - pickaxe
+        sound:
+          break:
+            name: minecraft:block.stone.break
+          place:
+            name: minecraft:block.stone.place
+          hit:
+            name: minecraft:block.stone.hit
+          step:
+            name: minecraft:block.stone.step
+          fall:
+            name: minecraft:block.stone.fall
+  spruce_lantern:
+    display_name: "Еловый фонарь"
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+        - spruce_lantern_top.png
+        - spruce_lantern_side.png
+        - spruce_lantern_side.png
+        - spruce_lantern_side.png
+        - spruce_lantern_top.png
+        - spruce_lantern_side.png
+    specific_properties:
+      block:
+        hardness: 6
+        blast_resistance: 1
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        sound:
+          break:
+            name: minecraft:block.lantern.break
+          place:
+            name: minecraft:block.lantern.place
+          hit:
+            name: minecraft:block.lantern.hit
+          step:
+            name: minecraft:block.lantern.step
+          fall:
+            name: minecraft:block.lantern.fall
+  spruce_planks_carved:
+    display_name: "Еловые резные доски"
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+        - spruce_planks_carved_top.png
+        - spruce_planks_carved_side.png
+        - spruce_planks_carved_side.png
+        - spruce_planks_carved_side.png
+        - spruce_planks_carved_top.png
+        - spruce_planks_carved_side.png
+    specific_properties:
+      block:
+        hardness: 6
+        blast_resistance: 1
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        break_tools_whitelist:
+          - AXE
+          - axe
+        sound:
+          break:
+            name: minecraft:block.lantern.break
+          place:
+            name: minecraft:block.lantern.place
+          hit:
+            name: minecraft:block.lantern.hit
+          step:
+            name: minecraft:block.lantern.step
+          fall:
+            name: minecraft:block.lantern.fall
+  thatch:
+    display_name: "Солома"
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+        - thatch_top_bottom.png
+        - thatch_side.png
+        - thatch_side.png
+        - thatch_side.png
+        - thatch_top_bottom.png
+        - thatch_side.png
+    specific_properties:
+      block:
+        hardness: 6
+        blast_resistance: 1
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        break_tools_whitelist:
+          - AXE
+          - axe
+        sound:
+          break:
+            name: minecraft:block.wood.break
+          place:
+            name: minecraft:block.wood.place
+          hit:
+            name: minecraft:block.wood.hit
+          step:
+            name: minecraft:block.wood.step
+          fall:
+            name: minecraft:block.wood.fall
+  warped_lantern:
+    display_name: "Искривленный фонарь"
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+        - warped_lantern_top.png
+        - warped_lantern_side.png
+        - warped_lantern_side.png
+        - warped_lantern_side.png
+        - warped_lantern_top.png
+        - warped_lantern_side.png
+    specific_properties:
+      block:
+        hardness: 6
+        blast_resistance: 1
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        break_tools_whitelist:
+          - AXE
+          - axe
+        sound:
+          break:
+            name: minecraft:block.lantern.break
+          place:
+            name: minecraft:block.lantern.place
+          hit:
+            name: minecraft:block.lantern.hit
+          step:
+            name: minecraft:block.lantern.step
+          fall:
+            name: minecraft:block.lantern.fall
+  weathered_copper_bricks:
+    display_name: "Окисленные медные кирпичи"
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+      - weathered_copper_bricks.png
+    specific_properties:
+      block:
+        hardness: 1
+        blast_resistance: 1
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        break_tools_whitelist:
+          - PICKAXE
+          - pickaxe
+        sound:
+          break:
+            name: minecraft:block.stone.break
+          place:
+            name: minecraft:block.stone.place
+          hit:
+            name: minecraft:block.stone.hit
+          step:
+            name: minecraft:block.stone.step
+          fall:
+            name: minecraft:block.stone.fall
+# KLHmHdcERgXEJbMsdF4HpeeSswlpj5r1kD/QxiV77OMWZ5nwndHGI99kSjOI4Bttg3XCYaE2BXr7rk/tVQ5Fy8qUH1BeDUGxEoprxmLzdPs=

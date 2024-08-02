@@ -1,0 +1,41 @@
+{
+  "parent": "minecraft:item/template_skull",
+  "overrides": [
+    {
+      "predicate": { "custom_model_data": 1 },
+      "model": "hmccosmetics:emotes/head"
+    },
+    {
+      "predicate": { "custom_model_data": 2 },
+      "model": "hmccosmetics:emotes/norm/right_shoulder"
+    },
+    {
+      "predicate": { "custom_model_data": 3 },
+      "model": "hmccosmetics:emotes/norm/left_shoulder"
+    },
+    {
+      "predicate": { "custom_model_data": 4 },
+      "model": "hmccosmetics:emotes/norm/arm"
+    },
+    {
+      "predicate": { "custom_model_data": 5 },
+      "model": "hmccosmetics:emotes/slim/right_shoulder"
+    },
+    {
+      "predicate": { "custom_model_data": 6 },
+      "model": "hmccosmetics:emotes/slim/left_shoulder"
+    },
+    {
+      "predicate": { "custom_model_data": 7 },
+      "model": "hmccosmetics:emotes/slim/arm"
+    },
+    {
+      "predicate": { "custom_model_data": 8 },
+      "model": "hmccosmetics:emotes/body"
+    },
+    {
+      "predicate": { "custom_model_data": 9 },
+      "model": "hmccosmetics:emotes/leg"
+    }
+  ]
+}

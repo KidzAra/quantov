@@ -1,0 +1,14 @@
+info:
+  namespace: villagerhats
+items:
+  weaponsmitheyepatch:
+    display_name: "Повязка на глаз"
+    permission: villagerhats
+    resource:
+      material: IRON_NUGGET
+      generate: false
+      model_path: weaponsmitheyepatch
+    durability:
+      max_custom_durability: 165
+    behaviours:
+      hat: true

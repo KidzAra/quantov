@@ -1,0 +1,19 @@
+info:
+  namespace: andesite_cut
+categories:
+  andesite_cut:
+    enabled: true
+    icon: "andesite_cut_square"
+    name: 'Cut Andesite'
+    permission: "ia.menu.andesite_cut"
+    title_position_pixels: 0
+    items:
+      - "andesite_cut:andesite_cut"
+      - "andesite_cut:andesite_cut_basketweave"
+      - "andesite_cut:andesite_cut_bond"
+      - "andesite_cut:andesite_cut_brick"
+      - "andesite_cut:andesite_cut_herring"
+      - "andesite_cut:andesite_cut_polished"
+      - "andesite_cut:andesite_cut_square"
+      - "andesite_cut:andesite_cut_slab"
+      - "andesite_cut:andesite_cut_pillar"

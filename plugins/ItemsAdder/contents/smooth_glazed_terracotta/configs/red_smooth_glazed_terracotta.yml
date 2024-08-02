@@ -1,0 +1,151 @@
+info:
+  namespace: terracotta
+items:
+  red_smooth_glazed_terracotta:
+    display_name: Red Smooth Glazed Terracotta
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - smooth_glazed_terracotta/up/red_smooth_glazed_terracotta.png
+      - smooth_glazed_terracotta/down/red_smooth_glazed_terracotta_down.png
+      - smooth_glazed_terracotta/right/red_smooth_glazed_terracotta_right.png
+      - smooth_glazed_terracotta/left/red_smooth_glazed_terracotta_left.png
+      - smooth_glazed_terracotta/up/red_smooth_glazed_terracotta.png
+      - smooth_glazed_terracotta/up/red_smooth_glazed_terracotta.png
+    specific_properties:
+      block:
+        hardness: 2
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+          rotx: 0
+          roty: 180
+        sound:
+          break:
+            name: BLOCK_STONE_BREAK
+            volume: 1
+            pitch: 1.0
+          place:
+            name: BLOCK_STONE_PLACE
+            volume: 1
+            pitch: 1.0
+  red_smooth_glazed_terracotta_north:
+    display_name: Red Smooth Glazed Terracotta &eNorth
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - smooth_glazed_terracotta/up/red_smooth_glazed_terracotta.png
+      - smooth_glazed_terracotta/down/red_smooth_glazed_terracotta_down.png
+      - smooth_glazed_terracotta/right/red_smooth_glazed_terracotta_right.png
+      - smooth_glazed_terracotta/left/red_smooth_glazed_terracotta_left.png
+      - smooth_glazed_terracotta/up/red_smooth_glazed_terracotta.png
+      - smooth_glazed_terracotta/up/red_smooth_glazed_terracotta.png
+    specific_properties:
+      block:
+        hardness: 2
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+          rotx: 0
+          roty: 0
+        cancel_drop: true
+        sound:
+          break:
+            name: BLOCK_STONE_BREAK
+            volume: 1
+            pitch: 1.0
+          place:
+            name: BLOCK_STONE_PLACE
+            volume: 1
+            pitch: 1.0
+  red_smooth_glazed_terracotta_east:
+    display_name: Red Smooth Glazed Terracotta &eEast
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - smooth_glazed_terracotta/up/red_smooth_glazed_terracotta.png
+      - smooth_glazed_terracotta/down/red_smooth_glazed_terracotta_down.png
+      - smooth_glazed_terracotta/right/red_smooth_glazed_terracotta_right.png
+      - smooth_glazed_terracotta/left/red_smooth_glazed_terracotta_left.png
+      - smooth_glazed_terracotta/up/red_smooth_glazed_terracotta.png
+      - smooth_glazed_terracotta/up/red_smooth_glazed_terracotta.png
+    specific_properties:
+      block:
+        hardness: 2
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+          rotx: 0
+          roty: 90
+        cancel_drop: true
+        sound:
+          break:
+            name: BLOCK_STONE_BREAK
+            volume: 1
+            pitch: 1.0
+          place:
+            name: BLOCK_STONE_PLACE
+            volume: 1
+            pitch: 1.0
+  red_smooth_glazed_terracotta_west:
+    display_name: Red Smooth Glazed Terracotta &eWest
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - smooth_glazed_terracotta/up/red_smooth_glazed_terracotta.png
+      - smooth_glazed_terracotta/down/red_smooth_glazed_terracotta_down.png
+      - smooth_glazed_terracotta/right/red_smooth_glazed_terracotta_right.png
+      - smooth_glazed_terracotta/left/red_smooth_glazed_terracotta_left.png
+      - smooth_glazed_terracotta/up/red_smooth_glazed_terracotta.png
+      - smooth_glazed_terracotta/up/red_smooth_glazed_terracotta.png
+    specific_properties:
+      block:
+        hardness: 2
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+          rotx: 0
+          roty: 270
+        cancel_drop: true
+        sound:
+          break:
+            name: BLOCK_STONE_BREAK
+            volume: 1
+            pitch: 1.0
+          place:
+            name: BLOCK_STONE_PLACE
+            volume: 1
+            pitch: 1.0
+loots:
+  terracotta:
+    red_smooth_glazed_terracotta_north:
+      type: terracotta:red_smooth_glazed_terracotta_north
+      items:
+        result_1:
+          item: terracotta:red_smooth_glazed_terracotta
+          min_amount: 1
+          max_amount: 1
+          chance: 100
+          ignore_fortune: true
+    red_smooth_glazed_terracotta_east:
+      type: terracotta:red_smooth_glazed_terracotta_east
+      items:
+        result_1:
+          item: terracotta:red_smooth_glazed_terracotta
+          min_amount: 1
+          max_amount: 1
+          chance: 100
+          ignore_fortune: true
+    red_smooth_glazed_terracotta_west:
+      type: terracotta:red_smooth_glazed_terracotta_west
+      items:
+        result_1:
+          item: terracotta:red_smooth_glazed_terracotta
+          min_amount: 1
+          max_amount: 1
+          chance: 100
+          ignore_fortune: true

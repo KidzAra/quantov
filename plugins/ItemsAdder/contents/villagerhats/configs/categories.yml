@@ -1,0 +1,18 @@
+info:
+  namespace: villagerhats
+categories:
+  villagerhats:
+    enabled: true
+    icon: "villagerhats:farmerhat"
+    name: 'Villager Hats'
+    permission: "villagerhats.iamenu"
+    items:
+      - "villagerhats:farmerhat"
+      - "villagerhats:fisherhat"
+      - "villagerhats:fletcherhat"
+      - "villagerhats:librarianhat"
+      - "villagerhats:shepherdhat"
+      - "villagerhats:weaponsmitheyepatch"
+      - "villagerhats:butcherheadband"
+      - "villagerhats:armorermask"
+      - "villagerhats:cartographermonocle"

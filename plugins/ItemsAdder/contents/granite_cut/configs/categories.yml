@@ -1,0 +1,19 @@
+info:
+  namespace: granite_cut
+categories:
+  granite_cut:
+    enabled: true
+    icon: "granite_cut_square"
+    name: 'Cut Granite'
+    permission: "ia.menu.granite_cut"
+    title_position_pixels: 0
+    items:
+      - "granite_cut:granite_cut"
+      - "granite_cut:granite_cut_basketweave"
+      - "granite_cut:granite_cut_bond"
+      - "granite_cut:granite_cut_brick"
+      - "granite_cut:granite_cut_herring"
+      - "granite_cut:granite_cut_polished"
+      - "granite_cut:granite_cut_square"
+      - "granite_cut:granite_cut_slab"
+      - "granite_cut:granite_cut_pillar"

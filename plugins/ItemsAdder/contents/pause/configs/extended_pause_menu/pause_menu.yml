@@ -1,0 +1,53 @@
+info:
+  namespace: extended_pause_menu
+minecraft_lang_overwrite:
+  pause_menu_overwrite:
+    entries:
+      "menu.game": ""
+      "menu.returnToGame": ":menu_logo1::offset_-256:::menu_logo2::offset_-256::menu_return:::offset_-256:"
+      "menu.disconnect": ":offset_-256::menu_quit::offset_-256::menu_ad1::offset_-256::menu_ad2:"
+    languages:
+      - ALL
+font_images:
+  menu_logo1:
+    path: "menu_logo1.png"
+    y_position: 76
+    permission: pausemenu
+    show_in_gui: false
+    suggest_in_command: false
+    scale_ratio: 76
+  menu_logo2:
+    path: "menu_logo2.png"
+    y_position: 76
+    permission: pausemenu
+    show_in_gui: false
+    suggest_in_command: false
+    scale_ratio: 76
+  menu_return:
+    path: "menu_return.png"
+    y_position: 13
+    permission: pausemenu
+    show_in_gui: false
+    suggest_in_command: false
+    scale_ratio: 20
+  menu_quit:
+    path: "menu_quit.png"
+    y_position: 13
+    permission: pausemenu
+    show_in_gui: false
+    suggest_in_command: false
+    scale_ratio: 20
+  menu_ad1:
+    path: "menu_ad1.png"
+    y_position: 109
+    permission: pausemenu
+    show_in_gui: false
+    suggest_in_command: false
+    scale_ratio: 116
+  menu_ad2:
+    path: "menu_ad2.png"
+    y_position: 109
+    permission: pausemenu
+    show_in_gui: false
+    suggest_in_command: false
+    scale_ratio: 116

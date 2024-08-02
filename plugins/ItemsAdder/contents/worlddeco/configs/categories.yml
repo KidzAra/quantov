@@ -1,0 +1,20 @@
+info:
+  namespace: worlddeco
+categories:
+  worlddeco:
+    enabled: true
+    icon: "worlddeco:rose"
+    name: display-category-worlddeco
+    permission: 'ia.menu.worlddeco'
+    items:
+      - "worlddeco:coins_pot"
+      - "worlddeco:trap_block"
+      - "worlddeco:rose"
+      - "worlddeco:white_rose"
+      - "worlddeco:blue_rose"
+      - "worlddeco:desert_rose"
+      - "worlddeco:dead_tall_grass"
+      - "worlddeco:fallen_leaves"
+      - "worlddeco:small_rocks"
+      - "worlddeco:mossy_small_rocks"
+      - "worlddeco:plastic_waste"

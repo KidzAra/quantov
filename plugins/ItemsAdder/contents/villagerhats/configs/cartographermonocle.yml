@@ -1,0 +1,12 @@
+info:
+  namespace: villagerhats
+items:
+  cartographermonocle:
+    display_name: "Монокль картографа"
+    permission: villagerhats
+    resource:
+      material: PAPER
+      generate: false
+      model_path: cartographermonocle
+    behaviours:
+      hat: true

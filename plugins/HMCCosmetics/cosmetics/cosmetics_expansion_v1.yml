@@ -1,0 +1,121 @@
+chicken_hat:
+  slot: HELMET
+  dyeable: true
+  permission: "cosmetics_expansion_v1.chicken_hat"
+  item:
+    material: itemsadder:cosmetics_expansion_v1:ce1_chicken_hat
+    name: "<white>Chicken Helmet"
+    amount: 1
+chicken_wings:
+  slot: BACKPACK
+  dyeable: true
+  permission: "cosmetics_expansion_v1.chicken_wings"
+  item:
+    material: itemsadder:cosmetics_expansion_v1:ce1_chicken_wings
+    name: "<white>Chicken Wings"
+    amount: 1
+cutlass:
+  slot: OFFHAND
+  dyeable: true
+  permission: "cosmetics_expansion_v1.cutlass"
+  item:
+    material: itemsadder:cosmetics_expansion_v1:ce1_cutlass
+    name: "<white>Cutlass"
+    amount: 1
+cyber_blade:
+  slot: OFFHAND
+  dyeable: true
+  permission: "cosmetics_expansion_v1.cyber_blade"
+  item:
+    material: itemsadder:cosmetics_expansion_v1:ce1_cyber_blade
+    name: "<white>Cyber Blade"
+    amount: 1
+cyber_jetpack:
+  slot: BACKPACK
+  dyeable: true
+  permission: "cosmetics_expansion_v1.cyber_jetpack"
+  item:
+    material: itemsadder:cosmetics_expansion_v1:ce1_cyber_jetpack
+    name: "<white>Cyber Jetpack"
+    amount: 1
+cyber_visor:
+  slot: HELMET
+  dyeable: true
+  permission: "cosmetics_expansion_v1.cyber_visor"
+  item:
+    material: itemsadder:cosmetics_expansion_v1:ce1_cyber_visor
+    name: "<white>Cyber Visor"
+    amount: 1
+egg_staff:
+  slot: OFFHAND
+  dyeable: true
+  permission: "cosmetics_expansion_v1.egg_staff"
+  item:
+    material: itemsadder:cosmetics_expansion_v1:ce1_egg_staff
+    name: "<white>Egg Staff"
+    amount: 1
+phantom_king_crown:
+  slot: HELMET
+  dyeable: true
+  permission: "cosmetics_expansion_v1.phantom_king_crown"
+  item:
+    material: itemsadder:cosmetics_expansion_v1:ce1_phantom_king_crown
+    name: "<white>Phantom King Crown"
+    amount: 1
+phantom_king_shield:
+  slot: BACKPACK
+  dyeable: true
+  permission: "cosmetics_expansion_v1.phantom_king_shield"
+  item:
+    material: itemsadder:cosmetics_expansion_v1:ce1_phantom_king_shield
+    name: "<white>Phantom Kind Shield"
+    amount: 1
+phantom_septer:
+  slot: OFFHAND
+  dyeable: true
+  permission: "cosmetics_expansion_v1.phantom_septer"
+  item:
+    material: itemsadder:cosmetics_expansion_v1:ce1_phantom_septer
+    name: "<white>Phantom Septer"
+    amount: 1
+pirate_hat:
+  slot: HELMET
+  dyeable: true
+  permission: "cosmetics_expansion_v1.pirate_hat"
+  item:
+    material: itemsadder:cosmetics_expansion_v1:ce1_pirate_hat
+    name: "<white>Pirate Hat"
+    amount: 1
+shadow_dragon:
+  slot: HELMET
+  dyeable: true
+  permission: "cosmetics_expansion_v1.shadow_dragon"
+  item:
+    material: itemsadder:cosmetics_expansion_v1:ce1_shadow_dragon
+    name: "<white>Shadow Dragon"
+    amount: 1
+shadow_dragon_claw:
+  slot: OFFHAND
+  dyeable: true
+  permission: "cosmetics_expansion_v1.shadow_dragon_claw"
+  item:
+    material: itemsadder:cosmetics_expansion_v1:ce1_shadow_dragon_claw
+    name: "<white>Shadow Dragon Claw"
+    amount: 1
+shadow_dragon_wings:
+  slot: BACKPACK
+  dyeable: true
+  permission: "cosmetics_expansion_v1.shadow_dragon_wings"
+  item:
+    material: itemsadder:cosmetics_expansion_v1:ce1_shadow_dragon_wings
+    name: "<white>Shadow Dragon Wings"
+    amount: 1
+treasure_chest:
+  slot: BACKPACK
+  dyeable: true
+  permission: "cosmetics_expansion_v1.treasure_chest"
+  item:
+    material: itemsadder:cosmetics_expansion_v1:ce1_treasure_chest
+    name: "<white>Treasure Chest"
+    amount: 1
+# fn5zzs5KDpuf7ookDzlDTGz85uFEUAK0jspaV3/GTJSFQhNKOXk6Sss5KgJaHvbCvGks9u8ydnbhDPNEJdxI4BDa2U2sdSlmqsVfSchqLHQ=

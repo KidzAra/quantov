@@ -1,0 +1,21 @@
+info:
+  namespace: "twitteremojis"
+font_images:
+  bottlefull:
+    permission: zip
+    show_in_gui: true
+    path: "font/emoji/bottlefull"
+    scale_ratio: 18
+    y_position: 8
+  bottlefull2:
+    permission: zip
+    show_in_gui: true
+    path: "font/emoji/bottlefull2"
+    scale_ratio: 18
+    y_position: 8
+  bottlefull3:
+    permission: zip
+    show_in_gui: true
+    path: "font/emoji/bottlefull3"
+    scale_ratio: 18
+    y_position: 8

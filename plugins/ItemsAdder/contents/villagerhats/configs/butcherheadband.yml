@@ -1,0 +1,14 @@
+info:
+  namespace: villagerhats
+items:
+  butcherheadband:
+    display_name: "Повязка мясника"
+    permission: villagerhats
+    resource:
+      material: IRON_NUGGET
+      generate: false
+      model_path: butcherheadband
+    durability:
+      max_custom_durability: 165
+    behaviours:
+      hat: true

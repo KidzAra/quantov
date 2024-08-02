@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "": [
+		{ "model": "block/dead_bush/potted_dead_bush" },
+		{ "model": "block/dead_bush/potted_dead_bush_22" },
+		{ "model": "block/dead_bush/potted_dead_bush_45" },
+		{ "model": "block/dead_bush/potted_dead_bush_-22" }
+		]
+    }
+}

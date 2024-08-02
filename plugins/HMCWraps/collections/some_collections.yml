@@ -1,0 +1,9 @@
+# If this collections file should be enabled
+enabled: true
+
+# The collections
+collections:
+  # This is just an example collection, it isn't being used yet
+  SOME_RANDOM_COLLECTION:
+    - 'DIAMOND_CHESTPLATE'
+# /rlpAmhQH25Uf+C7kkLctBbCOPdwouo5qWrTQbraQToNY/nS2GpXwwuDlKw1aoV8HndNlsW/rwCHSlV8Dc4+KxSQ3zJsazfHwc3/P7+YQQk=

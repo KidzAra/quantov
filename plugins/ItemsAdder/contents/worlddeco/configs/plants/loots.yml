@@ -1,0 +1,14 @@
+info:
+  namespace: worlddeco
+loots:
+  blocks:
+    dead_tall_grass:
+      enabled: true
+      type: dead_tall_grass
+      items:
+        STICK:
+          item: STICK
+          min_amount: 1
+          max_amount: 2
+          chance: 20
+          ignore_fortune: true

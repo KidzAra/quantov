@@ -1,0 +1,67 @@
+name: Молот
+lore: []
+material: PAPER
+glow: false
+disableStack: true
+keepItemOnDeath: false
+canBeUsedOnlyByTheOwner: false
+cancelEventIfNotOwner: false
+onlyOwnerBlackListedActivators: []
+storeItemInfo: false
+unbreakable: false
+usage: 1
+usageLimit: -1
+cancelEventIfNoPerm: false
+whitelistedWorlds: []
+recognitions: []
+customModelData: 10210
+config_5: true
+config_update: true
+durability: 0
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+hiders:
+  hideEnchantments: false
+  hideUnbreakable: false
+  hideAttributes: false
+  hidePotionEffects: false
+  hideUsage: true
+  hideDestroys: false
+  hidePlacedOn: false
+  hideDye: false
+  hideArmorTrim: false
+enchantments: {}
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions: {}
+variables: {}
+activators: {}
+displayConditions:
+  playerConditions: {}
+  worldConditions: {}
+  itemConditions: {}
+  placeholdersConditions: {}
+  enableFeature: false
+attributes:
+  attribute1:
+    attribute: GENERIC_MOVEMENT_SPEED
+    operation: ADD_SCALAR
+    amount: -0.3
+    slot: HAND
+    uuid: a89dbee9-278b-4a13-89da-24e8fedf608a
+  attribute0:
+    attribute: GENERIC_ATTACK_SPEED
+    operation: ADD_SCALAR
+    amount: -0.9
+    slot: HAND
+    uuid: 92330411-f8b1-4247-864f-242a4d294910
+  attribute2:
+    attribute: GENERIC_ATTACK_DAMAGE
+    operation: ADD_NUMBER
+    amount: 17.0
+    slot: HAND
+    uuid: 873bba9b-e456-40ae-95c4-5c687cf161ef

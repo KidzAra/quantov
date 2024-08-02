@@ -1,0 +1,344 @@
+info:
+  namespace: andesite_cut
+items:
+  andesite_cut:
+    display_name: "Резной андезит"
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - andesite_cut/andesite_cut.png
+      - andesite_cut/andesite_cut.png
+      - andesite_cut/andesite_cut.png
+      - andesite_cut/andesite_cut.png
+      - andesite_cut/andesite_cut.png
+      - andesite_cut/andesite_cut.png
+    specific_properties:
+      block:
+        hardness: 2
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+          rotx: 0
+          roty: 0
+        sound:
+          break:
+            name: BLOCK_STONE_BREAK
+            volume: 1
+            pitch: 1.0
+          place:
+            name: BLOCK_STONE_PLACE
+            volume: 1
+            pitch: 1.0
+  andesite_cut_basketweave:
+    display_name: "Плиточные андезитовые кирпичи"
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - andesite_cut/andesite_cut_basketweave.png
+      - andesite_cut/andesite_cut_basketweave.png
+      - andesite_cut/andesite_cut_basketweave.png
+      - andesite_cut/andesite_cut_basketweave.png
+      - andesite_cut/andesite_cut_basketweave.png
+      - andesite_cut/andesite_cut_basketweave.png
+    specific_properties:
+      block:
+        hardness: 2
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+          rotx: 0
+          roty: 0
+        sound:
+          break:
+            name: BLOCK_STONE_BREAK
+            volume: 1
+            pitch: 1.0
+          place:
+            name: BLOCK_STONE_PLACE
+            volume: 1
+            pitch: 1.0
+  andesite_cut_bond:
+    display_name: "Кладные андезитовые кирпичи"
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - andesite_cut/andesite_cut_bond.png
+      - andesite_cut/andesite_cut_bond.png
+      - andesite_cut/andesite_cut_bond.png
+      - andesite_cut/andesite_cut_bond.png
+      - andesite_cut/andesite_cut_bond.png
+      - andesite_cut/andesite_cut_bond.png
+    specific_properties:
+      block:
+        hardness: 2
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+          rotx: 0
+          roty: 0
+        sound:
+          break:
+            name: BLOCK_STONE_BREAK
+            volume: 1
+            pitch: 1.0
+          place:
+            name: BLOCK_STONE_PLACE
+            volume: 1
+            pitch: 1.0
+  andesite_cut_brick:
+    display_name: "Андезитовые кирпичи"
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - andesite_cut/andesite_cut_brick.png
+      - andesite_cut/andesite_cut_brick.png
+      - andesite_cut/andesite_cut_brick.png
+      - andesite_cut/andesite_cut_brick.png
+      - andesite_cut/andesite_cut_brick.png
+      - andesite_cut/andesite_cut_brick.png
+    specific_properties:
+      block:
+        hardness: 2
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+          rotx: 0
+          roty: 0
+        sound:
+          break:
+            name: BLOCK_STONE_BREAK
+            volume: 1
+            pitch: 1.0
+          place:
+            name: BLOCK_STONE_PLACE
+            volume: 1
+            pitch: 1.0
+  andesite_cut_herring:
+    display_name: "Узорные андезитовые кирпичи"
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - andesite_cut/andesite_cut_herring.png
+      - andesite_cut/andesite_cut_herring.png
+      - andesite_cut/andesite_cut_herring.png
+      - andesite_cut/andesite_cut_herring.png
+      - andesite_cut/andesite_cut_herring.png
+      - andesite_cut/andesite_cut_herring.png
+    specific_properties:
+      block:
+        hardness: 2
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+          rotx: 0
+          roty: 0
+        sound:
+          break:
+            name: BLOCK_STONE_BREAK
+            volume: 1
+            pitch: 1.0
+          place:
+            name: BLOCK_STONE_PLACE
+            volume: 1
+            pitch: 1.0
+  andesite_cut_polished:
+    display_name: "Полированный резной андезит"
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - andesite_cut/andesite_cut_polished.png
+      - andesite_cut/andesite_cut_polished.png
+      - andesite_cut/andesite_cut_polished.png
+      - andesite_cut/andesite_cut_polished.png
+      - andesite_cut/andesite_cut_polished.png
+      - andesite_cut/andesite_cut_polished.png
+    specific_properties:
+      block:
+        hardness: 2
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+          rotx: 0
+          roty: 0
+        sound:
+          break:
+            name: BLOCK_STONE_BREAK
+            volume: 1
+            pitch: 1.0
+          place:
+            name: BLOCK_STONE_PLACE
+            volume: 1
+            pitch: 1.0
+  andesite_cut_square:
+    display_name: "Квадратно-плиточный андезит"
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - andesite_cut/andesite_cut_square.png
+      - andesite_cut/andesite_cut_square.png
+      - andesite_cut/andesite_cut_square.png
+      - andesite_cut/andesite_cut_square.png
+      - andesite_cut/andesite_cut_square.png
+      - andesite_cut/andesite_cut_square.png
+    specific_properties:
+      block:
+        hardness: 2
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+          rotx: 0
+          roty: 0
+        sound:
+          break:
+            name: BLOCK_STONE_BREAK
+            volume: 1
+            pitch: 1.0
+          place:
+            name: BLOCK_STONE_PLACE
+            volume: 1
+            pitch: 1.0
+  andesite_cut_slab:
+    display_name: "Андезитовые двойные плиты" 
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - andesite_cut/andesite_cut_polished.png
+      - andesite_cut/andesite_cut_slab.png
+      - andesite_cut/andesite_cut_slab.png
+      - andesite_cut/andesite_cut_slab.png
+      - andesite_cut/andesite_cut_polished.png
+      - andesite_cut/andesite_cut_slab.png
+    specific_properties:
+      block:
+        hardness: 2
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+          rotx: 0
+          roty: 0
+        sound:
+          break:
+            name: BLOCK_STONE_BREAK
+            volume: 1
+            pitch: 1.0
+          place:
+            name: BLOCK_STONE_PLACE
+            volume: 1
+            pitch: 1.0
+  andesite_cut_pillar:
+    display_name: "Полированный резной андезит"
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - andesite_cut/andesite_cut_cap.png
+      - andesite_cut/andesite_cut_pillar.png
+      - andesite_cut/andesite_cut_pillar.png
+      - andesite_cut/andesite_cut_pillar.png
+      - andesite_cut/andesite_cut_cap.png
+      - andesite_cut/andesite_cut_pillar.png
+    specific_properties:
+      block:
+        hardness: 2
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+          rotx: 0
+          roty: 0
+        sound:
+          break:
+            name: BLOCK_STONE_BREAK
+            volume: 1
+            pitch: 1.0
+          place:
+            name: BLOCK_STONE_PLACE
+            volume: 1
+            pitch: 1.0
+  andesite_cut_pillar_x:
+    display_name: "Андезит с полированным срезом"
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - andesite_cut/andesite_cut_pillar_rotated.png
+      - andesite_cut/andesite_cut_cap.png
+      - andesite_cut/andesite_cut_pillar_rotated.png
+      - andesite_cut/andesite_cut_pillar_rotated.png
+      - andesite_cut/andesite_cut_pillar_rotated.png
+      - andesite_cut/andesite_cut_cap.png
+    specific_properties:
+      block:
+        hardness: 2
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+          rotx: 0
+          roty: 0
+        cancel_drop: true
+        sound:
+          break:
+            name: BLOCK_STONE_BREAK
+            volume: 1
+            pitch: 1.0
+          place:
+            name: BLOCK_STONE_PLACE
+            volume: 1
+            pitch: 1.0
+  andesite_cut_pillar_z:
+    display_name: "Андезит с полированной огранкой"
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - andesite_cut/andesite_cut_pillar.png
+      - andesite_cut/andesite_cut_pillar_rotated.png
+      - andesite_cut/andesite_cut_cap.png
+      - andesite_cut/andesite_cut_cap.png
+      - andesite_cut/andesite_cut_pillar.png
+      - andesite_cut/andesite_cut_pillar_rotated.png
+    specific_properties:
+      block:
+        hardness: 2
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+          rotx: 0
+          roty: 0
+        cancel_drop: true
+        sound:
+          break:
+            name: BLOCK_STONE_BREAK
+            volume: 1
+            pitch: 1.0
+          place:
+            name: BLOCK_STONE_PLACE
+            volume: 1
+            pitch: 1.0
+loots:
+  blocks:
+    andesite_cut_pillar_x:
+      type: andesite_cut:andesite_cut_pillar_x
+      items:
+        result_1:
+          item: andesite_cut:andesite_cut_pillar
+          min_amount: 1
+          max_amount: 1
+          chance: 100
+          ignore_fortune: true
+    andesite_cut_pillar_z:
+      type: andesite_cut:andesite_cut_pillar_z
+      items:
+        result_1:
+          item: andesite_cut:andesite_cut_pillar
+          min_amount: 1
+          max_amount: 1
+          chance: 100
+          ignore_fortune: true

@@ -1,0 +1,7 @@
+{
+    "options.off": "§r\u0002",
+    "options.on": "§r\u0001",
+    "createWorld.tab.game.title": "\uE003 Game",
+    "createWorld.tab.world.title": "\uE004 World",
+    "createWorld.tab.more.title": "\uE005 More"
+}

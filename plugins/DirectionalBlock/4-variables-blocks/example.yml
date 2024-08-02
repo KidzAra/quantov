@@ -1,0 +1,5 @@
+example:furnace:
+  south: example:furnace
+  north: example:furnace_north
+  east: example:furnace_east
+  west: example:furnace_west

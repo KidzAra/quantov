@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "": [
+		{ "model": "block/lily_of_the_valley/potted_lily_of_the_valley" },
+		{ "model": "block/lily_of_the_valley/potted_lily_of_the_valley_22" },
+		{ "model": "block/lily_of_the_valley/potted_lily_of_the_valley_45" },
+		{ "model": "block/lily_of_the_valley/potted_lily_of_the_valley_-22" }
+		]
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "": [
+		{ "model": "block/allium/potted_allium" },
+		{ "model": "block/allium/potted_allium_22" },
+		{ "model": "block/allium/potted_allium_45" },
+		{ "model": "block/allium/potted_allium_-22" }
+		]
+    }
+}

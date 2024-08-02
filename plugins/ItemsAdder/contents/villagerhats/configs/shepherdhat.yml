@@ -1,0 +1,14 @@
+info:
+  namespace: villagerhats
+items:
+  shepherdhat:
+    display_name: "Шляпа пастуха"
+    permission: villagerhats
+    resource:
+      material: IRON_NUGGET
+      generate: false
+      model_path: shepherdhat
+    durability:
+      max_custom_durability: 165
+    behaviours:
+      hat: true

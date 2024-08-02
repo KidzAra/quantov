@@ -1,0 +1,219 @@
+info:
+  namespace: cosmic_cosmetics
+items:
+  cosmic_aquarius_hat:
+    display_name: "&fCosmic Aquarius Hat"
+    resource:
+      material: PAPER
+      generate: false
+      model_path: cosmic_aquarius_hat
+  cosmic_aquarius_back:
+    display_name: "&fCosmic Aquarius Back"
+    resource:
+      material: PAPER
+      generate: false
+      model_path: cosmic_aquarius_back
+  cosmic_aquarius_hammer:
+    display_name: "&fCosmic Aquarius Hammer"
+    resource:
+      material: PAPER
+      generate: false
+      model_path: cosmic_aquarius_hammer
+  cosmic_capricorn_hat:
+    display_name: "&fCosmic Capricorn Hat"
+    resource:
+      material: PAPER
+      generate: false
+      model_path: cosmic_capricorn_hat
+  cosmic_capricorn_tail:
+    display_name: "&fCosmic Capricorn Tail"
+    resource:
+      material: PAPER
+      generate: false
+      model_path: cosmic_capricorn_tail
+  cosmic_capricorn_hammer:
+    display_name: "&fCosmic Capricorn Hammer"
+    resource:
+      material: PAPER
+      generate: false
+      model_path: cosmic_capricorn_hammer
+  cosmic_sagittarius_hat:
+    display_name: "&fCosmic Sagittarius Hat"
+    resource:
+      material: PAPER
+      generate: false
+      model_path: cosmic_sagittarius_hat
+  cosmic_sagittarius_back:
+    display_name: "&fCosmic Sagittarius Back"
+    resource:
+      material: PAPER
+      generate: false
+      model_path: cosmic_sagittarius_back
+  cosmic_sagittarius_bow:
+    display_name: "&fCosmic Sagittarius Bow"
+    resource:
+      material: PAPER
+      generate: false
+      model_path: cosmic_sagittarius_bow
+  cosmic_scorpio_hat:
+    display_name: "&fCosmic Scorpio Hat"
+    resource:
+      material: PAPER
+      generate: false
+      model_path: cosmic_scorpio_hat
+  cosmic_scorpio_tail:
+    display_name: "&fCosmic Scorpio Tail"
+    resource:
+      material: PAPER
+      generate: false
+      model_path: cosmic_scorpio_tail
+  cosmic_scorpio_staff:
+    display_name: "&fCosmic Scorpio Staff"
+    resource:
+      material: PAPER
+      generate: false
+      model_path: cosmic_scorpio_staff
+  cosmic_pisces_hat:
+    display_name: "&fCosmic Pisces Hat"
+    resource:
+      material: PAPER
+      generate: false
+      model_path: cosmic_pisces_hat
+  cosmic_pisces_back:
+    display_name: "&fCosmic Pisces Back"
+    resource:
+      material: PAPER
+      generate: false
+      model_path: cosmic_pisces_back
+  cosmic_pisces_trident:
+    display_name: "&fCosmic Pisces Trident"
+    resource:
+      material: PAPER
+      generate: false
+      model_path: cosmic_pisces_trident
+  cosmic_aries_hat:
+    display_name: "&fCosmic Aries Hat"
+    resource:
+      material: PAPER
+      generate: false
+      model_path: cosmic_aries_hat
+  cosmic_aries_back:
+    display_name: "&fCosmic Aries Back"
+    resource:
+      material: PAPER
+      generate: false
+      model_path: cosmic_aries_back
+  cosmic_aries_battleaxe:
+    display_name: "&fCosmic Aries Battleaxe"
+    resource:
+      material: PAPER
+      generate: false
+      model_path: cosmic_aries_battleaxe
+  cosmic_taurus_hat:
+    display_name: "&fCosmic Taurus Hat"
+    resource:
+      material: PAPER
+      generate: false
+      model_path: cosmic_taurus_hat
+  cosmic_taurus_tail:
+    display_name: "&fCosmic Taurus Tail"
+    resource:
+      material: PAPER
+      generate: false
+      model_path: cosmic_taurus_tail
+  cosmic_taurus_axe:
+    display_name: "&fCosmic Taurus Axe"
+    resource:
+      material: PAPER
+      generate: false
+      model_path: cosmic_taurus_axe
+  cosmic_cancer_hat:
+    display_name: "&fCosmic Cancer Hat"
+    resource:
+      material: PAPER
+      generate: false
+      model_path: cosmic_cancer_hat
+  cosmic_cancer_back:
+    display_name: "&fCosmic Cancer Back"
+    resource:
+      material: PAPER
+      generate: false
+      model_path: cosmic_cancer_back
+  cosmic_cancer_mace:
+    display_name: "&fCosmic Cancer Mace"
+    resource:
+      material: PAPER
+      generate: false
+      model_path: cosmic_cancer_mace
+  cosmic_gemini_hat:
+    display_name: "&fCosmic Gemini Hat"
+    resource:
+      material: PAPER
+      generate: false
+      model_path: cosmic_gemini_hat
+  cosmic_gemini_back:
+    display_name: "&fCosmic Gemini Back"
+    resource:
+      material: PAPER
+      generate: false
+      model_path: cosmic_gemini_back
+  cosmic_gemini_sword:
+    display_name: "&fCosmic Gemini Sword"
+    resource:
+      material: PAPER
+      generate: false
+      model_path: cosmic_gemini_sword
+  cosmic_leo_hat:
+    display_name: "&fCosmic Leo Hat"
+    resource:
+      material: PAPER
+      generate: false
+      model_path: cosmic_leo_hat
+  cosmic_leo_back:
+    display_name: "&fCosmic Leo Back"
+    resource:
+      material: PAPER
+      generate: false
+      model_path: cosmic_leo_back
+  cosmic_leo_shortsword:
+    display_name: "&fCosmic Leo Shortsword"
+    resource:
+      material: PAPER
+      generate: false
+      model_path: cosmic_leo_shortsword
+  cosmic_virgo_hat:
+    display_name: "&fCosmic Virgo Hat"
+    resource:
+      material: PAPER
+      generate: false
+      model_path: cosmic_virgo_hat
+  cosmic_virgo_back:
+    display_name: "&fCosmic Virgo Back"
+    resource:
+      material: PAPER
+      generate: false
+      model_path: cosmic_virgo_back
+  cosmic_virgo_sickle:
+    display_name: "&fCosmic Virgo Sickle"
+    resource:
+      material: PAPER
+      generate: false
+      model_path: cosmic_virgo_sickle
+  cosmic_libra_hat:
+    display_name: "&fCosmic Libra Hat"
+    resource:
+      material: PAPER
+      generate: false
+      model_path: cosmic_libra_hat
+  cosmic_libra_back:
+    display_name: "&fCosmic Libra Back"
+    resource:
+      material: PAPER
+      generate: false
+      model_path: cosmic_libra_back
+  cosmic_libra_offhand:
+    display_name: "&fCosmic Libra Offhand"
+    resource:
+      material: PAPER
+      generate: false
+      model_path: cosmic_libra_offhand

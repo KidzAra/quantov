@@ -1,0 +1,13 @@
+defaultmenu:
+
+  beanie:
+    slots:
+      - 0
+    item:
+      material: hmccosmetics:beanie
+      lore:
+        - ""
+        - "<gray>Enabled: <#6D9DC5>%HMCCosmetics_equipped_beanie%"
+        - "<gray>Allowed: <#6D9DC5>%HMCCosmetics_unlocked_beanie%"
+    type: cosmetic
+    cosmetic: beanie

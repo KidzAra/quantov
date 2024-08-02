@@ -1,0 +1,98 @@
+# # attemptFrequency controls how often DesirePaths will roll the dice to change blocks.
+# # attemptFrequency is in ticks. 20 ticks = 1 second. IT IS HIGHLY DISCOURAGED TO SET THIS BELOW 5!!!
+# # Increase this number if you run into any performance issues but the effect of DesirePaths will be less apparent.
+# # THIS VALUE DOES NOT CHANGE WITH </desirepaths reload> YOU MUST RESTART THE SERVER FOR THIS TO TAKE EFFECT!
+attemptFrequency: 10
+
+# # List of worlds that DesirePaths will not affect.
+disabledWorlds:
+- exampleworld
+
+# Flag to enable / disable desire paths in Creative mode
+enableInCreativeMode: true
+
+# # movementCheckEnabled determines if we should run an extra check to see if the player is currently moving.
+# # Setting this to true means that unless a player is actively moving around we won't change the block below them.
+# # This setting will have an impact on the plugin's performance, if you have issues you should set this to false.
+movementCheckEnabled: false
+
+# # chanceModifiers for block changes.
+# # Chances are out of 100.
+chanceModifiers:
+  # # RIDING_HORSE includes camels, llamas, mules, donkeys, and horses
+  RIDING_HORSE: 37
+  RIDING_BOAT: 99
+  RIDING_PIG: 30
+  FEATHER_FALLING: 10
+  HAS_BOOTS: 20
+  LEATHER_BOOTS: 11
+  NO_BOOTS: 3
+
+# # additiveModifiers are added to chance from the chanceModifiers.
+# # If chance is > 100 a block modification will happen every attemptFrequency
+additiveModifiers:
+  # # SPRINTING_BLOCK_BELOW and SPRINTING_BLOCK_AT_FEET are added to the chance from the other modifiers.
+  # # They are only added when the player is sprinting.
+  SPRINTING_BLOCK_BELOW: 13
+  SPRINTING_BLOCK_AT_FEET: 100
+  # # CROUCHING_BLOCK_BELOW and CROUCHING_BLOCK_AT_FEET are added to chance from the other modifiers.
+  # # By default, they are set to negative numbers to decrease the base chance.
+  # # They are only added when the player is crouching.
+  CROUCHING_BLOCK_BELOW: -10
+  CROUCHING_BLOCK_AT_FEET: -100
+  # # CLEAR_WEATHER and RAIN_WEATHER are added to chance from the other modifiers.
+  # # COME BACK TO IMPLEMENT LATER
+  CLEAR_WEATHER: 0
+  RAIN_WEATHER: 5
+
+# # blockModifications are how DesirePaths knows which blocks to check for as well as what blocks they should turn into
+# # ex. Dirt turns into Diamond Blocks -> DIRT:DIAMOND_BLOCK
+# # Use blocks from https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
+# # Avoid adding tons of blocks to this list as it could possibly affect performance
+blockModifications:
+  # # Blocks at the same level as the player's feet
+  blockAtFeetModifications:
+  - SNOW:AIR
+  - SHORT_GRASS:AIR
+  - FERN:AIR
+  - TALL_GRASS:SHORT_GRASS
+  # # Blocks below that the player is standing on
+  blockBelowModifications:
+  - GRASS_BLOCK:DIRT
+  - DIRT:COARSE_DIRT
+  - PODZOL:COARSE_DIRT
+  - COARSE_DIRT:DIRT_PATH
+  - SANDSTONE:SAND
+  - CRIMSON_NYLIUM:NETHERRACK
+  - WARPED_NYLIUM:NETHERRACK
+  - MYCELIUM:ROOTED_DIRT
+  - MAGMA_BLOCK:LAVA
+
+# # Only relevant if Towny is installed
+# # Controls if paths can be made anywhere or only in locations where the player is allowed to break blocks
+townyModifiers:
+  pathsInWilderness: true
+  pathsOnlyWherePlayerCanBreak: true
+
+# # Only relevant if Lands is installed
+# # Controls settings for the DESIRE_PATHS flag
+# # DESIRE_PATHS is a role flag meaning you can set it for individual roles
+landsIntegrations:
+  displayFlag: true
+  flagDisplayName: Desire Paths
+  flagDisplayDescription: Allow this role to create paths?
+  flagDisplayMaterial: DIRT_PATH
+  defaultFlagState: true
+
+# # Only relevant if GriefPrevention is installed
+# # Controls if paths can be made anywhere or only in locations where the player is allowed to break blocks
+griefPreventionIntegration:
+  pathsInWilderness: true
+  pathsOnlyWherePlayerCanBreak: true
+  # # This option will overwrite "pathsOnlyWherePlayerCanBreak" meaning no paths will be created in ANY claim
+  noPathsInAnyClaim: false
+
+# # Only relevant if CoreProtect is installed
+# # Controls if paths should be logged to CoreProtect.
+coreProtectIntegrations:
+  logPathsToCoreProtect: true

@@ -1,0 +1,12 @@
+info:
+  namespace: villagerhats
+items:
+  librarianhat:
+    display_name: "Шляпа библиотекаря"
+    permission: villagerhats
+    resource:
+      material: PAPER
+      generate: false
+      model_path: librarianhat
+    behaviours:
+      hat: true

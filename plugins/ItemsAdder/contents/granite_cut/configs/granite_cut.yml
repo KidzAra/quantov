@@ -1,0 +1,344 @@
+info:
+  namespace: granite_cut
+items:
+  granite_cut:
+    display_name: Cut Granite
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - granite_cut/granite_cut.png
+      - granite_cut/granite_cut.png
+      - granite_cut/granite_cut.png
+      - granite_cut/granite_cut.png
+      - granite_cut/granite_cut.png
+      - granite_cut/granite_cut.png
+    specific_properties:
+      block:
+        hardness: 2
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+          rotx: 0
+          roty: 0
+        sound:
+          break:
+            name: BLOCK_STONE_BREAK
+            volume: 1
+            pitch: 1.0
+          place:
+            name: BLOCK_STONE_PLACE
+            volume: 1
+            pitch: 1.0
+  granite_cut_basketweave:
+    display_name: Basketweave Granite Bricks
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - granite_cut/granite_cut_basketweave.png
+      - granite_cut/granite_cut_basketweave.png
+      - granite_cut/granite_cut_basketweave.png
+      - granite_cut/granite_cut_basketweave.png
+      - granite_cut/granite_cut_basketweave.png
+      - granite_cut/granite_cut_basketweave.png
+    specific_properties:
+      block:
+        hardness: 2
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+          rotx: 0
+          roty: 0
+        sound:
+          break:
+            name: BLOCK_STONE_BREAK
+            volume: 1
+            pitch: 1.0
+          place:
+            name: BLOCK_STONE_PLACE
+            volume: 1
+            pitch: 1.0
+  granite_cut_bond:
+    display_name: Bonded Granite Bricks
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - granite_cut/granite_cut_bond.png
+      - granite_cut/granite_cut_bond.png
+      - granite_cut/granite_cut_bond.png
+      - granite_cut/granite_cut_bond.png
+      - granite_cut/granite_cut_bond.png
+      - granite_cut/granite_cut_bond.png
+    specific_properties:
+      block:
+        hardness: 2
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+          rotx: 0
+          roty: 0
+        sound:
+          break:
+            name: BLOCK_STONE_BREAK
+            volume: 1
+            pitch: 1.0
+          place:
+            name: BLOCK_STONE_PLACE
+            volume: 1
+            pitch: 1.0
+  granite_cut_brick:
+    display_name: Granite Bricks
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - granite_cut/granite_cut_brick.png
+      - granite_cut/granite_cut_brick.png
+      - granite_cut/granite_cut_brick.png
+      - granite_cut/granite_cut_brick.png
+      - granite_cut/granite_cut_brick.png
+      - granite_cut/granite_cut_brick.png
+    specific_properties:
+      block:
+        hardness: 2
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+          rotx: 0
+          roty: 0
+        sound:
+          break:
+            name: BLOCK_STONE_BREAK
+            volume: 1
+            pitch: 1.0
+          place:
+            name: BLOCK_STONE_PLACE
+            volume: 1
+            pitch: 1.0
+  granite_cut_herring:
+    display_name: Herring Granite Bricks
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - granite_cut/granite_cut_herring.png
+      - granite_cut/granite_cut_herring.png
+      - granite_cut/granite_cut_herring.png
+      - granite_cut/granite_cut_herring.png
+      - granite_cut/granite_cut_herring.png
+      - granite_cut/granite_cut_herring.png
+    specific_properties:
+      block:
+        hardness: 2
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+          rotx: 0
+          roty: 0
+        sound:
+          break:
+            name: BLOCK_STONE_BREAK
+            volume: 1
+            pitch: 1.0
+          place:
+            name: BLOCK_STONE_PLACE
+            volume: 1
+            pitch: 1.0
+  granite_cut_polished:
+    display_name: Polished Cut Granite
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - granite_cut/granite_cut_polished.png
+      - granite_cut/granite_cut_polished.png
+      - granite_cut/granite_cut_polished.png
+      - granite_cut/granite_cut_polished.png
+      - granite_cut/granite_cut_polished.png
+      - granite_cut/granite_cut_polished.png
+    specific_properties:
+      block:
+        hardness: 2
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+          rotx: 0
+          roty: 0
+        sound:
+          break:
+            name: BLOCK_STONE_BREAK
+            volume: 1
+            pitch: 1.0
+          place:
+            name: BLOCK_STONE_PLACE
+            volume: 1
+            pitch: 1.0
+  granite_cut_square:
+    display_name: Granite Square Bricks
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - granite_cut/granite_cut_square.png
+      - granite_cut/granite_cut_square.png
+      - granite_cut/granite_cut_square.png
+      - granite_cut/granite_cut_square.png
+      - granite_cut/granite_cut_square.png
+      - granite_cut/granite_cut_square.png
+    specific_properties:
+      block:
+        hardness: 2
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+          rotx: 0
+          roty: 0
+        sound:
+          break:
+            name: BLOCK_STONE_BREAK
+            volume: 1
+            pitch: 1.0
+          place:
+            name: BLOCK_STONE_PLACE
+            volume: 1
+            pitch: 1.0
+  granite_cut_slab:
+    display_name: Granite Double Slabs 
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - granite_cut/granite_cut_polished.png
+      - granite_cut/granite_cut_slab.png
+      - granite_cut/granite_cut_slab.png
+      - granite_cut/granite_cut_slab.png
+      - granite_cut/granite_cut_polished.png
+      - granite_cut/granite_cut_slab.png
+    specific_properties:
+      block:
+        hardness: 2
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+          rotx: 0
+          roty: 0
+        sound:
+          break:
+            name: BLOCK_STONE_BREAK
+            volume: 1
+            pitch: 1.0
+          place:
+            name: BLOCK_STONE_PLACE
+            volume: 1
+            pitch: 1.0
+  granite_cut_pillar:
+    display_name: Polished Cut Granite
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - granite_cut/granite_cut_cap.png
+      - granite_cut/granite_cut_pillar.png
+      - granite_cut/granite_cut_pillar.png
+      - granite_cut/granite_cut_pillar.png
+      - granite_cut/granite_cut_cap.png
+      - granite_cut/granite_cut_pillar.png
+    specific_properties:
+      block:
+        hardness: 2
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+          rotx: 0
+          roty: 0
+        sound:
+          break:
+            name: BLOCK_STONE_BREAK
+            volume: 1
+            pitch: 1.0
+          place:
+            name: BLOCK_STONE_PLACE
+            volume: 1
+            pitch: 1.0
+  granite_cut_pillar_x:
+    display_name: Polished Cut Granite &eX
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - granite_cut/granite_cut_pillar_rotated.png
+      - granite_cut/granite_cut_cap.png
+      - granite_cut/granite_cut_pillar_rotated.png
+      - granite_cut/granite_cut_pillar_rotated.png
+      - granite_cut/granite_cut_pillar_rotated.png
+      - granite_cut/granite_cut_cap.png
+    specific_properties:
+      block:
+        hardness: 2
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+          rotx: 0
+          roty: 0
+        cancel_drop: true
+        sound:
+          break:
+            name: BLOCK_STONE_BREAK
+            volume: 1
+            pitch: 1.0
+          place:
+            name: BLOCK_STONE_PLACE
+            volume: 1
+            pitch: 1.0
+  granite_cut_pillar_z:
+    display_name: Polished Cut Granite &eZ
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - granite_cut/granite_cut_pillar.png
+      - granite_cut/granite_cut_pillar_rotated.png
+      - granite_cut/granite_cut_cap.png
+      - granite_cut/granite_cut_cap.png
+      - granite_cut/granite_cut_pillar.png
+      - granite_cut/granite_cut_pillar_rotated.png
+    specific_properties:
+      block:
+        hardness: 2
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+          rotx: 0
+          roty: 0
+        cancel_drop: true
+        sound:
+          break:
+            name: BLOCK_STONE_BREAK
+            volume: 1
+            pitch: 1.0
+          place:
+            name: BLOCK_STONE_PLACE
+            volume: 1
+            pitch: 1.0
+loots:
+  blocks:
+    granite_cut_pillar_x:
+      type: granite_cut:granite_cut_pillar_x
+      items:
+        result_1:
+          item: granite_cut:granite_cut_pillar
+          min_amount: 1
+          max_amount: 1
+          chance: 100
+          ignore_fortune: true
+    granite_cut_pillar_z:
+      type: granite_cut:granite_cut_pillar_z
+      items:
+        result_1:
+          item: granite_cut:granite_cut_pillar
+          min_amount: 1
+          max_amount: 1
+          chance: 100
+          ignore_fortune: true

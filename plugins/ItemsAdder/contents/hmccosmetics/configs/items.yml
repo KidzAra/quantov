@@ -1,0 +1,246 @@
+info:
+  namespace: hmccosmetics
+items:
+  beanie:
+    display_name: "Beanie"
+    permission: hmccosmetics.beanie
+    resource:
+      material: LEATHER_HORSE_ARMOR
+      generate: false
+      model_path: item/beanie
+  backpack:
+    display_name: "Backpack"
+    permission: hmccosmetics.backpack
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/backpack
+  orange_furry_tail:
+    display_name: "Рыжий лисий хвост"
+    permission: hmccosmetics.orange_furry_tail
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/furry_tail_orange
+  ufirium:
+    display_name: "Кристалл уфириума"
+    permission: hmccosmetics.ufirium
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/ufirium
+  black_furry_tail:
+    display_name: "Чёрный лисий хвост"
+    permission: hmccosmetics.black_furry_tail
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/furry_tail_black
+  red_furry_tail:
+    display_name: "Красный лисий хвост"
+    permission: hmccosmetics.red_furry_tail
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/furry_tail_red
+  backpack_thirdperson:
+    display_name: "Backpack"
+    permission: hmccosmetics.backpack
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/backpack_thirdperson
+  lantern_cosmetic:
+    display_name: "Lantern Cosmetic"
+    permission: hmccosmetics.lantern
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/lantern_cosmetic
+  baseball_hat:
+    display_name: "Baseball Hat"
+    permission: hmccosmetics.baseball_hat
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/baseball_hat
+  paintbrush:
+    display_name: "Paintbrush"
+    permission: hmccosmetics.paintbrush
+    resource:
+      material: LEATHER_HORSE_ARMOR
+      generate: false
+      model_path: item/paintbrush
+  hmccosmetics_icon:
+    display_name: "HMCCosmetics Icon"
+    permission: "hmccosmetics.icon"
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - icons/colorful.png
+  arrow_back:
+    display_name: "Back Arrow"
+    permission: "hmccosmetics.back_arrow"
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - icons/arrow_back.png
+  arrow_next:
+    display_name: "Next Arrow"
+    permission: "hmccosmetics.next_arrow"
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - icons/arrow_next.png
+  kite_item:
+    display_name: "Kite"
+    permission: hmccosmetics.backpack
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/kite
+  future_wings:
+    display_name: "Future Wings"
+    permission: hmccosmetics.future_wings
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/future_wings
+  future_wings_thirdperson:
+    display_name: "Future Wings"
+    permission: hmccosmetics.future_wings
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/future_wings_thirdperson
+  frog_hat:
+    display_name: "Frog Hat"
+    permission: hmccosmetics.frog_hat
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/frog_hat
+  jetpack:
+    display_name: "Jetpack"
+    permission: hmccosmetics.jetpack
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/jetpack
+  hammer:
+    display_name: "Hammer"
+    permission: hmccosmetics.hammer
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/hammer
+  explorer_backpack:
+    display_name: "Explorer Backpack"
+    permission: hmccosmetics.explorer_backpack
+    resource:
+      material: LEATHER_HORSE_ARMOR
+      generate: false
+      model_path: item/explorer_backpack
+  garbage_truck_balloon:
+    display_name: "Garbage Truck Balloon"
+    permission: hmccosmetics.garbage_truck_balloon
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/garbage_truck_balloon_item
+  earth_day_grabber:
+    display_name: "Earth Day Grabber"
+    permission: hmccosmetics.earth_day_grabber
+    resource:
+      material: LEATHER_HORSE_ARMOR
+      generate: false
+      model_path: item/earth_day_grabber
+  explorer_backpack_thirdperson:
+    display_name: "Explorer Backpack"
+    permission: hmccosmetics.explorer_backpack
+    resource:
+      material: LEATHER_HORSE_ARMOR
+      generate: false
+      model_path: item/explorer_backpack_thirdperson
+  jetpack_thirdperson:
+    display_name: "Jetpack"
+    permission: hmccosmetics.jetpack
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/jetpack_thirdperson
+  hibiscus_flower:
+    display_name: "Hibiscus Flower"
+    permission: hmccosmetics.hibiscus_flower
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/hibiscus_flower
+font_images:
+  cosmetics_gui:
+    path: "icons/cosmetics_gui.png"
+    scale_ratio: 256
+    y_position: 14
+  dye_menu:
+    path: "icons/dye_menu.png"
+    scale_ratio: 256
+    y_position: 14
+  colorful:
+    path: "icons/colorful.png"
+    scale_ratio: 8
+    y_position: 8
+  title:
+    path: "icons/title.png"
+    scale_ratio: 256
+    y_position: 128
+  shade_row_1:
+    path: "icons/shade.png"
+    scale_ratio: 16
+    y_position: -5
+  shade_row_2:
+    path: "icons/shade.png"
+    scale_ratio: 16
+    y_position: -23
+  shade_row_3:
+    path: "icons/shade.png"
+    scale_ratio: 16
+    y_position: -41
+  shade_row_4:
+    path: "icons/shade.png"
+    scale_ratio: 16
+    y_position: -59
+  shade_row_5:
+    path: "icons/shade.png"
+    scale_ratio: 16
+    y_position: -77
+  shade_row_6:
+    path: "icons/shade.png"
+    scale_ratio: 16
+    y_position: -95
+  clear_row_1:
+    path: "icons/clear_image.png"
+    scale_ratio: 16
+    y_position: -5
+  clear_row_2:
+    path: "icons/clear_image.png"
+    scale_ratio: 16
+    y_position: -23
+  clear_row_3:
+    path: "icons/clear_image.png"
+    scale_ratio: 16
+    y_position: -41
+  clear_row_4:
+    path: "icons/clear_image.png"
+    scale_ratio: 16
+    y_position: -59
+  clear_row_5:
+    path: "icons/clear_image.png"
+    scale_ratio: 16
+    y_position: -77
+  clear_row_6:
+    path: "icons/clear_image.png"
+    scale_ratio: 16
+    y_position: -95

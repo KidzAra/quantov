@@ -1,0 +1,216 @@
+cosmic_aquarius_hat:
+  slot: HELMET
+  permission: "cosmic_cosmetics.cosmic_aquarius_hat"
+  item:
+    material: itemsadder:cosmic_cosmetics:cosmic_aquarius_hat
+    amount: 1
+cosmic_aquarius_back:
+  slot: BACKPACK
+  permission: "cosmic_cosmetics.cosmic_aquarius_back"
+  item:
+    material: itemsadder:cosmic_cosmetics:cosmic_aquarius_back
+    amount: 1
+cosmic_aquarius_hammer:
+  slot: OFFHAND
+  permission: "cosmic_cosmetics.cosmic_aquarius_hammer"
+  item:
+    material: itemsadder:cosmic_cosmetics:cosmic_aquarius_hammer
+    amount: 1
+cosmic_capricorn_hat:
+  slot: HELMET
+  permission: "cosmic_cosmetics.cosmic_capricorn_hat"
+  item:
+    material: itemsadder:cosmic_cosmetics:cosmic_capricorn_hat
+    amount: 1
+cosmic_capricorn_tail:
+  slot: BACKPACK
+  permission: "cosmic_cosmetics.cosmic_capricorn_tail"
+  item:
+    material: itemsadder:cosmic_cosmetics:cosmic_capricorn_tail
+    amount: 1
+cosmic_capricorn_hammer:
+  slot: OFFHAND
+  permission: "cosmic_cosmetics.cosmic_capricorn_hammer"
+  item:
+    material: itemsadder:cosmic_cosmetics:cosmic_capricorn_hammer
+    amount: 1
+cosmic_sagittarius_hat:
+  slot: HELMET
+  permission: "cosmic_cosmetics.cosmic_sagittarius_hat"
+  item:
+    material: itemsadder:cosmic_cosmetics:cosmic_sagittarius_hat
+    amount: 1
+cosmic_sagittarius_back:
+  slot: BACKPACK
+  permission: "cosmic_cosmetics.cosmic_sagittarius_back"
+  item:
+    material: itemsadder:cosmic_cosmetics:cosmic_sagittarius_back
+    amount: 1
+cosmic_sagittarius_bow:
+  slot: OFFHAND
+  permission: "cosmic_cosmetics.cosmic_sagittarius_bow"
+  item:
+    material: itemsadder:cosmic_cosmetics:cosmic_sagittarius_bow
+    amount: 1
+cosmic_scorpio_hat:
+  slot: HELMET
+  permission: "cosmic_cosmetics.cosmic_scorpio_hat"
+  item:
+    material: itemsadder:cosmic_cosmetics:cosmic_scorpio_hat
+    amount: 1
+cosmic_scorpio_tail:
+  slot: BACKPACK
+  permission: "cosmic_cosmetics.cosmic_scorpio_tail"
+  item:
+    material: itemsadder:cosmic_cosmetics:cosmic_scorpio_tail
+    amount: 1
+cosmic_scorpio_staff:
+  slot: OFFHAND
+  permission: "cosmic_cosmetics.cosmic_scorpio_staff"
+  item:
+    material: itemsadder:cosmic_cosmetics:cosmic_scorpio_staff
+    amount: 1
+cosmic_pisces_hat:
+  slot: HELMET
+  permission: "cosmic_cosmetics.cosmic_pisces_hat"
+  item:
+    material: itemsadder:cosmic_cosmetics:cosmic_pisces_hat
+    amount: 1
+cosmic_pisces_back:
+  slot: BACKPACK
+  permission: "cosmic_cosmetics.cosmic_pisces_back"
+  item:
+    material: itemsadder:cosmic_cosmetics:cosmic_pisces_back
+    amount: 1
+cosmic_pisces_trident:
+  slot: OFFHAND
+  permission: "cosmic_cosmetics.cosmic_pisces_trident"
+  item:
+    material: itemsadder:cosmic_cosmetics:cosmic_pisces_trident
+    amount: 1
+cosmic_aries_hat:
+  slot: HELMET
+  permission: "cosmic_cosmetics.cosmic_aries_hat"
+  item:
+    material: itemsadder:cosmic_cosmetics:cosmic_aries_hat
+    amount: 1
+cosmic_aries_back:
+  slot: BACKPACK
+  permission: "cosmic_cosmetics.cosmic_aries_back"
+  item:
+    material: itemsadder:cosmic_cosmetics:cosmic_aries_back
+    amount: 1
+cosmic_aries_battleaxe:
+  slot: OFFHAND
+  permission: "cosmic_cosmetics.cosmic_aries_battleaxe"
+  item:
+    material: itemsadder:cosmic_cosmetics:cosmic_aries_battleaxe
+    amount: 1
+cosmic_taurus_hat:
+  slot: HELMET
+  permission: "cosmic_cosmetics.cosmic_taurus_hat"
+  item:
+    material: itemsadder:cosmic_cosmetics:cosmic_taurus_hat
+    amount: 1
+cosmic_taurus_tail:
+  slot: BACKPACK
+  permission: "cosmic_cosmetics.cosmic_taurus_tail"
+  item:
+    material: itemsadder:cosmic_cosmetics:cosmic_taurus_tail
+    amount: 1
+cosmic_taurus_axe:
+  slot: OFFHAND
+  permission: "cosmic_cosmetics.cosmic_taurus_axe"
+  item:
+    material: itemsadder:cosmic_cosmetics:cosmic_taurus_axe
+    amount: 1
+cosmic_cancer_hat:
+  slot: HELMET
+  permission: "cosmic_cosmetics.cosmic_cancer_hat"
+  item:
+    material: itemsadder:cosmic_cosmetics:cosmic_cancer_hat
+    amount: 1
+cosmic_cancer_back:
+  slot: BACKPACK
+  permission: "cosmic_cosmetics.cosmic_cancer_back"
+  item:
+    material: itemsadder:cosmic_cosmetics:cosmic_cancer_back
+    amount: 1
+cosmic_cancer_mace:
+  slot: OFFHAND
+  permission: "cosmic_cosmetics.cosmic_cancer_mace"
+  item:
+    material: itemsadder:cosmic_cosmetics:cosmic_cancer_mace
+    amount: 1
+cosmic_gemini_hat:
+  slot: HELMET
+  permission: "cosmic_cosmetics.cosmic_gemini_hat"
+  item:
+    material: itemsadder:cosmic_cosmetics:cosmic_gemini_hat
+    amount: 1
+cosmic_gemini_back:
+  slot: BACKPACK
+  permission: "cosmic_cosmetics.cosmic_gemini_back"
+  item:
+    material: itemsadder:cosmic_cosmetics:cosmic_gemini_back
+    amount: 1
+cosmic_gemini_sword:
+  slot: OFFHAND
+  permission: "cosmic_cosmetics.cosmic_gemini_sword"
+  item:
+    material: itemsadder:cosmic_cosmetics:cosmic_gemini_sword
+    amount: 1
+cosmic_leo_hat:
+  slot: HELMET
+  permission: "cosmic_cosmetics.cosmic_leo_hat"
+  item:
+    material: itemsadder:cosmic_cosmetics:cosmic_leo_hat
+    amount: 1
+cosmic_leo_back:
+  slot: BACKPACK
+  permission: "cosmic_cosmetics.cosmic_leo_back"
+  item:
+    material: itemsadder:cosmic_cosmetics:cosmic_leo_back
+    amount: 1
+cosmic_leo_shortsword:
+  slot: OFFHAND
+  permission: "cosmic_cosmetics.cosmic_leo_shortsword"
+  item:
+    material: itemsadder:cosmic_cosmetics:cosmic_leo_shortsword
+    amount: 1
+cosmic_virgo_hat:
+  slot: HELMET
+  permission: "cosmic_cosmetics.cosmic_virgo_hat"
+  item:
+    material: itemsadder:cosmic_cosmetics:cosmic_virgo_hat
+    amount: 1
+cosmic_virgo_back:
+  slot: BACKPACK
+  permission: "cosmic_cosmetics.cosmic_virgo_back"
+  item:
+    material: itemsadder:cosmic_cosmetics:cosmic_virgo_back
+    amount: 1
+cosmic_virgo_sickle:
+  slot: OFFHAND
+  permission: "cosmic_cosmetics.cosmic_virgo_sickle"
+  item:
+    material: itemsadder:cosmic_cosmetics:cosmic_virgo_sickle
+    amount: 1
+cosmic_libra_hat:
+  slot: HELMET
+  permission: "cosmic_cosmetics.cosmic_libra_hat"
+  item:
+    material: itemsadder:cosmic_cosmetics:cosmic_libra_hat
+    amount: 1
+cosmic_libra_back:
+  slot: BACKPACK
+  permission: "cosmic_cosmetics.cosmic_libra_back"
+  item:
+    material: itemsadder:cosmic_cosmetics:cosmic_libra_back
+    amount: 1
+cosmic_libra_offhand:
+  slot: OFFHAND
+  permission: "cosmic_cosmetics.cosmic_libra_offhand"
+  item:
+    material: itemsadder:cosmic_cosmetics:cosmic_libra_offhand
+    amount: 1

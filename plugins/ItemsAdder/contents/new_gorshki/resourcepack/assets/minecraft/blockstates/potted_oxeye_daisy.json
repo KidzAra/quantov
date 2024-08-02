@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "": [
+		{ "model": "block/oxeye_daisy/potted_oxeye_daisy" },
+		{ "model": "block/oxeye_daisy/potted_oxeye_daisy_22" },
+		{ "model": "block/oxeye_daisy/potted_oxeye_daisy_45" },
+		{ "model": "block/oxeye_daisy/potted_oxeye_daisy_-22" }
+		]
+    }
+}

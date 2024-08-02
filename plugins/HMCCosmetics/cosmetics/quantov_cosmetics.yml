@@ -1,0 +1,35 @@
+orange_furry_tail:
+  slot: BACKPACK
+  permission: "quantov_cosmetics.orange_furry_tail"
+  glowing: false
+  item:
+    material: itemsadder:hmccosmetics:orange_furry_tail
+    amount: 1
+white_furry_tail:
+  slot: BACKPACK
+  permission: "quantov_cosmetics.white_furry_tail"
+  glowing: false
+  item:
+    material: itemsadder:hmccosmetics:white_furry_tail
+    amount: 1
+black_furry_tail:
+  slot: BACKPACK
+  permission: "quantov_cosmetics.black_furry_tail"
+  glowing: false
+  item:
+    material: itemsadder:hmccosmetics:black_furry_tail
+    amount: 1
+red_furry_tail:
+  slot: BACKPACK
+  permission: "quantov_cosmetics.red_furry_tail"
+  glowing: false
+  item:
+    material: itemsadder:hmccosmetics:red_furry_tail
+    amount: 1
+ufirium:
+  slot: BACKPACK
+  permission: "quantov_cosmetics.ufirium"
+  glowing: true
+  item:
+    material: itemsadder:hmccosmetics:ufirium
+    amount: 1

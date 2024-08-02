@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "": [
+		{ "model": "block/orange_tulip/potted_orange_tulip" },
+		{ "model": "block/orange_tulip/potted_orange_tulip_22" },
+		{ "model": "block/orange_tulip/potted_orange_tulip_45" },
+		{ "model": "block/orange_tulip/potted_orange_tulip_-22" }
+		]
+    }
+}

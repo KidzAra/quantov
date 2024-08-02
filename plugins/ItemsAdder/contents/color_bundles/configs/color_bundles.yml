@@ -1,0 +1,131 @@
+info:
+  namespace: colorbundles
+items:
+  black_bundle:
+    display_name: "Чёрный мешок"
+    permission: color_bundles
+    resource:
+      material: BUNDLE
+      generate: true
+      textures:
+        - item/black_bundle.png
+  blue_bundle:
+    display_name: "Синий мешок"
+    permission: color_bundles
+    resource:
+      material: BUNDLE
+      generate: true
+      textures:
+        - item/blue_bundle.png
+  brown_bundle:
+    display_name: "Коричневый мешок"
+    permission: color_bundles
+    resource:
+      material: BUNDLE
+      generate: true
+      textures:
+        - item/brown_bundle.png
+  cyan_bundle:
+    display_name: "Бирюзовый мешок"
+    permission: color_bundles
+    resource:
+      material: BUNDLE
+      generate: true
+      textures:
+        - item/cyan_bundle.png
+  gray_bundle:
+    display_name: "Серый мешок"
+    permission: color_bundles
+    resource:
+      material: BUNDLE
+      generate: true
+      textures:
+        - item/gray_bundle.png
+  green_bundle:
+    display_name: "Зелёный мешок"
+    permission: color_bundles
+    resource:
+      material: BUNDLE
+      generate: true
+      textures:
+        - item/green_bundle.png
+  light_blue_bundle:
+    display_name: "Голубой мешок"
+    permission: color_bundles
+    resource:
+      material: BUNDLE
+      generate: true
+      textures:
+        - item/light_blue_bundle.png
+  light_gray_bundle:
+    display_name: "Светло-серый мешок"
+    permission: color_bundles
+    resource:
+      material: BUNDLE
+      generate: true
+      textures:
+        - item/light_gray_bundle.png
+  lime_bundle:
+    display_name: "Лаймовый мешок"
+    permission: color_bundles
+    resource:
+      material: BUNDLE
+      generate: true
+      textures:
+        - item/lime_bundle.png
+  magenta_bundle:
+    display_name: "Пурпурный мешок"
+    permission: color_bundles
+    resource:
+      material: BUNDLE
+      generate: true
+      textures:
+        - item/magenta_bundle.png
+  orange_bundle:
+    display_name: "Оранжевый мешок"
+    permission: color_bundles
+    resource:
+      material: BUNDLE
+      generate: true
+      textures:
+        - item/orange_bundle.png
+  pink_bundle:
+    display_name: "Розовый мешок"
+    permission: color_bundles
+    resource:
+      material: BUNDLE
+      generate: true
+      textures:
+        - item/pink_bundle.png
+  purple_bundle:
+    display_name: "Фиолетовый мешок"
+    permission: color_bundles
+    resource:
+      material: BUNDLE
+      generate: true
+      textures:
+        - item/purple_bundle.png
+  red_bundle:
+    display_name: "Красный мешок"
+    permission: color_bundles
+    resource:
+      material: BUNDLE
+      generate: true
+      textures:
+        - item/red_bundle.png
+  white_bundle:
+    display_name: "Белый мешок"
+    permission: color_bundles
+    resource:
+      material: BUNDLE
+      generate: true
+      textures:
+        - item/white_bundle.png
+  yellow_bundle:
+    display_name: "Жёлтый мешок"
+    permission: color_bundles
+    resource:
+      material: BUNDLE
+      generate: true
+      textures:
+        - item/yellow_bundle.png

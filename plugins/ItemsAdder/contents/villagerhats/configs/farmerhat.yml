@@ -1,0 +1,14 @@
+info:
+  namespace: villagerhats
+items:
+  farmerhat:
+    display_name: "Фермерская шляпа"
+    permission: villagerhats
+    resource:
+      material: IRON_NUGGET
+      generate: false
+      model_path: farmerhat
+    durability:
+      max_custom_durability: 165
+    behaviours:
+      hat: true

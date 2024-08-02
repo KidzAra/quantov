@@ -1,0 +1,49 @@
+{
+   "providers": [
+		{
+         "type": "bitmap",
+         "file": "icons:menu/on.png",
+         "ascent": 11,
+         "height": 13,
+         "chars": [
+            "\u0001"
+         ]
+      },
+      {
+         "type": "bitmap",
+         "file": "icons:menu/off.png",
+         "ascent": 11,
+         "height": 13,
+         "chars": [
+            "\u0002"
+         ]
+      },
+      {
+         "type": "bitmap",
+         "file": "icons:menu/crafting_icon.png",
+         "ascent": 10,
+         "height": 12,
+         "chars": [
+            "\uE003"
+         ]
+      },
+      {
+         "type": "bitmap",
+         "file": "icons:menu/furnace_icon.png",
+         "ascent": 10,
+         "height": 12,
+         "chars": [
+            "\uE004"
+         ]
+      },
+      {
+         "type": "bitmap",
+         "file": "icons:menu/redstone_lamp_icon.png",
+         "ascent": 10,
+         "height": 12,
+         "chars": [
+            "\uE005"
+         ]
+      }
+   ]
+}

@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "": [
+		{ "model": "block/cornflower/potted_cornflower" },
+		{ "model": "block/cornflower/potted_cornflower_22" },
+		{ "model": "block/cornflower/potted_cornflower_45" },
+		{ "model": "block/cornflower/potted_cornflower_-22" }
+		]
+    }
+}

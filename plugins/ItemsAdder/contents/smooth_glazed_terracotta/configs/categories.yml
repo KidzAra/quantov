@@ -1,0 +1,26 @@
+info:
+  namespace: terracotta
+categories:
+  terracotta:
+    enabled: true
+    icon: "purple_smooth_glazed_terracotta"
+    name: 'Smooth Glazed Terracotta'
+    permission: "ia.menu.terracotta"
+    title_position_pixels: 0
+    items:
+      - "terracotta:black_smooth_glazed_terracotta"
+      - "terracotta:blue_smooth_glazed_terracotta"
+      - "terracotta:brown_smooth_glazed_terracotta"
+      - "terracotta:cyan_smooth_glazed_terracotta"
+      - "terracotta:gray_smooth_glazed_terracotta"
+      - "terracotta:green_smooth_glazed_terracotta"
+      - "terracotta:light_blue_smooth_glazed_terracotta"
+      - "terracotta:light_gray_smooth_glazed_terracotta"
+      - "terracotta:lime_smooth_glazed_terracotta"
+      - "terracotta:magenta_smooth_glazed_terracotta"
+      - "terracotta:orange_smooth_glazed_terracotta"
+      - "terracotta:pink_smooth_glazed_terracotta"
+      - "terracotta:purple_smooth_glazed_terracotta"
+      - "terracotta:red_smooth_glazed_terracotta"
+      - "terracotta:white_smooth_glazed_terracotta"
+      - "terracotta:yellow_smooth_glazed_terracotta"

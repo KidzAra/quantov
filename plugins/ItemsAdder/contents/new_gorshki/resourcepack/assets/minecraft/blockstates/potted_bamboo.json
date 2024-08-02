@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "": [
+		{ "model": "block/bamboo/potted_bamboo" },
+		{ "model": "block/bamboo/potted_bamboo_22" },
+		{ "model": "block/bamboo/potted_bamboo_45" },
+		{ "model": "block/bamboo/potted_bamboo_-22" }
+		]
+    }
+}

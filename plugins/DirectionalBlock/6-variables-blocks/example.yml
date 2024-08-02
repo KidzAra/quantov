@@ -1,0 +1,7 @@
+example:dispenser:
+  north: example:dispenser
+  south: example:dispenser_south
+  east: example:dispenser_east
+  west: example:dispenser_west
+  up: example:dispenser_up
+  down: example:dispenser_down

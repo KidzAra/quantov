@@ -1,0 +1,4 @@
+example:bamboo_block:
+  x: example:bamboo_block_x
+  y: example:bamboo_block
+  z: example:bamboo_block_z

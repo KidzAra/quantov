@@ -1,0 +1,66 @@
+# [TimeManager] by ArVdC
+# cmds.yml
+# -----
+# *version*
+#  This field is automatically checked and refreshed, don't modify it manually.
+# -----
+# *useCmds*
+#  Set to true to activate the scheduler.
+# -----
+# *cmdsList*
+#   Nodes names must be following numbers. Each node must contains the following keys :
+#   *cmds*
+#     The console command(s) you want to run. 
+#     If you use multiple commands, they must be in a numbered list, one command per line.
+#     It is possible to specify a break time between two commands : instead of a command line, use 'wait' or 'pause' and the desired number of seconds to wait.
+#   *cmdsRefTime*
+#     The source whose will be checked for expected time and date.
+#     Possible values are any Minecraft world name or 'UTC+[timeShift]'.
+#     If using 'UTC+[timeShift]', the plugin will use the local time of your choice as a reference.
+#   *plholderRefWorld*
+#     The Minecraft world that will be use as source for the placeholders described in lang.yml file.
+#     Only the {tm_player} doesn't not work with the scheduler, cause the command sender is the console.
+#   *time*
+#     The time the command will be launched, formatted as 'hh:mm'.
+#   *date*
+#     The next day the command will be launched, formatted as 'yyyy-mm-dd'. 'today' can also be used and will be automatically converted to a date.
+#   *repeatFreq*
+#     The repetition frequency at which the command will be launched, possibly values are : [none|hour|day|month|year].
+# -----
+# >>> Since version 1.8.0, this file supports hexadecimal colors. <<<
+# -----
+
+version: 1.9.0
+useCmds: 'false'
+cmdsList:
+  '1':
+    cmds:
+      '1': /say This is an example of scheduled commands provided by Timemanager.
+      '2': /say It is up to you to customize it like you want.
+      '3': /tm now title all
+      '4': wait 5 seconds
+      '5': /tm now actionbar all
+    cmdsRefTime: world
+    plholderRefWorld: world
+    time: '12:00'
+    date: '2021-07-01'
+    repeatFreq: none
+  '2':
+    cmds:
+      '1': /say Good morning @p,
+      '2': /say it is {tm_hours12}:00 {tm_ampm} in {tm_world}.
+      '3': /weather clear
+    cmdsRefTime: world
+    plholderRefWorld: world
+    time: 07:00
+    date: '0001-01-01'
+    repeatFreq: day
+  '3':
+    cmds:
+      '1': /title @a subtitle {"text":"Happy new year @a !!!","color":"red"}
+      '2': /title @a {"text":"{tm_yyyy}","color":"white"}
+    cmdsRefTime: UTC+1
+    plholderRefWorld: world
+    time: 00:00
+    date: '0001-01-01'
+    repeatFreq: year

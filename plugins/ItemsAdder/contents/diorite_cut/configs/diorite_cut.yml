@@ -1,0 +1,344 @@
+info:
+  namespace: diorite_cut
+items:
+  diorite_cut:
+    display_name: "Резной диорит"
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - diorite_cut/diorite_cut.png
+      - diorite_cut/diorite_cut.png
+      - diorite_cut/diorite_cut.png
+      - diorite_cut/diorite_cut.png
+      - diorite_cut/diorite_cut.png
+      - diorite_cut/diorite_cut.png
+    specific_properties:
+      block:
+        hardness: 2
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+          rotx: 0
+          roty: 0
+        sound:
+          break:
+            name: BLOCK_STONE_BREAK
+            volume: 1
+            pitch: 1.0
+          place:
+            name: BLOCK_STONE_PLACE
+            volume: 1
+            pitch: 1.0
+  diorite_cut_basketweave:
+    display_name: "Плиточные диоритовые кирпичи"
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - diorite_cut/diorite_cut_basketweave.png
+      - diorite_cut/diorite_cut_basketweave.png
+      - diorite_cut/diorite_cut_basketweave.png
+      - diorite_cut/diorite_cut_basketweave.png
+      - diorite_cut/diorite_cut_basketweave.png
+      - diorite_cut/diorite_cut_basketweave.png
+    specific_properties:
+      block:
+        hardness: 2
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+          rotx: 0
+          roty: 0
+        sound:
+          break:
+            name: BLOCK_STONE_BREAK
+            volume: 1
+            pitch: 1.0
+          place:
+            name: BLOCK_STONE_PLACE
+            volume: 1
+            pitch: 1.0
+  diorite_cut_bond:
+    display_name: "Кладные андезитовые кирпичи"
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - diorite_cut/diorite_cut_bond.png
+      - diorite_cut/diorite_cut_bond.png
+      - diorite_cut/diorite_cut_bond.png
+      - diorite_cut/diorite_cut_bond.png
+      - diorite_cut/diorite_cut_bond.png
+      - diorite_cut/diorite_cut_bond.png
+    specific_properties:
+      block:
+        hardness: 2
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+          rotx: 0
+          roty: 0
+        sound:
+          break:
+            name: BLOCK_STONE_BREAK
+            volume: 1
+            pitch: 1.0
+          place:
+            name: BLOCK_STONE_PLACE
+            volume: 1
+            pitch: 1.0
+  diorite_cut_brick:
+    display_name: "Диоритовые кирпичи"
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - diorite_cut/diorite_cut_brick.png
+      - diorite_cut/diorite_cut_brick.png
+      - diorite_cut/diorite_cut_brick.png
+      - diorite_cut/diorite_cut_brick.png
+      - diorite_cut/diorite_cut_brick.png
+      - diorite_cut/diorite_cut_brick.png
+    specific_properties:
+      block:
+        hardness: 2
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+          rotx: 0
+          roty: 0
+        sound:
+          break:
+            name: BLOCK_STONE_BREAK
+            volume: 1
+            pitch: 1.0
+          place:
+            name: BLOCK_STONE_PLACE
+            volume: 1
+            pitch: 1.0
+  diorite_cut_herring:
+    display_name: "Полированный резной диорит"
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - diorite_cut/diorite_cut_herring.png
+      - diorite_cut/diorite_cut_herring.png
+      - diorite_cut/diorite_cut_herring.png
+      - diorite_cut/diorite_cut_herring.png
+      - diorite_cut/diorite_cut_herring.png
+      - diorite_cut/diorite_cut_herring.png
+    specific_properties:
+      block:
+        hardness: 2
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+          rotx: 0
+          roty: 0
+        sound:
+          break:
+            name: BLOCK_STONE_BREAK
+            volume: 1
+            pitch: 1.0
+          place:
+            name: BLOCK_STONE_PLACE
+            volume: 1
+            pitch: 1.0
+  diorite_cut_polished:
+    display_name: "Полированный резной диорит"
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - diorite_cut/diorite_cut_polished.png
+      - diorite_cut/diorite_cut_polished.png
+      - diorite_cut/diorite_cut_polished.png
+      - diorite_cut/diorite_cut_polished.png
+      - diorite_cut/diorite_cut_polished.png
+      - diorite_cut/diorite_cut_polished.png
+    specific_properties:
+      block:
+        hardness: 2
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+          rotx: 0
+          roty: 0
+        sound:
+          break:
+            name: BLOCK_STONE_BREAK
+            volume: 1
+            pitch: 1.0
+          place:
+            name: BLOCK_STONE_PLACE
+            volume: 1
+            pitch: 1.0
+  diorite_cut_square:
+    display_name: "Квадратно-плиточный диорит"
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - diorite_cut/diorite_cut_square.png
+      - diorite_cut/diorite_cut_square.png
+      - diorite_cut/diorite_cut_square.png
+      - diorite_cut/diorite_cut_square.png
+      - diorite_cut/diorite_cut_square.png
+      - diorite_cut/diorite_cut_square.png
+    specific_properties:
+      block:
+        hardness: 2
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+          rotx: 0
+          roty: 0
+        sound:
+          break:
+            name: BLOCK_STONE_BREAK
+            volume: 1
+            pitch: 1.0
+          place:
+            name: BLOCK_STONE_PLACE
+            volume: 1
+            pitch: 1.0
+  diorite_cut_slab:
+    display_name: "Диоритовые двойные плиты" 
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - diorite_cut/diorite_cut_polished.png
+      - diorite_cut/diorite_cut_slab.png
+      - diorite_cut/diorite_cut_slab.png
+      - diorite_cut/diorite_cut_slab.png
+      - diorite_cut/diorite_cut_polished.png
+      - diorite_cut/diorite_cut_slab.png
+    specific_properties:
+      block:
+        hardness: 2
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+          rotx: 0
+          roty: 0
+        sound:
+          break:
+            name: BLOCK_STONE_BREAK
+            volume: 1
+            pitch: 1.0
+          place:
+            name: BLOCK_STONE_PLACE
+            volume: 1
+            pitch: 1.0
+  diorite_cut_pillar:
+    display_name: "Полированный резной диорит"
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - diorite_cut/diorite_cut_cap.png
+      - diorite_cut/diorite_cut_pillar.png
+      - diorite_cut/diorite_cut_pillar.png
+      - diorite_cut/diorite_cut_pillar.png
+      - diorite_cut/diorite_cut_cap.png
+      - diorite_cut/diorite_cut_pillar.png
+    specific_properties:
+      block:
+        hardness: 2
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+          rotx: 0
+          roty: 0
+        sound:
+          break:
+            name: BLOCK_STONE_BREAK
+            volume: 1
+            pitch: 1.0
+          place:
+            name: BLOCK_STONE_PLACE
+            volume: 1
+            pitch: 1.0
+  diorite_cut_pillar_x:
+    display_name: "Диорит с полированным срезом"
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - diorite_cut/diorite_cut_pillar_rotated.png
+      - diorite_cut/diorite_cut_cap.png
+      - diorite_cut/diorite_cut_pillar_rotated.png
+      - diorite_cut/diorite_cut_pillar_rotated.png
+      - diorite_cut/diorite_cut_pillar_rotated.png
+      - diorite_cut/diorite_cut_cap.png
+    specific_properties:
+      block:
+        hardness: 2
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+          rotx: 0
+          roty: 0
+        cancel_drop: true
+        sound:
+          break:
+            name: BLOCK_STONE_BREAK
+            volume: 1
+            pitch: 1.0
+          place:
+            name: BLOCK_STONE_PLACE
+            volume: 1
+            pitch: 1.0
+  diorite_cut_pillar_z:
+    display_name: Polished Cut Diorite &eZ
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - diorite_cut/diorite_cut_pillar.png
+      - diorite_cut/diorite_cut_pillar_rotated.png
+      - diorite_cut/diorite_cut_cap.png
+      - diorite_cut/diorite_cut_cap.png
+      - diorite_cut/diorite_cut_pillar.png
+      - diorite_cut/diorite_cut_pillar_rotated.png
+    specific_properties:
+      block:
+        hardness: 2
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+          rotx: 0
+          roty: 0
+        cancel_drop: true
+        sound:
+          break:
+            name: BLOCK_STONE_BREAK
+            volume: 1
+            pitch: 1.0
+          place:
+            name: BLOCK_STONE_PLACE
+            volume: 1
+            pitch: 1.0
+loots:
+  blocks:
+    diorite_cut_pillar_x:
+      type: diorite_cut:diorite_cut_pillar_x
+      items:
+        result_1:
+          item: diorite_cut:diorite_cut_pillar
+          min_amount: 1
+          max_amount: 1
+          chance: 100
+          ignore_fortune: true
+    diorite_cut_pillar_z:
+      type: diorite_cut:diorite_cut_pillar_z
+      items:
+        result_1:
+          item: diorite_cut:diorite_cut_pillar
+          min_amount: 1
+          max_amount: 1
+          chance: 100
+          ignore_fortune: true

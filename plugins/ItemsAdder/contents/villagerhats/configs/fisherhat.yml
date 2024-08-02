@@ -1,0 +1,14 @@
+info:
+  namespace: villagerhats
+items:
+  fisherhat:
+    display_name: "Рыбацкая шляпа"
+    permission: villagerhats
+    resource:
+      material: IRON_NUGGET
+      generate: false
+      model_path: fisherhat
+    durability:
+      max_custom_durability: 165
+    behaviours:
+      hat: true

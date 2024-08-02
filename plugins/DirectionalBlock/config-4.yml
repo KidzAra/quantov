@@ -1,0 +1,85 @@
+terracotta:black_smooth_glazed_terracotta:
+  south: terracotta:black_smooth_glazed_terracotta
+  north: terracotta:black_smooth_glazed_terracotta_north
+  east: terracotta:black_smooth_glazed_terracotta_east
+  west: terracotta:black_smooth_glazed_terracotta_west
+terracotta:blue_smooth_glazed_terracotta:
+  south: terracotta:blue_smooth_glazed_terracotta
+  north: terracotta:blue_smooth_glazed_terracotta_north
+  east: terracotta:blue_smooth_glazed_terracotta_east
+  west: terracotta:blue_smooth_glazed_terracotta_west
+terracotta:brown_smooth_glazed_terracotta:
+  south: terracotta:brown_smooth_glazed_terracotta
+  north: terracotta:brown_smooth_glazed_terracotta_north
+  east: terracotta:brown_smooth_glazed_terracotta_east
+  west: terracotta:brown_smooth_glazed_terracotta_west
+terracotta:cyan_smooth_glazed_terracotta:
+  south: terracotta:cyan_smooth_glazed_terracotta
+  north: terracotta:cyan_smooth_glazed_terracotta_north
+  east: terracotta:cyan_smooth_glazed_terracotta_east
+  west: terracotta:cyan_smooth_glazed_terracotta_west
+terracotta:cyan_smooth_glazed_terracotta:
+  south: terracotta:cyan_smooth_glazed_terracotta
+  north: terracotta:cyan_smooth_glazed_terracotta_north
+  east: terracotta:cyan_smooth_glazed_terracotta_east
+  west: terracotta:cyan_smooth_glazed_terracotta_west
+terracotta:green_smooth_glazed_terracotta:
+  south: terracotta:green_smooth_glazed_terracotta
+  north: terracotta:green_smooth_glazed_terracotta_north
+  east: terracotta:green_smooth_glazed_terracotta_east
+  west: terracotta:green_smooth_glazed_terracotta_west
+terracotta:light_blue_smooth_glazed_terracotta:
+  south: terracotta:light_blue_smooth_glazed_terracotta
+  north: terracotta:light_blue_smooth_glazed_terracotta_north
+  east: terracotta:light_blue_smooth_glazed_terracotta_east
+  west: terracotta:light_blue_smooth_glazed_terracotta_west
+terracotta:gray_smooth_glazed_terracotta:
+  south: terracotta:gray_smooth_glazed_terracotta
+  north: terracotta:gray_smooth_glazed_terracotta_north
+  east: terracotta:gray_smooth_glazed_terracotta_east
+  west: terracotta:gray_smooth_glazed_terracotta_west
+terracotta:light_gray_smooth_glazed_terracotta:
+  south: terracotta:light_gray_smooth_glazed_terracotta
+  north: terracotta:light_gray_smooth_glazed_terracotta_north
+  east: terracotta:light_gray_smooth_glazed_terracotta_east
+  west: terracotta:light_gray_smooth_glazed_terracotta_west
+terracotta:magenta_smooth_glazed_terracotta:
+  south: terracotta:magenta_smooth_glazed_terracotta
+  north: terracotta:magenta_smooth_glazed_terracotta_north
+  east: terracotta:magenta_smooth_glazed_terracotta_east
+  west: terracotta:magenta_smooth_glazed_terracotta_west
+terracotta:lime_smooth_glazed_terracotta:
+  south: terracotta:lime_smooth_glazed_terracotta
+  north: terracotta:lime_smooth_glazed_terracotta_north
+  east: terracotta:lime_smooth_glazed_terracotta_east
+  west: terracotta:lime_smooth_glazed_terracotta_west
+terracotta:pink_smooth_glazed_terracotta:
+  south: terracotta:pink_smooth_glazed_terracotta
+  north: terracotta:pink_smooth_glazed_terracotta_north
+  east: terracotta:pink_smooth_glazed_terracotta_east
+  west: terracotta:pink_smooth_glazed_terracotta_west
+terracotta:purple_smooth_glazed_terracotta:
+  south: terracotta:purple_smooth_glazed_terracotta
+  north: terracotta:purple_smooth_glazed_terracotta_north
+  east: terracotta:purple_smooth_glazed_terracotta_east
+  west: terracotta:purple_smooth_glazed_terracotta_west
+terracotta:orange_smooth_glazed_terracotta:
+  south: terracotta:orange_smooth_glazed_terracotta
+  north: terracotta:orange_smooth_glazed_terracotta_north
+  east: terracotta:orange_smooth_glazed_terracotta_east
+  west: terracotta:orange_smooth_glazed_terracotta_west
+terracotta:red_smooth_glazed_terracotta:
+  south: terracotta:red_smooth_glazed_terracotta
+  north: terracotta:red_smooth_glazed_terracotta_north
+  east: terracotta:red_smooth_glazed_terracotta_east
+  west: terracotta:red_smooth_glazed_terracotta_west
+terracotta:white_smooth_glazed_terracotta:
+  south: terracotta:white_smooth_glazed_terracotta
+  north: terracotta:white_smooth_glazed_terracotta_north
+  east: terracotta:white_smooth_glazed_terracotta_east
+  west: terracotta:white_smooth_glazed_terracotta_west
+terracotta:yellow_smooth_glazed_terracotta:
+  south: terracotta:yellow_smooth_glazed_terracotta
+  north: terracotta:yellow_smooth_glazed_terracotta_north
+  east: terracotta:yellow_smooth_glazed_terracotta_east
+  west: terracotta:yellow_smooth_glazed_terracotta_west

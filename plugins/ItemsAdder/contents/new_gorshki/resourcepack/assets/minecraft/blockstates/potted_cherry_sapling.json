@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "": [
+		{ "model": "block/cherry_sapling/potted_cherry_sapling" },
+		{ "model": "block/cherry_sapling/potted_cherry_sapling_22" },
+		{ "model": "block/cherry_sapling/potted_cherry_sapling_45" },
+		{ "model": "block/cherry_sapling/potted_cherry_sapling_-22" }
+		]
+    }
+}

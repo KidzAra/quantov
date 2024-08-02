@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "": [
+		{ "model": "block/azure_bluet/potted_azure_bluet" },
+		{ "model": "block/azure_bluet/potted_azure_bluet_22" },
+		{ "model": "block/azure_bluet/potted_azure_bluet_45" },
+		{ "model": "block/azure_bluet/potted_azure_bluet_-22" }
+		]
+    }
+}

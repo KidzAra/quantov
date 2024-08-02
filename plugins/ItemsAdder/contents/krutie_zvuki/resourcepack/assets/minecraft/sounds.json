@@ -1,0 +1,2106 @@
+{
+	
+"weather.rain": { "sounds": [
+    { "name": "ambient/weather/rain1", "weight": 150, "volume": 0.55},
+    { "name": "ambient/weather/rain2", "weight": 150, "volume": 0.55},
+    { "name": "ambient/weather/rain3", "weight": 150, "volume": 0.55},
+    { "name": "ambient/weather/rain4", "weight": 150, "volume": 0.55},
+    { "name": "ambient/weather/rain5", "weight": 150, "volume": 0.55},
+    { "name": "ambient/weather/rain6", "weight": 150, "volume": 0.55},
+    { "name": "ambient/weather/rain7", "weight": 150, "volume": 0.55},
+    { "name": "ambient/weather/rain8", "weight": 150, "volume": 0.55},
+	
+	{ "name": "Remastered/ambient/weather/rain",  "weight": 10, "stream": true, "volume": 1, "attenuation_distance": 32 },
+
+    { "name": "Remastered/ambient/weather/thundering", "weight": 3, "volume": 1.2 },
+	
+	{ "name": "Remastered/ambient/wind/heavywind",  "weight": 10, "stream": true, "volume": 1, "attenuation_distance": 32 }
+], "replace": true, "subtitle": "subtitles.weather.rain" },
+
+"weather.rain.above": { "sounds": [
+    { "name": "ambient/weather/rain1", "weight": 25, "volume": 0.25},
+	
+	{ "name": "Remastered/ambient/weather/rain1",  "weight": 10, "stream": true, "volume": 0.55, "attenuation_distance": 32 },
+	
+    { "name": "ambient/weather/rain2", "weight": 25, "volume": 0.55},
+    { "name": "ambient/weather/rain3", "weight": 25, "volume": 0.55},
+	
+	{ "name": "Remastered/ambient/weather/rain2",  "weight": 10, "stream": true, "volume": 0.75, "attenuation_distance": 32 },
+	
+    { "name": "ambient/weather/rain4", "weight": 25, "volume": 0.55}
+], "replace": true, "subtitle": "subtitles.weather.rain" },
+
+"entity.lightning_bolt.thunder": { "sounds": [
+    { "name": "Remastered/ambient/wind/howlingwind",  "weight": 15, "stream": true, "volume": 1.0, "attenuation_distance": 32 },
+	
+    { "name": "Remastered/ambient/weather/thunder1", "weight": 100, "volume": 4, "pitch": 1},
+    { "name": "Remastered/ambient/weather/thunder2", "weight": 100, "volume": 4, "pitch": 1},
+    { "name": "Remastered/ambient/weather/thunder3", "weight": 100, "volume": 4, "pitch": 1},
+    { "name": "Remastered/ambient/weather/thunder4", "weight": 100, "volume": 4, "pitch": 1},
+    { "name": "Remastered/ambient/weather/thunder5", "weight": 100, "volume": 4, "pitch": 1},
+	{ "name": "Remastered/ambient/weather/thunder6", "weight": 100, "volume": 4, "pitch": 1},	
+	{ "name": "Remastered/ambient/weather/thunder7", "weight": 100, "volume": 4, "pitch": 1},
+	{ "name": "Remastered/ambient/weather/thunder8", "weight": 100, "volume": 4, "pitch": 1},	
+
+	{ "name": "Remastered/ambient/weather/storm-close",  "weight": 10, "stream": true, "volume": 1, "attenuation_distance": 32 },
+	
+	{ "name": "Remastered/ambient/weather/storm-away",  "weight": 20, "stream": true, "volume": 1.2, "attenuation_distance": 32 }
+	
+], "replace": true, "subtitle": "subtitles.entity.lightning_bolt.thunder" },
+
+"ambient.underwater.exit": { "sounds": [
+    { "name": "ambient/underwater/exit1", "weight": 2, "volume": 1},
+    { "name": "ambient/underwater/exit2", "weight": 2, "volume": 2},
+    { "name": "ambient/underwater/exit3", "weight": 2, "volume": 1},
+	{ "name": "ambient/underwater/exit4", "weight": 2, "volume": 2},
+    { "name": "ambient/underwater/exit5", "weight": 2, "volume": 1},
+	{ "name": "ambient/underwater/exit6", "weight": 2, "volume": 1},
+	
+	{ "name": "Remastered/ambient/liquid/water1",  "weight": 2, "stream": false, "volume": 0.9, "attenuation_distance": 5 },
+	
+    { "name": "Remastered/ambient/liquid/water2",  "weight": 2, "stream": false, "volume": 1, "attenuation_distance": 4 },
+	
+    { "name": "Remastered/ambient/liquid/water3",  "weight": 2, "stream": false, "volume": 0.8, "attenuation_distance": 2 }
+], "replace": true, "subtitle": "subtitles.underwater.exit" },
+
+"block.water.ambient": { "sounds": [
+    { "name": "Remastered/ambient/liquid/waterrun",  "weight": 4, "stream": false, "volume": 0.75, "attenuation_distance": 8 },	
+    { "name": "Remastered/ambient/liquid/waterrun",  "weight": 3, "stream": false, "volume": 0.9, "attenuation_distance": 5 },	
+    { "name": "Remastered/ambient/liquid/waterrun",  "weight": 2, "stream": false, "volume": 1, "attenuation_distance": 4 },	
+    { "name": "Remastered/ambient/liquid/waterrun",  "weight": 5, "stream": false, "volume": 0.8, "attenuation_distance": 2 },
+
+	{ "name": "Remastered/ambient/liquid/water1", "volume": 1, "pitch": 1.2 },
+	{ "name": "Remastered/ambient/liquid/water3", "volume": 1, "pitch": 1.1 },
+	{ "name": "Remastered/ambient/liquid/water2", "volume": 1, "pitch": 1.0 }
+], "replace": true, "subtitle":"subtitles.block.water.ambient" },
+
+"entity.player.splash": { "sounds": [
+	{ "name": "Remastered/ambient/effect/splash1", "volume": 0.8, "pitch": 1},
+    { "name": "Remastered/ambient/effect/splash2", "volume": 0.7, "pitch": 1.1},	
+	{ "name": "Remastered/ambient/liquid/water1", "volume": 1, "pitch": 1.2 },
+	{ "name": "Remastered/ambient/liquid/water3", "volume": 1, "pitch": 1.1 },
+    { "name": "Remastered/ambient/effect/splash3", "volume": 1, "pitch": 1},
+    { "name": "Remastered/ambient/effect/splash4", "volume": 0.7, "pitch": 1},	
+	{ "name": "Remastered/ambient/liquid/water2", "volume": 1, "pitch": 1.0 }
+], "replace": true, "subtitle":"subtitles.entity.generic.splash" },
+
+"entity.player.splash.high_speed": { "sounds": [
+	{ "name": "Remastered/ambient/effect/splash1", "volume": 2, "pitch": 0.7},
+    { "name": "Remastered/ambient/effect/splash2", "volume": 2, "pitch": 0.9},
+	{ "name": "Remastered/ambient/effect/splash3", "volume": 2, "pitch": 0.7},
+    { "name": "Remastered/ambient/effect/splash4", "volume": 2, "pitch": 0.9}
+], "replace": true, "subtitle":"subtitles.entity.generic.splash" },
+
+"entity.zombie.ambient": { "sounds": [
+    { "name": "Remastered/ambient/effect/inv1",   "weight": 1, "volume": 0.2, "attenuation_distance": 8 },
+	
+    { "name": "Remastered/ambient/effect/inv2",   "weight": 1, "volume": 0.4, "attenuation_distance": 8 },
+	
+    { "name": "Remastered/ambient/effect/inv3",   "weight": 1, "volume": 0.2, "attenuation_distance": 8 },
+	
+    { "name": "Remastered/ambient/effect/inv4",   "weight": 1, "volume": 0.1, "attenuation_distance": 8 }
+	
+], "replace": false, "subtitle": "subtitles.entity.zombie.ambient" },
+
+"entity.cod.ambient": { "sounds": [
+    { "name": "Remastered/ambient/silence", "weight": 100 },
+
+    { "name": "Remastered/ambient/water/ocean",  "weight": 10, "stream": true, "volume": 0.6, "attenuation_distance": 32 },
+	{ "name": "Remastered/ambient/water/waves",  "weight": 10, "stream": true, "volume": 0.6, "attenuation_distance": 32 },
+    
+    { "name": "Remastered/ambient/seagull/seagulls1", "weight": 1, "volume": 0.25, "attenuation_distance": 32 },
+    { "name": "Remastered/ambient/seagull/seagulls2", "weight": 1, "volume": 0.25, "attenuation_distance": 32 },
+    { "name": "Remastered/ambient/seagull/seagulls3", "weight": 1, "volume": 0.25, "attenuation_distance": 32 },
+    { "name": "Remastered/ambient/seagull/seagulls4", "weight": 1, "volume": 0.25, "attenuation_distance": 32 },
+    { "name": "Remastered/ambient/seagull/seagulls5", "weight": 1, "volume": 0.25, "attenuation_distance": 32 },
+	{ "name": "Remastered/ambient/seagull/seagulls1", "weight": 1, "volume": 0.25, "attenuation_distance": 32 },
+	{ "name": "Remastered/ambient/seagull/seagulls2", "weight": 1, "volume": 0.25, "attenuation_distance": 32 },
+    { "name": "Remastered/ambient/seagull/seagulls6", "weight": 1, "volume": 0.25, "attenuation_distance": 32 }
+], "replace": "true" },
+"entity.sheep.ambient": { "sounds": [ 
+    { "name": "Remastered/ambient/cervidae/deer1", "weight": 2, "volume": 0.25, "attenuation_distance": 32 },
+    { "name": "Remastered/ambient/cervidae/deer2", "weight": 2, "volume": 0.25, "attenuation_distance": 32 }
+], "replace": "false" },
+
+"entity.goat.ambient": { "sounds": [ 
+    { "name": "Remastered/ambient/cervidae/bugle1", "weight": 8, "volume": 0.25, "attenuation_distance": 32 },
+	
+	{ "name": "Remastered/ambient/cervidae/bugle3", "weight": 4, "volume": 0.25, "attenuation_distance": 32 },
+	
+	{ "name": "Remastered/ambient/cervidae/bugle4", "weight": 4, "volume": 0.25, "attenuation_distance": 32 },
+	
+	{ "name": "Remastered/ambient/cervidae/bugle5", "weight": 4, "volume": 0.25, "attenuation_distance": 32 },
+	
+	{ "name": "Remastered/ambient/cervidae/bugle6", "weight": 4, "volume": 0.25, "attenuation_distance": 32 },
+	
+	{ "name": "Remastered/ambient/cervidae/bugle7", "weight": 4, "volume": 0.25, "attenuation_distance": 32 },
+	
+    { "name": "Remastered/ambient/cervidae/bugle2", "weight": 2, "volume": 0.25, "attenuation_distance": 32 }
+], "replace": "false" },
+
+"entity.polar_bear.ambient": { "sounds": [
+    { "name": "Remastered/ambient/weather/snowstorm",  "weight": 5, "stream": true, "volume": 1, "attenuation_distance": 32 },
+    { "name": "Remastered/ambient/wind/snowwind1",  "weight": 10, "stream": true, "volume": 1.7, "attenuation_distance": 32 },
+	{ "name": "Remastered/ambient/wind/snowwind2",  "weight": 10, "stream": true, "volume": 1.2, "attenuation_distance": 32 }
+], "replace": "false" },
+
+"entity.fox.ambient": { "sounds": [
+
+    { "name": "Remastered/ambient/ambience/forest",  "weight": 5, "stream": true, "volume": 1, "attenuation_distance": 32 },
+	
+    { "name": "Remastered/ambient/wind/forestwind",  "weight": 10, "stream": true, "volume": 0.8, "attenuation_distance": 32 },
+	
+	{ "name": "Remastered/ambient/ambience/forestbirds",  "weight": 10, "stream": true, "volume": 0.6, "attenuation_distance": 32 }
+], "replace": "false" },
+
+"entity.spider.ambient": { "sounds": [
+	{ "name": "Remastered/ambient/cricket/cricket-night", "weight": 1, "volume": 0.8},
+	
+	{ "name": "Remastered/ambient/cricket/cricket-night2", "weight": 1, "volume": 0.7},
+	{ "name": "Remastered/ambient/cricket/cricket-night3", "weight": 1, "volume": 0.7},
+	
+	{ "name": "Remastered/ambient/cricket/cricket-night4", "weight": 1, "volume": 0.7},
+	{ "name": "Remastered/ambient/cricket/cricket-night5", "weight": 1, "volume": 0.25}
+], "replace": "false" },
+
+"entity.tropical_fish.ambient": { "sounds": [
+    { "name": "Remastered/ambient/silence", "weight": 100 },
+
+    { "name": "Remastered/ambient/water/beach",  "weight": 10, "stream": true, "volume": 0.6, "attenuation_distance": 32 },
+	
+	{ "name": "Remastered/ambient/seagull/seagull_long", "weight": 1, "volume": 0.8, "attenuation_distance": 32 },
+	
+	{ "name": "Remastered/ambient/water/waves",  "weight": 10, "stream": true, "volume": 0.6, "attenuation_distance": 32 },
+    
+    { "name": "Remastered/ambient/seagull/seagulls1", "weight": 1, "volume": 0.25, "attenuation_distance": 32 },
+    { "name": "Remastered/ambient/seagull/seagulls2", "weight": 1, "volume": 0.25, "attenuation_distance": 32 },
+    { "name": "Remastered/ambient/seagull/seagulls3", "weight": 1, "volume": 0.25, "attenuation_distance": 32 },
+    { "name": "Remastered/ambient/seagull/seagulls4", "weight": 1, "volume": 0.25, "attenuation_distance": 32 },
+    { "name": "Remastered/ambient/seagull/seagulls5", "weight": 1, "volume": 0.25, "attenuation_distance": 32 },
+    { "name": "Remastered/ambient/seagull/seagulls7", "weight": 1, "volume": 0.30, "attenuation_distance": 32 },
+	{ "name": "Remastered/ambient/seagull/seagulls8", "weight": 1, "volume": 0.30, "attenuation_distance": 32 },
+    { "name": "Remastered/ambient/seagull/seagulls6", "weight": 1, "volume": 0.25, "attenuation_distance": 32 }
+], "replace": "true" },
+
+"entity.turtle.ambient_land": { "sounds": [
+    { "name": "Remastered/ambient/silence", "weight": 100 },
+	
+	{ "name": "Remastered/ambient/water/waves",  "weight": 10, "stream": true, "volume": 0.8, "attenuation_distance": 32 },
+
+    { "name": "Remastered/ambient/water/beach2",  "weight": 10, "stream": true, "volume": 0.35, "attenuation_distance": 32 },
+	
+	{ "name": "Remastered/ambient/seagull/seagull_long", "weight": 1, "volume": 1.25, "attenuation_distance": 32 },
+	
+	{ "name": "Remastered/ambient/water/beach1",  "weight": 10, "stream": true, "volume": 0.75, "attenuation_distance": 32 },
+   
+	{ "name": "Remastered/ambient/seagull/seagulls2", "weight": 1, "volume": 0.9, "attenuation_distance": 32 },
+	{ "name": "Remastered/ambient/seagull/seagulls4", "weight": 1, "volume": 0.7, "attenuation_distance": 32 },
+    { "name": "Remastered/ambient/seagull/seagulls8", "weight": 1, "volume": 0.7, "attenuation_distance": 32 },
+    { "name": "Remastered/ambient/seagull/seagulls7", "weight": 1, "volume": 0.8, "attenuation_distance": 32 }
+], "replace": "true" },
+
+"entity.lamma.ambient": { "sounds": [
+
+    { "name": "Remastered/ambient/cervidae/deer1", "weight": 2, "volume": 0.2, "attenuation_distance": 32 },
+    { "name": "Remastered/ambient/cervidae/deer2", "weight": 2, "volume": 0.2, "attenuation_distance": 32 },
+	
+	
+    { "name": "Remastered/ambient/cervidae/bugle1", "weight": 10, "volume": 0.25, "attenuation_distance": 16 },
+	
+	{ "name": "Remastered/ambient/cervidae/bugle3", "weight": 4, "volume": 0.2, "attenuation_distance": 32 },
+	
+    { "name": "Remastered/ambient/cervidae/bugle2", "weight": 1, "volume": 0.2, "attenuation_distance": 32 }
+], "replace": "false" },
+
+"entity.ravager.ambient": { "sounds": [
+    { "name": "Remastered/ambient/primate/primate1", "weight": 1, "volume": 0.91, "attenuation_distance": 16 },
+	{ "name": "Remastered/ambient/primate/primate2", "weight": 1, "volume": 0.8, "attenuation_distance": 32 },
+   
+	{ "name": "Remastered/ambient/primate/primate3", "weight": 1, "volume": 0.9, "attenuation_distance": 16 },
+	{ "name": "Remastered/ambient/primate/primate4", "weight": 1, "volume": 1, "attenuation_distance": 16 },
+	
+    { "name": "Remastered/ambient/primate/primate5", "weight": 1, "volume": 0.9, "attenuation_distance": 32 }
+], "replace": "false" },
+
+"entity.camel.ambient": { "sounds": [
+    { "name": "Remastered/ambient/ambience/desertday",  "weight": 5, "stream": true, "volume": 0.7, "attenuation_distance": 32 },
+    { "name": "Remastered/ambient/ambience/desertnight",  "weight": 10, "stream": true, "volume": 0.8, "attenuation_distance": 32 }
+
+], "replace": "false" },
+
+"entity.rabbit.ambient": { "sounds": [
+    { "name": "Remastered/ambient/wind/lightwind",  "weight": 5, "stream": true, "volume": 3, "attenuation_distance": 32 },
+    { "name": "Remastered/ambient/bird/birdwind1",  "weight": 1, "stream": true, "volume": 0.8, "attenuation_distance": 32 }
+
+], "replace": "false" },
+
+"entity.sniffer.idle": { "sounds": [
+    { "name": "Remastered/ambient/bird/birdwind2",  "weight": 1, "stream": true, "volume": 0.5, "attenuation_distance": 32 },	
+	{ "name": "Remastered/ambient/bird/bridwind3",  "weight": 1, "stream": true, "volume": 0.4, "attenuation_distance": 32 }
+], "replace": "false" },
+
+"entity.ender_dragon.ambient": { "sounds": [
+	{ "name": "Remastered/ambient/dimension/end",  "weight": 20, "stream": true, "volume": 0.8, "attenuation_distance": 32 },
+
+    { "name": "mob/enderdragon/idle1", "weight": 10, "volume": 3},
+    { "name": "mob/enderdragon/idle2", "weight": 10, "volume": 3},
+    { "name": "mob/enderdragon/idle3", "weight": 10, "volume": 3},
+    { "name": "mob/enderdragon/idle4", "weight": 10, "volume": 5},
+	
+	{ "name": "Remastered/ambient/dimension/end",  "weight": 20, "stream": true, "volume": 0.8, "attenuation_distance": 32 }
+], "replace": "true" },
+
+"entity.ender_dragon.growl": { "sounds": [
+	{ "name": "Remastered/ambient/dimension/end",  "weight": 50, "stream": true, "volume": 0.9, "attenuation_distance": 32 },
+
+    { "name": "mob/enderdragon/growl1", "weight": 10, "volume": 2},
+    { "name": "mob/enderdragon/growl2", "weight": 10, "volume": 3},
+    { "name": "mob/enderdragon/growl3", "weight": 10, "volume": 3},
+    { "name": "mob/enderdragon/growl4", "weight": 10, "volume": 5},
+	
+	{ "name": "Remastered/ambient/dimension/end",  "weight": 20, "stream": true, "volume": 0.6, "attenuation_distance": 32 }
+], "replace": "true" },
+
+"entity.horse.ambient": { "sounds": [
+    { "name": "Remastered/ambient/wind/windleaves",  "weight": 1, "stream": true, "volume": 0.5, "attenuation_distance": 32 }
+], "replace": "false" },
+
+"entity.arrow.shoot": { "sounds": [
+    { "name": "Remastered/items/bow_loose1", "weight": 1, "volume": 1, "attenuation_distance": 8 },
+	{ "name": "Remastered/items/bow_loose2", "weight": 1, "volume": 1, "attenuation_distance": 8 },
+	{ "name": "Remastered/items/bow_loose3", "weight": 1, "volume": 1, "attenuation_distance": 8 },
+	{ "name": "Remastered/items/bow_loose4", "weight": 1, "volume": 1, "attenuation_distance": 8 }
+], "replace": "true" },
+
+"entity.player.attack.weak": { "sounds": [
+    { "name": "Remastered/items/swoosh1", "weight": 1, "volume": 1.3, "attenuation_distance": 8 },
+	{ "name": "Remastered/items/swoosh2", "weight": 1, "volume": 1.2, "attenuation_distance": 8 },
+	{ "name": "Remastered/items/swoosh3", "weight": 1, "volume": 1.2, "attenuation_distance": 8 },
+	{ "name": "Remastered/items/swoosh4", "weight": 1, "volume": 1.2, "attenuation_distance": 8 },
+	{ "name": "Remastered/items/swoosh5", "weight": 1, "volume": 1.2, "attenuation_distance": 8 },
+	{ "name": "Remastered/items/swoosh6", "weight": 1, "volume": 1.3, "attenuation_distance": 8 },
+	{ "name": "Remastered/items/swoosh7", "weight": 1, "volume": 1.5, "attenuation_distance": 8 },
+	
+	{ "name": "Remastered/items/blunt_swing1", "weight": 1, "volume": 1.5, "attenuation_distance": 8 },
+	{ "name": "Remastered/items/blunt_swing2", "weight": 1, "volume": 1.4, "attenuation_distance": 8 },
+	{ "name": "Remastered/items/blunt_swing3", "weight": 1, "volume": 1.6, "attenuation_distance": 8 },
+	{ "name": "Remastered/items/blunt_swing4", "weight": 1, "volume": 1.5, "attenuation_distance": 8 },
+	{ "name": "Remastered/items/blunt_swing5", "weight": 1, "volume": 1.1, "attenuation_distance": 8 }
+], "replace": "true" },
+
+"entity.player.attack.knockback": { "sounds": [	
+	{ "name": "Remastered/items/blunt_swing1", "weight": 1, "volume": 1, "attenuation_distance": 8 },
+	{ "name": "Remastered/items/blunt_swing2", "weight": 1, "volume": 1, "attenuation_distance": 8 },
+	{ "name": "Remastered/items/blunt_swing3", "weight": 1, "volume": 1, "attenuation_distance": 8 },
+	{ "name": "Remastered/items/blunt_swing4", "weight": 1, "volume": 1, "attenuation_distance": 8 },
+	{ "name": "Remastered/items/blunt_swing5", "weight": 1, "volume": 1, "attenuation_distance": 8 }
+], "replace": "false" },
+
+"entity.item.pickup": { "sounds": [	
+	{ "name": "Remastered/items/tool_draw", "weight": 1, "volume": 2, "attenuation_distance": 8 },
+	{ "name": "Remastered/items/blunt_draw", "weight": 1, "volume": 2, "attenuation_distance": 8 },
+	{ "name": "Remastered/items/utility_draw", "weight": 1, "volume": 2, "attenuation_distance": 8 }
+], "replace": "false" },
+
+"entity.cow.ambient": { "sounds": [
+    { "name": "Remastered/ambient/bison/bison1", "weight": 1, "volume": 0.91, "attenuation_distance": 16 },
+	{ "name": "Remastered/ambient/bison/bison2", "weight": 1, "volume": 0.8, "attenuation_distance": 32 },
+   
+	{ "name": "Remastered/ambient/bison/bison3", "weight": 1, "volume": 0.9, "attenuation_distance": 16 },
+	{ "name": "Remastered/ambient/bison/bison4", "weight": 1, "volume": 1, "attenuation_distance": 16 }
+], "replace": "false" },
+
+"entity.salmon.ambient": { "sounds": [
+    { "name": "Remastered/ambient/silence", "weight": 100 },
+	
+	{ "name": "Remastered/ambient/water/river",  "weight": 10, "stream": true, "volume": 0.6, "attenuation_distance": 32 },
+
+	{ "name": "Remastered/ambient/water/riverrun",  "weight": 10, "stream": true, "volume": 0.5, "attenuation_distance": 32 },
+    
+    { "name": "Remastered/ambient/seagull/seagulls1", "weight": 1, "volume": 0.7, "attenuation_distance": 32 },
+    { "name": "Remastered/ambient/seagull/seagulls2", "weight": 1, "volume": 0.7, "attenuation_distance": 32 },
+    { "name": "Remastered/ambient/seagull/seagulls3", "weight": 1, "volume": 0.7, "attenuation_distance": 32 },
+    { "name": "Remastered/ambient/seagull/seagulls4", "weight": 1, "volume": 0.7, "attenuation_distance": 32 },
+    { "name": "Remastered/ambient/seagull/seagulls5", "weight": 1, "volume": 0.7, "attenuation_distance": 32 },
+    { "name": "Remastered/ambient/seagull/seagulls6", "weight": 1, "volume": 0.7, "attenuation_distance": 32 },
+	
+	{ "name": "Remastered/ambient/water/riverforest",  "weight": 10, "stream": true, "volume": 0.5, "attenuation_distance": 32 }
+], "replace": "true" },
+
+"entity.puffer_fish.ambient": { "sounds": [
+    { "name": "Remastered/ambient/silence", "weight": 100 },
+
+    { "name": "Remastered/ambient/water/ocean",  "weight": 10, "stream": true, "volume": 0.8, "attenuaion_distance": 32 },
+	
+	{ "name": "Remastered/ambient/water/waves",  "weight": 10, "stream": true, "volume": 0.7, "attenuaion_distance": 32 }
+	
+], "replace": "true" },
+
+"entity.dolphin.ambient": { "sounds": [
+    { "name": "Remastered/ambient/silence", "weight": 100 },
+	
+	{ "name": "Remastered/ambient/seagull/seagulls1", "weight": 1, "volume": 0.25, "attenuation_distance": 32 },
+    { "name": "Remastered/ambient/seagull/seagulls2", "weight": 1, "volume": 0.25, "attenuation_distance": 32 },
+    { "name": "Remastered/ambient/seagull/seagulls3", "weight": 1, "volume": 0.25, "attenuation_distance": 32 },
+
+    { "name": "Remastered/ambient/water/ocean",  "weight": 10, "stream": true, "volume": 0.75, "attenuaion_distance": 32 },
+	
+	{ "name": "Remastered/ambient/water/waves",  "weight": 10, "stream": true, "volume": 1, "attenuaion_distance": 32 }
+	
+], "replace": "true" },
+
+"block.vine.step": { "sounds": [
+    { "name": "block/vine/climb1", "weight": 10, "stream": false },
+	{ "name": "block/vine/climb2", "weight": 10, "stream": false },
+	{ "name": "block/vine/climb3", "weight": 10, "stream": false },
+	{ "name": "block/vine/climb4", "weight": 10, "stream": false },
+	{ "name": "block/vine/climb5", "weight": 10, "stream": false },
+	
+	{ "name": "Remastered/ambient/ambience/jungle6",  "weight": 10, "stream": true, "volume": 1, "attenuation_distance": 32 },
+	
+    { "name": "Remastered/ambient/ambience/birthwort1", "weight": 2, "volume": 1, "attenuation_distance": 72 },
+    { "name": "Remastered/ambient/ambience/birthwort2", "weight": 2, "volume": 1, "attenuation_distance": 72 },
+    { "name": "Remastered/ambient/ambience/birthwort3", "weight": 2, "volume": 1, "attenuation_distance": 72 },
+	
+	{ "name": "Remastered/ambient/ambience/jungle3", "weight": 10, "volume": 3, "attenuation_distance": 72 },
+	
+	{ "name": "Remastered/ambient/cricket/cricket-jungle",  "weight": 10, "stream": true, "volume": 1, "attenuation_distance": 32 },
+	
+	{ "name": "Remastered/ambient/coyote/coyote3", "weight": 10, "volume": 0.5, "attenuation_distance": 72 },
+	{ "name": "Remastered/ambient/coyote/coyote1", "weight": 10, "volume": 0.5, "attenuation_distance": 72 },
+	
+    { "name": "Remastered/ambient/ambience/birthwort4", "weight": 2, "volume": 2, "attenuation_distance": 72 },
+	
+	{ "name": "Remastered/ambient/wind/windleave", "weight": 7, "stream": true, "volume": 1.5, "attenuation_distance": 32 },
+	
+	{ "name": "Remastered/ambient/bird/birdlong1", "weight": 7, "stream": true, "volume": 2, "attenuation_distance": 32 },
+	
+    { "name": "Remastered/ambient/ambience/birthwort3", "weight": 2, "volume": 2, "attenuation_distance": 72 },
+	
+	{ "name": "Remastered/ambient/ambience/jungle8", "weight": 10, "volume": 1, "attenuation_distance": 72 }
+], "replace": "true", "subtitle": "subtitles.block.generic.footsteps" },
+
+"entity.ocelot.ambient": {"sounds": [
+    { "name": "mob/cat/ocelot/idle1", "weight": 10, "volume": 0.3},
+    { "name": "mob/cat/ocelot/idle2", "weight": 10, "volume": 0.3},
+    { "name": "mob/cat/ocelot/idle3", "weight": 10, "volume": 0.35},
+    { "name": "mob/cat/ocelot/idle4", "weight": 10, "volume": 0.45},
+
+    { "name": "Remastered/ambient/ambience/jungle5",  "weight": 10, "stream": true, "volume": 1, "attenuation_distance": 32 },
+    { "name": "Remastered/ambient/ambience/jungle1",  "weight": 10, "volume": 0.5, "attenuation_distance": 72 },
+    { "name": "Remastered/ambient/ambience/jungle2", "weight": 10, "volume": 0.5, "attenuation_distance": 72 },
+    { "name": "Remastered/ambient/ambience/jungle3", "weight": 10, "volume": 0.5, "attenuation_distance": 72 },
+	
+	{ "name": "Remastered/ambient/coyote/coyote1", "weight": 10, "volume": 1, "attenuation_distance": 72 },
+	{ "name": "Remastered/ambient/coyote/coyote2", "weight": 10, "volume": 0.5, "attenuation_distance": 72 },
+	{ "name": "Remastered/ambient/coyote/coyote3", "weight": 10, "volume": 0.5, "attenuation_distance": 72 },
+	{ "name": "Remastered/ambient/coyote/coyote4", "weight": 10, "volume": 0.5, "attenuation_distance": 72 },
+	{ "name": "Remastered/ambient/coyote/coyote5", "weight": 10, "volume": 0.5, "attenuation_distance": 32},
+	{ "name": "Remastered/ambient/coyote/coyote6", "weight": 10, "volume": 0.5, "attenuation_distance": 32 },
+	
+	{ "name": "Remastered/ambient/cricket/cricket-jungle",  "weight": 10, "stream": true, "volume": 1, "attenuation_distance": 32 },
+	
+	{ "name": "Remastered/ambient/primate/primate2", "weight": 1, "volume": 0.91, "attenuation_distance": 16 },
+	{ "name": "Remastered/ambient/primate/primate2", "weight": 1, "volume": 0.8, "attenuation_distance": 32 },
+   
+	{ "name": "Remastered/ambient/primate/primate3", "weight": 1, "volume": 0.9, "attenuation_distance": 16 },
+	{ "name": "Remastered/ambient/primate/primate4", "weight": 1, "volume": 1, "attenuation_distance": 16 },
+	
+    { "name": "Remastered/ambient/ambience/jungle1", "weight": 7, "stream": true, "volume": 0.7, "attenuation_distance": 32 }
+], "replace": "false", "subtitle": "subtitles.entity.cat.ambient" },
+
+"entity.panda.step": { "sounds": [
+    { "name": "mob/panda/step1", "weight": 10 },
+    { "name": "mob/panda/step2", "weight": 10 },
+    { "name": "mob/panda/step3", "weight": 10 },
+    { "name": "mob/panda/step4", "weight": 10 },
+    { "name": "mob/panda/step5", "weight": 10 },
+	
+    { "name": "Remastered/ambient/ambience/jungle5",  "weight": 10, "stream": true, "volume": 1.5, "attenuation_distance": 32 },
+	{ "name": "Remastered/ambient/bird/birdlong2", "weight": 7, "stream": true, "volume": 7, "attenuation_distance": 32 },
+    { "name": "Remastered/ambient/ambience/jungle1", "weight": 10, "volume": 1, "attenuation_distance": 32 },
+	
+	{ "name": "Remastered/ambient/cricket/cricket-jungle-night",  "weight": 10, "stream": true, "volume": 1, "attenuation_distance": 32 },
+	
+    { "name": "Remastered/ambient/ambience/jungle2", "weight": 10, "volume": 1, "attenuation_distance": 32 },
+	 { "name": "Remastered/ambient/primate/primate1", "weight": 1, "volume": 0.91, "attenuation_distance": 16 },
+	{ "name": "Remastered/ambient/primate/primate2", "weight": 1, "volume": 0.8, "attenuation_distance": 32 },
+   
+	{ "name": "Remastered/ambient/primate/primate3", "weight": 1, "volume": 0.9, "attenuation_distance": 16 },
+	{ "name": "Remastered/ambient/primate/primate4", "weight": 1, "volume": 1, "attenuation_distance": 16 },
+	
+	{ "name": "Remastered/ambient/ambience/jungle4", "weight": 7, "stream": true, "volume": 0.4, "attenuation_distance": 32 },
+    { "name": "Remastered/ambient/ambience/jungle3", "weight": 10, "volume": 1, "attenuation_distance": 32 }
+], "replace": true, "subtitle": "subtitles.entity.panda.step" },
+
+"entity.parrot.fly": { "sounds": [
+    { "name": "mob/parrot/fly1", "weight": 10 },
+    { "name": "mob/parrot/fly2", "weight": 10 },
+    { "name": "mob/parrot/fly3", "weight": 10 },
+    { "name": "mob/parrot/fly4", "weight": 10 },
+    { "name": "mob/parrot/fly5", "weight": 10 },
+    { "name": "mob/parrot/fly6", "weight": 10 },
+    { "name": "mob/parrot/fly7", "weight": 10 },
+    { "name": "mob/parrot/fly8", "weight": 10 },
+	
+    { "name": "Remastered/ambient/ambience/jungle4",  "weight": 10, "stream": true, "volume": 1, "attenuation_distance": 32 },
+    { "name": "Remastered/ambient/ambience/jungle5",  "weight": 10, "volume": 0.1, "attenuation_distance": 72 },
+    { "name": "Remastered/ambient/ambience/jungle7", "weight": 10, "volume": 0.1, "attenuation_distance": 72 },
+    { "name": "Remastered/ambient/ambience/jungle6", "weight": 10, "volume": 0.1, "attenuation_distance": 72 },
+	{ "name": "Remastered/ambient/bird/birdlong3", "weight": 7, "stream": true, "volume": 7, "attenuation_distance": 32 },
+    { "name": "Remastered/ambient/ambience/jungle3", "weight": 10, "volume": 0.1, "attenuation_distance": 72 }
+], "subtitle": "subtitles.entity.parrot.fly" },
+
+"entity.villager.ambient": { "sounds": [
+    { "name": "mob/villager/idle1", "weight": 1 },
+    { "name": "mob/villager/idle2", "weight": 1 },
+    { "name": "mob/villager/idle3", "weight": 1 },
+	
+	{ "name": "Remastered/ambient/villager/jump", "weight": 1, "volume": 1, "attenuation_distance": 2 },
+	
+	{ "name": "Remastered/ambient/villager/crafthammer1", "weight": 10, "volume": 0.4, "attenuation_distance": 6 },
+	
+	{ "name": "Remastered/ambient/villager/crafthammer2", "weight": 10, "volume": 0.4, "attenuation_distance": 8 },
+	
+	{ "name": "Remastered/ambient/villager/craftsand1", "weight": 1, "volume": 0.4, "attenuation_distance": 4 },
+	
+	{ "name": "Remastered/ambient/villager/craftsand2", "weight": 1, "volume": 0.4, "attenuation_distance": 4 },
+	
+    { "name": "Remastered/ambient/villager/craftsaw1", "weight": 10, "volume": 0.5, "attenuation_distance": 4 },
+	
+	{ "name": "Remastered/ambient/villager/craftsaw2", "weight": 10, "volume": 0.5, "attenuation_distance": 4 },
+	
+	{ "name": "Remastered/ambient/villager/tummy1", "weight": 1, "volume": 0.5, "attenuation_distance": 4 },
+	
+	{ "name": "Remastered/ambient/villager/tummy2", "weight": 1, "volume": 0.4, "attenuation_distance": 2 },
+	
+	{ "name": "Remastered/ambient/villager/tummy3", "weight": 1, "volume": 0.6, "attenuation_distance": 2 },
+	
+	{ "name": "Remastered/ambient/villager/anvil1", "weight": 10, "volume": 0.5, "attenuation_distance": 16 },
+	
+	{ "name": "Remastered/ambient/villager/anvil2", "weight": 5, "volume": 0.7, "attenuation_distance": 32 }
+], "replace": "false" },
+
+"entity.wandering_trader.ambient": { "sounds": [	
+    { "name": "mob/wandering_trader/idle1", "weight": 1 },
+    { "name": "mob/wandering_trader/idle2", "weight": 1 },
+    { "name": "mob/wandering_trader/idle3", "weight": 1 },
+	{ "name": "mob/wandering_trader/idle4", "weight": 1 },
+    { "name": "mob/wandering_trader/idle5", "weight": 1 },
+
+	{ "name": "Remastered/ambient/villager/jump", "weight": 1, "volume": 1, "attenuation_distance": 2 },
+	
+	{ "name": "Remastered/ambient/villager/crafthammer1", "weight": 10, "volume": 1.4, "attenuation_distance": 6 },
+	
+	{ "name": "Remastered/ambient/villager/crafthammer2", "weight": 10, "volume": 1.4, "attenuation_distance": 2 },
+	
+	{ "name": "Remastered/ambient/villager/craftsand1", "weight": 1, "volume": 1.4, "attenuation_distance": 2 },
+	
+	{ "name": "Remastered/ambient/villager/craftsand2", "weight": 1, "volume": 1.4, "attenuation_distance": 4 },
+	
+    { "name": "Remastered/ambient/villager/craftsaw1", "weight": 10, "volume": 1.5, "attenuation_distance": 4 },
+	
+	{ "name": "Remastered/ambient/villager/craftsaw2", "weight": 10, "volume": 1.5, "attenuation_distance": 2 },
+	
+	{ "name": "Remastered/ambient/villager/tummy1", "weight": 1, "volume": 1.5, "attenuation_distance": 4 },
+	
+	{ "name": "Remastered/ambient/villager/tummy2", "weight": 1, "volume": 1.4, "attenuation_distance": 2.5 },
+	
+	{ "name": "Remastered/ambient/villager/tummy3", "weight": 1, "volume": 1.6, "attenuation_distance": 3 }
+], "replace": "false" },
+
+"entity.parrot.ambient": { "sounds": [
+    { "name": "Remastered/ambient/bird/chirping1", "weight": 2, "volume": 1 },
+    { "name": "Remastered/ambient/bird/chirping2", "weight": 2, "volume": 2 },
+    { "name": "Remastered/ambient/bird/chirping3", "weight": 2, "volume": 3 },
+	{ "name": "Remastered/ambient/bird/chirping4", "weight": 2, "volume": 1 },
+    { "name": "Remastered/ambient/bird/chirping5", "weight": 2, "volume": 2 },
+    { "name": "Remastered/ambient/bird/chirping6", "weight": 2, "volume": 3 }, 
+    { "name": "Remastered/ambient/bird/chirping7", "weight": 2, "volume": 1 },
+    { "name": "Remastered/ambient/bird/chirping8", "weight": 2, "volume": 2 }
+], "replace": "false" },
+
+"entity.ender_dragon.flap": { "sounds": [
+    { "name": "mob/enderdragon/wings1", "weight": 10, "volume": 1},
+    { "name": "mob/enderdragon/wings2", "weight": 10, "volume": 1},
+    { "name": "mob/enderdragon/wings3", "weight": 10, "volume": 1},
+    { "name": "mob/enderdragon/wings4", "weight": 10, "volume": 1},
+	{ "name": "mob/enderdragon/wings5", "weight": 10, "volume": 1},
+    { "name": "mob/enderdragon/wings6", "weight": 10, "volume": 1},
+
+    { "name": "Remastered/ambient/dimension/end", "weight": 30, "stream": false, "volume": 0.3, "pitch": 0.9, "attenuation_distance": 16 }
+], "replace": "false" },
+
+"entity.wolf.ambient": { "sounds": [
+    { "name": "mob/wolf/bark1", "weight": 10, "volume": 1},
+	{ "name": "mob/wolf/bark2", "weight": 10, "volume": 1},
+    { "name": "mob/wolf/bark3", "weight": 10, "volume": 1},
+
+
+	{ "name": "Remastered/ambient/villager/dogbark1", "weight": 1, "volume": 1, "attenuation_distance": 32 },
+	
+	{ "name": "Remastered/ambient/villager/dogbark2", "weight": 1, "volume": 0.9, "attenuation_distance": 32 },
+	
+	{ "name": "mob/wolf/bark1", "weight": 10, "volume": 1},
+	{ "name": "mob/wolf/bark2", "weight": 10, "volume": 1},
+    { "name": "mob/wolf/bark3", "weight": 10, "volume": 1},
+	
+	{ "name": "mob/wolf/howl1", "weight": 10, "volume": 1},
+	{ "name": "mob/wolf/howl2", "weight": 10, "volume": 1},
+	
+	{ "name": "Remastered/ambient/wolf/wolf1", "weight": 10, "volume": 0.8, "attenuation_distance": 8 },
+
+    { "name": "Remastered/ambient/wolf/wolf2", "weight": 10, "volume": 0.8, "attenuation_distance": 8 },
+	
+    { "name": "Remastered/ambient/villager/dogbark3", "weight": 1, "volume": 1, "attenuation_distance": 16 }	
+	
+], "replace": "false" },
+
+"entity.wolf.step": { "sounds": [
+	{ "name": "mob/wolf/step1", "weight": 10, "volume": 1},
+	{ "name": "mob/wolf/step2", "weight": 10, "volume": 1},
+    { "name": "mob/wolf/step3", "weight": 10, "volume": 1},
+	{ "name": "mob/wolf/step4", "weight": 10, "volume": 1},
+    { "name": "mob/wolf/step5", "weight": 10, "volume": 1},
+	
+	{ "name": "Remastered/ambient/wolf/wolf5", "weight": 3, "volume": 1, "attenuation_distance": 16 },	
+	
+	{ "name": "Remastered/ambient/wolf/wolf6", "weight": 10, "volume": 0.4, "attenuation_distance": 8 },
+
+	{ "name": "mob/wolf/step1", "weight": 10, "volume": 1},
+	{ "name": "mob/wolf/step2", "weight": 10, "volume": 1},
+    { "name": "mob/wolf/step3", "weight": 10, "volume": 1},
+	{ "name": "mob/wolf/step4", "weight": 10, "volume": 1},
+    { "name": "mob/wolf/step5", "weight": 10, "volume": 1},	
+	
+	{ "name": "Remastered/ambient/wolf/wolf4", "weight": 10, "volume": 0.4, "attenuation_distance": 8 },
+	
+	{ "name": "Remastered/ambient/wolf/wolf7", "weight": 3, "volume": 0.3, "attenuation_distance": 16 }
+], "replace": "false" },
+
+"entity.chicken.ambient": { "sounds": [  
+    { "name": "Remastered/ambient/villager/rooster1", "weight": 1, "volume": 1.2, "attenuation_distance": 32 },
+	
+	{ "name": "Remastered/ambient/villager/rooster2", "weight": 1, "volume": 1, "attenuation_distance": 16 },
+	
+	{ "name": "Remastered/ambient/wind/lightwind",  "weight": 2, "stream": true, "volume": 0.8, "attenuation_distance": 32 },
+	
+	{ "name": "Remastered/ambient/villager/rooster3", "weight": 1, "volume": 0.7, "attenuation_distance": 16 }
+], "replace": "false" },
+
+"entity.frog.ambient": { "sounds": [
+    { "name": "Remastered/ambient/ambience/swamp",  "weight": 10, "stream": true, "volume": 0.7, "attenuation_distance": 32 },
+	
+	{ "name": "Remastered/ambient/frog/croak1", "weight": 1, "volume": 0.25, "attenuation_distance": 32 },
+    { "name": "Remastered/ambient/frog/croak2", "weight": 1, "volume": 0.25, "attenuation_distance": 32 },
+    { "name": "Remastered/ambient/frog/croak3", "weight": 1, "volume": 0.30, "attenuation_distance": 32 },
+	
+    { "name": "Remastered/ambient/frog/bullfrog1", "weight": 2, "volume": 1.1, "attenuation_distance": 32 },
+    { "name": "Remastered/ambient/frog/bullfrog2", "weight": 3, "volume": 1.2, "attenuation_distance": 32 },
+	
+    { "name": "Remastered/ambient/frog/bullfrog3", "weight": 1, "volume": 0.6, "attenuation_distance": 32 },
+	{ "name": "Remastered/ambient/frog/bullfrog4", "weight": 1, "volume": 0.8, "attenuation_distance": 32 },
+	
+    { "name": "Remastered/ambient/frog/frog1", "weight": 2, "volume": 4.5, "attenuation_distance": 32},
+    { "name": "Remastered/ambient/frog/frog2", "weight": 2, "volume": 4.2, "attenuation_distance": 32},
+	
+	{ "name": "Remastered/ambient/frog/frogshort2", "weight": 2, "volume": 4.2, "attenuation_distance": 32},
+	
+	{ "name": "Remastered/ambient/ambience/swamp2",  "weight": 10, "stream": true, "volume": 0.65, "attenuation_distance": 32 },
+	
+    { "name": "Remastered/ambient/cicadas/cicadas-night", "weight": 1, "volume": 0.25, "attenuation_distance": 32 },
+	
+	{ "name": "Remastered/ambient/cricket/cricket-swamp", "weight": 1, "volume": 0.25, "attenuation_distance": 32 }
+], "replace": "false" },
+
+"entity.glow_squid.ambient": { "sounds": [   
+    { "name": "Remastered/ambient/whale/whalemix",  "weight": 30, "stream": true, "volume": 1.3, "attenuation_distance": 32 },
+	
+	{ "name": "Remastered/ambient/underwater/dive",  "weight": 60, "stream": true, "volume": 1.2, "attenuation_distance": 32 },
+    
+    { "name": "Remastered/ambient/underwater/bloop", "weight": 10, "volume": 0.8, "attenuation_distance": 32 },
+	
+    { "name": "Remastered/ambient/underwater/blurp", "weight": 10, "volume": 0.23, "attenuation_distance": 32 },
+	
+	{ "name": "Remastered/ambient/underwater/julia", "weight": 10, "volume": 0.25, "attenuation_distance": 32 },
+	
+	{ "name": "Remastered/ambient/whale/whales1", "weight": 10, "volume": 0.5, "attenuation_distance": 32 },
+	
+    { "name": "Remastered/ambient/whale/whales2", "weight": 10, "volume": 0.6, "attenuation_distance": 32 },
+	
+	{ "name": "Remastered/ambient/whale/whales3", "weight": 10, "volume": 1.5, "attenuation_distance": 32 },
+	
+    { "name": "Remastered/ambient/whale/whales4", "weight": 10, "volume": 0.8, "attenuation_distance": 32 },
+	
+	{ "name": "Remastered/ambient/whale/whales5", "weight": 10, "volume": 0.9, "attenuation_distance": 32 }
+], "replace": "false" },
+
+"entity.guardian.ambient": { "sounds": [
+    { "name": "Remastered/ambient/silence", "weight": 100 },
+
+	{ "name": "Remastered/ambient/underwater/dive",  "weight": 10, "stream": true, "volume": 1.5, "attenuation_distance": 32 },
+    
+    { "name": "Remastered/ambient/underwater/growl1", "weight": 10, "volume": 0.24, "attenuation_distance": 32 },
+	
+    { "name": "Remastered/ambient/underwater/growl2", "weight": 10, "volume": 0.22, "attenuation_distance": 32 },
+	
+    { "name": "Remastered/ambient/underwater/growl3", "weight": 10, "volume": 0.33, "attenuation_distance": 32 },
+	
+	{ "name": "Remastered/ambient/underwater/godzilla5", "weight": 20, "volume": 0.6, "attenuation_distance": 32 },
+	
+	{ "name": "Remastered/ambient/underwater/levinathan2", "weight": 10, "volume": 0.35, "attenuation_distance": 32 },
+	
+	{ "name": "Remastered/ambient/underwater/levinathan3", "weight": 20, "volume": 0.5, "attenuation_distance": 32 },
+	
+	{ "name": "Remastered/ambient/underwater/godzilla4", "weight": 20, "volume": 0.9, "attenuation_distance": 32 },
+	
+    { "name": "Remastered/ambient/underwater/godzilla1", "weight": 30, "volume": 0.26, "attenuation_distance": 32 },
+	
+	{ "name": "Remastered/ambient/underwater/godzilla2", "weight": 20, "volume": 0.28, "attenuation_distance": 32 },
+	
+	{ "name": "Remastered/ambient/underwater/godzilla3", "weight": 10, "volume": 0.20, "attenuation_distance": 32 }
+], "replace": "false" },
+
+"entity.elder_guardian.ambient": { "sounds": [
+    { "name": "Remastered/ambient/silence", "weight": 100 },
+
+	{ "name": "Remastered/ambient/underwater/deep",  "weight": 20, "stream": true, "volume": 1, "attenuation_distance": 32 },
+	
+	{ "name": "Remastered/ambient/underwater/godzilla5", "weight": 20, "volume": 1.6, "attenuation_distance": 32 },
+	
+	{ "name": "Remastered/ambient/underwater/levinathan2", "weight": 10, "volume": 1.35, "attenuation_distance": 32 },
+	
+	{ "name": "Remastered/ambient/underwater/levinathan3", "weight": 20, "volume": 1.5, "attenuation_distance": 32 },
+	
+	{ "name": "Remastered/ambient/underwater/godzilla4", "weight": 20, "volume": 1.9, "attenuation_distance": 32 },
+	
+    { "name": "Remastered/ambient/underwater/godzilla1", "weight": 30, "volume": 1.26, "attenuation_distance": 32 },
+	
+	{ "name": "Remastered/ambient/underwater/godzilla2", "weight": 20, "volume": 1.28, "attenuation_distance": 32 },
+	
+	{ "name": "Remastered/ambient/underwater/godzilla3", "weight": 10, "volume": 1.24, "attenuation_distance": 32 }
+], "replace": "false" },
+
+"ambient.underwater.loop.additions": { "sounds": [
+	{ "name": "Remastered/ambient/underwater/deep",  "weight": 5, "stream": true, "volume": 0.4, "attenuation_distance": 32 }
+], "replace": "false" },
+
+"ambient.underwater.loop.additions.rare": { "sounds": [
+    { "name": "Remastered/ambient/underwater/bloop", "weight": 20, "volume": 0.9, "attenuation_distance": 32 },
+	
+    { "name": "Remastered/ambient/underwater/blurp", "weight": 10, "volume": 1.2, "attenuation_distance": 32 },
+	
+	{ "name": "Remastered/ambient/underwater/julia", "weight": 10, "volume": 1, "attenuation_distance": 32 },
+	
+	{ "name": "Remastered/ambient/whale/whale1", "weight": 10, "volume": 0.9, "attenuation_distance": 32 },
+	
+    { "name": "Remastered/ambient/whale/whale2", "weight": 10, "volume": 0.6, "attenuation_distance": 32 },
+	
+	{ "name": "Remastered/ambient/whale/whale3", "weight": 10, "volume": 1.5, "attenuation_distance": 32 },
+	
+	{ "name": "Remastered/ambient/whale/whalemix",  "weight": 20, "stream": true, "volume": 0.7, "attenuation_distance": 32 },
+	
+	{ "name": "Remastered/ambient/underwater/unknow1", "weight": 10, "volume": 1.24, "attenuation_distance": 32 }
+], "replace": "false" },
+
+"ambient.underwater.loop.additions.ultra_rare": { "sounds": [
+	{ "name": "Remastered/ambient/underwater/deep",  "weight": 50, "stream": true, "volume": 1, "attenuation_distance": 32 },
+	
+	{ "name": "Remastered/ambient/underwater/godzilla5", "weight": 2, "volume": 1.6, "attenuation_distance": 32 },
+	
+	{ "name": "Remastered/ambient/underwater/levinathan2", "weight": 1, "volume": 1.35, "attenuation_distance": 32 },
+	
+	{ "name": "Remastered/ambient/underwater/levinathan3", "weight": 2, "volume": 1.5, "attenuation_distance": 32 },
+	
+	{ "name": "Remastered/ambient/underwater/godzilla4", "weight": 2, "volume": 1.9, "attenuation_distance": 32 },
+	
+    { "name": "Remastered/ambient/underwater/godzilla1", "weight": 3, "volume": 1.26, "attenuation_distance": 32 },
+	
+	{ "name": "Remastered/ambient/underwater/godzilla2", "weight": 2, "volume": 1.28, "attenuation_distance": 32 },
+	
+    { "name": "Remastered/ambient/whale/whale4", "weight": 1, "volume": 0.7, "attenuation_distance": 32 }
+], "replace": "false" },
+
+"entity.bee.loop": { "sounds": [
+    { "name": "mob/bee/loop1", "weight": 10 },
+    { "name": "mob/bee/loop2", "weight": 10 },
+    { "name": "mob/bee/loop3", "weight": 10 },
+    { "name": "mob/bee/loop4", "weight": 10 },
+	
+    { "name": "Remastered/ambient/bird/longbird1",  "weight": 10, "stream": true, "volume": 1, "attenuation_distance": 32 },
+	
+	{ "name": "Remastered/ambient/cicadas/cicadas",  "weight": 1, "stream": true, "volume": 0.7, "attenuation_distance": 32 },
+	
+	{ "name": "Remastered/ambient/cricket/cricket3",  "weight": 1, "stream": true, "volume": 0.7, "attenuation_distance": 32 },
+	
+    { "name": "Remastered/ambient/bird/longrbird2",  "weight": 10, "stream": true, "volume": 1.4, "attenuation_distance": 32 }
+
+], "replace": "false" },
+
+"entity.warden.ambient": { "sounds": [
+	{ "name": "Remastered/ambient/unknown/warden",  "weight": 10, "stream": true, "volume": 0.7, "attenuation_distance": 32 }
+], "replace": "false" },
+
+"entity.warden.heartbeat": { "sounds": [
+	{ "name": "Remastered/ambient/unknown/warden",  "weight": 10, "stream": true, "volume": 0.25, "attenuation_distance": 32 }
+], "replace": "false" },
+
+"block.tuff.step": { "sounds": [
+     {"name": "block/tuff/step1", "weight": 200},
+     {"name": "block/tuff/step2", "weight": 200},
+     {"name": "block/tuff/step3", "weight": 200},
+     {"name": "block/tuff/step4", "weight": 200},
+     {"name": "block/tuff/step5", "weight": 200},
+     {"name": "block/tuff/step6", "weight": 200},
+	 
+	 { "name": "Remastered/ambient/underground/cave-deep2", "weight": 20, "stream": true, "volume": 1, "pitch": 0.9, "attenuation_distance": 32 },
+
+     { "name": "Remastered/ambient/underground/bigslide1", "weight": 20, "stream": true, "volume": 2, "pitch": 0.7, "attenuation_distance": 32 },
+     { "name": "Remastered/ambient/underground/bigslide2", "weight": 20, "stream": false, "volume": 2, "pitch": 0.8, "attenuation_distance": 32 },
+	 
+	 { "name": "Remastered/ambient/underground/cavedrip", "weight": 20, "stream": true, "volume": 0.8, "pitch": 1, "attenuation_distance": 32 },
+	 
+	 { "name": "Remastered/ambient/underground/cave-water1", "weight": 30, "stream": true, "volume": 0.8, "pitch": 1, "attenuation_distance": 32 },
+	 
+	 { "name": "Remastered/ambient/underground/cave-deep1", "weight": 50, "stream": true, "volume": 1, "pitch": 0.9, "attenuation_distance": 32 },
+	 
+	 { "name": "Remastered/ambient/underground/smallslide2", "weight": 20, "stream": false, "volume": 3, "pitch": 0.9, "attenuation_distance": 32 },
+	 
+	 { "name": "Remastered/ambient/underground/cave-water2", "weight": 30, "stream": true, "volume": 0.8, "pitch": 1, "attenuation_distance": 32 },
+	 
+     { "name": "Remastered/ambient/underground/smallslide1", "weight": 20, "stream": false, "volume": 2, "pitch": 0.6, "attenuation_distance": 32 }
+    
+], "replace": true, "subtitle": "subtitles.block.generic.footsteps" },
+
+"block.deepslate.step": { "sounds": [
+     {"name": "block/deepslate/step1", "weight": 200},
+     {"name": "block/deepslate/step2", "weight": 200},
+     {"name": "block/deepslate/step3", "weight": 200},
+     {"name": "block/deepslate/step4", "weight": 200},
+     {"name": "block/deepslate/step5", "weight": 200},
+     {"name": "block/deepslate/step6", "weight": 200},
+	 
+	 { "name": "Remastered/ambient/underground/cave-deep2", "weight": 50, "stream": true, "volume": 1, "pitch": 0.9, "attenuation_distance": 32 },
+
+     { "name": "Remastered/ambient/underground/cave-large1", "weight": 100, "stream": true, "volume": 3, "pitch": 0.9, "attenuation_distance": 32 },
+	 
+     { "name": "Remastered/ambient/underground/bigslide1", "weight": 20, "stream": true, "volume": 2, "pitch": 0.7, "attenuation_distance": 32 },
+     { "name": "Remastered/ambient/underground/bigslide2", "weight": 20, "stream": false, "volume": 2, "pitch": 0.8, "attenuation_distance": 32 },
+	 
+	 { "name": "Remastered/ambient/underground/cavedrip", "weight": 30, "stream": true, "volume": 0.8, "pitch": 1, "attenuation_distance": 32 },
+	 
+	 { "name": "Remastered/ambient/underground/monster_growling", "weight": 18, "stream": false, "volume": 1, "pitch": 0.8, "attenuation_distance": 32 },
+	  
+     {"name": "Remastered/ambient/underground/growl1","weight": 20},
+     {"name": "Remastered/ambient/underground/growl2","weight": 20},
+     {"name": "Remastered/ambient/underground/growl3","weight": 20},
+	 
+	 { "name": "Remastered/ambient/underground/cave-water4", "weight": 30, "stream": true, "volume": 0.8, "pitch": 1, "attenuation_distance": 32 },
+	 
+	 { "name": "Remastered/ambient/underground/cave-large2", "weight": 50, "stream": true, "volume": 1, "pitch": 0.9, "attenuation_distance": 32 },
+	 
+	 {"name": "ambient/cave/cave15","weight": 2},
+     {"name": "ambient/cave/cave16","weight": 2},
+     {"name": "ambient/cave/cave17","weight": 2},
+     {"name": "ambient/cave/cave18","weight": 2},
+     {"name": "ambient/cave/cave19","weight": 2},
+	 
+	 { "name": "Remastered/ambient/underground/cave-water3", "weight": 30, "stream": true, "volume": 0.8, "pitch": 1, "attenuation_distance": 32 },
+	 
+	 { "name": "Remastered/ambient/underground/cavedrip", "weight": 50, "stream": true, "volume": 1, "pitch": 0.9, "attenuation_distance": 32 },
+	 
+	 { "name": "Remastered/ambient/underground/cave-deep1", "weight": 50, "stream": true, "volume": 1, "pitch": 0.9, "attenuation_distance": 32 },
+	 
+	 { "name": "Remastered/ambient/underground/smallslide2", "weight": 20, "stream": false, "volume": 3, "pitch": 0.9, "attenuation_distance": 32 },
+     { "name": "Remastered/ambient/underground/smallslide1", "weight": 20, "stream": false, "volume": 2, "pitch": 0.6, "attenuation_distance": 32 }
+    
+], "replace": true, "subtitle": "subtitles.block.generic.footsteps" },
+
+"block.netherrack.step": { "sounds": [
+	 { "name": "Remastered/ambient/dimension/nether", "weight": 30, "stream": true, "volume": 1, "pitch": 0.9, "attenuation_distance": 32 },
+	 
+	 {"name": "Remastered/ambient/underground/growl1","weight": 20},
+     {"name": "Remastered/ambient/underground/growl2","weight": 20},
+     {"name": "Remastered/ambient/underground/growl3","weight": 20},
+
+     {"name": "block/netherrack/step1", "weight": 200},
+     {"name": "block/netherrack/step2", "weight": 200},
+     {"name": "block/netherrack/step3", "weight": 200},
+     {"name": "block/netherrack/step4", "weight": 200},
+     {"name": "block/netherrack/step5", "weight": 200},
+     {"name": "block/netherrack/step6", "weight": 200},
+	 
+	 { "name": "Remastered/ambient/dimension/nether", "weight": 20, "stream": true, "volume": 1, "pitch": 0.9, "attenuation_distance": 32 },
+	 
+     { "name": "Remastered/ambient/underground/bigslide1", "weight": 20, "stream": true, "volume": 2, "pitch": 0.7, "attenuation_distance": 32 },
+     { "name": "Remastered/ambient/underground/bigslide2", "weight": 20, "stream": false, "volume": 2, "pitch": 0.8, "attenuation_distance": 32 },	
+	 
+	 { "name": "Remastered/ambient/underground/monster_growling", "weight": 18, "stream": false, "volume": 1, "pitch": 0.5, "attenuation_distance": 32 },
+	  
+     {"name": "ambient/cave/cave3","weight": 2},
+     {"name": "ambient/cave/cave4","weight": 2},
+     {"name": "ambient/cave/cave6","weight": 2},
+     {"name": "ambient/cave/cave7","weight": 2},
+     {"name": "ambient/cave/cave8","weight": 2},
+	 
+	 {"name": "ambient/cave/cave1","weight": 2},
+     {"name": "ambient/cave/cave2","weight": 2},
+     {"name": "ambient/cave/cave17","weight": 2},
+     {"name": "ambient/cave/cave18","weight": 2},
+     {"name": "ambient/cave/cave19","weight": 2},
+	 
+	 { "name": "Remastered/ambient/underground/smallslide2", "weight": 20, "stream": false, "volume": 3, "pitch": 0.9, "attenuation_distance": 32 },
+     { "name": "Remastered/ambient/underground/smallslide1", "weight": 20, "stream": false, "volume": 2, "pitch": 0.6, "attenuation_distance": 32 }
+    
+], "replace": true, "subtitle": "subtitles.block.generic.footsteps" },
+
+"block.sculk.step": { "sounds": [
+
+     {"name": "block/sculk/step1", "weight": 200},
+     {"name": "block/sculk/step2", "weight": 200},
+     {"name": "block/sculk/step3", "weight": 200},
+     {"name": "block/sculk/step4", "weight": 200},
+     {"name": "block/sculk/step5", "weight": 200},
+     {"name": "block/sculk/step6", "weight": 200},
+
+    { "name": "Remastered/ambient/underground/cave-large1", "weight": 10, "stream": true, "volume": 2, "pitch": 0.25, "attenuation_distance": 32 },
+	
+	{ "name": "Remastered/ambient/underground/cave-large2", "weight": 10, "stream": true, "volume": 2, "pitch": 0.25, "attenuation_distance": 32 },
+	
+	{ "name": "Remastered/ambient/underground/underworld", "weight": 150, "stream": true, "volume": 2, "pitch": 0.7, "attenuation_distance": 32 },
+	
+	{ "name": "Remastered/ambient/underground/deep-dark", "weight": 150, "stream": true, "volume": 2, "pitch": 0.7, "attenuation_distance": 32 }
+	
+
+], "replace": false, "subtitle": "subtitles.block.generic.footsteps" },
+
+"block.nylium.step": { "sounds": [
+
+     {"name": "block/nylium/step1", "weight": 200},
+     {"name": "block/nylium/step2", "weight": 200},
+     {"name": "block/nylium/step3", "weight": 200},
+     {"name": "block/nylium/step4", "weight": 200},
+     {"name": "block/nylium/step5", "weight": 200},
+     {"name": "block/nylium/step6", "weight": 200},
+
+    { "name": "Remastered/ambient/underground/cave-large1", "weight": 10, "stream": true, "volume": 2, "pitch": 0.25, "attenuation_distance": 32 },
+	
+	{ "name": "Remastered/ambient/dimension/nether", "weight": 50, "stream": true, "volume": 2, "pitch": 0.25, "attenuation_distance": 32 },
+	
+	{ "name": "Remastered/ambient/underground/underworld", "weight": 50, "stream": true, "volume": 2, "pitch": 0.7, "attenuation_distance": 32 }
+	
+
+], "replace": false, "subtitle": "subtitles.block.generic.footsteps" },
+
+"block.nether_bricks.step": { "sounds": [
+	 { "name": "Remastered/ambient/dimension/nether", "weight": 30, "stream": true, "volume": 1, "pitch": 0.9, "attenuation_distance": 32 },
+
+     {"name": "block/nether_bricks/step1", "weight": 200},
+     {"name": "block/nether_bricks/step2", "weight": 200},
+     {"name": "block/nether_bricks/step3", "weight": 200},
+     {"name": "block/nether_bricks/step4", "weight": 200},
+     {"name": "block/nether_bricks/step5", "weight": 200},
+     {"name": "block/nether_bricks/step6", "weight": 200},
+	 
+	 { "name": "Remastered/ambient/dimension/nether", "weight": 20, "stream": true, "volume": 1, "pitch": 0.9, "attenuation_distance": 32 },
+	 
+     { "name": "Remastered/ambient/underground/bigslide1", "weight": 20, "stream": true, "volume": 0.6, "pitch": 0.7, "attenuation_distance": 32 },
+     { "name": "Remastered/ambient/underground/bigslide2", "weight": 20, "stream": false, "volume": 0.6, "pitch": 0.8, "attenuation_distance": 32 },	
+	 
+	 { "name": "Remastered/ambient/underground/monster_growling", "weight": 18, "stream": false, "volume": 1, "pitch": 0.3, "attenuation_distance": 32 },
+	  
+     {"name": "ambient/cave/cave3","weight": 2},
+     {"name": "ambient/cave/cave4","weight": 2},
+     {"name": "ambient/cave/cave6","weight": 2},
+     {"name": "ambient/cave/cave7","weight": 2},
+     {"name": "ambient/cave/cave8","weight": 2},
+	 
+	 {"name": "ambient/cave/cave1","weight": 2},
+     {"name": "ambient/cave/cave2","weight": 2},
+     {"name": "ambient/cave/cave12","weight": 2},
+     {"name": "ambient/cave/cave13","weight": 2},
+     {"name": "ambient/cave/cave14","weight": 2},
+	 
+	 { "name": "Remastered/ambient/underground/smallslide2", "weight": 20, "stream": false, "volume": 0.6, "pitch": 0.9, "attenuation_distance": 32 },
+     { "name": "Remastered/ambient/underground/smallslide1", "weight": 20, "stream": false, "volume": 2, "pitch": 0.6, "attenuation_distance": 32 }
+    
+], "replace": true, "subtitle": "subtitles.block.generic.footsteps" },
+
+"block.dripstone.step": { "sounds": [
+     {"name": "block/dripstone/step1", "weight": 200},
+     {"name": "block/dripstone/step2", "weight": 200},
+     {"name": "block/dripstone/step3", "weight": 200},
+     {"name": "block/dripstone/step4", "weight": 200},
+     {"name": "block/dripstone/step5", "weight": 200},
+     {"name": "block/dripstone/step6", "weight": 200},
+	 
+	 { "name": "Remastered/ambient/underground/cavedrip", "weight": 30, "stream": true, "volume": 1.2, "pitch": 1, "attenuation_distance": 32 },
+
+     { "name": "Remastered/ambient/underground/cave-large1", "weight": 40, "stream": true, "volume": 2, "pitch": 1, "attenuation_distance": 32 },
+	 
+     { "name": "Remastered/ambient/underground/bigslide1", "weight": 20, "stream": true, "volume": 2, "pitch": 0.7, "attenuation_distance": 32 },
+     { "name": "Remastered/ambient/underground/bigslide2", "weight": 20, "stream": false, "volume": 2, "pitch": 0.8, "attenuation_distance": 32 },
+	 
+	 { "name": "Remastered/ambient/underground/cave-water2", "weight": 20, "stream": false, "volume": 3, "pitch": 0.9, "attenuation_distance": 32 },
+     { "name": "Remastered/ambient/underground/cave-water1", "weight": 20, "stream": false, "volume": 2, "pitch": 0.6, "attenuation_distance": 32 },
+	 
+	 { "name": "Remastered/ambient/underground/cave-water4", "weight": 20, "stream": false, "volume": 3, "pitch": 0.9, "attenuation_distance": 32 },
+     { "name": "Remastered/ambient/underground/cave-water5", "weight": 20, "stream": false, "volume": 2, "pitch": 0.6, "attenuation_distance": 32 },
+	  
+	 { "name": "Remastered/ambient/underground/cave-large2", "weight": 40, "stream": true, "volume": 2, "pitch": 1, "attenuation_distance": 32 },
+	 
+	 { "name": "Remastered/ambient/underground/cave-large2", "weight": 40, "stream": true, "volume": 2, "pitch": 1, "attenuation_distance": 32 },
+	 
+	 { "name": "Remastered/ambient/underground/smallslide2", "weight": 20, "stream": false, "volume": 3, "pitch": 0.9, "attenuation_distance": 32 },
+     { "name": "Remastered/ambient/underground/smallslide1", "weight": 20, "stream": false, "volume": 2, "pitch": 0.6, "attenuation_distance": 32 }
+    
+], "replace": true, "subtitle": "subtitles.block.generic.footsteps" },
+
+"block.wood.step": { "sounds": [
+    { "name": "Remastered/blocks/step/wood/wood_walk1", "volume": 2 },
+    { "name": "Remastered/blocks/step/wood/wood_walk2", "volume": 2 },
+    { "name": "Remastered/blocks/step/wood/wood_walk3", "volume": 2 },
+    { "name": "Remastered/blocks/step/wood/wood_walk4", "volume": 2 },
+    { "name": "Remastered/blocks/step/wood/wood_walk5", "volume": 2 },
+    { "name": "Remastered/blocks/step/wood/wood_walk6", "volume": 2 },
+	{ "name": "Remastered/blocks/step/wood/wood_walk7", "volume": 2 },
+    { "name": "Remastered/blocks/step/wood/wood_walk8", "volume": 2 },
+    { "name": "Remastered/blocks/step/wood/wood_walk9", "volume": 2 },
+    { "name": "Remastered/blocks/step/wood/wood_walk10", "volume": 2 },
+    { "name": "Remastered/blocks/step/wood/wood_walk11", "volume": 2 },
+    
+    { "name": "Remastered/blocks/step/wood/wood_walk1", "volume": 2, "pitch": 0.8 },
+    { "name": "Remastered/blocks/step/wood/wood_walk2", "volume": 2, "pitch": 0.8 },
+    { "name": "Remastered/blocks/step/wood/wood_walk3", "volume": 2, "pitch": 0.8 },
+    { "name": "Remastered/blocks/step/wood/wood_walk4", "volume": 2, "pitch": 0.8 },
+    { "name": "Remastered/blocks/step/wood/wood_walk5", "volume": 2, "pitch": 0.8 },
+    { "name": "Remastered/blocks/step/wood/wood_walk6", "volume": 2, "pitch": 0.8 },
+    { "name": "Remastered/ambient/effect/floorsqueak2", "weight": 2, "volume": 1.0, "attenuation_distance": 16 },
+	{ "name": "Remastered/blocks/step/wood/wood_walk7", "volume": 2 },
+    { "name": "Remastered/blocks/step/wood/wood_walk8", "volume": 2 },
+    { "name": "Remastered/blocks/step/wood/wood_walk9", "volume": 2 },
+    { "name": "Remastered/blocks/step/wood/wood_walk10", "volume": 2 },
+    { "name": "Remastered/blocks/step/wood/wood_walk11", "volume": 2 },
+    
+    { "name": "Remastered/blocks/step/wood/wood_walk1", "volume": 2, "pitch": 1.2 },
+    { "name": "Remastered/blocks/step/wood/wood_walk2", "volume": 2, "pitch": 1.2 },
+    { "name": "Remastered/blocks/step/wood/wood_walk3", "volume": 2, "pitch": 1.2 },
+    { "name": "Remastered/blocks/step/wood/wood_walk4", "volume": 2, "pitch": 1.2 },
+    { "name": "Remastered/blocks/step/wood/wood_walk5", "volume": 2, "pitch": 1.2 },
+    { "name": "Remastered/blocks/step/wood/wood_walk6", "volume": 2, "pitch": 1.2 },
+    { "name": "Remastered/ambient/effect/floorsqueak1", "weight": 1, "volume": 1.1, "attenuation_distance": 8 },
+	{ "name": "Remastered/blocks/step/wood/wood_walk4", "volume": 2, "pitch": 1.2 },
+    { "name": "Remastered/blocks/step/wood/wood_walk5", "volume": 2, "pitch": 1.2 },
+    { "name": "Remastered/ambient/effect/floorsqueak3", "weight": 1, "volume": 1.1, "attenuation_distance": 8 },
+	{ "name": "Remastered/blocks/step/wood/wood_walk3", "volume": 2, "pitch": 1.2 },
+    { "name": "Remastered/blocks/step/wood/wood_walk4", "volume": 2, "pitch": 1.2 },
+    { "name": "Remastered/blocks/step/wood/wood_walk5", "volume": 2 },
+    { "name": "Remastered/blocks/step/wood/wood_walk6", "volume": 2 },
+	{ "name": "Remastered/blocks/step/wood/wood_walk7", "volume": 2 },
+    { "name": "Remastered/blocks/step/wood/wood_walk8", "volume": 2 },
+    { "name": "Remastered/blocks/step/wood/wood_walk9", "volume": 2 },
+    { "name": "Remastered/blocks/step/wood/wood_walk10", "volume": 2 },
+    { "name": "Remastered/blocks/step/wood/wood_walk11", "volume": 2 },
+	{ "name": "Remastered/ambient/effect/floorsqueak3", "weight": 2, "volume": 1.4, "attenuation_distance": 16 }
+], "replace": true, "subtitle": "subtitles.block.generic.footsteps" },
+
+"block.ladder.step": { "sounds": [
+    { "name": "Remastered/blocks/step/ladder/ladder1", "volume": 2 },
+    { "name": "Remastered/blocks/step/ladder/ladder2", "volume": 2 },
+    { "name": "Remastered/blocks/step/ladder/ladder3", "volume": 2 },
+    { "name": "Remastered/blocks/step/ladder/ladder4", "volume": 2 },
+    { "name": "Remastered/blocks/step/ladder/ladder1", "volume": 2 },
+    { "name": "Remastered/blocks/step/ladder/ladder2", "volume": 2 },
+	{ "name": "Remastered/blocks/step/ladder/ladder3", "volume": 2 },
+    { "name": "Remastered/blocks/step/ladder/ladder4", "volume": 2 }   
+], "replace": true, "subtitle": "subtitles.block.generic.footsteps" },
+
+"block.stone.step": { "sounds": [
+    { "name": "Remastered/blocks/step/stone/stone_walk1", "weight": 100, "volume": 2, "pitch": 1.0 },
+    { "name": "Remastered/blocks/step/stone/stone_walk2", "weight": 100, "volume": 2, "pitch": 1.0 },
+    { "name": "Remastered/blocks/step/stone/stone_walk3", "weight": 100, "volume": 2, "pitch": 1.0 },
+    { "name": "Remastered/blocks/step/stone/stone_walk4", "weight": 100, "volume": 2, "pitch": 1.0 },
+    { "name": "Remastered/blocks/step/stone/stone_walk5", "weight": 100, "volume": 2, "pitch": 1.0 },
+    { "name": "Remastered/blocks/step/stone/stone_walk6", "weight": 100, "volume": 2, "pitch": 1.0 },
+	{ "name": "Remastered/blocks/step/stone/stone_walk7", "weight": 100, "volume": 2, "pitch": 1.0 },
+    { "name": "Remastered/blocks/step/stone/stone_walk8", "weight": 100, "volume": 2, "pitch": 1.0 },
+    { "name": "Remastered/blocks/step/stone/stone_walk9", "weight": 100, "volume": 2, "pitch": 1.0 },
+    { "name": "Remastered/blocks/step/stone/stone_walk10", "weight": 100, "volume": 2, "pitch": 1.0 },
+    { "name": "Remastered/blocks/step/stone/stone_walk11", "weight": 100, "volume": 2, "pitch": 1.0 },
+	
+	{ "name": "Remastered/blocks/step/stone/stone_run1",  "weight": 10, "volume": 2, "pitch": 1},
+    { "name": "Remastered/blocks/step/stone/stone_run2",  "weight": 10, "volume": 2.5, "pitch": 1},
+    { "name": "Remastered/blocks/step/stone/stone_run3",  "weight": 10, "volume": 2.1, "pitch": 1},
+    { "name": "Remastered/blocks/step/stone/stone_run4",  "weight": 10, "volume": 2.3, "pitch": 1},
+    { "name": "Remastered/blocks/step/stone/stone_run5",  "weight": 10, "volume": 2.4, "pitch": 1},
+    { "name": "Remastered/blocks/step/stone/stone_run6",  "weight": 10, "volume": 2.5, "pitch": 1},
+    { "name": "Remastered/blocks/step/stone/stone_run7",  "weight": 10, "volume": 1.9, "pitch": 1},
+    { "name": "Remastered/blocks/step/stone/stone_run8",  "weight": 10, "volume": 2.3, "pitch": 1},
+    { "name": "Remastered/blocks/step/stone/stone_run9",  "weight": 10, "volume": 2.1, "pitch": 1},
+    { "name": "Remastered/blocks/step/stone/stone_run10", "weight": 10, "volume": 1.9, "pitch": 1},
+    { "name": "Remastered/blocks/step/stone/stone_run11", "weight": 10, "volume": 1.9, "pitch": 1}, 
+
+    { "name": "Remastered/ambient/underground/cave3", "weight": 75, "stream": true, "volume": 0.75, "attenuation_distance": 32, "pitch": 1.2 },	 	
+    
+    { "name": "Remastered/blocks/step/stone/stone_walk1", "weight": 100, "volume": 2, "pitch": 1.2 },
+    { "name": "Remastered/blocks/step/stone/stone_walk2", "weight": 100, "volume": 2, "pitch": 1.2 },
+    { "name": "Remastered/blocks/step/stone/stone_walk3", "weight": 100, "volume": 2, "pitch": 1.2 },
+    { "name": "Remastered/blocks/step/stone/stone_walk4", "weight": 100, "volume": 2, "pitch": 1.2 },
+    { "name": "Remastered/blocks/step/stone/stone_walk5", "weight": 100, "volume": 2, "pitch": 1.2 },
+    { "name": "Remastered/blocks/step/stone/stone_walk6", "weight": 100, "volume": 2, "pitch": 1.2 },
+    { "name": "Remastered/blocks/step/stone/stone_walk7", "weight": 100, "volume": 2, "pitch": 1.2 },
+    { "name": "Remastered/blocks/step/stone/stone_walk8", "weight": 100, "volume": 2, "pitch": 1.2 },
+    { "name": "Remastered/blocks/step/stone/stone_walk9", "weight": 100, "volume": 2, "pitch": 1.2 },
+    { "name": "Remastered/blocks/step/stone/stone_walk10", "weight": 100, "volume": 2, "pitch": 1.2 },
+    { "name": "Remastered/blocks/step/stone/stone_walk11", "weight": 100, "volume": 2, "pitch": 1.2 },
+	
+	{ "name": "Remastered/blocks/step/stone/stone_run1",  "weight": 10, "volume": 2, "pitch": 1},
+    { "name": "Remastered/blocks/step/stone/stone_run2",  "weight": 10, "volume": 2.5, "pitch": 1},
+    { "name": "Remastered/blocks/step/stone/stone_run3",  "weight": 10, "volume": 2.1, "pitch": 1},
+    { "name": "Remastered/blocks/step/stone/stone_run4",  "weight": 10, "volume": 2.3, "pitch": 1},
+    { "name": "Remastered/blocks/step/stone/stone_run5",  "weight": 10, "volume": 2.4, "pitch": 1},
+    { "name": "Remastered/blocks/step/stone/stone_run6",  "weight": 10, "volume": 2.5, "pitch": 1},
+    { "name": "Remastered/blocks/step/stone/stone_run7",  "weight": 10, "volume": 1.9, "pitch": 1},
+    { "name": "Remastered/blocks/step/stone/stone_run8",  "weight": 10, "volume": 2.3, "pitch": 1},
+    { "name": "Remastered/blocks/step/stone/stone_run9",  "weight": 10, "volume": 2.1, "pitch": 1},
+    { "name": "Remastered/blocks/step/stone/stone_run10", "weight": 10, "volume": 1.9, "pitch": 1}, 
+	{ "name": "Remastered/blocks/step/stone/stone_run11", "weight": 10, "volume": 1.9, "pitch": 1}, 
+
+    { "name": "Remastered/ambient/underground/cave2", "weight": 75, "stream": true, "volume": 0.55, "attenuation_distance": 32, "pitch": 1.3 },	
+    
+    { "name": "Remastered/blocks/step/stone/stone_walk1", "weight": 100, "volume": 2, "pitch": 0.8 },
+    { "name": "Remastered/blocks/step/stone/stone_walk2", "weight": 100, "volume": 2, "pitch": 0.8 },
+    { "name": "Remastered/blocks/step/stone/stone_walk3", "weight": 100, "volume": 2, "pitch": 0.8 },
+    { "name": "Remastered/blocks/step/stone/stone_walk4", "weight": 100, "volume": 2, "pitch": 0.8 },
+    { "name": "Remastered/blocks/step/stone/stone_walk5", "weight": 100, "volume": 2, "pitch": 0.8 },
+    { "name": "Remastered/blocks/step/stone/stone_walk6", "weight": 100, "volume": 2, "pitch": 0.8 },
+	{ "name": "Remastered/blocks/step/stone/stone_walk7", "weight": 100, "volume": 2, "pitch": 0.8 },
+    { "name": "Remastered/blocks/step/stone/stone_walk8", "weight": 100, "volume": 2, "pitch": 0.8 },
+    { "name": "Remastered/blocks/step/stone/stone_walk9", "weight": 100, "volume": 2, "pitch": 0.8 },
+    { "name": "Remastered/blocks/step/stone/stone_walk10", "weight": 100, "volume": 2, "pitch": 0.8 },
+    { "name": "Remastered/blocks/step/stone/stone_walk11", "weight": 100, "volume": 2, "pitch": 0.8 },
+	
+	{ "name": "Remastered/blocks/step/stone/stone_run1",  "weight": 10, "volume": 2, "pitch": 1},
+    { "name": "Remastered/blocks/step/stone/stone_run2",  "weight": 10, "volume": 2.5, "pitch": 1},
+    { "name": "Remastered/blocks/step/stone/stone_run3",  "weight": 10, "volume": 2.1, "pitch": 1},
+    { "name": "Remastered/blocks/step/stone/stone_run4",  "weight": 10, "volume": 2.3, "pitch": 1},
+    { "name": "Remastered/blocks/step/stone/stone_run5",  "weight": 10, "volume": 2.4, "pitch": 1},
+    { "name": "Remastered/blocks/step/stone/stone_run6",  "weight": 10, "volume": 2.5, "pitch": 1},
+    { "name": "Remastered/blocks/step/stone/stone_run7",  "weight": 10, "volume": 1.9, "pitch": 1},
+    { "name": "Remastered/blocks/step/stone/stone_run8",  "weight": 10, "volume": 2.3, "pitch": 1},
+    { "name": "Remastered/blocks/step/stone/stone_run9",  "weight": 10, "volume": 2.1, "pitch": 1},
+    { "name": "Remastered/blocks/step/stone/stone_run10", "weight": 10, "volume": 1.9, "pitch": 1}, 
+	{ "name": "Remastered/blocks/step/stone/stone_run11", "weight": 10, "volume": 1.9, "pitch": 1},  	
+	
+	{ "name": "Remastered/ambient/underground/smallslide2", "weight": 2, "volume": 2, "attenuation_distance": 32 },
+	{ "name": "Remastered/ambient/underground/smallslide2", "weight": 2, "volume": 3, "attenuation_distance": 32 },
+	{ "name": "Remastered/ambient/underground/smallslide1", "weight": 2, "volume": 1.4, "attenuation_distance": 32 },
+
+    { "name": "Remastered/ambient/underground/cave1", "weight": 75, "stream": true, "volume": 0.25, "attenuation_distance": 32, "pitch": 1.5 }
+], "replace": true, "subtitle": "subtitles.block.generic.footsteps" },
+
+"block.grass.step": { "sounds": [
+    { "name": "Remastered/blocks/step/grass/grass_walk1", "weight": 30, "volume": 1, "pitch": 1.0, "attenuation_distance": 4 },
+    { "name": "Remastered/blocks/step/grass/grass_walk2", "weight": 30, "volume": 1, "pitch": 1.0, "attenuation_distance": 4 },
+    { "name": "Remastered/blocks/step/grass/grass_walk3", "weight": 30, "volume": 1, "pitch": 1.0, "attenuation_distance": 4 },
+    { "name": "Remastered/blocks/step/grass/grass_walk4", "weight": 30, "volume": 1, "pitch": 1.0, "attenuation_distance": 4 },
+    { "name": "Remastered/blocks/step/grass/grass_walk5", "weight": 30, "volume": 1, "pitch": 1.0, "attenuation_distance": 4 },
+    { "name": "Remastered/blocks/step/grass/grass_walk6", "weight": 30, "volume": 1, "pitch": 1.0, "attenuation_distance": 4 },
+    { "name": "Remastered/blocks/step/grass/grass_walk7", "weight": 30, "volume": 1, "pitch": 1.0, "attenuation_distance": 4 },
+    { "name": "Remastered/blocks/step/grass/grass_walk8", "weight": 30, "volume": 1, "pitch": 1.0, "attenuation_distance": 4 },
+    { "name": "Remastered/blocks/step/grass/grass_walk9", "weight": 30, "volume": 1, "pitch": 1.0, "attenuation_distance": 4 },
+	{ "name": "Remastered/blocks/step/grass/grass_walk10", "weight": 30, "volume": 1, "pitch": 1.0, "attenuation_distance": 4 },
+	
+	{ "name": "Remastered/blocks/step/grass/grass_run1", "weight": 30, "volume": 1, "pitch": 1.1, "attenuation_distance": 4 },
+    { "name": "Remastered/blocks/step/grass/grass_run2", "weight": 30, "volume": 1, "pitch": 1.2, "attenuation_distance": 4 },
+    { "name": "Remastered/blocks/step/grass/grass_run3", "weight": 30, "volume": 1, "pitch": 0.9, "attenuation_distance": 4 },
+    { "name": "Remastered/blocks/step/grass/grass_run4", "weight": 30, "volume": 1, "pitch": 0.8, "attenuation_distance": 4 },
+	
+	{ "name": "Remastered/ambient/cricket/cricket3", "weight": 5, "stream": true, "volume": 0.95, "attenuation_distance": 32, "pitch": 1.0 },
+	
+	{ "name": "Remastered/blocks/step/grass/grass_wander1", "weight": 30, "volume": 1, "pitch": 1.1, "attenuation_distance": 4 },
+    { "name": "Remastered/blocks/step/grass/grass_wander2", "weight": 30, "volume": 1, "pitch": 1.2, "attenuation_distance": 4 },
+    { "name": "Remastered/blocks/step/grass/grass_wander3", "weight": 30, "volume": 1, "pitch": 1.3, "attenuation_distance": 4 },
+	
+    { "name": "Remastered/blocks/step/grass/grass_wander4", "weight": 30, "volume": 1, "pitch": 0.9, "attenuation_distance": 4 },
+	{ "name": "Remastered/blocks/step/grass/grass_wander5", "weight": 30, "volume": 1, "pitch": 0.8, "attenuation_distance": 4 },
+    { "name": "Remastered/blocks/step/grass/grass_wander6", "weight": 30, "volume": 1, "pitch": 0.7, "attenuation_distance": 4 },
+	
+    { "name": "Remastered/blocks/step/grass/grass_run1", "weight": 30, "volume": 1, "pitch": 1.1, "attenuation_distance": 4 },
+    { "name": "Remastered/blocks/step/grass/grass_run2", "weight": 30, "volume": 1, "pitch": 0.9, "attenuation_distance": 4 },
+    { "name": "Remastered/blocks/step/grass/grass_run3", "weight": 30, "volume": 1, "pitch": 1.2, "attenuation_distance": 4 },
+    { "name": "Remastered/blocks/step/grass/grass_run4", "weight": 30, "volume": 1, "pitch": 1.3, "attenuation_distance": 4 },  
+  
+    { "name": "Remastered/ambient/bird/bird1", "weight": 2, "volume": 3, "attenuation_distance": 32 },
+    { "name": "Remastered/ambient/bird/bird2", "weight": 2, "volume": 3, "attenuation_distance": 32 },
+    { "name": "Remastered/ambient/bird/bird3", "weight": 2, "volume": 2, "attenuation_distance": 32 },
+	{ "name": "Remastered/blocks/step/grass/grass_run1", "weight": 30, "volume": 1, "pitch": 1.1, "attenuation_distance": 4 },
+    { "name": "Remastered/blocks/step/grass/grass_run2", "weight": 30, "volume": 1, "pitch": 0.9, "attenuation_distance": 4 },
+    { "name": "Remastered/blocks/step/grass/grass_run3", "weight": 30, "volume": 1, "pitch": 1.2, "attenuation_distance": 4 },
+    { "name": "Remastered/blocks/step/grass/grass_run4", "weight": 30, "volume": 1, "pitch": 1.3, "attenuation_distance": 4 },  
+	
+	{ "name": "Remastered/ambient/cricket/cricket-warm-night2", "weight": 5, "stream": true, "volume": 0.95, "attenuation_distance": 32, "pitch": 1.0 },
+	
+	{ "name": "Remastered/ambient/bird/bird4", "weight": 2, "volume": 3, "attenuation_distance": 32 },
+    { "name": "Remastered/ambient/bird/bird5", "weight": 2, "volume": 3, "attenuation_distance": 32 },
+    { "name": "Remastered/ambient/bird/bird6", "weight": 2, "volume": 2, "attenuation_distance": 32 },
+    { "name": "Remastered/ambient/bird/bird7", "weight": 2, "volume": 3, "attenuation_distance": 32 },
+	{ "name": "Remastered/blocks/step/grass/grass_run1", "weight": 30, "volume": 1, "pitch": 1.1, "attenuation_distance": 4 },
+    { "name": "Remastered/blocks/step/grass/grass_run2", "weight": 30, "volume": 1, "pitch": 0.9, "attenuation_distance": 4 },
+    { "name": "Remastered/blocks/step/grass/grass_run3", "weight": 30, "volume": 1, "pitch": 1.2, "attenuation_distance": 4 },
+    { "name": "Remastered/blocks/step/grass/grass_run4", "weight": 30, "volume": 1, "pitch": 1.3, "attenuation_distance": 4 },  
+    { "name": "Remastered/ambient/bird/bird8", "weight": 2, "volume": 3, "attenuation_distance": 32 },
+    { "name": "Remastered/ambient/bird/bird9", "weight": 2, "volume": 2, "attenuation_distance": 32 },
+	{ "name": "Remastered/ambient/bird/bird10", "weight": 2, "volume": 2, "attenuation_distance": 32 },
+	
+	{ "name": "Remastered/ambient/cricket/cricket2", "weight": 5, "stream": true, "volume": 0.95, "attenuation_distance": 32, "pitch": 1.0 },
+
+    { "name": "Remastered/ambient/woodpecker/woodpecker5", "weight": 2, "volume": 2, "attenuation_distance": 32 },
+    { "name": "Remastered/ambient/woodpecker/woodpecker4", "weight": 2, "volume": 2, "attenuation_distance": 32 },
+    { "name": "Remastered/ambient/woodpecker/woodpecker3", "weight": 2, "volume": 2, "attenuation_distance": 32 },
+	
+	{ "name": "Remastered/blocks/step/grass/grass_walk1", "weight": 30, "volume": 1, "pitch": 1.0, "attenuation_distance": 4 },
+    { "name": "Remastered/blocks/step/grass/grass_walk2", "weight": 30, "volume": 1, "pitch": 1.0, "attenuation_distance": 4 },
+    { "name": "Remastered/blocks/step/grass/grass_walk3", "weight": 30, "volume": 1, "pitch": 1.0, "attenuation_distance": 4 },
+    { "name": "Remastered/blocks/step/grass/grass_walk4", "weight": 30, "volume": 1, "pitch": 1.0, "attenuation_distance": 4 },
+    { "name": "Remastered/blocks/step/grass/grass_walk5", "weight": 30, "volume": 1, "pitch": 1.0, "attenuation_distance": 4 },
+	
+	{ "name": "Remastered/ambient/cricket/cricket-warm-night", "weight": 5, "stream": true, "volume": 0.95, "attenuation_distance": 32, "pitch": 1.0 },
+	
+    { "name": "Remastered/blocks/step/grass/grass_walk6", "weight": 30, "volume": 1, "pitch": 1.0, "attenuation_distance": 4 },
+    { "name": "Remastered/blocks/step/grass/grass_walk7", "weight": 30, "volume": 1, "pitch": 1.0, "attenuation_distance": 4 },
+    { "name": "Remastered/blocks/step/grass/grass_walk8", "weight": 30, "volume": 1, "pitch": 1.0, "attenuation_distance": 4 },
+    { "name": "Remastered/blocks/step/grass/grass_walk9", "weight": 30, "volume": 1, "pitch": 1.0, "attenuation_distance": 4 },
+	{ "name": "Remastered/blocks/step/grass/grass_walk10", "weight": 30, "volume": 1, "pitch": 1.0, "attenuation_distance": 4 },	
+    { "name": "Remastered/ambient/woodpecker/woodpecker2", "weight": 2, "volume": 2, "attenuation_distance": 32 },
+    { "name": "Remastered/ambient/woodpecker/woodpecker1", "weight": 2, "volume": 2, "attenuation_distance": 32 },
+	
+	{ "name": "Remastered/ambient/cricket/cricket1", "weight": 5, "stream": true, "volume": 0.95, "attenuation_distance": 32, "pitch": 1.0 },
+	
+    { "name": "Remastered/ambient/bird/chirping1", "weight": 2, "volume": 3 },
+	{ "name": "Remastered/blocks/step/grass/grass_walk1", "weight": 30, "volume": 1, "pitch": 1.0, "attenuation_distance": 4 },
+    { "name": "Remastered/blocks/step/grass/grass_walk2", "weight": 30, "volume": 1, "pitch": 1.0, "attenuation_distance": 4 },
+    { "name": "Remastered/blocks/step/grass/grass_walk3", "weight": 30, "volume": 1, "pitch": 1.0, "attenuation_distance": 4 },
+    { "name": "Remastered/blocks/step/grass/grass_walk4", "weight": 30, "volume": 1, "pitch": 1.0, "attenuation_distance": 4 },
+    { "name": "Remastered/blocks/step/grass/grass_walk5", "weight": 30, "volume": 1, "pitch": 1.0, "attenuation_distance": 4 },
+	
+	{ "name": "Remastered/ambient/loon/loon1", "weight": 2, "volume": 2, "attenuation_distance": 32 },
+    { "name": "Remastered/ambient/loon/loon2", "weight": 2, "volume": 2, "attenuation_distance": 32 },
+    { "name": "Remastered/ambient/loon/loon3", "weight": 2, "volume": 2, "attenuation_distance": 32 },
+	
+    { "name": "Remastered/blocks/step/grass/grass_walk6", "weight": 30, "volume": 1, "pitch": 1.0, "attenuation_distance": 4 },
+    { "name": "Remastered/blocks/step/grass/grass_walk7", "weight": 30, "volume": 1, "pitch": 1.0, "attenuation_distance": 4 },
+    { "name": "Remastered/blocks/step/grass/grass_walk8", "weight": 30, "volume": 1, "pitch": 1.0, "attenuation_distance": 4 },
+    { "name": "Remastered/blocks/step/grass/grass_walk9", "weight": 30, "volume": 1, "pitch": 1.0, "attenuation_distance": 4 },
+	{ "name": "Remastered/blocks/step/grass/grass_walk10", "weight": 30, "volume": 1, "pitch": 1.0, "attenuation_distance": 4 },
+	{ "name": "Remastered/ambient/bird/chirping4", "weight": 2, "volume": 3 },
+	
+	{ "name": "Remastered/blocks/step/grass/grass_run1", "weight": 30, "volume": 1, "pitch": 1.1, "attenuation_distance": 4 },
+    { "name": "Remastered/blocks/step/grass/grass_run2", "weight": 30, "volume": 1, "pitch": 1.2, "attenuation_distance": 4 },
+    { "name": "Remastered/blocks/step/grass/grass_run3", "weight": 30, "volume": 1, "pitch": 0.9, "attenuation_distance": 4 },
+    { "name": "Remastered/blocks/step/grass/grass_run4", "weight": 30, "volume": 1, "pitch": 0.8, "attenuation_distance": 4 },
+	
+	{ "name": "Remastered/ambient/bird/longbird1", "weight": 2, "volume": 3 },
+	{ "name": "Remastered/ambient/bird/longbird2", "weight": 2, "volume": 3 },
+	{ "name": "Remastered/ambient/bird/longbird3", "weight": 2, "volume": 3 },
+	{ "name": "Remastered/blocks/step/grass/grass_run1", "weight": 30, "volume": 1, "pitch": 1.1, "attenuation_distance": 4 },
+    { "name": "Remastered/blocks/step/grass/grass_run2", "weight": 30, "volume": 1, "pitch": 1.2, "attenuation_distance": 4 },
+    { "name": "Remastered/blocks/step/grass/grass_run3", "weight": 30, "volume": 1, "pitch": 0.9, "attenuation_distance": 4 },
+    { "name": "Remastered/blocks/step/grass/grass_run4", "weight": 30, "volume": 1, "pitch": 0.8, "attenuation_distance": 4 },
+	
+	{ "name": "Remastered/ambient/bird/birdwind1", "weight": 15, "stream": true, "volume": 0.95, "attenuation_distance": 32, "pitch": 1.0 },
+	
+	{ "name": "Remastered/blocks/step/grass/grass_wander1", "weight": 30, "volume": 1, "pitch": 1.1, "attenuation_distance": 4 },
+    { "name": "Remastered/blocks/step/grass/grass_wander2", "weight": 30, "volume": 1, "pitch": 1.2, "attenuation_distance": 4 },
+    { "name": "Remastered/blocks/step/grass/grass_wander3", "weight": 30, "volume": 1, "pitch": 1.3, "attenuation_distance": 4 },
+	
+    { "name": "Remastered/blocks/step/grass/grass_wander4", "weight": 30, "volume": 1, "pitch": 0.9, "attenuation_distance": 4 },
+	{ "name": "Remastered/blocks/step/grass/grass_wander5", "weight": 30, "volume": 1, "pitch": 0.8, "attenuation_distance": 4 },
+    { "name": "Remastered/blocks/step/grass/grass_wander6", "weight": 30, "volume": 1, "pitch": 0.7, "attenuation_distance": 4 },
+	
+	{ "name": "Remastered/blocks/step/grass/grass_walk1", "weight": 30, "volume": 1, "pitch": 1.0, "attenuation_distance": 4 },
+    { "name": "Remastered/blocks/step/grass/grass_walk2", "weight": 30, "volume": 1, "pitch": 1.0, "attenuation_distance": 4 },
+    { "name": "Remastered/blocks/step/grass/grass_walk3", "weight": 30, "volume": 1, "pitch": 1.0, "attenuation_distance": 4 },
+    { "name": "Remastered/blocks/step/grass/grass_walk4", "weight": 30, "volume": 1, "pitch": 1.0, "attenuation_distance": 4 },
+    { "name": "Remastered/blocks/step/grass/grass_walk5", "weight": 30, "volume": 1, "pitch": 1.0, "attenuation_distance": 4 },
+    { "name": "Remastered/blocks/step/grass/grass_walk6", "weight": 30, "volume": 1, "pitch": 1.0, "attenuation_distance": 4 },
+    { "name": "Remastered/blocks/step/grass/grass_walk7", "weight": 30, "volume": 1, "pitch": 1.0, "attenuation_distance": 4 },
+    { "name": "Remastered/blocks/step/grass/grass_walk8", "weight": 30, "volume": 1, "pitch": 1.0, "attenuation_distance": 4 },
+    { "name": "Remastered/blocks/step/grass/grass_walk9", "weight": 30, "volume": 1, "pitch": 1.0, "attenuation_distance": 4 },
+	{ "name": "Remastered/blocks/step/grass/grass_walk10", "weight": 30, "volume": 1, "pitch": 1.0, "attenuation_distance": 4 },
+	
+	{ "name": "Remastered/ambient/bird/birdwind2", "weight": 15, "stream": true, "volume": 0.85, "attenuation_distance": 32, "pitch": 1.0 },
+	
+	{ "name": "Remastered/ambient/insect/gnatt2", "weight": 2, "volume": 3 },
+	
+	{ "name": "Remastered/ambient/bird/birdwind3", "weight": 15, "stream": true, "volume": 1, "attenuation_distance": 32, "pitch": 1.0 },
+	
+    { "name": "Remastered/ambient/crow/crow1", "weight": 2, "volume": 3 },
+	{ "name": "Remastered/ambient/crow/crow2", "weight": 2, "volume": 3 },
+	{ "name": "Remastered/ambient/crow/crow3", "weight": 2, "volume": 3 },
+	{ "name": "Remastered/blocks/step/grass/grass_wander1", "weight": 30, "volume": 1, "pitch": 1.1, "attenuation_distance": 4 },
+    { "name": "Remastered/blocks/step/grass/grass_wander2", "weight": 30, "volume": 1, "pitch": 1.2, "attenuation_distance": 4 },
+    { "name": "Remastered/blocks/step/grass/grass_wander3", "weight": 30, "volume": 1, "pitch": 1.3, "attenuation_distance": 4 },
+	
+    { "name": "Remastered/blocks/step/grass/grass_wander4", "weight": 30, "volume": 1, "pitch": 0.9, "attenuation_distance": 4 },
+	{ "name": "Remastered/blocks/step/grass/grass_wander5", "weight": 30, "volume": 1, "pitch": 0.8, "attenuation_distance": 4 },
+    { "name": "Remastered/blocks/step/grass/grass_wander6", "weight": 30, "volume": 1, "pitch": 0.7, "attenuation_distance": 4 },
+	
+	{ "name": "Remastered/ambient/wind/windnormal", "weight": 25, "stream": true, "volume": 0.95, "attenuation_distance": 32, "pitch": 1.0 },
+	
+    { "name": "Remastered/blocks/step/grass/grass_run1", "weight": 30, "volume": 1, "pitch": 1.1, "attenuation_distance": 4 },
+    { "name": "Remastered/blocks/step/grass/grass_run2", "weight": 30, "volume": 1, "pitch": 0.9, "attenuation_distance": 4 },
+    { "name": "Remastered/blocks/step/grass/grass_run3", "weight": 30, "volume": 1, "pitch": 1.2, "attenuation_distance": 4 },
+    { "name": "Remastered/blocks/step/grass/grass_run4", "weight": 30, "volume": 1, "pitch": 1.3, "attenuation_distance": 4 },  
+
+	{ "name": "Remastered/ambient/prey/hawk1", "weight": 2, "volume": 3 },
+	{ "name": "Remastered/ambient/prey/hawk2", "weight": 2, "volume": 3 },
+	{ "name": "Remastered/ambient/prey/egale2", "weight": 2, "volume": 3 },
+	
+	{ "name": "Remastered/ambient/insect/gnatt1", "weight": 2, "volume": 3 },
+	
+	{ "name": "Remastered/ambient/owl/owl1", "weight": 2, "volume": 3 },
+	{ "name": "Remastered/ambient/owl/owl2", "weight": 2, "volume": 3 },
+	{ "name": "Remastered/blocks/step/grass/grass_wander1", "weight": 30, "volume": 1, "pitch": 1.1, "attenuation_distance": 4 },
+    { "name": "Remastered/blocks/step/grass/grass_wander2", "weight": 30, "volume": 1, "pitch": 1.2, "attenuation_distance": 4 },
+    { "name": "Remastered/blocks/step/grass/grass_wander3", "weight": 30, "volume": 1, "pitch": 1.3, "attenuation_distance": 4 },
+	
+    { "name": "Remastered/blocks/step/grass/grass_wander4", "weight": 30, "volume": 1, "pitch": 0.9, "attenuation_distance": 4 },
+	{ "name": "Remastered/blocks/step/grass/grass_wander5", "weight": 30, "volume": 1, "pitch": 0.8, "attenuation_distance": 4 },
+    { "name": "Remastered/blocks/step/grass/grass_wander6", "weight": 30, "volume": 1, "pitch": 0.7, "attenuation_distance": 4 },
+	{ "name": "Remastered/ambient/owl/owl2", "weight": 2, "volume": 3 },
+	
+	{ "name": "Remastered/ambient/wind/lightwind", "weight": 25, "stream": true, "volume": 1.5, "attenuation_distance": 32, "pitch": 1.0 },
+	
+	{ "name": "Remastered/blocks/step/grass/grass_walk1", "weight": 30, "volume": 1, "pitch": 1.0, "attenuation_distance": 4 },
+    { "name": "Remastered/blocks/step/grass/grass_walk2", "weight": 30, "volume": 1, "pitch": 1.0, "attenuation_distance": 4 },
+    { "name": "Remastered/blocks/step/grass/grass_walk3", "weight": 30, "volume": 1, "pitch": 1.0, "attenuation_distance": 4 },
+    { "name": "Remastered/blocks/step/grass/grass_walk4", "weight": 30, "volume": 1, "pitch": 1.0, "attenuation_distance": 4 },
+    { "name": "Remastered/blocks/step/grass/grass_walk5", "weight": 30, "volume": 1, "pitch": 1.0, "attenuation_distance": 4 },
+    { "name": "Remastered/blocks/step/grass/grass_walk6", "weight": 30, "volume": 1, "pitch": 1.0, "attenuation_distance": 4 },
+    { "name": "Remastered/blocks/step/grass/grass_walk7", "weight": 30, "volume": 1, "pitch": 1.0, "attenuation_distance": 4 },
+    { "name": "Remastered/blocks/step/grass/grass_walk8", "weight": 30, "volume": 1, "pitch": 1.0, "attenuation_distance": 4 },
+    { "name": "Remastered/blocks/step/grass/grass_walk9", "weight": 30, "volume": 1, "pitch": 1.0, "attenuation_distance": 4 },
+	{ "name": "Remastered/blocks/step/grass/grass_walk10", "weight": 30, "volume": 1, "pitch": 1.0, "attenuation_distance": 4 },
+	
+	{ "name": "Remastered/ambient/bird/windleaves", "weight": 20, "stream": true, "volume": 1, "attenuation_distance": 32, "pitch": 1.0 }
+	
+], "replace": true, "subtitle": "subtitles.block.generic.footsteps" },
+
+"block.gravel.step": { "sounds": [
+    { "name": "Remastered/blocks/step/gravel/gravel_walk1",  "weight": 10, "volume": 2,  "pitch": 1 },
+    { "name": "Remastered/blocks/step/gravel/gravel_walk2",  "weight": 10, "volume": 2,  "pitch": 1 },
+    { "name": "Remastered/blocks/step/gravel/gravel_walk3",  "weight": 10, "volume": 2,  "pitch": 1 },
+    { "name": "Remastered/blocks/step/gravel/gravel_walk4",  "weight": 10, "volume": 2,  "pitch": 1 },
+    { "name": "Remastered/blocks/step/gravel/gravel_walk5",  "weight": 10, "volume": 2,  "pitch": 1 },
+    { "name": "Remastered/blocks/step/gravel/gravel_walk6",  "weight": 10, "volume": 2,  "pitch": 1 },
+    { "name": "Remastered/blocks/step/gravel/gravel_walk7",  "weight": 10, "volume": 2,  "pitch": 1 },
+    { "name": "Remastered/blocks/step/gravel/gravel_walk8",  "weight": 10, "volume": 2,  "pitch": 1 },
+    { "name": "Remastered/blocks/step/gravel/gravel_walk9",  "weight": 10, "volume": 2,  "pitch": 1 },
+    { "name": "Remastered/blocks/step/gravel/gravel_walk10", "weight": 10, "volume": 2,  "pitch": 1 },
+	{ "name": "Remastered/blocks/step/gravel/gravel_walk11", "weight": 10, "volume": 2,  "pitch": 1 },
+	
+	{ "name": "Remastered/ambient/cicadas/cicadas-night", "weight": 2.2, "volume": 0.45, "attenuation_distance": 32},
+
+    { "name": "Remastered/blocks/step/gravel/gravel_run1",  "weight": 10, "volume": 2,  "pitch": 1 },
+    { "name": "Remastered/blocks/step/gravel/gravel_run2",  "weight": 10, "volume": 2,  "pitch": 1 },
+    { "name": "Remastered/blocks/step/gravel/gravel_run3",  "weight": 10, "volume": 2,  "pitch": 1 },
+    { "name": "Remastered/blocks/step/gravel/gravel_run4",  "weight": 10, "volume": 2,  "pitch": 1 },
+    { "name": "Remastered/blocks/step/gravel/gravel_run5",  "weight": 10, "volume": 2,  "pitch": 1 },
+    { "name": "Remastered/blocks/step/gravel/gravel_run6",  "weight": 10, "volume": 2,  "pitch": 1 },
+    { "name": "Remastered/blocks/step/gravel/gravel_run7",  "weight": 10, "volume": 2,  "pitch": 1 },
+    { "name": "Remastered/blocks/step/gravel/gravel_run8",  "weight": 10, "volume": 2,  "pitch": 1 },
+    { "name": "Remastered/blocks/step/gravel/gravel_run9",  "weight": 10, "volume": 2,  "pitch": 1 },
+    { "name": "Remastered/blocks/step/gravel/gravel_run10", "weight": 10, "volume": 2,  "pitch": 1 },
+	{ "name": "Remastered/blocks/step/gravel/gravel_run11", "weight": 10, "volume": 2,  "pitch": 1 },
+
+    { "name": "Remastered/blocks/step/gravel/gravel_land1",  "weight": 10, "volume": 2,  "pitch": 1 },
+    { "name": "Remastered/blocks/step/gravel/gravel_land2",  "weight": 10, "volume": 2,  "pitch": 1 },
+	
+	{ "name": "Remastered/blocks/step/gravel/gravel_wander1",  "weight": 10, "volume": 2,  "pitch": 1 },
+    { "name": "Remastered/blocks/step/gravel/gravel_wander2",  "weight": 10, "volume": 2,  "pitch": 1 },
+    { "name": "Remastered/blocks/step/gravel/gravel_wander3",  "weight": 10, "volume": 2,  "pitch": 1 },
+
+
+	{ "name": "Remastered/ambient/ambience/forest", "weight": 9, "stream": true, "volume": 9.6, "attenuation_distance": 32},
+	{ "name": "Remastered/ambient/cricket/cricket-night5", "weight": 5, "stream": true, "volume": 1, "attenuation_distance": 32 },
+
+    { "name": "Remastered/ambient/prey/hawk1", "weight": 2, "volume": 2},
+	
+    { "name": "Remastered/ambient/wolf/wolf7", "weight": 2, "volume": 2},
+	
+	{ "name": "Remastered/ambient/cricket/cricket3", "weight": 2.2, "volume": 0.45, "attenuation_distance": 32},
+	
+    { "name": "Remastered/ambient/crow/crow3", "weight": 2, "volume": 2},
+	
+	{ "name": "Remastered/ambient/wind/forestwind", "weight": 2, "stream": true, "volume": 2, "attenuation_distance": 32},
+	
+    { "name": "Remastered/ambient/prey/hawk3", "weight": 2, "volume": 2},
+	
+	{ "name": "Remastered/ambient/bird/longbird3", "weight": 4, "stream": true, "volume": 1, "attenuation_distance": 32 },
+	
+	{ "name": "Remastered/ambient/owl/owl1", "weight": 2, "volume": 5 },
+	{ "name": "Remastered/ambient/owl/owl4", "weight": 2, "volume": 0.8, "attenuation_distance": 32 },
+	
+    { "name": "Remastered/blocks/step/gravel/gravel_run1",  "weight": 10, "volume": 2,  "pitch": 1 },
+    { "name": "Remastered/blocks/step/gravel/gravel_run2",  "weight": 10, "volume": 2,  "pitch": 1 },
+    { "name": "Remastered/blocks/step/gravel/gravel_run3",  "weight": 10, "volume": 2,  "pitch": 1 },
+    { "name": "Remastered/blocks/step/gravel/gravel_run4",  "weight": 10, "volume": 2,  "pitch": 1 },
+    { "name": "Remastered/blocks/step/gravel/gravel_run5",  "weight": 10, "volume": 2,  "pitch": 1 },
+    { "name": "Remastered/blocks/step/gravel/gravel_run6",  "weight": 10, "volume": 2,  "pitch": 1 },
+    { "name": "Remastered/blocks/step/gravel/gravel_run7",  "weight": 10, "volume": 2,  "pitch": 1 },
+    { "name": "Remastered/blocks/step/gravel/gravel_run8",  "weight": 10, "volume": 2,  "pitch": 1 },
+    { "name": "Remastered/blocks/step/gravel/gravel_run9",  "weight": 10, "volume": 2,  "pitch": 1 },
+    { "name": "Remastered/blocks/step/gravel/gravel_run10", "weight": 10, "volume": 2,  "pitch": 1 },
+	{ "name": "Remastered/blocks/step/gravel/gravel_run11", "weight": 10, "volume": 2,  "pitch": 1 },
+
+    { "name": "Remastered/ambient/ambience/treefall1", "weight": 2, "volume": 4.5, "attenuation_distance": 32},
+    { "name": "Remastered/ambient/ambience/treefall2", "weight": 2, "volume": 5, "attenuation_distance": 32},
+	
+    { "name": "Remastered/ambient/loon/loon1", "weight": 2, "volume": 2, "attenuation_distance": 32},
+    { "name": "Remastered/ambient/loon/loon2", "weight": 2, "volume": 2, "attenuation_distance": 32},
+	
+	{ "name": "Remastered/ambient/crow/crow4", "weight": 2, "volume": 2},
+	
+	{ "name": "Remastered/ambient/wolf/wolf8", "weight": 4, "volume": 0.25, "attenuation_distance": 32 },
+    { "name": "Remastered/ambient/wind/windnormal", "weight": 2, "volume": 3, "attenuation_distance": 32},
+    { "name": "Remastered/ambient/ambience/night2", "weight": 2, "volume": 2, "attenuation_distance": 32},
+	
+	{ "name": "Remastered/ambient/crow/crow8", "weight": 4, "volume": 0.8, "attenuation_distance": 32 },
+	
+	{ "name": "Remastered/ambient/ambience/treefall3", "weight": 2, "volume": 1, "attenuation_distance": 16},
+
+    { "name": "Remastered/ambient/unknown/bigfoot1", "weight": 2, "volume": 3 },
+    { "name": "Remastered/ambient/unknown/bigfoot2", "weight": 2, "volume": 4 },
+	
+	{ "name": "Remastered/ambient/owl/owl3", "weight": 2, "volume": 0.8, "attenuation_distance": 32 },
+	
+	{ "name": "Remastered/ambient/bird/longbird4", "weight": 2, "stream": false, "volume": 0.8, "attenuation_distance": 32 },
+	
+	{ "name": "Remastered/ambient/crow/crow5", "weight": 2, "volume": 2},
+	
+	{ "name": "Remastered/ambient/unknown/bigfoot3", "weight": 2, "volume": 4.6 },
+    { "name": "Remastered/ambient/unknown/bigfoot4", "weight": 2, "volume": 5 },
+	
+	{ "name": "Remastered/blocks/step/gravel/gravel_run1",  "weight": 10, "volume": 2,  "pitch": 1 },
+    { "name": "Remastered/blocks/step/gravel/gravel_run2",  "weight": 10, "volume": 2,  "pitch": 1 },
+    { "name": "Remastered/blocks/step/gravel/gravel_run3",  "weight": 10, "volume": 2,  "pitch": 1 },
+    { "name": "Remastered/blocks/step/gravel/gravel_run4",  "weight": 10, "volume": 2,  "pitch": 1 },
+    { "name": "Remastered/blocks/step/gravel/gravel_run5",  "weight": 10, "volume": 2,  "pitch": 1 },
+    { "name": "Remastered/blocks/step/gravel/gravel_run6",  "weight": 10, "volume": 2,  "pitch": 1 },
+    { "name": "Remastered/blocks/step/gravel/gravel_run7",  "weight": 10, "volume": 2,  "pitch": 1 },
+    { "name": "Remastered/blocks/step/gravel/gravel_run8",  "weight": 10, "volume": 2,  "pitch": 1 },
+    { "name": "Remastered/blocks/step/gravel/gravel_run9",  "weight": 10, "volume": 2,  "pitch": 1 },
+    { "name": "Remastered/blocks/step/gravel/gravel_run10", "weight": 10, "volume": 2,  "pitch": 1 },
+	{ "name": "Remastered/blocks/step/gravel/gravel_run11", "weight": 10, "volume": 2,  "pitch": 1 },
+	
+	{ "name": "Remastered/ambient/owl/owl3", "weight": 2, "volume": 2.6 },
+	
+    { "name": "Remastered/ambient/owl/owl2", "weight": 2, "volume": 1 },
+	
+	{ "name": "Remastered/ambient/wolf/wolf6", "weight": 4, "volume": 0.5, "attenuation_distance": 32 },
+	
+	{ "name": "Remastered/ambient/cervidae/bugle1", "weight": 5, "volume": 0.25, "attenuation_distance": 32 },
+	
+	{ "name": "Remastered/ambient/cervidae/bugle3", "weight": 4, "volume": 0.25, "attenuation_distance": 32 },
+	
+	{ "name": "Remastered/ambient/loon/loon3", "weight": 2, "volume": 2, "attenuation_distance": 32},
+    { "name": "Remastered/ambient/loon/loon4", "weight": 2, "volume": 2, "attenuation_distance": 32},
+	
+	{ "name": "Remastered/ambient/cervidae/bugle4", "weight": 4, "volume": 0.25, "attenuation_distance": 32 },
+	
+    { "name": "Remastered/ambient/cervidae/bugle2", "weight": 3, "volume": 0.2, "attenuation_distance": 32 },
+	
+	{ "name": "Remastered/ambient/owl/owl3", "weight": 2, "volume": 1 },
+	
+	{ "name": "Remastered/blocks/step/gravel/gravel_walk1",  "weight": 10, "volume": 2,  "pitch": 1 },
+    { "name": "Remastered/blocks/step/gravel/gravel_walk2",  "weight": 10, "volume": 2,  "pitch": 1 },
+    { "name": "Remastered/blocks/step/gravel/gravel_walk3",  "weight": 10, "volume": 2,  "pitch": 1 },
+    { "name": "Remastered/blocks/step/gravel/gravel_walk4",  "weight": 10, "volume": 2,  "pitch": 1 },
+    { "name": "Remastered/blocks/step/gravel/gravel_walk5",  "weight": 10, "volume": 2,  "pitch": 1 },
+    { "name": "Remastered/blocks/step/gravel/gravel_walk6",  "weight": 10, "volume": 2,  "pitch": 1 },
+    { "name": "Remastered/blocks/step/gravel/gravel_walk7",  "weight": 10, "volume": 2,  "pitch": 1 },
+    { "name": "Remastered/blocks/step/gravel/gravel_walk8",  "weight": 10, "volume": 2,  "pitch": 1 },
+    { "name": "Remastered/blocks/step/gravel/gravel_walk9",  "weight": 10, "volume": 2,  "pitch": 1 },
+    { "name": "Remastered/blocks/step/gravel/gravel_walk10", "weight": 10, "volume": 2,  "pitch": 1 },
+	{ "name": "Remastered/blocks/step/gravel/gravel_walk11", "weight": 10, "volume": 2,  "pitch": 1 },
+	
+	{ "name": "Remastered/ambient/ambience/forestbirds", "weight": 6, "stream": true, "volume": 0.5, "attenuation_distance": 32},
+	
+	{ "name": "Remastered/ambient/ambience/treefall4", "weight": 2, "volume": 1, "attenuation_distance": 32},
+	
+	{ "name": "Remastered/ambient/ambience/treefall3", "weight": 2, "volume": 0.2, "attenuation_distance": 32},
+	
+	{ "name": "Remastered/ambient/unknown/goatman1", "weight": 2.2, "volume": 0.25, "attenuation_distance": 32},
+	
+	{ "name": "Remastered/ambient/wolf/wolf7", "weight": 4, "volume": 0.5, "attenuation_distance": 32 },
+	
+	{ "name": "Remastered/ambient/unknown/wendigo", "weight": 5, "volume": 0.1, "attenuation_distance": 32 },
+	
+    { "name": "Remastered/ambient/unknown/wendigo2", "weight": 10, "volume": 0.1, "attenuation_distance": 32 },
+	
+	{ "name": "Remastered/ambient/unknown/wendigo3", "weight": 1, "volume": 0.25, "attenuation_distance": 32 },
+	
+    { "name": "Remastered/ambient/unknown/goatman2", "weight": 2.2, "volume": 0.4, "attenuation_distance": 32},
+	
+    { "name": "Remastered/ambient/ambience/treefall2", "weight": 2, "volume": 0.8, "attenuation_distance": 32}
+], "replace": true, "subtitle": "subtitles.block.generic.footsteps" },
+
+
+"block.metal.step": { "sounds": [
+    { "name": "Remastered/blocks/step/metal/metalbox_walk1", "pitch": 0.7, "volume": 4 },
+    { "name": "Remastered/blocks/step/metal/metalbox_walk2", "pitch": 0.7, "volume": 4 },
+    { "name": "Remastered/blocks/step/metal/metalbox_walk3", "pitch": 0.7, "volume": 4 },
+    { "name": "Remastered/blocks/step/metal/metalbox_walk4", "pitch": 0.7, "volume": 4 },
+    { "name": "Remastered/blocks/step/metal/metalbox_walk5", "pitch": 0.7, "volume": 4 },
+    { "name": "Remastered/blocks/step/metal/metalbox_walk6", "pitch": 0.7, "volume": 4 },
+	{ "name": "Remastered/blocks/step/metal/metalbox_walk7", "pitch": 0.8, "volume": 4 },
+    { "name": "Remastered/blocks/step/metal/metalbox_walk8", "pitch": 0.8, "volume": 4 },
+    { "name": "Remastered/blocks/step/metal/metalbox_walk9", "pitch": 0.8, "volume": 4 },
+    
+    { "name": "Remastered/blocks/step/metal/metalbox_walk1", "pitch": 0.8, "volume": 4 },
+    { "name": "Remastered/blocks/step/metal/metalbox_walk2", "pitch": 0.8, "volume": 4 },
+    { "name": "Remastered/blocks/step/metal/metalbox_walk3", "pitch": 0.8, "volume": 4 },
+    { "name": "Remastered/blocks/step/metal/metalbox_walk4", "pitch": 0.8, "volume": 4 },
+    { "name": "Remastered/blocks/step/metal/metalbox_walk5", "pitch": 0.8, "volume": 4 },
+    { "name": "Remastered/blocks/step/metal/metalbox_walk6", "pitch": 0.8, "volume": 4 },
+	{ "name": "Remastered/blocks/step/metal/metalbox_walk7", "pitch": 0.8, "volume": 4 },
+    { "name": "Remastered/blocks/step/metal/metalbox_walk8", "pitch": 0.8, "volume": 4 },
+    { "name": "Remastered/blocks/step/metal/metalbox_walk9", "pitch": 0.8, "volume": 4 },
+    
+    { "name": "Remastered/blocks/step/metal/metalbox_run1", "pitch": 0.6, "volume": 4 },
+    { "name": "Remastered/blocks/step/metal/metalbox_run2", "pitch": 0.6, "volume": 4 },
+    { "name": "Remastered/blocks/step/metal/metalbox_run3", "pitch": 0.6, "volume": 4 },
+    { "name": "Remastered/blocks/step/metal/metalbox_run4", "pitch": 0.6, "volume": 4 },
+    { "name": "Remastered/blocks/step/metal/metalbox_run5", "pitch": 0.6, "volume": 4 },
+    { "name": "Remastered/blocks/step/metal/metalbox_run6", "pitch": 0.6, "volume": 4 },
+	{ "name": "Remastered/blocks/step/metal/metalbox_run7", "pitch": 0.6, "volume": 4 },
+    { "name": "Remastered/blocks/step/metal/metalbox_run8", "pitch": 0.6, "volume": 4 },
+    { "name": "Remastered/blocks/step/metal/metalbox_run9", "pitch": 0.6, "volume": 4 },
+	{ "name": "Remastered/blocks/step/metal/metalbox_run10", "pitch": 0.6, "volume": 4 }
+], "replace": true, "subtitle": "subtitles.block.generic.footsteps" },
+
+"block.bamboo_wood.step": { "sounds": [
+    { "name": "Remastered/blocks/step/bamboo/squeakywood_walk1", "pitch": 1, "volume": 4 },
+    { "name": "Remastered/blocks/step/bamboo/squeakywood_walk2", "pitch": 1, "volume": 4 },
+    { "name": "Remastered/blocks/step/bamboo/squeakywood_walk3", "pitch": 1, "volume": 4 },
+    { "name": "Remastered/blocks/step/bamboo/squeakywood_walk4", "pitch": 1, "volume": 4 },
+    { "name": "Remastered/blocks/step/bamboo/squeakywood_walk5", "pitch": 1, "volume": 4 },
+    { "name": "Remastered/blocks/step/bamboo/squeakywood_walk6", "pitch": 1, "volume": 4 },
+	
+	{ "name": "Remastered/blocks/step/bamboo/squeakywood_wander1", "pitch": 1, "volume": 4 },
+    { "name": "Remastered/blocks/step/bamboo/squeakywood_wander2", "pitch": 1, "volume": 4 },
+    { "name": "Remastered/blocks/step/bamboo/squeakywood_wander3", "pitch": 1, "volume": 4 },
+    
+    { "name": "Remastered/blocks/step/bamboo/squeakywood_walk7", "pitch": 0.8, "volume": 4 },
+    { "name": "Remastered/blocks/step/bamboo/squeakywood_walk8", "pitch": 0.8, "volume": 4 },
+    { "name": "Remastered/blocks/step/bamboo/squeakywood_walk9", "pitch": 0.8, "volume": 4 },
+    { "name": "Remastered/blocks/step/bamboo/squeakywood_walk10", "pitch": 0.8, "volume": 4 },
+    { "name": "Remastered/blocks/step/bamboo/squeakywood_walk11", "pitch": 0.8, "volume": 4 },
+	
+	{ "name": "Remastered/blocks/step/bamboo/squeakywood_wander4", "pitch": 1.1, "volume": 4 },
+    { "name": "Remastered/blocks/step/bamboo/squeakywood_wander5", "pitch": 1.2, "volume": 4 },
+    { "name": "Remastered/blocks/step/bamboo/squeakywood_wander6", "pitch": 1.1, "volume": 4 },
+	{ "name": "Remastered/blocks/step/bamboo/squeakywood_wander7", "pitch": 0.9, "volume": 4 },
+
+    { "name": "Remastered/blocks/step/bamboo/squeakywood_walk1", "pitch": 1.1, "volume": 4 },
+    { "name": "Remastered/blocks/step/bamboo/squeakywood_walk2", "pitch": 1.1, "volume": 4 },
+    { "name": "Remastered/blocks/step/bamboo/squeakywood_walk3", "pitch": 1.1, "volume": 4 },
+    { "name": "Remastered/blocks/step/bamboo/squeakywood_walk4", "pitch": 1.1, "volume": 4 },
+    { "name": "Remastered/blocks/step/bamboo/squeakywood_walk5", "pitch": 1.1, "volume": 4 },
+    { "name": "Remastered/blocks/step/bamboo/squeakywood_walk6", "pitch": 1.1, "volume": 4 },
+	{ "name": "Remastered/blocks/step/bamboo/squeakywood_walk7", "pitch": 0.8, "volume": 4 },
+    { "name": "Remastered/blocks/step/bamboo/squeakywood_walk8", "pitch": 0.8, "volume": 4 }
+], "replace": true, "subtitle": "subtitles.block.generic.footsteps" },
+
+"block.chain.step": { "sounds": [
+    { "name": "Remastered/blocks/step/chain/chain_1", "pitch": 0.7, "volume": 4 },
+    { "name": "Remastered/blocks/step/chain/chain_2", "pitch": 0.7, "volume": 4 },
+    { "name": "Remastered/blocks/step/chain/chain_3", "pitch": 0.7, "volume": 4 },
+    { "name": "Remastered/blocks/step/chain/chain_4", "pitch": 0.7, "volume": 4 },
+    { "name": "Remastered/blocks/step/chain/chain_5", "pitch": 0.7, "volume": 4 },
+    { "name": "Remastered/blocks/step/chain/chain_6", "pitch": 0.7, "volume": 4 },
+    
+    { "name": "Remastered/blocks/step/chain/chain_7", "pitch": 0.8, "volume": 4 },
+    { "name": "Remastered/blocks/step/chain/chain_8", "pitch": 0.8, "volume": 4 },
+    { "name": "Remastered/blocks/step/chain/chain_9", "pitch": 0.8, "volume": 4 },
+    { "name": "Remastered/blocks/step/chain/chain_10", "pitch": 0.8, "volume": 4 },
+    { "name": "Remastered/blocks/step/chain/chain_11", "pitch": 0.8, "volume": 4 },
+    { "name": "Remastered/blocks/step/chain/chain_12", "pitch": 0.8, "volume": 4 },
+    
+    { "name": "Remastered/blocks/step/chain/chain_1", "pitch": 0.6, "volume": 4 },
+    { "name": "Remastered/blocks/step/chain/chain_2", "pitch": 0.6, "volume": 4 },
+    { "name": "Remastered/blocks/step/chain/chain_3", "pitch": 0.6, "volume": 4 },
+    { "name": "Remastered/blocks/step/chain/chain_4", "pitch": 0.6, "volume": 4 },
+    { "name": "Remastered/blocks/step/chain/chain_5", "pitch": 0.6, "volume": 4 },
+    { "name": "Remastered/blocks/step/chain/chain_6", "pitch": 0.6, "volume": 4 }
+], "replace": true, "subtitle": "subtitles.block.generic.footsteps" },
+
+"block.moss.step": { "sounds": [
+    { "name": "Remastered/blocks/step/moss/moss_step1",  "weight": 1, "volume": 2, "pitch": 1.1},
+    { "name": "Remastered/blocks/step/moss/moss_step2",  "weight": 1, "volume": 2, "pitch": 1.1},
+    { "name": "Remastered/blocks/step/moss/moss_step3",  "weight": 1, "volume": 2, "pitch": 1.1},
+    { "name": "Remastered/blocks/step/moss/moss_step4",  "weight": 1, "volume": 2, "pitch": 1.1},
+    { "name": "Remastered/blocks/step/moss/moss_step5",  "weight": 1, "volume": 2, "pitch": 1.1},
+    { "name": "Remastered/blocks/step/moss/moss_step6",  "weight": 1, "volume": 2, "pitch": 1.1},
+    { "name": "Remastered/blocks/step/moss/moss_step7",  "weight": 1, "volume": 2, "pitch": 1.1},
+    { "name": "Remastered/blocks/step/moss/moss_step8",  "weight": 1, "volume": 2, "pitch": 1.1},
+    { "name": "Remastered/blocks/step/moss/moss_step9",  "weight": 1, "volume": 2, "pitch": 1.1},
+    { "name": "Remastered/blocks/step/moss/moss_step10", "weight": 1, "volume": 2, "pitch": 1.1},   
+	{ "name": "Remastered/blocks/step/moss/moss_step11", "weight": 1, "volume": 2, "pitch": 1.1}, 
+	
+	{ "name": "Remastered/ambient/frog/frogcave1", "weight": 10, "volume": 0.8, "attenuation_distance": 32 },
+	
+	{ "name": "Remastered/blocks/step/moss/moss_step7",  "weight": 1, "volume": 2, "pitch": 1.2},
+    { "name": "Remastered/blocks/step/moss/moss_step8",  "weight": 1, "volume": 2, "pitch": 1.2},
+    { "name": "Remastered/blocks/step/moss/moss_step9",  "weight": 1, "volume": 2, "pitch": 1.2},
+    { "name": "Remastered/blocks/step/moss/moss_step10", "weight": 1, "volume": 2, "pitch": 1.2},   
+	{ "name": "Remastered/blocks/step/moss/moss_step11", "weight": 1, "volume": 2, "pitch": 1.2}, 
+	
+    { "name": "Remastered/ambient/underground/cave-lush", "weight": 10, "volume": 0.8, "attenuation_distance": 32 },
+	
+	{ "name": "Remastered/blocks/step/moss/moss_step7",  "weight": 1, "volume": 2, "pitch": 1.1},
+    { "name": "Remastered/blocks/step/moss/moss_step8",  "weight": 1, "volume": 2, "pitch": 1.1},
+    { "name": "Remastered/blocks/step/moss/moss_step9",  "weight": 1, "volume": 2, "pitch": 1.1},
+    { "name": "Remastered/blocks/step/moss/moss_step10", "weight": 1, "volume": 2, "pitch": 1.1},   
+	{ "name": "Remastered/blocks/step/moss/moss_step11", "weight": 1, "volume": 2, "pitch": 1.1}
+], "replace": false, "subtitle": "subtitles.block.generic.footsteps" },
+
+"block.cave.vines.step": { "sounds": [
+   { "name": "block/vine/climb1", "weight": 10, "stream": false },
+   { "name": "block/vine/climb2", "weight": 10, "stream": false },
+   { "name": "block/vine/climb3", "weight": 10, "stream": false },
+   { "name": "block/vine/climb4", "weight": 10, "stream": false },
+   { "name": "block/vine/climb5", "weight": 10, "stream": false },
+   
+   { "name": "Remastered/ambient/cicadas/cicadas-night", "weight": 10, "volume": 1, "attenuation_distance": 32 },
+   
+   { "name": "Remastered/ambient/cricket/cricket-night2", "weight": 10, "volume": 1, "attenuation_distance": 32 },
+	
+   { "name": "Remastered/ambient/underground/cave-lush", "weight": 20, "stream": true, "volume": 2, "attenuation_distance": 32 }
+], "replace": true, "subtitle": "subtitles.block.generic.footsteps" },
+
+"block.soul_sand.step": { "sounds": [
+    { "name": "Remastered/blocks/step/sand/sand_walk1",  "weight": 10, "volume": 0.9, "pitch": 0.6},
+    { "name": "Remastered/blocks/step/sand/sand_walk2",  "weight": 10, "volume": 0.9, "pitch": 0.6},
+    { "name": "Remastered/blocks/step/sand/sand_walk3",  "weight": 10, "volume": 0.9, "pitch": 0.6},
+    { "name": "Remastered/blocks/step/sand/sand_walk4",  "weight": 10, "volume": 0.9, "pitch": 0.6},
+    { "name": "Remastered/blocks/step/sand/sand_walk5",  "weight": 10, "volume": 0.9, "pitch": 0.6},
+    { "name": "Remastered/blocks/step/sand/sand_walk6",  "weight": 10, "volume": 0.9, "pitch": 0.6},
+    { "name": "Remastered/blocks/step/sand/sand_walk7",  "weight": 10, "volume": 0.9, "pitch": 0.6},
+    { "name": "Remastered/blocks/step/sand/sand_walk8",  "weight": 10, "volume": 0.9, "pitch": 0.6},
+    { "name": "Remastered/blocks/step/sand/sand_walk9",  "weight": 10, "volume": 0.9, "pitch": 0.6},
+    { "name": "Remastered/blocks/step/sand/sand_walk10", "weight": 10, "volume": 0.9, "pitch": 0.6},
+	{ "name": "Remastered/blocks/step/sand/sand_walk11", "weight": 10, "volume": 0.9, "pitch": 0.6},
+	
+    { "name": "Remastered/ambient/soulsand/soulsand1", "weight": 3, "stream": false, "volume": 0.9, "attenuation_distance": 16 },
+	{ "name": "Remastered/ambient/soulsand/soulsand2", "weight": 2, "stream": false, "volume": 1, "attenuation_distance": 16 },
+	{ "name": "Remastered/ambient/soulsand/soulsand3", "weight": 1, "stream": false, "volume": 1.1, "attenuation_distance": 16 }
+], "replace": false, "subtitle": "subtitles.block.generic.footsteps" },
+
+"block.glass.step": { "sounds": [
+    { "name": "Remastered/blocks/step/glass/glass_hit1",  "volume": 2, "pitch": 1.0 },
+    { "name": "Remastered/blocks/step/glass/glass_hit2",  "volume": 2, "pitch": 1.0 },
+    { "name": "Remastered/blocks/step/glass/glass_hit3",  "volume": 2, "pitch": 1.0 },
+    
+    { "name": "Remastered/blocks/step/glass/glass_hit1",  "volume": 2.3, "pitch": 1.1 },
+    { "name": "Remastered/blocks/step/glass/glass_hit2",  "volume": 1.9, "pitch": 1.1 },
+    { "name": "Remastered/blocks/step/glass/glass_hit3",  "volume": 1.6, "pitch": 1.1 },
+
+    { "name": "Remastered/blocks/step/glass/glass_hit1",  "volume": 1.7, "pitch": 0.9 },
+    { "name": "Remastered/blocks/step/glass/glass_hit2",  "volume": 1.6, "pitch": 0.9 },
+    { "name": "Remastered/blocks/step/glass/glass_hit3",  "volume": 1.8, "pitch": 0.9 }
+], "replace": true, "subtitle": "subtitles.block.generic.footsteps" },
+
+"block.sand.step": { "sounds": [
+    { "name": "Remastered/blocks/step/sand/sand_walk1",  "weight": 10, "volume": 0.9, "pitch": 1.1},
+    { "name": "Remastered/blocks/step/sand/sand_walk2",  "weight": 10, "volume": 0.9, "pitch": 1.1},
+    { "name": "Remastered/blocks/step/sand/sand_walk3",  "weight": 10, "volume": 0.9, "pitch": 1.1},
+    { "name": "Remastered/blocks/step/sand/sand_walk4",  "weight": 10, "volume": 0.9, "pitch": 1.1},
+    { "name": "Remastered/blocks/step/sand/sand_walk5",  "weight": 10, "volume": 0.9, "pitch": 1.1},
+    { "name": "Remastered/blocks/step/sand/sand_walk6",  "weight": 10, "volume": 0.9, "pitch": 1.1},
+    { "name": "Remastered/blocks/step/sand/sand_walk7",  "weight": 10, "volume": 0.9, "pitch": 1.1},
+    { "name": "Remastered/blocks/step/sand/sand_walk8",  "weight": 10, "volume": 0.9, "pitch": 1.1},
+    { "name": "Remastered/blocks/step/sand/sand_walk9",  "weight": 10, "volume": 0.9, "pitch": 1.1},
+    { "name": "Remastered/blocks/step/sand/sand_walk10", "weight": 10, "volume": 0.9, "pitch": 1.1},
+	{ "name": "Remastered/blocks/step/sand/sand_walk10", "weight": 11, "volume": 0.9, "pitch": 1.1},
+	{ "name": "Remastered/blocks/step/sand/sand_walk11", "weight": 10, "volume": 0.9, "pitch": 1.2},
+	
+	{ "name": "Remastered/ambient/ambience/desertnight",  "weight": 15, "stream": true, "volume": 1, "attenuation_distance": 32 },
+	
+	{ "name": "Remastered/blocks/step/sand/sand_run1",  "weight": 10, "volume": 0.9, "pitch": 1},
+    { "name": "Remastered/blocks/step/sand/sand_run2",  "weight": 10, "volume": 0.9, "pitch": 1},
+    { "name": "Remastered/blocks/step/sand/sand_run3",  "weight": 10, "volume": 0.9, "pitch": 1},
+    { "name": "Remastered/blocks/step/sand/sand_run4",  "weight": 10, "volume": 0.9, "pitch": 1},
+    { "name": "Remastered/blocks/step/sand/sand_run5",  "weight": 10, "volume": 0.9, "pitch": 1},
+    { "name": "Remastered/blocks/step/sand/sand_run6",  "weight": 10, "volume": 0.9, "pitch": 1},
+    { "name": "Remastered/blocks/step/sand/sand_run7",  "weight": 10, "volume": 0.9, "pitch": 1},
+    { "name": "Remastered/blocks/step/sand/sand_run8",  "weight": 10, "volume": 0.9, "pitch": 1},
+    { "name": "Remastered/blocks/step/sand/sand_run9",  "weight": 10, "volume": 0.9, "pitch": 1},
+    { "name": "Remastered/blocks/step/sand/sand_run10", "weight": 10, "volume": 0.9, "pitch": 1},  
+	{ "name": "Remastered/blocks/step/sand/sand_run11", "weight": 10, "volume": 0.9, "pitch": 1}, 
+    
+    { "name": "Remastered/blocks/step/sand/sand_walk1",  "weight": 10, "volume": 0.9, "pitch": 1.2},
+    { "name": "Remastered/blocks/step/sand/sand_walk2",  "weight": 10, "volume": 0.9, "pitch": 1.2},
+    { "name": "Remastered/blocks/step/sand/sand_walk3",  "weight": 10, "volume": 0.9, "pitch": 1.2},
+    { "name": "Remastered/blocks/step/sand/sand_walk4",  "weight": 10, "volume": 0.9, "pitch": 1.2},
+    { "name": "Remastered/blocks/step/sand/sand_walk5",  "weight": 10, "volume": 0.9, "pitch": 1.2},
+    { "name": "Remastered/blocks/step/sand/sand_walk6",  "weight": 10, "volume": 0.9, "pitch": 1.2},
+    { "name": "Remastered/blocks/step/sand/sand_walk7",  "weight": 10, "volume": 0.9, "pitch": 1.2},
+    { "name": "Remastered/blocks/step/sand/sand_walk8",  "weight": 10, "volume": 0.9, "pitch": 1.2},
+    { "name": "Remastered/blocks/step/sand/sand_walk9",  "weight": 10, "volume": 0.9, "pitch": 1.2},
+    { "name": "Remastered/blocks/step/sand/sand_walk10", "weight": 10, "volume": 0.9, "pitch": 1.2},
+	{ "name": "Remastered/blocks/step/sand/sand_walk11", "weight": 10, "volume": 0.9, "pitch": 1.2},
+    
+    { "name": "Remastered/blocks/step/sand/sand_walk1",  "weight": 10, "volume": 0.9, "pitch": 1.3},
+    { "name": "Remastered/blocks/step/sand/sand_walk2",  "weight": 10, "volume": 0.9, "pitch": 1.3},
+    { "name": "Remastered/blocks/step/sand/sand_walk3",  "weight": 10, "volume": 0.9, "pitch": 1.3},
+    { "name": "Remastered/blocks/step/sand/sand_walk4",  "weight": 10, "volume": 0.9, "pitch": 1.3},
+    { "name": "Remastered/blocks/step/sand/sand_walk5",  "weight": 10, "volume": 0.9, "pitch": 1.3},
+    { "name": "Remastered/blocks/step/sand/sand_walk6",  "weight": 10, "volume": 0.9, "pitch": 1.3},
+    { "name": "Remastered/blocks/step/sand/sand_walk7",  "weight": 10, "volume": 0.9, "pitch": 1.3},
+    { "name": "Remastered/blocks/step/sand/sand_walk8",  "weight": 10, "volume": 0.9, "pitch": 1.3},
+    { "name": "Remastered/blocks/step/sand/sand_walk9",  "weight": 10, "volume": 0.9, "pitch": 1.3},
+    { "name": "Remastered/blocks/step/sand/sand_walk10", "weight": 10, "volume": 0.9, "pitch": 1.3},
+	{ "name": "Remastered/blocks/step/sand/sand_walk11", "weight": 10, "volume": 0.9, "pitch": 1.2},
+ 
+    { "name": "Remastered/ambient/cicadas/cicadas",  "weight": 5, "stream": true, "volume": 0.75, "attenuation_distance": 32 },
+ 
+    { "name": "Remastered/blocks/step/sand/sand_run1",  "weight": 10, "volume": 0.9, "pitch": 1},
+    { "name": "Remastered/blocks/step/sand/sand_run2",  "weight": 10, "volume": 0.9, "pitch": 1},
+    { "name": "Remastered/blocks/step/sand/sand_run3",  "weight": 10, "volume": 0.9, "pitch": 1},
+    { "name": "Remastered/blocks/step/sand/sand_run4",  "weight": 10, "volume": 0.9, "pitch": 1},
+    { "name": "Remastered/blocks/step/sand/sand_run5",  "weight": 10, "volume": 0.9, "pitch": 1},
+    { "name": "Remastered/blocks/step/sand/sand_run6",  "weight": 10, "volume": 0.9, "pitch": 1},
+    { "name": "Remastered/blocks/step/sand/sand_run7",  "weight": 10, "volume": 0.9, "pitch": 1},
+    { "name": "Remastered/blocks/step/sand/sand_run8",  "weight": 10, "volume": 0.9, "pitch": 1},
+    { "name": "Remastered/blocks/step/sand/sand_run9",  "weight": 10, "volume": 0.9, "pitch": 1},
+    { "name": "Remastered/blocks/step/sand/sand_run10", "weight": 10, "volume": 0.9, "pitch": 1},
+    { "name": "Remastered/blocks/step/sand/sand_run11", "weight": 10, "volume": 0.9, "pitch": 1}, 	
+	
+	{ "name": "Remastered/ambient/cicadas/cicadas-desert2",  "weight": 5, "stream": true, "volume": 1, "attenuation_distance": 32 },
+
+    { "name": "Remastered/ambient/wind/mesa",  "weight": 8, "stream": true, "volume": 0.9, "attenuation_distance": 32 },	
+    
+    { "name": "Remastered/ambient/wind/sandwind2", "weight": 7, "stream": true, "volume": 2.4, "attenuation_distance": 32},
+	{ "name": "Remastered/ambient/wind/sandwind1", "weight": 5, "stream": true, "volume": 6.2, "attenuation_distance": 32},
+    { "name": "Remastered/ambient/wind/sandwind3", "weight": 7, "stream": true, "volume": 1.2, "attenuation_distance": 32},
+	
+	{ "name": "Remastered/ambient/ambience/desertday",  "weight": 5, "stream": true, "volume": 1, "attenuation_distance": 32 },
+	 
+	{ "name": "Remastered/ambient/snake/rattlesnake1", "weight": 2, "volume": 1.1, "attenuation_distance": 8 },
+	{ "name": "Remastered/ambient/snake/rattlesnake3", "weight": 2, "volume": 1.9, "attenuation_distance": 16 },
+	{ "name": "Remastered/ambient/snake/rattlesnake2", "weight": 3, "volume": 1.6, "attenuation_distance": 8 },
+	
+	{ "name": "Remastered/ambient/prey/vulture", "weight": 4, "volume": 2, "attenuation_distance": 32 },
+	
+	{ "name": "Remastered/ambient/prey/hawk2", "weight": 2, "volume": 0.7, "attenuation_distance": 32 },
+	{ "name": "Remastered/ambient/prey/hawk3", "weight": 2, "volume": 0.8, "attenuation_distance": 32 },
+	
+	{ "name": "Remastered/ambient/crow/crow1", "weight": 3, "volume": 0.7, "attenuation_distance": 32 },
+	{ "name": "Remastered/ambient/crow/crow2", "weight": 2, "volume": 1, "attenuation_distance": 32 },
+	
+	{ "name": "Remastered/ambient/prey/egale1", "weight": 4, "volume": 2, "attenuation_distance": 32 },
+	{ "name": "Remastered/ambient/crow/crow5", "weight": 4, "volume": 1.5, "attenuation_distance": 32 },
+	{ "name": "Remastered/ambient/crow/crow6", "weight": 2, "volume": 0.9, "attenuation_distance": 32 },
+	
+	{ "name": "Remastered/ambient/cicadas/cicadas-desert1",  "weight": 5, "stream": true, "volume": 1.1, "attenuation_distance": 32 },
+	
+	{ "name": "Remastered/ambient/prey/hawk1", "weight": 3, "volume": 1.4, "attenuation_distance": 72 },	
+	
+	{ "name": "Remastered/ambient/prey/egale2", "weight": 4, "volume": 0.6, "attenuation_distance": 32 },
+
+	{ "name": "Remastered/ambient/insect/crawl1", "weight": 2, "volume": 1, "attenuation_distance": 8 },
+	{ "name": "Remastered/ambient/insect/crawl2", "weight": 2, "volume": 0.9, "attenuation_distance": 8 },
+	{ "name": "Remastered/ambient/insect/crawl3", "weight": 3, "volume": 1.8, "attenuation_distance": 8 },
+	{ "name": "Remastered/ambient/insect/crawl4", "weight": 1, "volume": 1, "attenuation_distance": 16 },
+	{ "name": "Remastered/ambient/insect/crawl5", "weight": 1, "volume": 1, "attenuation_distance": 8},
+	{ "name": "Remastered/ambient/insect/crawl6", "weight": 1, "volume": 1.5, "attenuation_distance": 8 },
+	
+	{ "name": "Remastered/ambient/crow/crow7", "weight": 4, "volume": 1.5, "attenuation_distance": 32 },
+	{ "name": "Remastered/ambient/crow/crow8", "weight": 2, "volume": 0.7, "attenuation_distance": 32 },
+	
+	{ "name": "Remastered/ambient/cicadas/cicadas-desert",  "weight": 5, "stream": true, "volume": 1, "attenuation_distance": 32 }
+], "replace": true, "subtitle": "subtitles.block.generic.footsteps" },
+
+"block.snow.step": { "sounds": [
+    { "name": "Remastered/blocks/step/snow/snow_walk1",  "weight": 10, "volume": 3, "pitch": 1.2},
+    { "name": "Remastered/blocks/step/snow/snow_walk2",  "weight": 10, "volume": 3, "pitch": 1.2},
+    { "name": "Remastered/blocks/step/snow/snow_walk3",  "weight": 10, "volume": 3, "pitch": 1.2},
+    { "name": "Remastered/blocks/step/snow/snow_walk4",  "weight": 10, "volume": 3, "pitch": 1.2},
+    { "name": "Remastered/blocks/step/snow/snow_walk5",  "weight": 10, "volume": 3, "pitch": 1.2},
+    { "name": "Remastered/blocks/step/snow/snow_walk6",  "weight": 10, "volume": 3, "pitch": 1.2},
+    { "name": "Remastered/blocks/step/snow/snow_walk7",  "weight": 10, "volume": 3, "pitch": 1.2},
+    { "name": "Remastered/blocks/step/snow/snow_walk8",  "weight": 10, "volume": 3, "pitch": 1.2},
+    { "name": "Remastered/blocks/step/snow/snow_walk9",  "weight": 10, "volume": 3, "pitch": 1.2},
+    { "name": "Remastered/blocks/step/snow/snow_walk10", "weight": 10, "volume": 3, "pitch": 1.2},
+	{ "name": "Remastered/blocks/step/snow/snow_walk11", "weight": 10, "volume": 3, "pitch": 1.2},
+	
+	{ "name": "Remastered/ambient/weather/snowstorm",  "weight": 5, "stream": true, "volume": 0.7, "attenuation_distance": 32 },
+	
+	{ "name": "Remastered/blocks/step/snow/snow_run1",  "weight": 10, "volume": 2, "pitch": 1},
+    { "name": "Remastered/blocks/step/snow/snow_run2",  "weight": 10, "volume": 2.5, "pitch": 1},
+    { "name": "Remastered/blocks/step/snow/snow_run3",  "weight": 10, "volume": 2.1, "pitch": 1},
+    { "name": "Remastered/blocks/step/snow/snow_run4",  "weight": 10, "volume": 2.3, "pitch": 1},
+    { "name": "Remastered/blocks/step/snow/snow_run5",  "weight": 10, "volume": 2.4, "pitch": 1},
+    { "name": "Remastered/blocks/step/snow/snow_run6",  "weight": 10, "volume": 2.5, "pitch": 1},
+    { "name": "Remastered/blocks/step/snow/snow_run7",  "weight": 10, "volume": 1.9, "pitch": 1},
+    { "name": "Remastered/blocks/step/snow/snow_run8",  "weight": 10, "volume": 2.3, "pitch": 1},
+    { "name": "Remastered/blocks/step/snow/snow_run9",  "weight": 10, "volume": 2.1, "pitch": 1},
+    { "name": "Remastered/blocks/step/snow/snow_run10", "weight": 10, "volume": 1.9, "pitch": 1},  
+	{ "name": "Remastered/blocks/step/snow/snow_run11", "weight": 10, "volume": 1.9, "pitch": 1}, 
+    
+	{ "name": "Remastered/ambient/wind/forestwind",  "weight": 5, "stream": true, "volume": 0.7, "attenuation_distance": 32 },
+	
+    { "name": "Remastered/blocks/step/snow/snow_walk1",  "weight": 10, "volume": 3, "pitch": 1.1},
+    { "name": "Remastered/blocks/step/snow/snow_walk2",  "weight": 10, "volume": 3, "pitch": 1.1},
+    { "name": "Remastered/blocks/step/snow/snow_walk3",  "weight": 10, "volume": 3, "pitch": 1.1},
+    { "name": "Remastered/blocks/step/snow/snow_walk4",  "weight": 10, "volume": 3, "pitch": 1.1},
+    { "name": "Remastered/blocks/step/snow/snow_walk5",  "weight": 10, "volume": 3, "pitch": 1.1},
+    { "name": "Remastered/blocks/step/snow/snow_walk6",  "weight": 10, "volume": 3, "pitch": 1.1},
+    { "name": "Remastered/blocks/step/snow/snow_walk7",  "weight": 10, "volume": 3, "pitch": 1.1},
+    { "name": "Remastered/blocks/step/snow/snow_walk8",  "weight": 10, "volume": 3, "pitch": 1.1},
+    { "name": "Remastered/blocks/step/snow/snow_walk9",  "weight": 10, "volume": 3, "pitch": 1.1},
+    { "name": "Remastered/blocks/step/snow/snow_walk10", "weight": 10, "volume": 3, "pitch": 1.1},
+	{ "name": "Remastered/blocks/step/snow/snow_walk11", "weight": 10, "volume": 3, "pitch": 1.1},
+	
+	{ "name": "Remastered/blocks/step/snow/snow_run1",  "weight": 10, "volume": 2, "pitch": 1},
+    { "name": "Remastered/blocks/step/snow/snow_run2",  "weight": 10, "volume": 2.5, "pitch": 1},
+    { "name": "Remastered/blocks/step/snow/snow_run3",  "weight": 10, "volume": 2.1, "pitch": 1},
+    { "name": "Remastered/blocks/step/snow/snow_run4",  "weight": 10, "volume": 2.3, "pitch": 1},
+    { "name": "Remastered/blocks/step/snow/snow_run5",  "weight": 10, "volume": 2.4, "pitch": 1},
+    { "name": "Remastered/blocks/step/snow/snow_run6",  "weight": 10, "volume": 2.5, "pitch": 1},
+    { "name": "Remastered/blocks/step/snow/snow_run7",  "weight": 10, "volume": 1.9, "pitch": 1},
+    { "name": "Remastered/blocks/step/snow/snow_run8",  "weight": 10, "volume": 2.3, "pitch": 1},
+    { "name": "Remastered/blocks/step/snow/snow_run9",  "weight": 10, "volume": 2.1, "pitch": 1},
+    { "name": "Remastered/blocks/step/snow/snow_run10", "weight": 10, "volume": 1.9, "pitch": 1}, 
+	{ "name": "Remastered/blocks/step/snow/snow_run11", "weight": 10, "volume": 1.9, "pitch": 1}, 
+    
+    { "name": "Remastered/blocks/step/snow/snow_walk1",  "weight": 10, "volume": 3, "pitch": 1.3},
+    { "name": "Remastered/blocks/step/snow/snow_walk2",  "weight": 10, "volume": 3, "pitch": 1.3},
+    { "name": "Remastered/blocks/step/snow/snow_walk3",  "weight": 10, "volume": 3, "pitch": 1.3},
+    { "name": "Remastered/blocks/step/snow/snow_walk4",  "weight": 10, "volume": 3, "pitch": 1.3},
+    { "name": "Remastered/blocks/step/snow/snow_walk5",  "weight": 10, "volume": 3, "pitch": 1.3},
+    { "name": "Remastered/blocks/step/snow/snow_walk6",  "weight": 10, "volume": 3, "pitch": 1.3},
+    { "name": "Remastered/blocks/step/snow/snow_walk7",  "weight": 10, "volume": 3, "pitch": 1.3},
+    { "name": "Remastered/blocks/step/snow/snow_walk8",  "weight": 10, "volume": 3, "pitch": 1.3},
+    { "name": "Remastered/blocks/step/snow/snow_walk9",  "weight": 10, "volume": 3, "pitch": 1.3},
+    { "name": "Remastered/blocks/step/snow/snow_walk10", "weight": 10, "volume": 3, "pitch": 1.3},
+
+    { "name": "Remastered/ambient/wind/snowwind", "weight": 10, "stream": true, "volume": 8.2 },
+	
+    { "name": "Remastered/ambient/ambience/snowstorm", "weight": 7, "stream": true, "volume": 3.2 },
+	
+    { "name": "Remastered/ambient/loon/loon4", "weight": 2, "volume": 1, "attenuation_distance": 32 },
+    
+    { "name": "Remastered/ambient/wind/windnormal", "weight": 2, "volume": 2, "attenuation_distance": 32 },
+
+    { "name": "Remastered/ambient/prey/hawk1", "weight": 2, "volume": 1, "attenuation_distance": 32 },
+	
+	{ "name": "Remastered/ambient/cervidae/deer1", "weight": 3, "volume": 0.6, "attenuation_distance": 32 },
+	
+    { "name": "Remastered/ambient/prey/hawk2", "weight": 2, "volume": 1, "attenuation_distance": 32 },
+
+    { "name": "Remastered/ambient/bird/chiping1", "weight": 2, "volume": 2, "attenuation_distance": 32 },
+	
+	{ "name": "Remastered/ambient/loon/loon3", "weight": 2, "volume": 2, "attenuation_distance": 32 },
+
+    { "name": "Remastered/ambient/loon/loon1", "weight": 2, "volume": 2, "attenuation_distance": 32 },
+    { "name": "Remastered/ambient/loon/loon2", "weight": 2, "volume": 2, "attenuation_distance": 32 },
+	
+    { "name": "Remastered/ambient/ambience/treefall1", "weight": 3, "volume": 8, "attenuation_distance": 32 },
+    { "name": "Remastered/ambient/pery/hawk3", "weight": 2, "volume": 2, "attenuation_distance": 32 },
+
+    { "name": "Remastered/ambient/woodpecker/woodpecker5", "weight": 2, "volume": 2, "attenuation_distance": 32 },
+    { "name": "Remastered/ambient/wolf/wolf1", "weight": 2, "volume": 1, "attenuation_distance": 32 },
+
+    { "name": "Remastered/ambient/owl/owl1", "weight": 2, "volume": 2, "attenuation_distance": 32 },
+	
+	{ "name": "Remastered/blocks/step/snow/snow_run1",  "weight": 10, "volume": 2, "pitch": 1},
+    { "name": "Remastered/blocks/step/snow/snow_run2",  "weight": 10, "volume": 2.5, "pitch": 1},
+    { "name": "Remastered/blocks/step/snow/snow_run3",  "weight": 10, "volume": 2.1, "pitch": 1},
+    { "name": "Remastered/blocks/step/snow/snow_run4",  "weight": 10, "volume": 2.3, "pitch": 1},
+    { "name": "Remastered/blocks/step/snow/snow_run5",  "weight": 10, "volume": 2.4, "pitch": 1},
+    { "name": "Remastered/blocks/step/snow/snow_run6",  "weight": 10, "volume": 2.5, "pitch": 1},
+    { "name": "Remastered/blocks/step/snow/snow_run7",  "weight": 10, "volume": 1.9, "pitch": 1},
+    { "name": "Remastered/blocks/step/snow/snow_run8",  "weight": 10, "volume": 2.3, "pitch": 1},
+    { "name": "Remastered/blocks/step/snow/snow_run9",  "weight": 10, "volume": 2.1, "pitch": 1},
+    { "name": "Remastered/blocks/step/snow/snow_run10", "weight": 10, "volume": 1.9, "pitch": 1},  
+	
+    { "name": "Remastered/ambient/owl/owl2", "weight": 2, "volume": 2, "attenuation_distance": 32 },
+	
+	{ "name": "Remastered/blocks/step/snow/snow_walk1",  "weight": 10, "volume": 3, "pitch": 1.1},
+    { "name": "Remastered/blocks/step/snow/snow_walk4",  "weight": 10, "volume": 3, "pitch": 1.1},
+    { "name": "Remastered/blocks/step/snow/snow_walk9",  "weight": 10, "volume": 3, "pitch": 1.1},
+    { "name": "Remastered/blocks/step/snow/snow_walk10", "weight": 10, "volume": 3, "pitch": 1.1},
+	
+    { "name": "Remastered/ambient/owl/owl3", "weight": 2, "volume": 2, "attenuation_distance": 32 },
+	
+	{ "name": "Remastered/ambient/prey/egale1", "weight": 4, "volume": 1.2, "attenuation_distance": 32 },
+ 
+    { "name": "Remastered/ambient/ambience/treefall1", "weight": 2, "volume": 7, "attenuation_distance": 32 },
+    { "name": "Remastered/ambient/ambience/treefall2", "weight": 2, "volume": 5, "attenuation_distance": 32 },
+	{ "name": "Remastered/ambient/ambience/treefall3", "weight": 2, "volume": 1, "attenuation_distance": 32 },
+    { "name": "Remastered/ambient/ambience/treefall4", "weight": 2, "volume": 3, "attenuation_distance": 32 },
+	{ "name": "Remastered/ambient/ambience/lightwind", "weight": 3, "volume": 8, "attenuation_distance": 32 },
+	
+	{ "name": "Remastered/ambient/unknown/wendigo", "weight": 5, "volume": 0.5, "attenuation_distance": 32 },
+	
+    { "name": "Remastered/ambient/unknown/wendogo2", "weight": 10, "volume": 0.4, "attenuation_distance": 32 },
+	
+	{ "name": "Remastered/ambient/owl/owl4", "weight": 2, "volume": 0.8, "attenuation_distance": 32 },
+	
+	{ "name": "Remastered/ambient/cervidae/bugle1", "weight": 5, "volume": 0.25, "attenuation_distance": 32 },
+	
+	{ "name": "Remastered/ambient/cervidae/bugle4", "weight": 4, "volume": 0.3, "attenuation_distance": 32 },
+	
+    { "name": "Remastered/ambient/cervidae/bugle5", "weight": 3, "volume": 0.2, "attenuation_distance": 32 },
+
+    { "name": "Remastered/ambient/wolf/wolf5", "weight": 1, "volume": 1 },
+    { "name": "Remastered/ambient/wolf/wolf6", "weight": 1, "volume": 1 }
+], "replace": true, "subtitle": "subtitles.block.generic.footsteps" },
+
+"block.mud.step": { "sounds": [	
+	{ "name": "Remastered/blocks/step/mud/mud_walk1",  "weight": 10, "volume": 2,  "pitch": 1 },
+    { "name": "Remastered/blocks/step/mud/mud_walk2",  "weight": 10, "volume": 2,  "pitch": 1.2 },
+    { "name": "Remastered/blocks/step/mud/mud_walk3",  "weight": 10, "volume": 2,  "pitch": 1.1 },
+    { "name": "Remastered/blocks/step/mud/mud_walk4",  "weight": 10, "volume": 2,  "pitch": 1.3 },
+    { "name": "Remastered/blocks/step/mud/mud_walk5",  "weight": 10, "volume": 2,  "pitch": 1.1 },
+    { "name": "Remastered/blocks/step/mud/mud_walk6",  "weight": 10, "volume": 2,  "pitch": 1 },
+    { "name": "Remastered/blocks/step/mud/mud_wander1",  "weight": 10, "volume": 2,  "pitch": 1 },
+    { "name": "Remastered/blocks/step/mud/mud_wander2",  "weight": 10, "volume": 2,  "pitch": 1.2 },
+    { "name": "Remastered/blocks/step/mud/mud_wander3",  "weight": 10, "volume": 2,  "pitch": 1.1 },
+    { "name": "Remastered/blocks/step/mud/mud_wander4", "weight": 10, "volume": 2,  "pitch": 1.3 },
+
+    { "name": "Remastered/ambient/ambience/swamp", "weight": 5, "stream": true, "volume": 4, "attenuation_distance": 32},
+	{ "name": "Remastered/ambient/ambience/jungle1", "weight": 7, "stream": true, "volume": 7.1, "attenuation_distance": 32 },
+	{ "name": "Remastered/ambient/ambience/swamp2", "weight": 5, "stream": true, "volume": 2, "attenuation_distance": 32 },
+	
+	{ "name": "Remastered/blocks/step/mud/mud_walk1",  "weight": 10, "volume": 2,  "pitch": 1 },
+    { "name": "Remastered/blocks/step/mud/mud_walk2",  "weight": 10, "volume": 2,  "pitch": 1.2 },
+    { "name": "Remastered/blocks/step/mud/mud_walk3",  "weight": 10, "volume": 2,  "pitch": 1.1 },
+    { "name": "Remastered/blocks/step/mud/mud_walk4",  "weight": 10, "volume": 2,  "pitch": 1.3 },
+    { "name": "Remastered/blocks/step/mud/mud_walk5",  "weight": 10, "volume": 2,  "pitch": 1.1 },
+    { "name": "Remastered/blocks/step/mud/mud_walk6",  "weight": 10, "volume": 2,  "pitch": 1 },
+    { "name": "Remastered/blocks/step/mud/mud_wander1",  "weight": 10, "volume": 2,  "pitch": 1 },
+    { "name": "Remastered/blocks/step/mud/mud_wander2",  "weight": 10, "volume": 2,  "pitch": 1.2 },
+    { "name": "Remastered/blocks/step/mud/mud_wander3",  "weight": 10, "volume": 2,  "pitch": 1.1 },
+    { "name": "Remastered/blocks/step/mud/mud_wander4", "weight": 10, "volume": 2,  "pitch": 1.3 },
+
+	{ "name": "Remastered/ambient/bird/bird6", "weight": 2, "volume": 2, "attenuation_distance": 32 },
+	
+    { "name": "Remastered/ambient/crow/crow6", "weight": 4, "volume": 1.5, "attenuation_distance": 32 },
+	{ "name": "Remastered/ambient/crow/crow5", "weight": 2, "volume": 0.7, "attenuation_distance": 32 },
+	
+	{ "name": "Remastered/ambient/bird/birdwind1", "weight": 2, "stream": true, "volume": 0.8, "attenuation_distance": 32 },
+
+	{ "name": "Remastered/ambient/ambience/night3", "weight": 2, "volume": 1},
+    { "name": "Remastered/ambient/ambience/jungle2", "weight": 2, "volume": 7.2},
+	{ "name": "Remastered/ambient/bird/chirping5", "weight": 2, "volume": 2, "attenuation_distance": 32 },
+	{ "name": "Remastered/ambient/crock/crocodile2", "weight": 2, "volume": 1, "attenuation_distance": 32 },
+	
+    { "name": "Remastered/ambient/ambience/treefall4", "weight": 2, "volume": 1, "attenuation_distance": 32},
+	
+	{ "name": "Remastered/ambient/ambience/treefall3", "weight": 2, "volume": 0.2, "attenuation_distance": 32},
+	
+	{ "name": "Remastered/ambient/bird/longbird4", "weight": 2, "stream": false, "volume": 0.8, "attenuation_distance": 32 },
+	
+	{ "name": "Remastered/blocks/step/mud/mud_walk1",  "weight": 10, "volume": 2,  "pitch": 2 },
+    { "name": "Remastered/blocks/step/mud/mud_walk2",  "weight": 10, "volume": 2,  "pitch": 1.2 },
+    { "name": "Remastered/blocks/step/mud/mud_walk3",  "weight": 10, "volume": 2,  "pitch": 1.1 },
+    { "name": "Remastered/blocks/step/mud/mud_walk4",  "weight": 10, "volume": 2,  "pitch": 1.3 },
+    { "name": "Remastered/blocks/step/mud/mud_walk5",  "weight": 10, "volume": 2,  "pitch": 1.1 },
+    { "name": "Remastered/blocks/step/mud/mud_walk6",  "weight": 10, "volume": 2,  "pitch": 2 },
+    { "name": "Remastered/blocks/step/mud/mud_wander1",  "weight": 10, "volume": 2,  "pitch": 2 },
+    { "name": "Remastered/blocks/step/mud/mud_wander2",  "weight": 10, "volume": 2,  "pitch": 2.2 },
+    { "name": "Remastered/blocks/step/mud/mud_wander3",  "weight": 10, "volume": 2,  "pitch": 1.1 },
+    { "name": "Remastered/blocks/step/mud/mud_wander4", "weight": 10, "volume": 2,  "pitch": 2.3 },
+	
+	{ "name": "Remastered/ambient/bird/bird7", "weight": 2, "volume": 2, "attenuation_distance": 32 },
+
+    { "name": "Remastered/ambient/ambience/treefall1", "weight": 2, "volume": 4.5, "attenuation_distance": 32},
+	{ "name": "Remastered/ambient/crock/crocodile3", "weight": 3, "volume": 0.8, "attenuation_distance": 16 },
+	
+    { "name": "Remastered/ambient/ambience/jungle7", "weight": 2, "volume": 7, "attenuation_distance": 32},
+	
+	{ "name": "Remastered/blocks/step/mud/mud_walk13",  "weight": 10, "volume": 2,  "pitch": 1 },
+    { "name": "Remastered/blocks/step/mud/mud_walk14",  "weight": 10, "volume": 2,  "pitch": 1.2 },
+    { "name": "Remastered/blocks/step/mud/mud_walk15",  "weight": 10, "volume": 2,  "pitch": 1.1 },
+    { "name": "Remastered/blocks/step/mud/mud_walk16",  "weight": 10, "volume": 2,  "pitch": 2.3 },
+
+    { "name": "Remastered/ambient/cricket/cricket-swamp", "weight": 2, "volume": 2, "attenuation_distance": 32},
+
+    { "name": "Remastered/ambient/unknown/bigfoot1", "weight": 2, "volume": 3 },
+    { "name": "Remastered/ambient/unknown/bigfoot2", "weight": 2, "volume": 4 },
+
+	{ "name": "Remastered/ambient/bird/bird8", "weight": 2, "volume": 2, "attenuation_distance": 32 },
+
+	{ "name": "Remastered/ambient/unknown/bigfoot3", "weight": 2, "volume": 4.6 },
+    { "name": "Remastered/ambient/wild/bigfoot4", "weight": 2, "volume": 5 },
+	
+	{ "name": "Remastered/ambient/crock/crocodile1", "weight": 2.2, "volume": 1.1, "attenuation_distance": 32 },
+
+    { "name": "Remastered/ambient/ambience/treefall2", "weight": 5, "volume": 5.2, "attenuation_distance": 32},
+	
+	{ "name": "Remastered/blocks/step/mud/mud_walk1",  "weight": 10, "volume": 2,  "pitch": 1 },
+    { "name": "Remastered/blocks/step/mud/mud_walk2",  "weight": 10, "volume": 2,  "pitch": 2.2 },
+    { "name": "Remastered/blocks/step/mud/mud_walk3",  "weight": 10, "volume": 2,  "pitch": 2.1 },
+    { "name": "Remastered/blocks/step/mud/mud_walk4",  "weight": 10, "volume": 2,  "pitch": 1.3 },
+    { "name": "Remastered/blocks/step/mud/mud_walk5",  "weight": 10, "volume": 2,  "pitch": 2.1 },
+    { "name": "Remastered/blocks/step/mud/mud_walk6",  "weight": 10, "volume": 2,  "pitch": 2 },
+    { "name": "Remastered/blocks/step/mud/mud_wander1",  "weight": 10, "volume": 2,  "pitch": 2 },
+    { "name": "Remastered/blocks/step/mud/mud_wander2",  "weight": 10, "volume": 2,  "pitch": 2.2 },
+    { "name": "Remastered/blocks/step/mud/mud_wander3",  "weight": 10, "volume": 2,  "pitch": 2.1 },
+    { "name": "Remastered/blocks/step/mud/mud_wander4", "weight": 10, "volume": 2,  "pitch": 2.3 },
+	
+    { "name": "Remastered/ambient/frog/frogshort2", "weight": 2.1, "volume": 4.5 },
+	
+    { "name": "Remastered/ambient/crow/crow4", "weight": 4, "volume": 1.5, "attenuation_distance": 32 },
+	{ "name": "Remastered/ambient/crow/crow3", "weight": 2, "volume": 0.7, "attenuation_distance": 32 },
+
+	{ "name": "Remastered/ambient/bird/chirping4", "weight": 2, "volume": 2, "attenuation_distance": 32 },
+	
+	{ "name": "Remastered/ambient/ambience/treefall1", "weight": 2, "volume": 3, "attenuation_distance": 32},
+	
+	{ "name": "Remastered/blocks/step/mud/mud_walk1",  "weight": 10, "volume": 2,  "pitch": 1 },
+    { "name": "Remastered/blocks/step/mud/mud_walk2",  "weight": 10, "volume": 2,  "pitch": 1.2 },
+    { "name": "Remastered/blocks/step/mud/mud_walk3",  "weight": 10, "volume": 2,  "pitch": 2.1 },
+    { "name": "Remastered/blocks/step/mud/mud_walk4",  "weight": 10, "volume": 2,  "pitch": 1.3 },
+    { "name": "Remastered/blocks/step/mud/mud_walk5",  "weight": 10, "volume": 2,  "pitch": 1.1 },
+    { "name": "Remastered/blocks/step/mud/mud_walk6",  "weight": 10, "volume": 2,  "pitch": 1 },
+    { "name": "Remastered/blocks/step/mud/mud_wander1",  "weight": 10, "volume": 2,  "pitch": 2 },
+    { "name": "Remastered/blocks/step/mud/mud_wander2",  "weight": 10, "volume": 2,  "pitch": 1.2 },
+    { "name": "Remastered/blocks/step/mud/mud_wander3",  "weight": 10, "volume": 2,  "pitch": 2.1 },
+    { "name": "Remastered/blocks/step/mud/mud_wander4", "weight": 10, "volume": 2,  "pitch": 1.3 },
+	
+    { "name": "Remastered/ambient/ambience/frogshort2", "weight": 2.2, "volume": 6.5 },
+
+	{ "name": "Remastered/ambient/crock/crocodile4", "weight": 2, "volume": 1, "attenuation_distance": 32 },
+	
+	{ "name": "Remastered/blocks/step/mud/mud_walk7",  "weight": 10, "volume": 2,  "pitch": 2 },
+    { "name": "Remastered/blocks/step/mud/mud_walk8",  "weight": 10, "volume": 2,  "pitch": 2.2 },
+    { "name": "Remastered/blocks/step/mud/mud_walk9",  "weight": 10, "volume": 2,  "pitch": 2.1 },
+    { "name": "Remastered/blocks/step/mud/mud_walk10",  "weight": 10, "volume": 2,  "pitch": 2.3 },
+    { "name": "Remastered/blocks/step/mud/mud_walk11",  "weight": 10, "volume": 2,  "pitch": 2.1 },
+    { "name": "Remastered/blocks/step/mud/mud_walk12",  "weight": 10, "volume": 2,  "pitch": 2 },
+	
+	{ "name": "Remastered/ambient/bird/longbird3", "weight": 2, "stream": true, "volume": 0.8, "attenuation_distance": 32 },
+	
+    { "name": "Remastered/ambient/frog/frogshort1", "weight": 2, "volume": 4.2, "attenuation_distance": 32},
+	
+	{ "name": "Remastered/ambient/insect/gnatt1", "weight": 2, "volume": 1 },
+    { "name": "Remastered/ambient/insect/crawl3", "weight": 2, "volume": 2 },
+	{ "name": "Remastered/ambient/insect/gnatt2", "weight": 2, "volume": 1.6 },
+    { "name": "Remastered/ambient/insect/crawl6", "weight": 2, "volume": 1 }
+], "replace": true, "subtitle": "subtitles.block.generic.footsteps" },
+
+"block.slime.step": { "sounds": [
+    { "name": "Remastered/blocks/step/slime/slime_walk1", "volume": 4, "pitch": 1 },
+    { "name": "Remastered/blocks/step/slime/slime_walk2", "volume": 4, "pitch": 1 },
+    { "name": "Remastered/blocks/step/slime/slime_walk3", "volume": 4, "pitch": 1 },
+    { "name": "Remastered/blocks/step/slime/slime_walk4", "volume": 4, "pitch": 1 },
+    { "name": "Remastered/blocks/step/slime/slime_walk5", "volume": 4, "pitch": 1 },
+    { "name": "Remastered/blocks/step/slime/slime_walk6", "volume": 4, "pitch": 1 },
+    
+    { "name": "Remastered/blocks/step/slime/slime_walk1", "volume": 4, "pitch": 0.8 },
+    { "name": "Remastered/blocks/step/slime/slime_walk2", "volume": 4, "pitch": 0.8 },
+    { "name": "Remastered/blocks/step/slime/slime_walk3", "volume": 4, "pitch": 0.8 },
+    { "name": "Remastered/blocks/step/slime/slime_walk4", "volume": 4, "pitch": 0.8 },
+    { "name": "Remastered/blocks/step/slime/slime_walk5", "volume": 4, "pitch": 0.8 },
+    { "name": "Remastered/blocks/step/slime/slime_walk6", "volume": 4, "pitch": 0.8 },
+    
+    { "name": "Remastered/blocks/step/slime/slime_run1", "volume": 4, "pitch": 1.2 },
+    { "name": "Remastered/blocks/step/slime/slime_run2", "volume": 4, "pitch": 1.2 },
+    { "name": "Remastered/blocks/step/slime/slime_run3", "volume": 4, "pitch": 1.2 },
+    { "name": "Remastered/blocks/step/slime/slime_run4", "volume": 4, "pitch": 1.2 },
+    { "name": "Remastered/blocks/step/slime/slime_run5", "volume": 4, "pitch": 1.2 },
+    { "name": "Remastered/blocks/step/slime/slime_run6", "volume": 4, "pitch": 1.2 }
+], "replace": true, "subtitle": "subtitles.block.generic.footsteps" },
+
+"block.amethyst_block.step": { "sounds": [
+    { "name": "Remastered/blocks/step/crystal/crystal_walk1", "volume": 4, "pitch": 1 },
+    { "name": "Remastered/blocks/step/crystal/crystal_walk2", "volume": 4, "pitch": 1 },
+    { "name": "Remastered/blocks/step/crystal/crystal_walk3", "volume": 4, "pitch": 1 },
+    { "name": "Remastered/blocks/step/crystal/crystal_walk4", "volume": 4, "pitch": 1 },
+    { "name": "Remastered/blocks/step/crystal/crystal_walk5", "volume": 4, "pitch": 1 },
+    { "name": "Remastered/blocks/step/crystal/crystal_walk6", "volume": 4, "pitch": 1 },
+    
+    { "name": "Remastered/blocks/step/crystal/crystal_walk1", "volume": 4, "pitch": 0.8 },
+    { "name": "Remastered/blocks/step/crystal/crystal_walk2", "volume": 4, "pitch": 0.8 },
+    { "name": "Remastered/blocks/step/crystal/crystal_walk3", "volume": 4, "pitch": 0.8 },
+    { "name": "Remastered/blocks/step/crystal/crystal_walk4", "volume": 4, "pitch": 0.8 },
+    { "name": "Remastered/blocks/step/crystal/crystal_walk5", "volume": 4, "pitch": 0.8 },
+    { "name": "Remastered/blocks/step/crystal/crystal_walk6", "volume": 4, "pitch": 0.8 },
+	
+	{ "name": "Remastered/ambient/underground/cave-water6", "weight": 40, "stream": true, "volume": 1.6, "pitch": 0.9, "attenuation_distance": 32 },
+    
+    { "name": "Remastered/blocks/step/crystal/crystal_run1", "volume": 4, "pitch": 1.2 },
+    { "name": "Remastered/blocks/step/crystal/crystal_run2", "volume": 4, "pitch": 1.2 },
+    { "name": "Remastered/blocks/step/crystal/crystal_run3", "volume": 4, "pitch": 1.2 },
+    { "name": "Remastered/blocks/step/crystal/crystal_run4", "volume": 4, "pitch": 1.2 },
+    { "name": "Remastered/blocks/step/crystal/crystal_run5", "volume": 4, "pitch": 1.2 },
+    { "name": "Remastered/blocks/step/crystal/crystal_run6", "volume": 4, "pitch": 1.2 },
+	
+	{ "name": "Remastered/ambient/underground/cave-deep1", "weight": 40, "stream": true, "volume": 1.6, "pitch": 0.9, "attenuation_distance": 32 },
+     { "name": "Remastered/ambient/underground/cave-deep2", "weight": 40, "stream": false, "volume": 2, "pitch": 0.6, "attenuation_distance": 32 }
+], "replace": true, "subtitle": "subtitles.block.generic.footsteps" },
+
+"block.wool.step": { "sounds": [
+    { "name": "Remastered/blocks/step/rug/rug_walk1", "volume": 4, "pitch": 1 },
+    { "name": "Remastered/blocks/step/rug/rug_walk2", "volume": 4, "pitch": 1 },
+    { "name": "Remastered/blocks/step/rug/rug_walk3", "volume": 4, "pitch": 1 },
+    { "name": "Remastered/blocks/step/rug/rug_walk4", "volume": 4, "pitch": 1 },
+    { "name": "Remastered/blocks/step/rug/rug_walk5", "volume": 4, "pitch": 1 },
+    { "name": "Remastered/blocks/step/rug/rug_walk6", "volume": 4, "pitch": 1 },
+   
+    { "name": "Remastered/blocks/step/rug/rug_walk7", "volume": 4, "pitch": 0.8 },
+    { "name": "Remastered/blocks/step/rug/rug_walk8", "volume": 4, "pitch": 0.8 },
+    { "name": "Remastered/blocks/step/rug/rug_walk9", "volume": 4, "pitch": 0.8 },
+    { "name": "Remastered/blocks/step/rug/rug_walk10", "volume": 4, "pitch": 0.8 },
+    { "name": "Remastered/blocks/step/rug/rug_walk11", "volume": 4, "pitch": 0.8 },
+    { "name": "Remastered/blocks/step/rug/rug_walk6", "volume": 4, "pitch": 0.8 },
+    
+    { "name": "Remastered/blocks/step/rug/rug_walk1", "volume": 4, "pitch": 1.2 },
+    { "name": "Remastered/blocks/step/rug/rug_walk2", "volume": 4, "pitch": 1.2 },
+    { "name": "Remastered/blocks/step/rug/rug_walk3", "volume": 4, "pitch": 1.2 },
+    { "name": "Remastered/blocks/step/rug/rug_walk4", "volume": 4, "pitch": 1.2 },
+    { "name": "Remastered/blocks/step/rug/rug_walk5", "volume": 4, "pitch": 1.2 },
+    { "name": "Remastered/blocks/step/rug/rug_walk6", "volume": 4, "pitch": 1.2 }
+], "replace": true, "subtitle": "subtitles.block.generic.footsteps" },
+
+"block.pink_petals.step": { "sounds": [
+    { "name": "Remastered/blocks/step/petals/leaves_through1", "pitch": 1, "volume": 4 },
+    { "name": "Remastered/blocks/step/petals/leaves_through2", "pitch": 1, "volume": 4 },
+    { "name": "Remastered/blocks/step/petals/leaves_through3", "pitch": 1, "volume": 4 },
+    { "name": "Remastered/blocks/step/petals/leaves_through4", "pitch": 1, "volume": 4 },
+    { "name": "Remastered/blocks/step/petals/leaves_through5", "pitch": 1, "volume": 4 },
+    { "name": "Remastered/blocks/step/petals/leaves_through9", "pitch": 1, "volume": 4 },
+	
+    { "name": "Remastered/ambient/bird/longbird2",  "weight": 1, "stream": true, "volume": 0.5, "attenuation_distance": 32 },
+	
+    { "name": "Remastered/ambient/bird/longbird1",  "weight": 1, "stream": true, "volume": 0.6, "attenuation_distance": 32 },
+	
+    { "name": "Remastered/blocks/step/petals/leaves_through9", "pitch": 1.2, "volume": 1 },
+    { "name": "Remastered/blocks/step/petals/leaves_through8", "pitch": 1.3, "volume": 4 },
+    { "name": "Remastered/blocks/step/petals/leaves_through9", "pitch": 1.4, "volume": 1 },
+    { "name": "Remastered/blocks/step/petals/leaves_through10", "pitch": 1, "volume": 4 },
+    { "name": "Remastered/blocks/step/petals/leaves_through11", "pitch": 1, "volume": 4 },  
+	
+    { "name": "Remastered/ambient/bird/birdwind3",  "weight": 1, "stream": true, "volume": 0.5, "attenuation_distance": 32 },
+	
+    { "name": "Remastered/ambient/bird/longbird3",  "weight": 1, "stream": true, "volume": 0.4, "attenuation_distance": 32 },
+
+    { "name": "Remastered/blocks/step/petals/leaves_through9", "pitch": 1.2, "volume": 3 },
+    { "name": "Remastered/blocks/step/petals/leaves_through8", "pitch": 1.3, "volume": 4 },
+    { "name": "Remastered/blocks/step/petals/leaves_through9", "pitch": 1.1, "volume": 2 },
+    { "name": "Remastered/blocks/step/petals/leaves_through10", "pitch": 1.1, "volume": 3 },
+    { "name": "Remastered/blocks/step/petals/leaves_through11", "pitch": 1.1, "volume": 1 }, 
+
+    { "name": "Remastered/ambient/bird/longbird6",  "weight": 1, "stream": true, "volume": 0.5, "attenuation_distance": 32 },
+	
+    { "name": "Remastered/ambient/bird/longbird5",  "weight": 1, "stream": true, "volume": 0.4, "attenuation_distance": 32 }
+ 
+	
+], "replace": true, "subtitle": "subtitles.block.generic.footsteps" }
+
+}

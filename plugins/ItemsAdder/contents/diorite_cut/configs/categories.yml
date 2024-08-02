@@ -1,0 +1,19 @@
+info:
+  namespace: diorite_cut
+categories:
+  diorite_cut:
+    enabled: true
+    icon: "diorite_cut_square"
+    name: 'Cut Diorite'
+    permission: "ia.menu.diorite_cut"
+    title_position_pixels: 0
+    items:
+      - "diorite_cut:diorite_cut"
+      - "diorite_cut:diorite_cut_basketweave"
+      - "diorite_cut:diorite_cut_bond"
+      - "diorite_cut:diorite_cut_brick"
+      - "diorite_cut:diorite_cut_herring"
+      - "diorite_cut:diorite_cut_polished"
+      - "diorite_cut:diorite_cut_square"
+      - "diorite_cut:diorite_cut_slab"
+      - "diorite_cut:diorite_cut_pillar"

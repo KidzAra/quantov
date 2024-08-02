@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "": [
+		{ "model": "block/torchflower/potted_torchflower" },
+		{ "model": "block/torchflower/potted_torchflower_22" },
+		{ "model": "block/torchflower/potted_torchflower_45" },
+		{ "model": "block/torchflower/potted_torchflower_-22" }
+		]
+    }
+}

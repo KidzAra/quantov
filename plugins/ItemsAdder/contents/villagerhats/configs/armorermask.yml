@@ -1,0 +1,12 @@
+info:
+  namespace: villagerhats
+items:
+  armorermask:
+    display_name: "Армированная маска"
+    permission: villagerhats
+    resource:
+      material: PAPER
+      generate: false
+      model_path: armorermask
+    behaviours:
+      hat: true

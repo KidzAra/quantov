@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "": [
+		{ "model": "block/flower_pot_cross" },
+		{ "model": "block/flower_pot_cross/flower_pot_cross_22" },
+		{ "model": "block/flower_pot_cross/flower_pot_cross_45" },
+		{ "model": "block/flower_pot_cross/flower_pot_cross_-22" }
+		]
+    }
+}

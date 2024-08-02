@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "": [
+		{ "model": "block/fern/potted_fern" },
+		{ "model": "block/fern/potted_fern_22" },
+		{ "model": "block/fern/potted_fern_45" },
+		{ "model": "block/fern/potted_fern_-22" }
+		]
+    }
+}
