@@ -25,6 +25,8 @@ settings:
   netty-threads: 4
   player-shuffle: 0
   attribute:
+    maxAbsorption:
+      max: 2048.0
     maxHealth:
       max: 2048.0
     movementSpeed:
@@ -62,6 +64,7 @@ players:
   disable-saving: false
 world-settings:
   default:
+    unload-frozen-chunks: false
     below-zero-generation-in-existing-chunks: true
     zombie-aggressive-towards-villager: true
     enable-zombie-pigmen-portal-spawns: true

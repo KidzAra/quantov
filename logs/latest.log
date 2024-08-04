@@ -1,61 +1,237 @@
-[14:23:13] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[14:23:14] [ServerMain/INFO]: Loaded 1174 recipes
-[14:23:14] [ServerMain/INFO]: Loaded 1271 advancements
-[14:23:14] [Server thread/INFO]: Starting minecraft server version 1.20.4
-[14:23:14] [Server thread/INFO]: Loading properties
-[14:23:14] [Server thread/INFO]: This server is running Paper version git-Paper-459 (MC: 1.20.4) (Implementing API version 1.20.4-R0.1-SNAPSHOT) (Git: 88419b2)
-[14:23:15] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[14:23:15] [Server thread/INFO]: Using 4 threads for Netty based IO
-[14:23:15] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
-    We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
-    For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[14:23:15] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
-[14:23:15] [Server thread/INFO]: Default game type: SURVIVAL
-[14:23:15] [Server thread/INFO]: Generating keypair
-[14:23:15] [Server thread/INFO]: Starting Minecraft server on 0.0.0.0:25565
-[14:23:15] [Server thread/INFO]: Using epoll channel type
-[14:23:16] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[14:23:16] [Server thread/INFO]: Paper: Using OpenSSL 3.0.x (Linux x86_64) cipher from Velocity.
-[14:23:16] [Server thread/INFO]: [SpigotLibraryLoader] [Denizen] Loading 2 libraries... please wait
-[14:23:16] [Server thread/INFO]: [SpigotLibraryLoader] [Denizen] Loaded library /home/container/libraries/org/mongodb/mongodb-driver-sync/4.8.1/mongodb-driver-sync-4.8.1.jar
-[14:23:16] [Server thread/INFO]: [SpigotLibraryLoader] [Denizen] Loaded library /home/container/libraries/org/mongodb/bson/4.8.1/bson-4.8.1.jar
-[14:23:16] [Server thread/INFO]: [SpigotLibraryLoader] [Denizen] Loaded library /home/container/libraries/org/mongodb/mongodb-driver-core/4.8.1/mongodb-driver-core-4.8.1.jar
-[14:23:16] [Server thread/INFO]: [SpigotLibraryLoader] [Denizen] Loaded library /home/container/libraries/org/mongodb/bson-record-codec/4.8.1/bson-record-codec-4.8.1.jar
-[14:23:16] [Server thread/INFO]: [SpigotLibraryLoader] [Denizen] Loaded library /home/container/libraries/redis/clients/jedis/4.3.1/jedis-4.3.1.jar
-[14:23:16] [Server thread/INFO]: [SpigotLibraryLoader] [Denizen] Loaded library /home/container/libraries/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar
-[14:23:16] [Server thread/INFO]: [SpigotLibraryLoader] [Denizen] Loaded library /home/container/libraries/org/apache/commons/commons-pool2/2.11.1/commons-pool2-2.11.1.jar
-[14:23:16] [Server thread/INFO]: [SpigotLibraryLoader] [Denizen] Loaded library /home/container/libraries/org/json/json/20220320/json-20220320.jar
-[14:23:16] [Server thread/INFO]: [SpigotLibraryLoader] [Denizen] Loaded library /home/container/libraries/com/google/code/gson/gson/2.8.9/gson-2.8.9.jar
-[14:23:16] [Server thread/INFO]: [SpigotLibraryLoader] [ItemsAdder] Loading 1 libraries... please wait
-[14:23:16] [Server thread/INFO]: [SpigotLibraryLoader] [ItemsAdder] Loaded library /home/container/libraries/org/apache/httpcomponents/httpmime/4.5.14/httpmime-4.5.14.jar
-[14:23:16] [Server thread/INFO]: [SpigotLibraryLoader] [ItemsAdder] Loaded library /home/container/libraries/org/apache/httpcomponents/httpclient/4.5.14/httpclient-4.5.14.jar
-[14:23:16] [Server thread/INFO]: [SpigotLibraryLoader] [ItemsAdder] Loaded library /home/container/libraries/org/apache/httpcomponents/httpcore/4.4.16/httpcore-4.4.16.jar
-[14:23:16] [Server thread/INFO]: [SpigotLibraryLoader] [ItemsAdder] Loaded library /home/container/libraries/commons-logging/commons-logging/1.2/commons-logging-1.2.jar
-[14:23:16] [Server thread/INFO]: [SpigotLibraryLoader] [ItemsAdder] Loaded library /home/container/libraries/commons-codec/commons-codec/1.11/commons-codec-1.11.jar
-[14:23:16] [Server thread/INFO]: [SpigotLibraryLoader] [HibiscusCommons] Loading 4 libraries... please wait
-[14:23:16] [Server thread/INFO]: [SpigotLibraryLoader] [HibiscusCommons] Loaded library /home/container/libraries/net/kyori/adventure-api/4.15.0/adventure-api-4.15.0.jar
-[14:23:16] [Server thread/INFO]: [SpigotLibraryLoader] [HibiscusCommons] Loaded library /home/container/libraries/net/kyori/adventure-key/4.15.0/adventure-key-4.15.0.jar
-[14:23:16] [Server thread/INFO]: [SpigotLibraryLoader] [HibiscusCommons] Loaded library /home/container/libraries/net/kyori/examination-api/1.3.0/examination-api-1.3.0.jar
-[14:23:16] [Server thread/INFO]: [SpigotLibraryLoader] [HibiscusCommons] Loaded library /home/container/libraries/net/kyori/examination-string/1.3.0/examination-string-1.3.0.jar
-[14:23:16] [Server thread/INFO]: [SpigotLibraryLoader] [HibiscusCommons] Loaded library /home/container/libraries/org/jetbrains/annotations/24.1.0/annotations-24.1.0.jar
-[14:23:16] [Server thread/INFO]: [SpigotLibraryLoader] [HibiscusCommons] Loaded library /home/container/libraries/net/kyori/adventure-text-minimessage/4.15.0/adventure-text-minimessage-4.15.0.jar
-[14:23:16] [Server thread/INFO]: [SpigotLibraryLoader] [HibiscusCommons] Loaded library /home/container/libraries/net/kyori/adventure-platform-bukkit/4.3.2/adventure-platform-bukkit-4.3.2.jar
-[14:23:16] [Server thread/INFO]: [SpigotLibraryLoader] [HibiscusCommons] Loaded library /home/container/libraries/net/kyori/adventure-platform-api/4.3.2/adventure-platform-api-4.3.2.jar
-[14:23:16] [Server thread/INFO]: [SpigotLibraryLoader] [HibiscusCommons] Loaded library /home/container/libraries/net/kyori/adventure-text-serializer-bungeecord/4.3.2/adventure-text-serializer-bungeecord-4.3.2.jar
-[14:23:16] [Server thread/INFO]: [SpigotLibraryLoader] [HibiscusCommons] Loaded library /home/container/libraries/net/kyori/adventure-text-serializer-legacy/4.13.1/adventure-text-serializer-legacy-4.13.1.jar
-[14:23:16] [Server thread/INFO]: [SpigotLibraryLoader] [HibiscusCommons] Loaded library /home/container/libraries/net/kyori/adventure-nbt/4.13.1/adventure-nbt-4.13.1.jar
-[14:23:16] [Server thread/INFO]: [SpigotLibraryLoader] [HibiscusCommons] Loaded library /home/container/libraries/net/kyori/adventure-text-serializer-gson/4.13.1/adventure-text-serializer-gson-4.13.1.jar
-[14:23:16] [Server thread/INFO]: [SpigotLibraryLoader] [HibiscusCommons] Loaded library /home/container/libraries/net/kyori/adventure-text-serializer-gson-legacy-impl/4.13.1/adventure-text-serializer-gson-legacy-impl-4.13.1.jar
-[14:23:16] [Server thread/INFO]: [SpigotLibraryLoader] [HibiscusCommons] Loaded library /home/container/libraries/net/kyori/adventure-platform-facet/4.3.2/adventure-platform-facet-4.3.2.jar
-[14:23:16] [Server thread/INFO]: [SpigotLibraryLoader] [HibiscusCommons] Loaded library /home/container/libraries/net/kyori/adventure-platform-viaversion/4.3.2/adventure-platform-viaversion-4.3.2.jar
-[14:23:16] [Server thread/INFO]: [SpigotLibraryLoader] [HibiscusCommons] Loaded library /home/container/libraries/org/apache/commons/commons-lang3/3.14.0/commons-lang3-3.14.0.jar
-[14:23:16] [Server thread/INFO]: [WolfyUtilities] NMS Version: v1_20_R3
-[14:23:17] [Server thread/INFO]: [me.wolfyscript.lib.org.reflections.Reflections] Reflections took 274 ms to scan 1 urls, producing 915 keys and 3672 values
-[14:23:17] [Server thread/INFO]: [WolfyUtilities] Register Default StackIdentifiers
-[14:23:17] [Server thread/INFO]: [com.dfsek.terra.AbstractPlatform] Initializing Terra...
-[14:23:17] [Server thread/INFO]: [com.dfsek.terra.AbstractPlatform] Loading config.yml
-[14:23:17] [Server thread/INFO]: [com.dfsek.terra.config.PluginConfigImpl] Loading config values from config.yml
-[14:23:17] [Server thread/INFO]: [com.dfsek.terra.AbstractPlatform] Loading 37 Terra addons:
+[20:08:03] [ServerMain/INFO]: [bootstrap] Running Java 22 (Java HotSpot(TM) 64-Bit Server VM 22.0.1+8-16; Oracle Corporation null) on Windows 11 10.0 (amd64)
+[20:08:03] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21-124-master@df3b654 (2024-08-02T00:02:38Z) for Minecraft 1.21
+[20:08:04] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[20:08:04] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins\CinematicStudio_2.0.0-indev-8.jar'...
+[20:08:04] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Remapping plugin 'plugins\ItemsAdder_3.6.3-beta-13.jar'...
+[20:08:05] [ServerMain/ERROR]: [PluginRemapper] Encountered exception remapping plugins
+java.util.concurrent.CompletionException: java.lang.RuntimeException: Failed to remap plugin jar 'plugins\CinematicStudio_2.0.0-indev-8.jar'
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:649) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1570) ~[?:?]
+	Suppressed: java.util.concurrent.CompletionException: java.lang.RuntimeException: Failed to remap plugin jar 'plugins\ItemsAdder_3.6.3-beta-13.jar'
+		at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+		at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+		at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:649) ~[?:?]
+		at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+		at java.base/java.lang.Thread.run(Thread.java:1570) ~[?:?]
+	Caused by: java.lang.RuntimeException: Failed to remap plugin jar 'plugins\ItemsAdder_3.6.3-beta-13.jar'
+		at io.papermc.paper.pluginremap.PluginRemapper.lambda$remap$7(PluginRemapper.java:358) ~[paper-1.21.jar:1.21-124-df3b654]
+		at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646) ~[?:?]
+		... 4 more
+	Caused by: java.lang.RuntimeException: Failed to execute task ia/m/cG
+		at net.neoforged.art.internal.AsyncHelper.invokeAll(AsyncHelper.java:56) ~[AutoRenamingTool-2.0.3.jar:?]
+		at net.neoforged.art.internal.AsyncHelper.consumeAll(AsyncHelper.java:36) ~[AutoRenamingTool-2.0.3.jar:?]
+		at net.neoforged.art.internal.RenamerImpl.run(RenamerImpl.java:177) ~[paper-1.21.jar:?]
+		at net.neoforged.art.internal.RenamerImpl.run(RenamerImpl.java:95) ~[paper-1.21.jar:?]
+		at io.papermc.paper.pluginremap.PluginRemapper.lambda$remap$7(PluginRemapper.java:355) ~[paper-1.21.jar:1.21-124-df3b654]
+		at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646) ~[?:?]
+		... 4 more
+	Caused by: java.util.concurrent.ExecutionException: java.lang.IllegalStateException: Duplicate key a (attempted merging values public static final ia/m/cG/a Lorg/bukkit/block/data/BlockData; and public static final ia/m/cG/a Lorg/bukkit/block/data/type/NoteBlock;)
+		at java.base/java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:?]
+		at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:191) ~[?:?]
+		at net.neoforged.art.internal.AsyncHelper.invokeAll(AsyncHelper.java:52) ~[AutoRenamingTool-2.0.3.jar:?]
+		at net.neoforged.art.internal.AsyncHelper.consumeAll(AsyncHelper.java:36) ~[AutoRenamingTool-2.0.3.jar:?]
+		at net.neoforged.art.internal.RenamerImpl.run(RenamerImpl.java:177) ~[paper-1.21.jar:?]
+		at net.neoforged.art.internal.RenamerImpl.run(RenamerImpl.java:95) ~[paper-1.21.jar:?]
+		at io.papermc.paper.pluginremap.PluginRemapper.lambda$remap$7(PluginRemapper.java:355) ~[paper-1.21.jar:1.21-124-df3b654]
+		at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646) ~[?:?]
+		... 4 more
+	Caused by: java.lang.IllegalStateException: Duplicate key a (attempted merging values public static final ia/m/cG/a Lorg/bukkit/block/data/BlockData; and public static final ia/m/cG/a Lorg/bukkit/block/data/type/NoteBlock;)
+		at java.base/java.util.stream.Collectors.duplicateKeyException(Collectors.java:135) ~[?:?]
+		at java.base/java.util.stream.Collectors.lambda$uniqKeysMapAccumulator$1(Collectors.java:182) ~[?:?]
+		at java.base/java.util.stream.ReduceOps$3ReducingSink.accept(ReduceOps.java:169) ~[?:?]
+		at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:212) ~[?:?]
+		at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1709) ~[?:?]
+		at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:556) ~[?:?]
+		at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:546) ~[?:?]
+		at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921) ~[?:?]
+		at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265) ~[?:?]
+		at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:702) ~[?:?]
+		at net.neoforged.art.internal.ClassProviderImpl$ClassInfo.<init>(ClassProviderImpl.java:122) ~[AutoRenamingTool-2.0.3.jar:?]
+		at net.neoforged.art.internal.ClassProviderBuilderImpl.lambda$addClass$1(ClassProviderBuilderImpl.java:64) ~[AutoRenamingTool-2.0.3.jar:?]
+		at java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1742) ~[?:?]
+		at net.neoforged.art.internal.ClassProviderBuilderImpl.addClass(ClassProviderBuilderImpl.java:64) ~[AutoRenamingTool-2.0.3.jar:?]
+		at net.neoforged.art.internal.RenamerImpl.lambda$run$2(RenamerImpl.java:178) ~[paper-1.21.jar:?]
+		at net.neoforged.art.internal.AsyncHelper.lambda$null$0(AsyncHelper.java:33) ~[AutoRenamingTool-2.0.3.jar:?]
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+		... 3 more
+Caused by: java.lang.RuntimeException: Failed to remap plugin jar 'plugins\CinematicStudio_2.0.0-indev-8.jar'
+	at io.papermc.paper.pluginremap.PluginRemapper.lambda$remap$7(PluginRemapper.java:358) ~[paper-1.21.jar:1.21-124-df3b654]
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646) ~[?:?]
+	... 4 more
+Caused by: java.lang.RuntimeException: Failed to execute task CinematicStudio/m/J
+	at net.neoforged.art.internal.AsyncHelper.invokeAll(AsyncHelper.java:56) ~[AutoRenamingTool-2.0.3.jar:?]
+	at net.neoforged.art.internal.AsyncHelper.consumeAll(AsyncHelper.java:36) ~[AutoRenamingTool-2.0.3.jar:?]
+	at net.neoforged.art.internal.RenamerImpl.run(RenamerImpl.java:177) ~[paper-1.21.jar:?]
+	at net.neoforged.art.internal.RenamerImpl.run(RenamerImpl.java:95) ~[paper-1.21.jar:?]
+	at io.papermc.paper.pluginremap.PluginRemapper.lambda$remap$7(PluginRemapper.java:355) ~[paper-1.21.jar:1.21-124-df3b654]
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646) ~[?:?]
+	... 4 more
+Caused by: java.util.concurrent.ExecutionException: java.lang.IllegalStateException: Duplicate key a (attempted merging values private CinematicStudio/m/J/a Lorg/joml/Vector2d; and private CinematicStudio/m/J/a LCinematicStudio/m/M;)
+	at java.base/java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:?]
+	at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:191) ~[?:?]
+	at net.neoforged.art.internal.AsyncHelper.invokeAll(AsyncHelper.java:52) ~[AutoRenamingTool-2.0.3.jar:?]
+	at net.neoforged.art.internal.AsyncHelper.consumeAll(AsyncHelper.java:36) ~[AutoRenamingTool-2.0.3.jar:?]
+	at net.neoforged.art.internal.RenamerImpl.run(RenamerImpl.java:177) ~[paper-1.21.jar:?]
+	at net.neoforged.art.internal.RenamerImpl.run(RenamerImpl.java:95) ~[paper-1.21.jar:?]
+	at io.papermc.paper.pluginremap.PluginRemapper.lambda$remap$7(PluginRemapper.java:355) ~[paper-1.21.jar:1.21-124-df3b654]
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646) ~[?:?]
+	... 4 more
+Caused by: java.lang.IllegalStateException: Duplicate key a (attempted merging values private CinematicStudio/m/J/a Lorg/joml/Vector2d; and private CinematicStudio/m/J/a LCinematicStudio/m/M;)
+	at java.base/java.util.stream.Collectors.duplicateKeyException(Collectors.java:135) ~[?:?]
+	at java.base/java.util.stream.Collectors.lambda$uniqKeysMapAccumulator$1(Collectors.java:182) ~[?:?]
+	at java.base/java.util.stream.ReduceOps$3ReducingSink.accept(ReduceOps.java:169) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:212) ~[?:?]
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1709) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:556) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:546) ~[?:?]
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:702) ~[?:?]
+	at net.neoforged.art.internal.ClassProviderImpl$ClassInfo.<init>(ClassProviderImpl.java:122) ~[AutoRenamingTool-2.0.3.jar:?]
+	at net.neoforged.art.internal.ClassProviderBuilderImpl.lambda$addClass$1(ClassProviderBuilderImpl.java:64) ~[AutoRenamingTool-2.0.3.jar:?]
+	at java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1710) ~[?:?]
+	at net.neoforged.art.internal.ClassProviderBuilderImpl.addClass(ClassProviderBuilderImpl.java:64) ~[AutoRenamingTool-2.0.3.jar:?]
+	at net.neoforged.art.internal.RenamerImpl.lambda$run$2(RenamerImpl.java:178) ~[paper-1.21.jar:?]
+	at net.neoforged.art.internal.AsyncHelper.lambda$null$0(AsyncHelper.java:33) ~[AutoRenamingTool-2.0.3.jar:?]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	... 3 more
+[20:08:05] [ServerMain/INFO]: [PluginInitializerManager] Initialized 20 plugins
+[20:08:05] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
+ - WolfyUtilities (4.16.15.1)
+[20:08:05] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (19):
+ - BetterCallFishing (2.0.1), CustomCrafting (4.16.9.1), Denizen (1.3.0-SNAPSHOT (build 1803-REL)), DesirePaths (1.10), DirectionalBlock (1.4.1), ExecutableItems (6.24.5.28), FancyPhysics (3.0.3), HMCCosmetics (2.7.2), HMCWraps (1.4.4), HibiscusCommons (0.3.1), LightAPI (bukkit-5.3.0 (build SNAPSHOT)), LoneLibs (1.0.45), Multiverse-Core (4.3.12), ProtocolLib (5.2.0-SNAPSHOT-679), Quantov (0.0.1), SCore (4.24.5.28), SkinsRestorer (15.0.15), Terra (6.4.3-BETA+ab60f14ff), TimeManager (1.9.0)
+[20:08:10] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[20:08:12] [ServerMain/INFO]: Loaded 1290 recipes
+[20:08:12] [ServerMain/INFO]: Loaded 1399 advancements
+[20:08:12] [Server thread/INFO]: Starting minecraft server version 1.21
+[20:08:12] [Server thread/INFO]: Loading properties
+[20:08:13] [Server thread/INFO]: This server is running Paper version 1.21-124-master@df3b654 (2024-08-02T00:02:38Z) (Implementing API version 1.21-R0.1-SNAPSHOT)
+[20:08:13] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[20:08:13] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[20:08:13] [Server thread/INFO]: Using 4 threads for Netty based IO
+[20:08:14] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+    We recommend migrating to the spark profiler.
+    For more information please visit: https://github.com/PaperMC/Paper/discussions/10565
+[20:08:14] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 4 worker threads, and population gen parallelism of 4 threads
+[20:08:14] [Server thread/INFO]: Default game type: SURVIVAL
+[20:08:14] [Server thread/INFO]: Generating keypair
+[20:08:14] [Server thread/INFO]: Starting Minecraft server on 0.0.0.0:25565
+[20:08:14] [Server thread/INFO]: Using default channel type
+[20:08:14] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[20:08:14] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[20:08:15] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Could not load 'plugins\.paper-remapped\DirectionalBlock-1.4.1.jar' in 'plugins\.paper-remapped'
+org.bukkit.plugin.UnknownDependencyException: Unknown/missing dependency plugins: [ItemsAdder]. Please download and install these plugins to run 'DirectionalBlock'.
+	at io.papermc.paper.plugin.entrypoint.strategy.modern.ModernPluginLoadingStrategy.loadProviders(ModernPluginLoadingStrategy.java:82) ~[paper-1.21.jar:1.21-124-df3b654]
+	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:38) ~[paper-1.21.jar:1.21-124-df3b654]
+	at io.papermc.paper.plugin.entrypoint.LaunchEntryPointHandler.enter(LaunchEntryPointHandler.java:40) ~[paper-1.21.jar:1.21-124-df3b654]
+	at org.bukkit.craftbukkit.CraftServer.loadPlugins(CraftServer.java:546) ~[paper-1.21.jar:1.21-124-df3b654]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:292) ~[paper-1.21.jar:1.21-124-df3b654]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1215) ~[paper-1.21.jar:1.21-124-df3b654]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.jar:1.21-124-df3b654]
+	at java.base/java.lang.Thread.run(Thread.java:1570) ~[?:?]
+[20:08:15] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Could not load 'plugins\.paper-remapped\Magic-0.0.1.jar' in 'plugins\.paper-remapped'
+org.bukkit.plugin.UnknownDependencyException: Unknown/missing dependency plugins: [ItemsAdder]. Please download and install these plugins to run 'Quantov'.
+	at io.papermc.paper.plugin.entrypoint.strategy.modern.ModernPluginLoadingStrategy.loadProviders(ModernPluginLoadingStrategy.java:82) ~[paper-1.21.jar:1.21-124-df3b654]
+	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:38) ~[paper-1.21.jar:1.21-124-df3b654]
+	at io.papermc.paper.plugin.entrypoint.LaunchEntryPointHandler.enter(LaunchEntryPointHandler.java:40) ~[paper-1.21.jar:1.21-124-df3b654]
+	at org.bukkit.craftbukkit.CraftServer.loadPlugins(CraftServer.java:546) ~[paper-1.21.jar:1.21-124-df3b654]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:292) ~[paper-1.21.jar:1.21-124-df3b654]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1215) ~[paper-1.21.jar:1.21-124-df3b654]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.jar:1.21-124-df3b654]
+	at java.base/java.lang.Thread.run(Thread.java:1570) ~[?:?]
+[20:08:15] [Server thread/INFO]: [SpigotLibraryLoader] [Denizen] Loading 2 libraries... please wait
+[20:08:15] [Server thread/INFO]: [SpigotLibraryLoader] [Denizen] Loaded library C:\Users\Илья\OneDrive\Документы\GitHub\quantov\libraries\org\mongodb\mongodb-driver-sync\4.8.1\mongodb-driver-sync-4.8.1.jar
+[20:08:15] [Server thread/INFO]: [SpigotLibraryLoader] [Denizen] Loaded library C:\Users\Илья\OneDrive\Документы\GitHub\quantov\libraries\org\mongodb\bson\4.8.1\bson-4.8.1.jar
+[20:08:15] [Server thread/INFO]: [SpigotLibraryLoader] [Denizen] Loaded library C:\Users\Илья\OneDrive\Документы\GitHub\quantov\libraries\org\mongodb\mongodb-driver-core\4.8.1\mongodb-driver-core-4.8.1.jar
+[20:08:15] [Server thread/INFO]: [SpigotLibraryLoader] [Denizen] Loaded library C:\Users\Илья\OneDrive\Документы\GitHub\quantov\libraries\org\mongodb\bson-record-codec\4.8.1\bson-record-codec-4.8.1.jar
+[20:08:15] [Server thread/INFO]: [SpigotLibraryLoader] [Denizen] Loaded library C:\Users\Илья\OneDrive\Документы\GitHub\quantov\libraries\redis\clients\jedis\4.3.1\jedis-4.3.1.jar
+[20:08:15] [Server thread/INFO]: [SpigotLibraryLoader] [Denizen] Loaded library C:\Users\Илья\OneDrive\Документы\GitHub\quantov\libraries\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar
+[20:08:15] [Server thread/INFO]: [SpigotLibraryLoader] [Denizen] Loaded library C:\Users\Илья\OneDrive\Документы\GitHub\quantov\libraries\org\apache\commons\commons-pool2\2.11.1\commons-pool2-2.11.1.jar
+[20:08:15] [Server thread/INFO]: [SpigotLibraryLoader] [Denizen] Loaded library C:\Users\Илья\OneDrive\Документы\GitHub\quantov\libraries\org\json\json\20220320\json-20220320.jar
+[20:08:15] [Server thread/INFO]: [SpigotLibraryLoader] [Denizen] Loaded library C:\Users\Илья\OneDrive\Документы\GitHub\quantov\libraries\com\google\code\gson\gson\2.8.9\gson-2.8.9.jar
+[20:08:15] [Server thread/INFO]: [SpigotLibraryLoader] [HibiscusCommons] Loading 4 libraries... please wait
+[20:08:16] [Server thread/INFO]: [SpigotLibraryLoader] [HibiscusCommons] Loaded library C:\Users\Илья\OneDrive\Документы\GitHub\quantov\libraries\net\kyori\adventure-api\4.15.0\adventure-api-4.15.0.jar
+[20:08:16] [Server thread/INFO]: [SpigotLibraryLoader] [HibiscusCommons] Loaded library C:\Users\Илья\OneDrive\Документы\GitHub\quantov\libraries\net\kyori\adventure-key\4.15.0\adventure-key-4.15.0.jar
+[20:08:16] [Server thread/INFO]: [SpigotLibraryLoader] [HibiscusCommons] Loaded library C:\Users\Илья\OneDrive\Документы\GitHub\quantov\libraries\net\kyori\examination-api\1.3.0\examination-api-1.3.0.jar
+[20:08:16] [Server thread/INFO]: [SpigotLibraryLoader] [HibiscusCommons] Loaded library C:\Users\Илья\OneDrive\Документы\GitHub\quantov\libraries\net\kyori\examination-string\1.3.0\examination-string-1.3.0.jar
+[20:08:16] [Server thread/INFO]: [SpigotLibraryLoader] [HibiscusCommons] Loaded library C:\Users\Илья\OneDrive\Документы\GitHub\quantov\libraries\org\jetbrains\annotations\24.1.0\annotations-24.1.0.jar
+[20:08:16] [Server thread/INFO]: [SpigotLibraryLoader] [HibiscusCommons] Loaded library C:\Users\Илья\OneDrive\Документы\GitHub\quantov\libraries\net\kyori\adventure-text-minimessage\4.15.0\adventure-text-minimessage-4.15.0.jar
+[20:08:16] [Server thread/INFO]: [SpigotLibraryLoader] [HibiscusCommons] Loaded library C:\Users\Илья\OneDrive\Документы\GitHub\quantov\libraries\net\kyori\adventure-platform-bukkit\4.3.2\adventure-platform-bukkit-4.3.2.jar
+[20:08:16] [Server thread/INFO]: [SpigotLibraryLoader] [HibiscusCommons] Loaded library C:\Users\Илья\OneDrive\Документы\GitHub\quantov\libraries\net\kyori\adventure-platform-api\4.3.2\adventure-platform-api-4.3.2.jar
+[20:08:16] [Server thread/INFO]: [SpigotLibraryLoader] [HibiscusCommons] Loaded library C:\Users\Илья\OneDrive\Документы\GitHub\quantov\libraries\net\kyori\adventure-text-serializer-bungeecord\4.3.2\adventure-text-serializer-bungeecord-4.3.2.jar
+[20:08:16] [Server thread/INFO]: [SpigotLibraryLoader] [HibiscusCommons] Loaded library C:\Users\Илья\OneDrive\Документы\GitHub\quantov\libraries\net\kyori\adventure-text-serializer-legacy\4.13.1\adventure-text-serializer-legacy-4.13.1.jar
+[20:08:16] [Server thread/INFO]: [SpigotLibraryLoader] [HibiscusCommons] Loaded library C:\Users\Илья\OneDrive\Документы\GitHub\quantov\libraries\net\kyori\adventure-nbt\4.13.1\adventure-nbt-4.13.1.jar
+[20:08:16] [Server thread/INFO]: [SpigotLibraryLoader] [HibiscusCommons] Loaded library C:\Users\Илья\OneDrive\Документы\GitHub\quantov\libraries\net\kyori\adventure-text-serializer-gson\4.13.1\adventure-text-serializer-gson-4.13.1.jar
+[20:08:16] [Server thread/INFO]: [SpigotLibraryLoader] [HibiscusCommons] Loaded library C:\Users\Илья\OneDrive\Документы\GitHub\quantov\libraries\net\kyori\adventure-text-serializer-gson-legacy-impl\4.13.1\adventure-text-serializer-gson-legacy-impl-4.13.1.jar
+[20:08:16] [Server thread/INFO]: [SpigotLibraryLoader] [HibiscusCommons] Loaded library C:\Users\Илья\OneDrive\Документы\GitHub\quantov\libraries\net\kyori\adventure-platform-facet\4.3.2\adventure-platform-facet-4.3.2.jar
+[20:08:16] [Server thread/INFO]: [SpigotLibraryLoader] [HibiscusCommons] Loaded library C:\Users\Илья\OneDrive\Документы\GitHub\quantov\libraries\net\kyori\adventure-platform-viaversion\4.3.2\adventure-platform-viaversion-4.3.2.jar
+[20:08:16] [Server thread/INFO]: [SpigotLibraryLoader] [HibiscusCommons] Loaded library C:\Users\Илья\OneDrive\Документы\GitHub\quantov\libraries\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar
+[20:08:16] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Could not load plugin 'wolfyutils-spigot-4.16.15.1.jar' in folder 'plugins'
+java.lang.reflect.InvocationTargetException: null
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:74) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at io.papermc.paper.plugin.provider.util.ProviderUtil.loadClass(ProviderUtil.java:60) ~[paper-api-1.21-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.provider.util.ProviderUtil.loadClass(ProviderUtil.java:29) ~[paper-api-1.21-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.provider.type.paper.PaperPluginParent$PaperServerPluginProvider.createInstance(PaperPluginParent.java:169) ~[paper-1.21.jar:1.21-124-df3b654]
+	at io.papermc.paper.plugin.provider.type.paper.PaperPluginParent$PaperServerPluginProvider.createInstance(PaperPluginParent.java:139) ~[paper-1.21.jar:1.21-124-df3b654]
+	at io.papermc.paper.plugin.entrypoint.strategy.modern.ModernPluginLoadingStrategy.loadProviders(ModernPluginLoadingStrategy.java:116) ~[paper-1.21.jar:1.21-124-df3b654]
+	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:38) ~[paper-1.21.jar:1.21-124-df3b654]
+	at io.papermc.paper.plugin.entrypoint.LaunchEntryPointHandler.enter(LaunchEntryPointHandler.java:40) ~[paper-1.21.jar:1.21-124-df3b654]
+	at org.bukkit.craftbukkit.CraftServer.loadPlugins(CraftServer.java:546) ~[paper-1.21.jar:1.21-124-df3b654]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:292) ~[paper-1.21.jar:1.21-124-df3b654]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1215) ~[paper-1.21.jar:1.21-124-df3b654]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.jar:1.21-124-df3b654]
+	at java.base/java.lang.Thread.run(Thread.java:1570) ~[?:?]
+Caused by: java.lang.ExceptionInInitializerError
+	at wolfyutils-spigot-4.16.15.1.jar/me.wolfyscript.utilities.api.nms.NMSUtil.create(NMSUtil.java:81) ~[wolfyutils-spigot-4.16.15.1.jar:?]
+	at wolfyutils-spigot-4.16.15.1.jar/com.wolfyscript.utilities.bukkit.WolfyUtilsBukkit.<init>(WolfyUtilsBukkit.java:56) ~[wolfyutils-spigot-4.16.15.1.jar:?]
+	at wolfyutils-spigot-4.16.15.1.jar/me.wolfyscript.utilities.api.WolfyUtilities.<init>(WolfyUtilities.java:69) ~[wolfyutils-spigot-4.16.15.1.jar:?]
+	at wolfyutils-spigot-4.16.15.1.jar/me.wolfyscript.utilities.api.WolfyUtilities.<init>(WolfyUtilities.java:77) ~[wolfyutils-spigot-4.16.15.1.jar:?]
+	at wolfyutils-spigot-4.16.15.1.jar/me.wolfyscript.utilities.api.WolfyUtilCore.lambda$getAPI$0(WolfyUtilCore.java:541) ~[wolfyutils-spigot-4.16.15.1.jar:?]
+	at java.base/java.util.HashMap.computeIfAbsent(HashMap.java:1228) ~[?:?]
+	at wolfyutils-spigot-4.16.15.1.jar/me.wolfyscript.utilities.api.WolfyUtilCore.getAPI(WolfyUtilCore.java:541) ~[wolfyutils-spigot-4.16.15.1.jar:?]
+	at wolfyutils-spigot-4.16.15.1.jar/me.wolfyscript.utilities.api.WolfyUtilCore.getAPI(WolfyUtilCore.java:528) ~[wolfyutils-spigot-4.16.15.1.jar:?]
+	at wolfyutils-spigot-4.16.15.1.jar/me.wolfyscript.utilities.api.WolfyUtilCore.<init>(WolfyUtilCore.java:204) ~[wolfyutils-spigot-4.16.15.1.jar:?]
+	at wolfyutils-spigot-4.16.15.1.jar/com.wolfyscript.utilities.paper.WolfyCorePaper.<init>(WolfyCorePaper.java:20) ~[wolfyutils-spigot-4.16.15.1.jar:?]
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	... 14 more
+Caused by: java.lang.StringIndexOutOfBoundsException: Range [23, 22) out of bounds for length 22
+	at java.base/jdk.internal.util.Preconditions$1.apply(Preconditions.java:55) ~[?:?]
+	at java.base/jdk.internal.util.Preconditions$1.apply(Preconditions.java:52) ~[?:?]
+	at java.base/jdk.internal.util.Preconditions$4.apply(Preconditions.java:213) ~[?:?]
+	at java.base/jdk.internal.util.Preconditions$4.apply(Preconditions.java:210) ~[?:?]
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:98) ~[?:?]
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckFromToIndex(Preconditions.java:112) ~[?:?]
+	at java.base/jdk.internal.util.Preconditions.checkFromToIndex(Preconditions.java:349) ~[?:?]
+	at java.base/java.lang.String.checkBoundsBeginEnd(String.java:4914) ~[?:?]
+	at java.base/java.lang.String.substring(String.java:2876) ~[?:?]
+	at java.base/java.lang.String.substring(String.java:2849) ~[?:?]
+	at wolfyutils-spigot-4.16.15.1.jar/me.wolfyscript.utilities.util.Reflection.getVersion(Reflection.java:84) ~[wolfyutils-spigot-4.16.15.1.jar:?]
+	at wolfyutils-spigot-4.16.15.1.jar/me.wolfyscript.utilities.util.Reflection.<clinit>(Reflection.java:42) ~[wolfyutils-spigot-4.16.15.1.jar:?]
+	at wolfyutils-spigot-4.16.15.1.jar/me.wolfyscript.utilities.api.nms.NMSUtil.create(NMSUtil.java:81) ~[wolfyutils-spigot-4.16.15.1.jar:?]
+	at wolfyutils-spigot-4.16.15.1.jar/com.wolfyscript.utilities.bukkit.WolfyUtilsBukkit.<init>(WolfyUtilsBukkit.java:56) ~[wolfyutils-spigot-4.16.15.1.jar:?]
+	at wolfyutils-spigot-4.16.15.1.jar/me.wolfyscript.utilities.api.WolfyUtilities.<init>(WolfyUtilities.java:69) ~[wolfyutils-spigot-4.16.15.1.jar:?]
+	at wolfyutils-spigot-4.16.15.1.jar/me.wolfyscript.utilities.api.WolfyUtilities.<init>(WolfyUtilities.java:77) ~[wolfyutils-spigot-4.16.15.1.jar:?]
+	at wolfyutils-spigot-4.16.15.1.jar/me.wolfyscript.utilities.api.WolfyUtilCore.lambda$getAPI$0(WolfyUtilCore.java:541) ~[wolfyutils-spigot-4.16.15.1.jar:?]
+	at java.base/java.util.HashMap.computeIfAbsent(HashMap.java:1228) ~[?:?]
+	at wolfyutils-spigot-4.16.15.1.jar/me.wolfyscript.utilities.api.WolfyUtilCore.getAPI(WolfyUtilCore.java:541) ~[wolfyutils-spigot-4.16.15.1.jar:?]
+	at wolfyutils-spigot-4.16.15.1.jar/me.wolfyscript.utilities.api.WolfyUtilCore.getAPI(WolfyUtilCore.java:528) ~[wolfyutils-spigot-4.16.15.1.jar:?]
+	at wolfyutils-spigot-4.16.15.1.jar/me.wolfyscript.utilities.api.WolfyUtilCore.<init>(WolfyUtilCore.java:204) ~[wolfyutils-spigot-4.16.15.1.jar:?]
+	at wolfyutils-spigot-4.16.15.1.jar/com.wolfyscript.utilities.paper.WolfyCorePaper.<init>(WolfyCorePaper.java:20) ~[wolfyutils-spigot-4.16.15.1.jar:?]
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	... 14 more
+[20:08:17] [Server thread/INFO]: [com.dfsek.terra.AbstractPlatform] Initializing Terra...
+[20:08:17] [Server thread/INFO]: [com.dfsek.terra.AbstractPlatform] Loading config.yml
+[20:08:17] [Server thread/INFO]: [com.dfsek.terra.config.PluginConfigImpl] Loading config values from config.yml
+[20:08:17] [Server thread/INFO]: [com.dfsek.terra.AbstractPlatform] Loading 37 Terra addons:
         - biome-provider-extrusion@1.0.0-BETA+ab60f14ff
         - biome-provider-image@1.0.1-BETA+ab60f14ff
         - biome-provider-image-v2@1.0.1-BETA+ab60f14ff
@@ -93,413 +269,434 @@
         - terra@1.0.0
         - terra-bukkit@1.0.0
         - terrascript-function-sampler@1.0.0-BETA+ab60f14ff
-[14:23:17] [Server thread/INFO]: [com.dfsek.terra.AbstractPlatform] Terra addons successfully loaded.
-[14:23:17] [Server thread/INFO]: [com.dfsek.terra.AbstractPlatform] Finished initialization.
-[14:23:17] [Server thread/INFO]: [CustomCrafting] NMS Version: v1_20_R3
-[14:23:17] [Server thread/INFO]: [Multiverse-Core] Loading server plugin Multiverse-Core v4.3.12
-[14:23:17] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.2.0-SNAPSHOT-679
-[14:23:18] [Server thread/INFO]: [SCore] Loading server plugin SCore v4.24.5.28
-[14:23:18] [Server thread/INFO]: [LightAPI] Loading server plugin LightAPI vbukkit-5.3.0 (build SNAPSHOT)
-[14:23:18] [Server thread/INFO]: <LightAPI>: [INFO] Preparing LightAPI...
-[14:23:18] [Server thread/INFO]: <LightAPI>: [INFO] Preparing done!
-[14:23:18] [Server thread/INFO]: [LoneLibs] Loading server plugin LoneLibs v1.0.45
-[14:23:18] [Server thread/INFO]: [Denizen] Loading server plugin Denizen v1.3.0-SNAPSHOT (build 1803-REL)
-[14:23:18] [Server thread/INFO]: [ExecutableItems] Loading server plugin ExecutableItems v6.24.5.28
-[14:23:18] [Server thread/INFO]: [ItemsAdder] Loading server plugin ItemsAdder v3.6.3-beta-13
-[14:23:18] [Server thread/INFO]: [HibiscusCommons] Loading server plugin HibiscusCommons v0.3.1
-[14:23:18] [Server thread/INFO]: [WolfyUtilities] Loading server plugin WolfyUtilities v4.16.15.1
-[14:23:18] [Server thread/INFO]: [WolfyUtilities] Register JSON de-/serializers
-[14:23:18] [Server thread/INFO]: [WolfyUtilities] Register JSON Operators
-[14:23:18] [Server thread/INFO]: [WolfyUtilities] Register JSON Value Providers
-[14:23:18] [Server thread/INFO]: [WolfyUtilities] Register CustomItem NBT Checks
-[14:23:18] [Server thread/INFO]: [WolfyUtilities] Register CustomItem Actions
-[14:23:18] [Server thread/INFO]: [WolfyUtilities] Register CustomItem Events
-[14:23:18] [Server thread/INFO]: [WolfyUtilities] Register Particle Animators
-[14:23:18] [Server thread/INFO]: [WolfyUtilities] Register Particle Shapes
-[14:23:18] [Server thread/INFO]: [WolfyUtilities] Register Particle Timers
-[14:23:18] [Server thread/INFO]: [WolfyUtilities] Register Custom Block Data
-[14:23:18] [Server thread/INFO]: [WolfyUtilities] Register Custom Player Data
-[14:23:18] [Server thread/INFO]: [WolfyUtilities] Register NBT Query Nodes
-[14:23:18] [Server thread/INFO]: [CinematicStudio] Loading server plugin CinematicStudio v2.0.0-indev-8
-[14:23:18] [Server thread/INFO]: [FancyPhysics] Loading server plugin FancyPhysics v3.0.3
-[14:23:18] [Server thread/INFO]: [Terra] Loading server plugin Terra v6.4.3-BETA+ab60f14ff
-[14:23:18] [Server thread/INFO]: [BetterCallFishing] Loading server plugin BetterCallFishing v2.0.1
-[14:23:18] [Server thread/INFO]: [TimeManager] Loading server plugin TimeManager v1.9.0
-[14:23:18] [Server thread/INFO]: [HMCCosmetics] Loading server plugin HMCCosmetics v2.7.2
-[14:23:18] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.0.15
-[14:23:18] [Server thread/INFO]: [CustomCrafting] Loading server plugin CustomCrafting v4.16.9.1
-[14:23:18] [Server thread/INFO]: [CustomCrafting] WolfyUtils API: v4.16.15.1
-[14:23:18] [Server thread/INFO]: [CustomCrafting] CustomCrafting: v4.16.9.1
-[14:23:18] [Server thread/INFO]: [CustomCrafting] Environment   : PROD
-[14:23:18] [Server thread/INFO]: [CustomCrafting] Registering CustomItem Data
-[14:23:18] [Server thread/INFO]: [CustomCrafting] Registering Custom Block Data
-[14:23:18] [Server thread/INFO]: [CustomCrafting] Registering Result Extensions
-[14:23:18] [Server thread/INFO]: [CustomCrafting] Registering Result Merge Adapters
-[14:23:18] [Server thread/INFO]: [CustomCrafting] Registering Recipe Conditions
-[14:23:18] [Server thread/INFO]: [CustomCrafting] Registering Recipe Types
-[14:23:18] [Server thread/INFO]: [CustomCrafting] Registering Anvil Recipe Tasks
-[14:23:18] [Server thread/INFO]: [CustomCrafting] Registering Type Registries
-[14:23:18] [Server thread/INFO]: [DesirePaths] Loading server plugin DesirePaths v1.10
-[14:23:18] [Server thread/INFO]: [DirectionalBlock] Loading server plugin DirectionalBlock v1.4.1
-[14:23:18] [Server thread/INFO]: [HMCWraps] Loading server plugin HMCWraps v1.4.4
-[14:23:18] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[14:23:18] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.2.0-SNAPSHOT-679
-[14:23:18] [Server thread/INFO]: [LoneLibs] Enabling LoneLibs v1.0.45
-[14:23:18] [Server thread/INFO]: [WolfyUtilities] Enabling WolfyUtilities v4.16.15.1
-[14:23:18] [Server thread/INFO]: [WolfyUtilities] Minecraft version: 1.20.4
-[14:23:18] [Server thread/INFO]: [WolfyUtilities] WolfyUtils version: 4.16.15.1
-[14:23:18] [Server thread/INFO]: [WolfyUtilities] Environment: PROD
-[14:23:18] [Server thread/INFO]: [WolfyUtilities] Loading Plugin integrations: 
-[14:23:18] [Server thread/INFO]: [WolfyUtilities]  - ExecutableItems
-[14:23:18] [Server thread/INFO]: [WolfyUtilities]  - Denizen
-[14:23:18] [Server thread/INFO]: [WolfyUtilities]  - ItemsAdder
-[14:23:18] [Server thread/INFO]: [WolfyUtilities] Create & Init Plugin integrations: 
-[14:23:18] [Server thread/INFO]: [WolfyUtilities] Register API references
-[14:23:18] [Server thread/INFO]: [WolfyUtilities] Loading stored Custom Items
-[14:23:18] [Server thread/INFO]: [WolfyUtilities] Loading Creative Mode Tabs
-[14:23:18] [Server thread/INFO]: [CinematicStudio] Enabling CinematicStudio v2.0.0-indev-8
-[14:23:19] [Server thread/INFO]: [Terra] Enabling Terra v6.4.3-BETA+ab60f14ff
-[14:23:19] [Server thread/INFO]: [com.dfsek.terra.bukkit.TerraBukkitPlugin] Running on Minecraft version v1.20.3 with server implementation Paper.
-[14:23:19] [Server thread/INFO]: [com.dfsek.terra.AbstractPlatform] Loading config packs...
-[14:23:19] [Server thread/INFO]: [com.dfsek.terra.registry.master.ConfigRegistry] Loading ZIP archive: default.zip
-[14:23:19] [Server thread/INFO]: [com.dfsek.terra.config.pack.ConfigPackImpl] Loading config pack "OVERWORLD:OVERWORLD"
-[14:23:20] [Server thread/INFO]: [com.dfsek.terra.config.pack.ConfigPackImpl] Loaded config pack "OVERWORLD:OVERWORLD" v1.3.4 by Astrash, Sancires, Aureus in 1448.512606ms.
-[14:23:21] [Server thread/INFO]: [com.dfsek.terra.AbstractPlatform] Loaded packs.
-[14:23:21] [Server thread/INFO]: [com.dfsek.terra.bukkit.nms.v1_20_R3.AwfulBukkitHacks] Hacking biome registry...
-[14:23:21] [Server thread/INFO]: [com.dfsek.terra.bukkit.nms.v1_20_R3.AwfulBukkitHacks] Doing tag garbage....
-[14:23:21] [Server thread/INFO]: [BetterCallFishing] Enabling BetterCallFishing v2.0.1
-[14:23:22] [Server thread/INFO]: §9----------------
-[14:23:22] [Server thread/INFO]: §aНайдено обновление для BetterCallFishing!
-[14:23:22] [Server thread/INFO]: §a Новая версия: §92.0.3
-[14:23:22] [Server thread/INFO]: §a Текущая версия: §9%current_version%
-[14:23:22] [Server thread/INFO]: §eFixed %current_version% bug.
-[14:23:22] [Server thread/INFO]: §eAdded German translation (by ZevKev).
-[14:23:22] [Server thread/INFO]: §eAdded Czech translation (by Brygy).
-[14:23:22] [Server thread/INFO]: §eAdded Ukrainian translation (by Salatosik).
-[14:23:22] [Server thread/INFO]: §eFixed /bettercallfishing reload command.
-[14:23:22] [Server thread/INFO]: §eAdded /bcf allias to /bettercallfishing command.
-[14:23:22] [Server thread/INFO]: §eChanged name of catched barrel.
-[14:23:22] [Server thread/INFO]: §eAdded automatic updates of config files.
-[14:23:22] [Server thread/INFO]: §eAdded a chance to catch a dolphin.
-[14:23:22] [Server thread/INFO]: §9---------------- 
-[14:23:22] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.0.15
-[14:23:22] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.20.4.
-[14:23:22] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
-[14:23:22] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[14:23:22] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[14:23:22] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[14:23:22] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[14:23:22] [Server thread/INFO]: Preparing level "world"
-[14:23:22] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[14:23:22] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[14:23:22] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
-[14:23:22] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
-[14:23:22] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
-[14:23:22] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[14:23:22] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[14:23:22] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.0.15
-[14:23:22] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: fcfa8b9
-[14:23:22] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
-[14:23:22] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[14:23:22] [Server thread/INFO]: [com.dfsek.terra.bukkit.nms.v1_20_R3.NMSInjectListener] Preparing to take over the world: world
-[14:23:22] [Server thread/INFO]: [com.dfsek.terra.bukkit.nms.v1_20_R3.NMSInjectListener] Successfully injected into world.
-[14:23:22] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[14:23:22] [Server thread/INFO]: Time elapsed: 143 ms
-[14:23:22] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[14:23:23] [Server thread/INFO]: Time elapsed: 122 ms
-[14:23:23] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[14:23:23] [Server thread/INFO]: Time elapsed: 43 ms
-[14:23:23] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.12
-[14:23:23] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.12" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
-[14:23:23] [Server thread/INFO]: [Multiverse-Core] §aWe are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
-[14:23:23] [Server thread/INFO]: [Multiverse-Core] 3 - World(s) loaded.
-[14:23:23] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
-[14:23:23] [Server thread/INFO]: [Multiverse-Core] Version 4.3.12 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
-[14:23:23] [Server thread/INFO]: [SCore] Enabling SCore v4.24.5.28
-[14:23:23] [Server thread/INFO]: ================ SCore ================
-[14:23:23] [Server thread/INFO]: SCore Version of the server git-Paper-459 (MC: 1.20.4) !
-[14:23:23] [Server thread/INFO]: SCore ExecutableItems hooked !  (6.24.5.28) Load After
-[14:23:23] [Server thread/INFO]: SCore Multiverse-Core hooked !  (4.3.12)  Load Before
-[14:23:23] [Server thread/INFO]: SCore ProtocolLib hooked !
-[14:23:23] [Server thread/INFO]: SCore Locale setup: EN
-[14:23:23] [Server thread/INFO]: SCore ItemsAdder hooked !  (3.6.3-beta-13) Load After
-[14:23:23] [Server thread/INFO]: SCore Terra hooked !  (6.4.3-BETA+ab60f14ff)  Load Before
-[14:23:23] [Server thread/INFO]: SCore CustomCrafting hooked !  (4.16.9.1) Load After
-[14:23:23] [Server thread/INFO]: SCore Language of the editor setup on EN
-[14:23:23] [Server thread/INFO]: SCore Language for in-game messages setup on EN
-[14:23:23] [Server thread/INFO]: SCore will connect to the database hosted: In Local
-[14:23:23] [Server thread/INFO]: SCore Connection to the db...
-[14:23:23] [Server thread/INFO]: SCore will connect to the database hosted: In Local
-[14:23:23] [Server thread/INFO]: SCore Creating table SecurityOP if not exists...
-[14:23:23] [Server thread/INFO]: SCore Creating table Commands if not exists...
-[14:23:23] [Server thread/INFO]: SCore Creating table Cooldowns if not exists...
-[14:23:23] [Server thread/INFO]: SCore Creating table Commands Player if not exists...
-[14:23:23] [Server thread/INFO]: SCore Creating table Commands Entity if not exists...
-[14:23:23] [Server thread/INFO]: SCore Creating table Commands Block if not exists...
-[14:23:23] [Server thread/INFO]: SCore Creating table UsePerDay if not exists...
-[14:23:24] [Server thread/INFO]: SCore SCore loaded 1 variables from local files !
-[14:23:24] [Server thread/INFO]: SCore SCore loaded 0 delayed commands saved
-[14:23:24] [Server thread/INFO]: ================ SCore ================
-[14:23:24] [Server thread/INFO]: [LightAPI] Enabling LightAPI vbukkit-5.3.0 (build SNAPSHOT)
-[14:23:24] [Server thread/INFO]: <LightAPI>: [INFO] Initializing LightAPI...
-[14:23:24] [Server thread/WARN]: java.lang.ClassNotFoundException: ru.beykerykt.minecraft.lightapi.bukkit.internal.handler.craftbukkit.nms.v1_20_R3.StarlightNMSHandler
-[14:23:24] [Server thread/WARN]: 	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:197)
-[14:23:24] [Server thread/WARN]: 	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:164)
-[14:23:24] [Server thread/WARN]: 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
-[14:23:24] [Server thread/WARN]: 	at java.base/java.lang.Class.forName0(Native Method)
-[14:23:24] [Server thread/WARN]: 	at java.base/java.lang.Class.forName(Class.java:421)
-[14:23:24] [Server thread/WARN]: 	at java.base/java.lang.Class.forName(Class.java:412)
-[14:23:24] [Server thread/WARN]: 	at LightAPI-Bukkit-5.3.0.jar//ru.beykerykt.minecraft.lightapi.bukkit.internal.handler.craftbukkit.HandlerFactory.createHandler(HandlerFactory.java:71)
-[14:23:24] [Server thread/WARN]: 	at LightAPI-Bukkit-5.3.0.jar//ru.beykerykt.minecraft.lightapi.bukkit.internal.BukkitPlatformImpl.initHandler(BukkitPlatformImpl.java:196)
-[14:23:24] [Server thread/WARN]: 	at LightAPI-Bukkit-5.3.0.jar//ru.beykerykt.minecraft.lightapi.bukkit.internal.BukkitPlatformImpl.initialization(BukkitPlatformImpl.java:228)
-[14:23:24] [Server thread/WARN]: 	at LightAPI-Bukkit-5.3.0.jar//ru.beykerykt.minecraft.lightapi.common.LightAPI.initialization(LightAPI.java:88)
-[14:23:24] [Server thread/WARN]: 	at LightAPI-Bukkit-5.3.0.jar//ru.beykerykt.minecraft.lightapi.bukkit.BukkitPlugin.onEnable(BukkitPlugin.java:70)
-[14:23:24] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:287)
-[14:23:24] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:188)
-[14:23:24] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:104)
-[14:23:24] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:507)
-[14:23:24] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.enablePlugin(CraftServer.java:639)
-[14:23:24] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.enablePlugins(CraftServer.java:550)
-[14:23:24] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:671)
-[14:23:24] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:431)
-[14:23:24] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:309)
-[14:23:24] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1131)
-[14:23:24] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:319)
-[14:23:24] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
-[14:23:24] [Server thread/WARN]: java.lang.IllegalStateException: Initialization failed! Code: -1
-[14:23:24] [Server thread/WARN]: 	at LightAPI-Bukkit-5.3.0.jar//ru.beykerykt.minecraft.lightapi.common.LightAPI.initialization(LightAPI.java:96)
-[14:23:24] [Server thread/WARN]: 	at LightAPI-Bukkit-5.3.0.jar//ru.beykerykt.minecraft.lightapi.bukkit.BukkitPlugin.onEnable(BukkitPlugin.java:70)
-[14:23:24] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:287)
-[14:23:24] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:188)
-[14:23:24] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:104)
-[14:23:24] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:507)
-[14:23:24] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.enablePlugin(CraftServer.java:639)
-[14:23:24] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.enablePlugins(CraftServer.java:550)
-[14:23:24] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:671)
-[14:23:24] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:431)
-[14:23:24] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:309)
-[14:23:24] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1131)
-[14:23:24] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:319)
-[14:23:24] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
-[14:23:24] [Server thread/INFO]: [LightAPI] Disabling LightAPI vbukkit-5.3.0 (build SNAPSHOT)
-[14:23:24] [Server thread/INFO]: <LightAPI>: [INFO] Shutdown LightAPI...
-[14:23:24] [Server thread/INFO]: [Denizen] Enabling Denizen v1.3.0-SNAPSHOT (build 1803-REL)
-[14:23:24] [Server thread/INFO]: +> [DenizenCore] Initializing Denizen Core v1.91.0-SNAPSHOT (Build 1374), impl for Spigot v1.3.0-SNAPSHOT (build 1803-REL) 
-[14:23:24] [Server thread/INFO]: +> [Denizen] Running on java version: 21.0.3 
-[14:23:24] [Server thread/INFO]: +> [Denizen] Running on unrecognized (future?) Java version. May or may not work. 
-[14:23:25] [Server thread/WARN]: [Denizen] Citizens does not seem to be available! Denizen will have reduced functionality!
-[14:23:25] [Server thread/INFO]: +> [Denizen] +-------------------------+ 
-[14:23:25] [Server thread/INFO]: +> [Denizen]  Denizen  scriptable minecraft 
-[14:23:25] [Server thread/INFO]: +> [Denizen]  
-[14:23:25] [Server thread/INFO]: +> [Denizen] by: The DenizenScript team 
-[14:23:25] [Server thread/INFO]: +> [Denizen] Chat with us at: https://discord.gg/Q6pZGSR 
-[14:23:25] [Server thread/INFO]: +> [Denizen] Or learn more at: https://denizenscript.com 
-[14:23:25] [Server thread/INFO]: +> [Denizen] version: 1.3.0-SNAPSHOT (build 1803-REL) 
-[14:23:25] [Server thread/INFO]: +> [Denizen] +-------------------------+ 
-[14:23:26] [Server thread/INFO]: +> [PaperModule] Loading Paper support module... 
-[14:23:26] [Server thread/INFO]: +> [Denizen] Loaded 150 core commands and 29 core object types, at 1837ms from start. 
-[14:23:26] [Server thread/INFO]: +> [ScriptRegistry] Loading 4 script files... 
-[14:23:26] [Server thread/INFO]: +> [DenizenCore] Scripts loaded! File load took 110ms, processing 15ms. 
-[14:23:26] [Server thread/INFO]: +> [Denizen] Final full init took 2043ms. 
-[14:23:26] [Server thread/INFO]: [WolfyUtilities] Enabled plugin integration for Denizen
-[14:23:26] [Server thread/INFO]: [ExecutableItems] Enabling ExecutableItems v6.24.5.28
-[14:23:26] [Server thread/INFO]: ========*======== ExecutableItems ========*========
-[14:23:26] [Server thread/ERROR]: [ExecutableItems] Invalid world: myWorld in the option disableItemsPerWorld
-[14:23:26] [Server thread/ERROR]: [ExecutableItems] Invalid world: myWorld2 in the option disableItemsPerWorld
-[14:23:28] [Server thread/INFO]: ExecutableItems ERROR, Couldn't load the Material + GROUPS value of blocks from config, value: GRASS (Item: Prem_Grass_Cutter).(detailedBlocks) >> Check the wiki if you want the list of materials and groups
-[14:23:28] [Server thread/INFO]: ExecutableItems Amount of Executable Items configurations loaded: 108
-[14:23:28] [Server thread/INFO]: ExecutableItems Items with display conditions :  
-[14:23:28] [Server thread/INFO]: ========*======== ExecutableItems ========*========
-[14:23:28] [Server thread/INFO]: [WolfyUtilities] Enabled plugin integration for ExecutableItems
-[14:23:28] [Server thread/INFO]: [ItemsAdder] Enabling ItemsAdder v3.6.3-beta-13
-[14:23:29] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Spigot: v1_20_R3! Trying to find NMS support
-[14:23:29] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_20_R3' loaded!
-[14:23:29] [Server thread/INFO]: [ItemsAdder] 
-  ___  ___        __        __   __   ___  __      ItemsAdder 3.6.3-beta-13
-|  |  |__   |\/| /__`  /\  |  \ |  \ |__  |__)     LoneLibs 1.0.45
-|  |  |___  |  | .__/ /--\ |__/ |__/ |___ |  \     Paper git-Paper-459 (MC: 1.20.4)
-                                               
-[14:23:30] [Server thread/INFO]: [HibiscusCommons] Enabling HibiscusCommons v0.3.1
-[14:23:30] [Server thread/INFO]: [HibiscusCommons] Detected Paper! Enabling Paper support...
-[14:23:30] [Server thread/INFO]: [HibiscusCommons] Successfully hooked into itemsadder
-[14:23:30] [Server thread/INFO]: [HibiscusCommons] Successfully hooked into denizen
-[14:23:30] [Server thread/INFO]: [HibiscusCommons] Successfully hooked into HMCCosmetics
-[14:23:30] [Server thread/INFO]: [FancyPhysics] Enabling FancyPhysics v3.0.3
-[14:23:30] [Server thread/INFO]: 
+[20:08:17] [Server thread/INFO]: [com.dfsek.terra.AbstractPlatform] Terra addons successfully loaded.
+[20:08:17] [Server thread/INFO]: [com.dfsek.terra.AbstractPlatform] Finished initialization.
+[20:08:18] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Could not load plugin 'customcrafting-spigot-4.16.9.1(1).jar' in folder 'plugins\.paper-remapped'
+org.bukkit.plugin.InvalidPluginException: Exception initializing main class `me.wolfyscript.customcrafting.CustomCrafting'
+	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:106) ~[paper-api-1.21-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:125) ~[paper-1.21.jar:1.21-124-df3b654]
+	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:35) ~[paper-1.21.jar:1.21-124-df3b654]
+	at io.papermc.paper.plugin.entrypoint.strategy.modern.ModernPluginLoadingStrategy.loadProviders(ModernPluginLoadingStrategy.java:116) ~[paper-1.21.jar:1.21-124-df3b654]
+	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:38) ~[paper-1.21.jar:1.21-124-df3b654]
+	at io.papermc.paper.plugin.entrypoint.LaunchEntryPointHandler.enter(LaunchEntryPointHandler.java:40) ~[paper-1.21.jar:1.21-124-df3b654]
+	at org.bukkit.craftbukkit.CraftServer.loadPlugins(CraftServer.java:546) ~[paper-1.21.jar:1.21-124-df3b654]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:292) ~[paper-1.21.jar:1.21-124-df3b654]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1215) ~[paper-1.21.jar:1.21-124-df3b654]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.jar:1.21-124-df3b654]
+	at java.base/java.lang.Thread.run(Thread.java:1570) ~[?:?]
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:74) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:98) ~[paper-api-1.21-R0.1-SNAPSHOT.jar:?]
+	... 10 more
+Caused by: java.lang.NoClassDefFoundError: Could not initialize class me.wolfyscript.utilities.util.Reflection
+	at wolfyutils-spigot-4.16.15.1.jar/me.wolfyscript.utilities.api.nms.NMSUtil.create(NMSUtil.java:81) ~[wolfyutils-spigot-4.16.15.1.jar:?]
+	at wolfyutils-spigot-4.16.15.1.jar/com.wolfyscript.utilities.bukkit.WolfyUtilsBukkit.<init>(WolfyUtilsBukkit.java:56) ~[wolfyutils-spigot-4.16.15.1.jar:?]
+	at wolfyutils-spigot-4.16.15.1.jar/me.wolfyscript.utilities.api.WolfyUtilities.<init>(WolfyUtilities.java:69) ~[wolfyutils-spigot-4.16.15.1.jar:?]
+	at wolfyutils-spigot-4.16.15.1.jar/me.wolfyscript.utilities.api.WolfyUtilities.<init>(WolfyUtilities.java:77) ~[wolfyutils-spigot-4.16.15.1.jar:?]
+	at wolfyutils-spigot-4.16.15.1.jar/me.wolfyscript.utilities.api.WolfyUtilCore.lambda$getAPI$0(WolfyUtilCore.java:541) ~[wolfyutils-spigot-4.16.15.1.jar:?]
+	at java.base/java.util.HashMap.computeIfAbsent(HashMap.java:1228) ~[?:?]
+	at wolfyutils-spigot-4.16.15.1.jar/me.wolfyscript.utilities.api.WolfyUtilCore.getAPI(WolfyUtilCore.java:541) ~[wolfyutils-spigot-4.16.15.1.jar:?]
+	at customcrafting-spigot-4.16.9.1(1).jar/me.wolfyscript.customcrafting.CustomCrafting.<init>(CustomCrafting.java:194) ~[customcrafting-spigot-4.16.9.1(1).jar:?]
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:98) ~[paper-api-1.21-R0.1-SNAPSHOT.jar:?]
+	... 10 more
+Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.StringIndexOutOfBoundsException: Range [23, 22) out of bounds for length 22 [in thread "Server thread"]
+	at java.base/jdk.internal.util.Preconditions$1.apply(Preconditions.java:55) ~[?:?]
+	at java.base/jdk.internal.util.Preconditions$1.apply(Preconditions.java:52) ~[?:?]
+	at java.base/jdk.internal.util.Preconditions$4.apply(Preconditions.java:213) ~[?:?]
+	at java.base/jdk.internal.util.Preconditions$4.apply(Preconditions.java:210) ~[?:?]
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:98) ~[?:?]
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckFromToIndex(Preconditions.java:112) ~[?:?]
+	at java.base/jdk.internal.util.Preconditions.checkFromToIndex(Preconditions.java:349) ~[?:?]
+	at java.base/java.lang.String.checkBoundsBeginEnd(String.java:4914) ~[?:?]
+	at java.base/java.lang.String.substring(String.java:2876) ~[?:?]
+	at java.base/java.lang.String.substring(String.java:2849) ~[?:?]
+	at wolfyutils-spigot-4.16.15.1.jar/me.wolfyscript.utilities.util.Reflection.getVersion(Reflection.java:84) ~[wolfyutils-spigot-4.16.15.1.jar:?]
+	at wolfyutils-spigot-4.16.15.1.jar/me.wolfyscript.utilities.util.Reflection.<clinit>(Reflection.java:42) ~[wolfyutils-spigot-4.16.15.1.jar:?]
+	at wolfyutils-spigot-4.16.15.1.jar/me.wolfyscript.utilities.api.nms.NMSUtil.create(NMSUtil.java:81) ~[wolfyutils-spigot-4.16.15.1.jar:?]
+	at wolfyutils-spigot-4.16.15.1.jar/com.wolfyscript.utilities.bukkit.WolfyUtilsBukkit.<init>(WolfyUtilsBukkit.java:56) ~[wolfyutils-spigot-4.16.15.1.jar:?]
+	at wolfyutils-spigot-4.16.15.1.jar/me.wolfyscript.utilities.api.WolfyUtilities.<init>(WolfyUtilities.java:69) ~[wolfyutils-spigot-4.16.15.1.jar:?]
+	at wolfyutils-spigot-4.16.15.1.jar/me.wolfyscript.utilities.api.WolfyUtilities.<init>(WolfyUtilities.java:77) ~[wolfyutils-spigot-4.16.15.1.jar:?]
+	at wolfyutils-spigot-4.16.15.1.jar/me.wolfyscript.utilities.api.WolfyUtilCore.lambda$getAPI$0(WolfyUtilCore.java:541) ~[wolfyutils-spigot-4.16.15.1.jar:?]
+	at java.base/java.util.HashMap.computeIfAbsent(HashMap.java:1228) ~[?:?]
+	at wolfyutils-spigot-4.16.15.1.jar/me.wolfyscript.utilities.api.WolfyUtilCore.getAPI(WolfyUtilCore.java:541) ~[wolfyutils-spigot-4.16.15.1.jar:?]
+	at wolfyutils-spigot-4.16.15.1.jar/me.wolfyscript.utilities.api.WolfyUtilCore.getAPI(WolfyUtilCore.java:528) ~[wolfyutils-spigot-4.16.15.1.jar:?]
+	at wolfyutils-spigot-4.16.15.1.jar/me.wolfyscript.utilities.api.WolfyUtilCore.<init>(WolfyUtilCore.java:204) ~[wolfyutils-spigot-4.16.15.1.jar:?]
+	at wolfyutils-spigot-4.16.15.1.jar/com.wolfyscript.utilities.paper.WolfyCorePaper.<init>(WolfyCorePaper.java:20) ~[wolfyutils-spigot-4.16.15.1.jar:?]
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at io.papermc.paper.plugin.provider.util.ProviderUtil.loadClass(ProviderUtil.java:60) ~[paper-api-1.21-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.provider.util.ProviderUtil.loadClass(ProviderUtil.java:29) ~[paper-api-1.21-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.provider.type.paper.PaperPluginParent$PaperServerPluginProvider.createInstance(PaperPluginParent.java:169) ~[paper-1.21.jar:1.21-124-df3b654]
+	at io.papermc.paper.plugin.provider.type.paper.PaperPluginParent$PaperServerPluginProvider.createInstance(PaperPluginParent.java:139) ~[paper-1.21.jar:1.21-124-df3b654]
+	... 8 more
+[20:08:18] [Server thread/INFO]: [Multiverse-Core] Loading server plugin Multiverse-Core v4.3.12
+[20:08:18] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.2.0-SNAPSHOT-679
+[20:08:18] [Server thread/WARN]: [ProtocolLib] Version (MC: 1.21.0) has not yet been tested! Proceed with caution.
+[20:08:20] [Server thread/ERROR]: [ProtocolLib] Assuming package version: v1_21_R1
+[20:08:20] [Server thread/ERROR]:   [ProtocolLib] INTERNAL ERROR: Cannot load ProtocolLib.
+  If this problem hasn't already been reported, please open a ticket
+  at https://github.com/dmulloy2/ProtocolLib/issues with the following data:
+  Stack Trace:
+  java.lang.IllegalArgumentException: Unable to find a field that matches {modifiers=[required: 10000, banned: 1000], type={ type input instanceof interface java.util.Map }}
+  	at ProtocolLib(1).jar//com.comphenix.protocol.reflect.FuzzyReflection.getField(FuzzyReflection.java:352)
+  	at ProtocolLib(1).jar//com.comphenix.protocol.injector.packet.PacketRegistry.createNewRegister(PacketRegistry.java:183)
+  	at ProtocolLib(1).jar//com.comphenix.protocol.injector.packet.PacketRegistry.initialize(PacketRegistry.java:334)
+  	at ProtocolLib(1).jar//com.comphenix.protocol.injector.packet.PacketRegistry.getClientPacketTypes(PacketRegistry.java:369)
+  	at ProtocolLib(1).jar//com.comphenix.protocol.injector.PacketFilterManager.<init>(PacketFilterManager.java:120)
+  	at ProtocolLib(1).jar//com.comphenix.protocol.injector.PacketFilterBuilder.build(PacketFilterBuilder.java:121)
+  	at ProtocolLib(1).jar//com.comphenix.protocol.ProtocolLib.onLoad(ProtocolLib.java:183)
+  	at io.papermc.paper.plugin.storage.ServerPluginProviderStorage.processProvided(ServerPluginProviderStorage.java:59)
+  	at io.papermc.paper.plugin.storage.ServerPluginProviderStorage.processProvided(ServerPluginProviderStorage.java:18)
+  	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:39)
+  	at io.papermc.paper.plugin.entrypoint.LaunchEntryPointHandler.enter(LaunchEntryPointHandler.java:40)
+  	at org.bukkit.craftbukkit.CraftServer.loadPlugins(CraftServer.java:546)
+  	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:292)
+  	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1215)
+  	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330)
+  	at java.base/java.lang.Thread.run(Thread.java:1570)
+  Dump:
+  Parameters: 
+    [NULL]
+  Sender:
+    com.comphenix.protocol.ProtocolLib@466757c[
+      statistics=<null>
+      packetTask=<null>
+      tickCounter=0
+      configExpectedMod=-1
+      updater=com.comphenix.protocol.updater.SpigotUpdater@2a706678
+      redirectHandler=<null>
+      scheduler=com.comphenix.protocol.scheduler.DefaultScheduler@1d0a3bdf
+      commandProtocol=<null>
+      commandPacket=<null>
+      commandFilter=<null>
+      packetLogging=<null>
+      skipDisable=false
+      isEnabled=false
+      loader=io.papermc.paper.plugin.manager.DummyBukkitPluginLoader@663d12c4
+      server=CraftServer{serverName=Paper,serverVersion=1.21-124-df3b654,minecraftVersion=1.21}
+      file=plugins\.paper-remapped\ProtocolLib(1).jar
+      description=org.bukkit.plugin.PluginDescriptionFile@1835b6d7
+      pluginMeta=org.bukkit.plugin.PluginDescriptionFile@1835b6d7
+      dataFolder=plugins\ProtocolLib
+      classLoader=PluginClassLoader{plugin=ProtocolLib v5.2.0-SNAPSHOT-679, pluginEnabled=false, url=plugins\.paper-remapped\ProtocolLib(1).jar}
+      naggable=true
+      newConfig=YamlConfiguration[path='', root='YamlConfiguration']
+      configFile=plugins\ProtocolLib\config.yml
+      logger=com.destroystokyo.paper.utils.PaperPluginLogger@6a8a0685
+      lifecycleEventManager=io.papermc.paper.plugin.lifecycle.event.PaperLifecycleEventManager@45eb1fca
+      allowsLifecycleRegistration=true
+    ]
+  Version:
+    ProtocolLib v5.2.0-SNAPSHOT-679
+  Java Version:
+    22.0.1
+  Server:
+    1.21-124-df3b654 (MC: 1.21)
+
+[20:08:20] [Server thread/INFO]: [Denizen] Loading server plugin Denizen v1.3.0-SNAPSHOT (build 1803-REL)
+[20:08:20] [Server thread/INFO]: [SCore] Loading server plugin SCore v4.24.5.28
+[20:08:20] [Server thread/INFO]: [HibiscusCommons] Loading server plugin HibiscusCommons v0.3.1
+[20:08:20] [Server thread/INFO]: [TimeManager] Loading server plugin TimeManager v1.9.0
+[20:08:20] [Server thread/INFO]: [Terra] Loading server plugin Terra v6.4.3-BETA+ab60f14ff
+[20:08:20] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.0.15
+[20:08:20] [Server thread/INFO]: [LoneLibs] Loading server plugin LoneLibs v1.0.45
+[20:08:20] [Server thread/INFO]: [LightAPI] Loading server plugin LightAPI vbukkit-5.3.0 (build SNAPSHOT)
+[20:08:20] [Server thread/INFO]: <LightAPI>: [INFO] Preparing LightAPI...
+[20:08:20] [Server thread/INFO]: <LightAPI>: [INFO] Preparing done!
+[20:08:20] [Server thread/INFO]: [HMCWraps] Loading server plugin HMCWraps v1.4.4
+[20:08:20] [Server thread/WARN]: [HMCWraps] [packetevents] We currently do not support the minecraft version 1.21, so things might break. PacketEvents will behave as if the minecraft version were 1.20.4!
+[20:08:21] [Server thread/WARN]: java.lang.NoSuchMethodException: net.minecraft.resources.ResourceLocation.<init>(java.lang.String,java.lang.String)
+[20:08:21] [Server thread/WARN]: 	at java.base/java.lang.Class.getConstructor0(Class.java:3784)
+[20:08:21] [Server thread/WARN]: 	at java.base/java.lang.Class.getConstructor(Class.java:2452)
+[20:08:21] [Server thread/WARN]: 	at HMCWraps-1.4.4.jar//de.skyslycer.hmcwraps.shade.packets.io.util.SpigotReflectionUtil.initConstructors(SpigotReflectionUtil.java:125)
+[20:08:21] [Server thread/WARN]: 	at HMCWraps-1.4.4.jar//de.skyslycer.hmcwraps.shade.packets.io.util.SpigotReflectionUtil.init(SpigotReflectionUtil.java:289)
+[20:08:21] [Server thread/WARN]: 	at HMCWraps-1.4.4.jar//de.skyslycer.hmcwraps.shade.packets.io.factory.spigot.SpigotPacketEventsBuilder$1.load(SpigotPacketEventsBuilder.java:104)
+[20:08:21] [Server thread/WARN]: 	at HMCWraps-1.4.4.jar//de.skyslycer.hmcwraps.HMCWrapsPlugin.onLoad(HMCWrapsPlugin.java:73)
+[20:08:21] [Server thread/WARN]: 	at io.papermc.paper.plugin.storage.ServerPluginProviderStorage.processProvided(ServerPluginProviderStorage.java:59)
+[20:08:21] [Server thread/WARN]: 	at io.papermc.paper.plugin.storage.ServerPluginProviderStorage.processProvided(ServerPluginProviderStorage.java:18)
+[20:08:21] [Server thread/WARN]: 	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:39)
+[20:08:21] [Server thread/WARN]: 	at io.papermc.paper.plugin.entrypoint.LaunchEntryPointHandler.enter(LaunchEntryPointHandler.java:40)
+[20:08:21] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.loadPlugins(CraftServer.java:546)
+[20:08:21] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:292)
+[20:08:21] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1215)
+[20:08:21] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330)
+[20:08:21] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1570)
+[20:08:21] [Server thread/ERROR]: [HMCWraps] Error initializing plugin 'HMCWraps-1.4.4.jar' in folder 'plugins\.paper-remapped' (Is it up to date?)
+java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Field.get(Object)" because the return value of "de.skyslycer.hmcwraps.shade.packets.util.reflection.Reflection.getField(java.lang.Class, java.lang.Class, int)" is null
+	at HMCWraps-1.4.4.jar/de.skyslycer.hmcwraps.shade.packets.io.util.SpigotReflectionUtil.getMinecraftServerInstance(SpigotReflectionUtil.java:319) ~[HMCWraps-1.4.4.jar:?]
+	at HMCWraps-1.4.4.jar/de.skyslycer.hmcwraps.shade.packets.io.util.SpigotReflectionUtil.getMinecraftServerConnectionInstance(SpigotReflectionUtil.java:330) ~[HMCWraps-1.4.4.jar:?]
+	at HMCWraps-1.4.4.jar/de.skyslycer.hmcwraps.shade.packets.io.injector.SpigotChannelInjector.isServerBound(SpigotChannelInjector.java:63) ~[HMCWraps-1.4.4.jar:?]
+	at HMCWraps-1.4.4.jar/de.skyslycer.hmcwraps.shade.packets.io.factory.spigot.SpigotPacketEventsBuilder$1.load(SpigotPacketEventsBuilder.java:115) ~[HMCWraps-1.4.4.jar:?]
+	at HMCWraps-1.4.4.jar/de.skyslycer.hmcwraps.HMCWrapsPlugin.onLoad(HMCWrapsPlugin.java:73) ~[HMCWraps-1.4.4.jar:?]
+	at io.papermc.paper.plugin.storage.ServerPluginProviderStorage.processProvided(ServerPluginProviderStorage.java:59) ~[paper-1.21.jar:1.21-124-df3b654]
+	at io.papermc.paper.plugin.storage.ServerPluginProviderStorage.processProvided(ServerPluginProviderStorage.java:18) ~[paper-1.21.jar:1.21-124-df3b654]
+	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:39) ~[paper-1.21.jar:1.21-124-df3b654]
+	at io.papermc.paper.plugin.entrypoint.LaunchEntryPointHandler.enter(LaunchEntryPointHandler.java:40) ~[paper-1.21.jar:1.21-124-df3b654]
+	at org.bukkit.craftbukkit.CraftServer.loadPlugins(CraftServer.java:546) ~[paper-1.21.jar:1.21-124-df3b654]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:292) ~[paper-1.21.jar:1.21-124-df3b654]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1215) ~[paper-1.21.jar:1.21-124-df3b654]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.jar:1.21-124-df3b654]
+	at java.base/java.lang.Thread.run(Thread.java:1570) ~[?:?]
+[20:08:21] [Server thread/INFO]: [HMCCosmetics] Loading server plugin HMCCosmetics v2.7.2
+[20:08:21] [Server thread/INFO]: [FancyPhysics] Loading server plugin FancyPhysics v3.0.3
+[20:08:21] [Server thread/INFO]: [ExecutableItems] Loading server plugin ExecutableItems v6.24.5.28
+[20:08:21] [Server thread/INFO]: [DesirePaths] Loading server plugin DesirePaths v1.10
+[20:08:21] [Server thread/INFO]: [BetterCallFishing] Loading server plugin BetterCallFishing v2.0.1
+[20:08:21] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[20:08:21] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.2.0-SNAPSHOT-679
+[20:08:21] [Server thread/ERROR]: ******************************************************
+[20:08:21] [Server thread/ERROR]: *** ProtocolLib does not support plugin reloaders! ***
+[20:08:21] [Server thread/ERROR]: *** Please use the built-in reload command!        ***
+[20:08:21] [Server thread/ERROR]: ******************************************************
+[20:08:21] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.2.0-SNAPSHOT-679
+[20:08:21] [Server thread/INFO]: [Terra] Enabling Terra v6.4.3-BETA+ab60f14ff
+[20:08:21] [Server thread/ERROR]: [com.dfsek.terra.bukkit.util.VersionUtil] Error while parsing minecraft version info. Continuing launch, but setting all versions to -1.
+[20:08:21] [Server thread/INFO]: [com.dfsek.terra.bukkit.TerraBukkitPlugin] Running on Minecraft version Unknown with server implementation Paper.
+[20:08:21] [Server thread/INFO]: [com.dfsek.terra.AbstractPlatform] Loading config packs...
+[20:08:21] [Server thread/INFO]: [com.dfsek.terra.registry.master.ConfigRegistry] Loading ZIP archive: default.zip
+[20:08:22] [Server thread/INFO]: [com.dfsek.terra.config.pack.ConfigPackImpl] Loading config pack "OVERWORLD:OVERWORLD"
+[20:08:23] [Server thread/INFO]: [com.dfsek.terra.config.pack.ConfigPackImpl] Loaded config pack "OVERWORLD:OVERWORLD" v1.3.4 by Astrash, Sancires, Aureus in 2058.4181ms.
+[20:08:24] [Server thread/INFO]: [com.dfsek.terra.AbstractPlatform] Loaded packs.
+[20:08:24] [Server thread/ERROR]: Error occurred while enabling Terra v6.4.3-BETA+ab60f14ff (Is it up to date?)
+java.lang.ExceptionInInitializerError: null
+	at Terra-bukkit-6.4.3-BETA+ab60f14ff-shaded.jar/com.dfsek.terra.bukkit.TerraBukkitPlugin.onEnable(TerraBukkitPlugin.java:68) ~[Terra-bukkit-6.4.3-BETA+ab60f14ff-shaded.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:288) ~[paper-api-1.21-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:202) ~[paper-1.21.jar:1.21-124-df3b654]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109) ~[paper-1.21.jar:1.21-124-df3b654]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520) ~[paper-api-1.21-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:640) ~[paper-1.21.jar:1.21-124-df3b654]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:589) ~[paper-1.21.jar:1.21-124-df3b654]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:293) ~[paper-1.21.jar:1.21-124-df3b654]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1215) ~[paper-1.21.jar:1.21-124-df3b654]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.jar:1.21-124-df3b654]
+	at java.base/java.lang.Thread.run(Thread.java:1570) ~[?:?]
+Caused by: java.lang.ArrayIndexOutOfBoundsException: Index 3 out of bounds for length 3
+	at Terra-bukkit-6.4.3-BETA+ab60f14ff-shaded.jar/com.dfsek.terra.bukkit.nms.Initializer.<clinit>(Initializer.java:11) ~[Terra-bukkit-6.4.3-BETA+ab60f14ff-shaded.jar:?]
+	... 11 more
+[20:08:24] [Server thread/INFO]: [Terra] Disabling Terra v6.4.3-BETA+ab60f14ff
+[20:08:24] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.0.15
+[20:08:25] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.
+[20:08:25] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[20:08:25] [Server thread/INFO]: [LoneLibs] Enabling LoneLibs v1.0.45
+[20:08:25] [Server thread/INFO]: [BetterCallFishing] Enabling BetterCallFishing v2.0.1
+[20:08:26] [Folia Async Scheduler Thread #1/WARN]: [SkinsRestorer] Failed to get release info from api.github.com. 
+ If this message is repeated a lot, please see https://skinsrestorer.net/firewall
+[20:08:26] [Server thread/INFO]: §9----------------
+[20:08:26] [Server thread/INFO]: §aНайдено обновление для BetterCallFishing!
+[20:08:26] [Server thread/INFO]: §a Новая версия: §92.0.3
+[20:08:26] [Server thread/INFO]: §a Текущая версия: §9%current_version%
+[20:08:26] [Server thread/INFO]: §eFixed %current_version% bug.
+[20:08:26] [Server thread/INFO]: §eAdded German translation (by ZevKev).
+[20:08:26] [Server thread/INFO]: §eAdded Czech translation (by Brygy).
+[20:08:26] [Server thread/INFO]: §eAdded Ukrainian translation (by Salatosik).
+[20:08:26] [Server thread/INFO]: §eFixed /bettercallfishing reload command.
+[20:08:26] [Server thread/INFO]: §eAdded /bcf allias to /bettercallfishing command.
+[20:08:26] [Server thread/INFO]: §eChanged name of catched barrel.
+[20:08:26] [Server thread/INFO]: §eAdded automatic updates of config files.
+[20:08:26] [Server thread/INFO]: §eAdded a chance to catch a dolphin.
+[20:08:26] [Server thread/INFO]: §9---------------- 
+[20:08:26] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[20:08:26] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[20:08:26] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[20:08:26] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[20:08:26] [Server thread/INFO]: Preparing level "world"
+[20:08:26] [Server thread/ERROR]: Could not set generator for default world 'world': Plugin 'Terra v6.4.3-BETA+ab60f14ff' is not enabled yet (is it load:STARTUP?)
+[20:08:27] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[20:08:28] [Server thread/INFO]: Time elapsed: 1226 ms
+[20:08:28] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[20:08:28] [Server thread/INFO]: Time elapsed: 125 ms
+[20:08:28] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[20:08:28] [Server thread/INFO]: Time elapsed: 58 ms
+[20:08:28] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.12
+[20:08:28] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.12" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
+[20:08:28] [Server thread/INFO]: [Multiverse-Core] §aWe are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
+[20:08:28] [Server thread/INFO]: Could not set generator for world 'world': Plugin 'Terra v6.4.3-BETA+ab60f14ff' is not enabled
+[20:08:28] [Server thread/INFO]: [Multiverse-Core] 3 - World(s) loaded.
+[20:08:28] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
+[20:08:28] [Server thread/INFO]: [Multiverse-Core] Version 4.3.12 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
+[20:08:28] [Server thread/INFO]: [Denizen] Enabling Denizen v1.3.0-SNAPSHOT (build 1803-REL)
+[20:08:28] [Server thread/INFO]: +> [DenizenCore] Initializing Denizen Core v1.91.0-SNAPSHOT (Build 1374), impl for Spigot v1.3.0-SNAPSHOT (build 1803-REL) 
+[20:08:29] [Server thread/INFO]: +> [Denizen] Running on java version: 22.0.1 
+[20:08:29] [Server thread/INFO]: +> [Denizen] Running on unrecognized (future?) Java version. May or may not work. 
+[20:08:29] [Server thread/WARN]: [Denizen] -------------------------------------
+[20:08:29] [Server thread/WARN]: [Denizen] This build of Denizen is not compatible with this Spigot version! Deactivating Denizen!
+[20:08:29] [Server thread/WARN]: [Denizen] -------------------------------------
+[20:08:29] [Server thread/INFO]: [Denizen] Disabling Denizen v1.3.0-SNAPSHOT (build 1803-REL)
+[20:08:29] [Server thread/INFO]: [SCore] Enabling SCore v4.24.5.28
+[20:08:31] [Server thread/INFO]: ================ SCore ================
+[20:08:31] [Server thread/INFO]: SCore Version of the server 1.21-124-df3b654 (MC: 1.21) !
+[20:08:31] [Server thread/INFO]: SCore ExecutableItems hooked !  (6.24.5.28) Load After
+[20:08:31] [Server thread/INFO]: SCore Multiverse-Core hooked !  (4.3.12)  Load Before
+[20:08:31] [Server thread/INFO]: SCore Terra hooked !  (6.4.3-BETA+ab60f14ff) Load After
+[20:08:31] [Server thread/INFO]: SCore Locale setup: EN
+[20:08:31] [Server thread/INFO]: SCore Language of the editor setup on EN
+[20:08:31] [Server thread/INFO]: SCore Language for in-game messages setup on EN
+[20:08:31] [Server thread/INFO]: SCore will connect to the database hosted: In Local
+[20:08:31] [Server thread/INFO]: SCore Connection to the db...
+[20:08:31] [Server thread/INFO]: SCore will connect to the database hosted: In Local
+[20:08:31] [Server thread/INFO]: SCore Creating table SecurityOP if not exists...
+[20:08:31] [Server thread/INFO]: SCore Creating table Commands if not exists...
+[20:08:31] [Server thread/INFO]: SCore Creating table Cooldowns if not exists...
+[20:08:31] [Server thread/INFO]: SCore Creating table Commands Player if not exists...
+[20:08:31] [Server thread/INFO]: SCore Creating table Commands Entity if not exists...
+[20:08:31] [Server thread/INFO]: SCore Creating table Commands Block if not exists...
+[20:08:31] [Server thread/INFO]: SCore Creating table UsePerDay if not exists...
+[20:08:32] [Server thread/INFO]: SCore SCore loaded 1 variables from local files !
+[20:08:32] [Server thread/INFO]: SCore SCore loaded 0 delayed commands saved
+[20:08:32] [Server thread/INFO]: ================ SCore ================
+[20:08:32] [Server thread/INFO]: [HibiscusCommons] Enabling HibiscusCommons v0.3.1
+[20:08:32] [Server thread/ERROR]: [HibiscusCommons] This version is not supported! Consider switching versions?
+[20:08:32] [Server thread/INFO]: [HibiscusCommons] Disabling HibiscusCommons v0.3.1
+[20:08:32] [Server thread/INFO]: [TimeManager] Enabling TimeManager v1.9.0
+[20:08:32] [Server thread/INFO]: [TimeManager] The configuration file already exists.
+[20:08:32] [Server thread/INFO]: [TimeManager] The worlds list was actualized.
+[20:08:32] [Server thread/INFO]: [TimeManager] Enabled config.yml v1.9.0.
+[20:08:33] [Server thread/INFO]: [TimeManager] The language file already exists.
+[20:08:33] [Server thread/INFO]: [TimeManager] Default translation is actually set to en_US.
+[20:08:33] [Server thread/INFO]: [TimeManager] en_US exists in lang.yml, keep it as default translation.
+[20:08:33] [Server thread/INFO]: [TimeManager] Multilanguage support is disable.
+[20:08:33] [Server thread/INFO]: [TimeManager] Enabled lang.yml v1.9.0.
+[20:08:33] [Server thread/INFO]: [TimeManager] The language file already exists.
+[20:08:33] [Server thread/INFO]: [TimeManager] The commands scheduler is disable.
+[20:08:33] [Server thread/INFO]: [TimeManager] Enabled cmds.yml v1.9.0.
+[20:08:33] [Server thread/INFO]: [TimeManager] The plugin is now enabled, timers will be initialized when all the other plugins are loaded.
+[20:08:33] [Server thread/INFO]: [LightAPI] Enabling LightAPI vbukkit-5.3.0 (build SNAPSHOT)
+[20:08:33] [Server thread/INFO]: <LightAPI>: [INFO] Initializing LightAPI...
+[20:08:33] [Server thread/WARN]: java.lang.ArrayIndexOutOfBoundsException: Index 3 out of bounds for length 3
+[20:08:33] [Server thread/WARN]: 	at LightAPI-Bukkit-5.3.0.jar//ru.beykerykt.minecraft.lightapi.bukkit.internal.handler.craftbukkit.HandlerFactory.createHandler(HandlerFactory.java:66)
+[20:08:33] [Server thread/WARN]: 	at LightAPI-Bukkit-5.3.0.jar//ru.beykerykt.minecraft.lightapi.bukkit.internal.BukkitPlatformImpl.initHandler(BukkitPlatformImpl.java:196)
+[20:08:33] [Server thread/WARN]: 	at LightAPI-Bukkit-5.3.0.jar//ru.beykerykt.minecraft.lightapi.bukkit.internal.BukkitPlatformImpl.initialization(BukkitPlatformImpl.java:228)
+[20:08:33] [Server thread/WARN]: 	at LightAPI-Bukkit-5.3.0.jar//ru.beykerykt.minecraft.lightapi.common.LightAPI.initialization(LightAPI.java:88)
+[20:08:33] [Server thread/WARN]: 	at LightAPI-Bukkit-5.3.0.jar//ru.beykerykt.minecraft.lightapi.bukkit.BukkitPlugin.onEnable(BukkitPlugin.java:70)
+[20:08:33] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:288)
+[20:08:33] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:202)
+[20:08:33] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109)
+[20:08:33] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520)
+[20:08:33] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:640)
+[20:08:33] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:589)
+[20:08:33] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:754)
+[20:08:33] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:516)
+[20:08:33] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:329)
+[20:08:33] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1215)
+[20:08:33] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330)
+[20:08:33] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1570)
+[20:08:33] [Server thread/WARN]: java.lang.IllegalStateException: Initialization failed! Code: -1
+[20:08:33] [Server thread/WARN]: 	at LightAPI-Bukkit-5.3.0.jar//ru.beykerykt.minecraft.lightapi.common.LightAPI.initialization(LightAPI.java:96)
+[20:08:33] [Server thread/WARN]: 	at LightAPI-Bukkit-5.3.0.jar//ru.beykerykt.minecraft.lightapi.bukkit.BukkitPlugin.onEnable(BukkitPlugin.java:70)
+[20:08:33] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:288)
+[20:08:33] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:202)
+[20:08:33] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109)
+[20:08:33] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520)
+[20:08:33] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:640)
+[20:08:33] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:589)
+[20:08:33] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:754)
+[20:08:33] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:516)
+[20:08:33] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:329)
+[20:08:33] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1215)
+[20:08:33] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330)
+[20:08:33] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1570)
+[20:08:33] [Server thread/INFO]: [LightAPI] Disabling LightAPI vbukkit-5.3.0 (build SNAPSHOT)
+[20:08:33] [Server thread/INFO]: <LightAPI>: [INFO] Shutdown LightAPI...
+[20:08:33] [Server thread/INFO]: [HMCWraps] Enabling HMCWraps v1.4.4
+[20:08:33] [Server thread/INFO]: [HMCWraps] Loaded all configuration files and wraps. (7 wraps)
+[20:08:33] [Server thread/WARN]: java.lang.NoSuchMethodException: net.minecraft.resources.ResourceLocation.<init>(java.lang.String,java.lang.String)
+[20:08:33] [Server thread/WARN]: 	at java.base/java.lang.Class.getConstructor0(Class.java:3784)
+[20:08:33] [Server thread/WARN]: 	at java.base/java.lang.Class.getConstructor(Class.java:2452)
+[20:08:33] [Server thread/WARN]: 	at HMCWraps-1.4.4.jar//de.skyslycer.hmcwraps.shade.packets.io.util.SpigotReflectionUtil.initConstructors(SpigotReflectionUtil.java:125)
+[20:08:33] [Server thread/WARN]: 	at HMCWraps-1.4.4.jar//de.skyslycer.hmcwraps.shade.packets.io.util.SpigotReflectionUtil.init(SpigotReflectionUtil.java:289)
+[20:08:33] [Server thread/WARN]: 	at HMCWraps-1.4.4.jar//de.skyslycer.hmcwraps.shade.packets.io.factory.spigot.SpigotPacketEventsBuilder$1.load(SpigotPacketEventsBuilder.java:104)
+[20:08:33] [Server thread/WARN]: 	at HMCWraps-1.4.4.jar//de.skyslycer.hmcwraps.shade.packets.io.factory.spigot.SpigotPacketEventsBuilder$1.init(SpigotPacketEventsBuilder.java:137)
+[20:08:33] [Server thread/WARN]: 	at HMCWraps-1.4.4.jar//de.skyslycer.hmcwraps.HMCWrapsPlugin.onEnable(HMCWrapsPlugin.java:111)
+[20:08:33] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:288)
+[20:08:33] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:202)
+[20:08:33] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109)
+[20:08:33] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520)
+[20:08:33] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:640)
+[20:08:33] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:589)
+[20:08:33] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:754)
+[20:08:33] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:516)
+[20:08:33] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:329)
+[20:08:33] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1215)
+[20:08:33] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330)
+[20:08:33] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1570)
+[20:08:33] [Server thread/ERROR]: Error occurred while enabling HMCWraps v1.4.4 (Is it up to date?)
+java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Field.get(Object)" because the return value of "de.skyslycer.hmcwraps.shade.packets.util.reflection.Reflection.getField(java.lang.Class, java.lang.Class, int)" is null
+	at HMCWraps-1.4.4.jar/de.skyslycer.hmcwraps.shade.packets.io.util.SpigotReflectionUtil.getMinecraftServerInstance(SpigotReflectionUtil.java:319) ~[HMCWraps-1.4.4.jar:?]
+	at HMCWraps-1.4.4.jar/de.skyslycer.hmcwraps.shade.packets.io.util.SpigotReflectionUtil.getMinecraftServerConnectionInstance(SpigotReflectionUtil.java:330) ~[HMCWraps-1.4.4.jar:?]
+	at HMCWraps-1.4.4.jar/de.skyslycer.hmcwraps.shade.packets.io.injector.SpigotChannelInjector.isServerBound(SpigotChannelInjector.java:63) ~[HMCWraps-1.4.4.jar:?]
+	at HMCWraps-1.4.4.jar/de.skyslycer.hmcwraps.shade.packets.io.factory.spigot.SpigotPacketEventsBuilder$1.load(SpigotPacketEventsBuilder.java:115) ~[HMCWraps-1.4.4.jar:?]
+	at HMCWraps-1.4.4.jar/de.skyslycer.hmcwraps.shade.packets.io.factory.spigot.SpigotPacketEventsBuilder$1.init(SpigotPacketEventsBuilder.java:137) ~[HMCWraps-1.4.4.jar:?]
+	at HMCWraps-1.4.4.jar/de.skyslycer.hmcwraps.HMCWrapsPlugin.onEnable(HMCWrapsPlugin.java:111) ~[HMCWraps-1.4.4.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:288) ~[paper-api-1.21-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:202) ~[paper-1.21.jar:1.21-124-df3b654]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109) ~[paper-1.21.jar:1.21-124-df3b654]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520) ~[paper-api-1.21-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:640) ~[paper-1.21.jar:1.21-124-df3b654]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:589) ~[paper-1.21.jar:1.21-124-df3b654]
+	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:754) ~[paper-1.21.jar:1.21-124-df3b654]
+	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:516) ~[paper-1.21.jar:1.21-124-df3b654]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:329) ~[paper-1.21.jar:1.21-124-df3b654]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1215) ~[paper-1.21.jar:1.21-124-df3b654]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.jar:1.21-124-df3b654]
+	at java.base/java.lang.Thread.run(Thread.java:1570) ~[?:?]
+[20:08:33] [Server thread/INFO]: [HMCWraps] Disabling HMCWraps v1.4.4
+[20:08:34] [Server thread/INFO]: [HMCCosmetics] Enabling HMCCosmetics v2.7.2
+[20:08:34] [Server thread/ERROR]: [HMCCosmetics] 
+[20:08:34] [Server thread/ERROR]: [HMCCosmetics] HibiscusCommons is required to be enabled to run this plugin!
+[20:08:34] [Server thread/ERROR]: [HMCCosmetics] 
+[20:08:34] [Server thread/INFO]: [HMCCosmetics] Disabling HMCCosmetics v2.7.2
+[20:08:34] [Server thread/INFO]: [FancyPhysics] Enabling FancyPhysics v3.0.3
+[20:08:34] [Server thread/INFO]: 
     ______                          ____  __               _          
    / ____/___ _____  _______  __   / __ \/ /_  __  _______(_)_________
   / /_  / __ `/ __ \/ ___/ / / /  / /_/ / __ \/ / / / ___/ / ___/ ___/
  / __/ / /_/ / / / / /__/ /_/ /  / ____/ / / / /_/ (__  ) / /__(__  ) 
 /_/    \__,_/_/ /_/\___/\__, /  /_/   /_/ /_/\__, /____/_/\___/____/  
                        /____/               /____/                   v3.0.3
-[14:23:30] [Server thread/INFO]: [TimeManager] Enabling TimeManager v1.9.0
-[14:23:30] [Server thread/INFO]: [TimeManager] The configuration file already exists.
-[14:23:30] [Server thread/INFO]: [TimeManager] The worlds list was actualized.
-[14:23:30] [Server thread/INFO]: [TimeManager] Enabled config.yml v1.9.0.
-[14:23:30] [Server thread/INFO]: [TimeManager] The language file already exists.
-[14:23:30] [Server thread/INFO]: [TimeManager] Default translation is actually set to en_US.
-[14:23:30] [Server thread/INFO]: [TimeManager] en_US exists in lang.yml, keep it as default translation.
-[14:23:30] [Server thread/INFO]: [TimeManager] Multilanguage support is disable.
-[14:23:30] [Server thread/INFO]: [TimeManager] Enabled lang.yml v1.9.0.
-[14:23:30] [Server thread/INFO]: [TimeManager] The language file already exists.
-[14:23:30] [Server thread/INFO]: [TimeManager] The commands scheduler is disable.
-[14:23:30] [Server thread/INFO]: [TimeManager] Enabled cmds.yml v1.9.0.
-[14:23:30] [Server thread/INFO]: [TimeManager] The plugin is now enabled, timers will be initialized when all the other plugins are loaded.
-[14:23:30] [Server thread/INFO]: [HMCCosmetics] Enabling HMCCosmetics v2.7.2
-[14:23:30] [Server thread/INFO]: [HMCCosmetics] Successfully Enabled HMCCosmetics
-[14:23:30] [Server thread/INFO]: [HMCCosmetics] 75 Cosmetics Successfully Setup
-[14:23:30] [Server thread/INFO]: [HMCCosmetics] 1 Menus Successfully Setup
-[14:23:30] [Server thread/INFO]: [HMCCosmetics] 1 Wardrobes Successfully Setup
-[14:23:30] [Server thread/INFO]: [HMCCosmetics] Data storage is set to sqlite
-[14:23:30] [Server thread/INFO]: [CustomCrafting] Enabling CustomCrafting v4.16.9.1
-[14:23:31] [Server thread/INFO]: [CustomCrafting] Loaded fallback language "en_US" v6.1.0 translated by WolfyScript
-[14:23:31] [Server thread/INFO]: [CustomCrafting] Loaded active language "en_US" v6.1.0 translated by WolfyScript
-[14:23:31] [Server thread/INFO]: [CustomCrafting] ____ _  _ ____ ___ ____ _  _ ____ ____ ____ ____ ___ _ _  _ ____ 
-[14:23:31] [Server thread/INFO]: [CustomCrafting] |    |  | [__   |  |  | |\/| |    |__/ |__| |___  |  | |\ | | __ 
-[14:23:31] [Server thread/INFO]: [CustomCrafting] |___ |__| ___]  |  |__| |  | |___ |  \ |  | |     |  | | \| |__]
-[14:23:31] [Server thread/INFO]: [CustomCrafting]     Version      | v4.16.9.1
-[14:23:31] [Server thread/INFO]: [CustomCrafting]     WolfyUtils   | v4.16.15.1
-[14:23:31] [Server thread/INFO]: [CustomCrafting]     Bukkit       | git-Paper-459 (MC: 1.20.4)(API: 1.20.4-R0.1-SNAPSHOT)
-[14:23:31] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Spigot: v1_20_R3! Trying to find NMS support
-[14:23:31] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_20_R3' loaded!
-[14:23:31] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'WolfyUtilities' to create a bStats instance!
-[14:23:31] [Server thread/INFO]: [CustomCrafting] 
-[14:23:31] [Server thread/INFO]: [CustomCrafting] Special thanks to my Patrons for supporting this project: 
-[14:23:31] [Server thread/INFO]: [CustomCrafting] Omarlatif, Nat R, Obsidian_Sword, LiveJunye, Mithran, Teddy
-[14:23:31] [Server thread/INFO]: [CustomCrafting] Invictus_Vulpes , Luuk Musch, fioxu, JorshStark, Perny Dev, Charlie
-[14:23:31] [Server thread/INFO]: [CustomCrafting] iachen, whja t, Green Masks, lance fector, Jack Snellings, MineHouse Server
-[14:23:31] [Server thread/INFO]: [CustomCrafting] ------------------------------------------------------------------------
-[14:23:31] [Server thread/INFO]: [CustomCrafting] Detected ProtocolLib... initiating additional features.
-[14:23:31] [Server thread/INFO]: [CustomCrafting] Data destination: LOCAL
-[14:23:31] [Server thread/INFO]: [CustomCrafting] Initiating Inventory GUIs
-[14:23:31] [Server thread/INFO]: [CustomCrafting] Register ItemCreator Tabs
-[14:23:31] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[14:23:32] [Server thread/INFO]: [CustomCrafting] Loading Recipes & Items
-[14:23:32] [Server thread/INFO]: [CustomCrafting] - - - - [Local Storage] - - - -
-[14:23:32] [Server thread/INFO]: [CustomCrafting] [LOCAL] Using 2 threads
-[14:23:32] [Server thread/INFO]: [CustomCrafting] [LOCAL] Looking through data folder...
-[14:23:32] [Server thread/INFO]: [CustomCrafting] [LOCAL] Loading Items
-[14:23:32] [Server thread/INFO]: [CustomCrafting] [LOCAL] Loading Recipes
-[14:23:33] [Server thread/INFO]: [CustomCrafting] [LOCAL] Loaded 4 recipes in 740ms
-[14:23:33] [Server thread/INFO]: [CustomCrafting] [LOCAL] 27 recipes still pending for validation (waiting for dependencies)
-[14:23:33] [Server thread/INFO]: [CustomCrafting] Indexing Recipe Book...
-[14:23:33] [Server thread/INFO]: [CustomCrafting] Indexed Recipe Book!
-[14:23:33] [Server thread/INFO]: [CustomCrafting] ------------------------------------------------------------------------
-[14:23:33] [Server thread/INFO]: [DesirePaths] Enabling DesirePaths v1.10
-[14:23:33] [Server thread/INFO]: >> DesirePaths 1.10 enabled successfully
-[14:23:33] [Server thread/INFO]: [DirectionalBlock] Enabling DirectionalBlock v1.4.1
-[14:23:33] [Server thread/INFO]: [DirectionalBlock] Loaded 3 directional blocks
-[14:23:33] [Server thread/INFO]: [DirectionalBlock] Plugin Enabled
-[14:23:33] [Server thread/INFO]: [HMCWraps] Enabling HMCWraps v1.4.4
-[14:23:33] [Server thread/INFO]: [HMCWraps] Plugin 'ItemsAdder' found. Initializing hook.
-[14:23:34] [Server thread/INFO]: [HMCWraps] Loaded all configuration files and wraps. (7 wraps)
-[14:23:34] [Server thread/INFO]: Running delayed init tasks
-[14:23:34] [Server thread/INFO]: [ItemsAdder] [Pack] Extracting internal contents from .jar
-[14:23:34] [Server thread/INFO]: [ItemsAdder] [Pack] DONE extracting internal contents from .jar
-[14:23:34] [Craft Scheduler Thread - 4 - ItemsAdder/INFO]: [ItemsAdder] [License] Spigot product licensed to: JordanW15 (102076)
-[14:23:34] [Craft Scheduler Thread - 0 - ItemsAdder/INFO]: [ItemsAdder]  
-[14:23:34] [Craft Scheduler Thread - 0 - ItemsAdder/INFO]: [ItemsAdder] UPDATE available: https://www.spigotmc.org/resources/73355/
-[14:23:34] [Craft Scheduler Thread - 0 - ItemsAdder/INFO]: [ItemsAdder] Current version: 3.6.3-beta-13 | Online version: 4.0.1-alpha-test-4
-[14:23:34] [Craft Scheduler Thread - 0 - ItemsAdder/INFO]: [ItemsAdder]  
-[14:23:34] [Server thread/INFO]: +> [Static Tag Processing] Pre-Filled partial tag '<server...' with '(Base-Object)', and cached result. 
-[14:23:34] [Server thread/INFO]: +> [ScriptEvent] Event ITEM_DISPLAY_EDITOR_GUI_HANDLER.events.on player right clicks *egg with:item_display_editor_item is matched to multiple ScriptEvents: PlayerClicksBlock, PlayerRightClicksEntity 
-[14:23:34] [Server thread/INFO]: +> [ScriptEvent] Processed 70 script event paths. 
-[14:23:34] [Server thread/INFO]: +> [Denizen] +-------------------------+ 
-[14:23:34] [Server thread/INFO]: +> [Denizen] Denizen fully loaded at: 2024/06/21 14:23:24 
-[14:23:34] [Server thread/INFO]: [HMCCosmetics] You are running the latest version of HMCCosmetics!
-[14:23:34] [Server thread/INFO]: Done (20.139s)! For help, type "help"
-[14:23:34] [Server thread/INFO]: Timings Reset
-[14:23:34] [Server thread/INFO]: [TimeManager] The server's initial tick was set in the config.yml.
-[14:23:34] [Server thread/INFO]: [TimeManager] The server's initial tick is #820298 (11:23:34 UTC).
-[14:23:34] [Server thread/INFO]: [TimeManager] The server's current tick is #820298 (11:23:34 UTC).
-[14:23:34] [Server thread/INFO]: [TimeManager] The world world had its time resynchronized to the server time.
-[14:23:34] [Server thread/INFO]: [TimeManager] The world world is running since 17 whole day(s) (0001-01-18).
-[14:23:34] [Server thread/INFO]: [TimeManager] The world world starts at 06:00:00 (+0 ticks).
-[14:23:34] [Server thread/INFO]: [TimeManager] The world world's current time is 06:00:00 (#0).
-[14:23:34] [Server thread/INFO]: [TimeManager] The world world's current speed is 1.0.
-[14:23:34] [Server thread/INFO]: [TimeManager] The world world_nether had its time resynchronized to the server time.
-[14:23:34] [Server thread/INFO]: [TimeManager] The world world_nether is running since 22 whole day(s) (0001-01-23).
-[14:23:34] [Server thread/INFO]: [TimeManager] The world world_nether starts at 06:00:00 (+0 ticks).
-[14:23:34] [Server thread/INFO]: [TimeManager] The world world_nether's current time is 06:00:00 (#0).
-[14:23:34] [Server thread/INFO]: [TimeManager] The world world_nether's current speed is 1.0.
-[14:23:34] [Server thread/INFO]: [TimeManager] The world world_the_end had its time resynchronized to the server time.
-[14:23:34] [Server thread/INFO]: [TimeManager] The world world_the_end is running since 22 whole day(s) (0001-01-23).
-[14:23:34] [Server thread/INFO]: [TimeManager] The world world_the_end starts at 06:00:00 (+0 ticks).
-[14:23:34] [Server thread/INFO]: [TimeManager] The world world_the_end's current time is 06:00:00 (#0).
-[14:23:34] [Server thread/INFO]: [TimeManager] The world world_the_end's current speed is 1.0.
-[14:23:35] [Craft Scheduler Thread - 5 - ItemsAdder/INFO]: [ItemsAdder] Loaded 285 items
-[14:23:35] [Craft Scheduler Thread - 5 - ItemsAdder/INFO]: [ItemsAdder] Used 0/188 REAL block IDs
-[14:23:35] [Craft Scheduler Thread - 5 - ItemsAdder/INFO]: [ItemsAdder] Used 172/750 REAL_NOTE block IDs
-[14:23:35] [Craft Scheduler Thread - 5 - ItemsAdder/INFO]: [ItemsAdder] Used 0/63 REAL_TRANSPARENT block IDs
-[14:23:35] [Craft Scheduler Thread - 5 - ItemsAdder/INFO]: [ItemsAdder] Used 6/127 REAL_WIRE block IDs
-[14:23:35] [Craft Scheduler Thread - 5 - ItemsAdder/INFO]: [ItemsAdder] Used 0/14 FIRE block IDs
-[14:23:35] [Craft Scheduler Thread - 5 - ItemsAdder/INFO]: [ItemsAdder] Used 39/6608 font_images
-[14:23:35] [Craft Scheduler Thread - 5 - ItemsAdder/ERROR]: [ItemsAdder] GUI error: can't find font_image. Check ia_gui.yml, attribute: settings.categories_view.font_image.name
-[14:23:35] [Craft Scheduler Thread - 5 - ItemsAdder/INFO]: [ItemsAdder] [Init] Loaded 17 categories
-[14:23:35] [Craft Scheduler Thread - 5 - ItemsAdder/INFO]: [ItemsAdder] [Init] Loaded successfully.
-[14:23:35] [Server thread/INFO]: [TimeManager] All worlds have been syncronized to the server time. If you want to keep them synchronized, set their 'sync' option to true.
-[14:23:35] [Server thread/INFO]: [WolfyUtilities] Enabled plugin integration for ItemsAdder
-[14:23:35] [Server thread/INFO]: [CustomCrafting] [LOCAL] Validated 27 recipes from 27 pending recipes
-[14:23:35] [Server thread/INFO]: [CustomCrafting] Indexing Recipe Book...
-[14:23:35] [Server thread/INFO]: [CustomCrafting] Indexed Recipe Book!
-[14:23:35] [Server thread/INFO]: [HMCCosmetics] Successfully Enabled HMCCosmetics
-[14:23:35] [Server thread/INFO]: [HMCCosmetics] 75 Cosmetics Successfully Setup
-[14:23:35] [Server thread/INFO]: [HMCCosmetics] 1 Menus Successfully Setup
-[14:23:35] [Server thread/INFO]: [HMCCosmetics] 1 Wardrobes Successfully Setup
-[14:23:35] [Server thread/INFO]: [HMCCosmetics] Data storage is set to sqlite
-[14:23:56] [Server thread/INFO]: Stopping the server
-[14:23:56] [Server thread/INFO]: Stopping server
-[14:23:56] [Server thread/INFO]: [HMCWraps] Disabling HMCWraps v1.4.4
-[14:23:56] [Server thread/INFO]: [DirectionalBlock] Disabling DirectionalBlock v1.4.1
-[14:23:56] [Server thread/INFO]: [DesirePaths] Disabling DesirePaths v1.10
-[14:23:56] [Server thread/INFO]: >> DesirePaths Disabled
-[14:23:56] [Server thread/INFO]: [CustomCrafting] Disabling CustomCrafting v4.16.9.1
-[14:23:56] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.0.15
-[14:23:56] [Server thread/INFO]: [HMCCosmetics] Disabling HMCCosmetics v2.7.2
-[14:23:56] [Server thread/INFO]: [TimeManager] Disabling TimeManager v1.9.0
-[14:23:56] [Server thread/INFO]: [TimeManager] The plugin is now disabled.
-[14:23:56] [Server thread/INFO]: [BetterCallFishing] Disabling BetterCallFishing v2.0.1
-[14:23:56] [Server thread/INFO]: [Terra] Disabling Terra v6.4.3-BETA+ab60f14ff
-[14:23:56] [Server thread/INFO]: [FancyPhysics] Disabling FancyPhysics v3.0.3
-[14:23:56] [Server thread/INFO]: [CinematicStudio] Disabling CinematicStudio v2.0.0-indev-8
-[14:23:56] [Server thread/INFO]: [WolfyUtilities] Disabling WolfyUtilities v4.16.15.1
-[14:23:56] [Server thread/INFO]: [WolfyUtilities] Save stored Custom Items
-[14:23:56] [Server thread/INFO]: [HibiscusCommons] Disabling HibiscusCommons v0.3.1
-[14:23:56] [Server thread/INFO]: [ItemsAdder] Disabling ItemsAdder v3.6.3-beta-13
-[14:23:56] [Server thread/INFO]: [ExecutableItems] Disabling ExecutableItems v6.24.5.28
-[14:23:56] [Server thread/INFO]: [SCore] Disabling SCore v4.24.5.28
-[14:23:56] [Server thread/INFO]: SCore Save UsagePerDay....
-[14:23:56] [Server thread/INFO]: SCore Save UsagePerDay done !
-[14:23:56] [Server thread/INFO]: SCore Save Commands...
-[14:23:56] [Server thread/INFO]: SCore Save Commands done !
-[14:23:56] [Server thread/INFO]: SCore Save Cooldowns...
-[14:23:56] [Server thread/INFO]: SCore Save Cooldowns done !
-[14:23:56] [Server thread/INFO]: [Denizen] Disabling Denizen v1.3.0-SNAPSHOT (build 1803-REL)
-[14:23:56] [Server thread/INFO]: [Denizen]  v1.3.0-SNAPSHOT (build 1803-REL) disabled.
-[14:23:56] [Server thread/INFO]: [LoneLibs] Disabling LoneLibs v1.0.45
-[14:23:56] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.2.0-SNAPSHOT-679
-[14:23:56] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.3.12
-[14:23:56] [Server thread/INFO]: Saving players
-[14:23:56] [Server thread/INFO]: Saving worlds
-[14:23:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[14:23:56] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[14:23:56] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[14:23:56] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[14:23:57] [Server thread/INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'world' in 0.53s
-[14:23:57] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[14:23:57] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[14:23:57] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[14:23:57] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[14:23:57] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[14:23:57] [Server thread/INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'world_nether' in 0.35s
-[14:23:57] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[14:23:57] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[14:23:57] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[14:23:57] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[14:23:57] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[14:23:57] [Server thread/INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'world_the_end' in 0.11s
-[14:23:57] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[14:23:57] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[14:23:57] [Server thread/INFO]: Flushing Chunk IO
-[14:23:57] [Server thread/INFO]: Closing Thread Pool
-[14:23:57] [Server thread/INFO]: Closing Server
+[20:08:34] [Server thread/INFO]: [ExecutableItems] Enabling ExecutableItems v6.24.5.28
+[20:08:34] [Server thread/INFO]: ========*======== ExecutableItems ========*========
+[20:08:34] [Server thread/ERROR]: [ExecutableItems] Invalid world: myWorld in the option disableItemsPerWorld
+[20:08:34] [Server thread/ERROR]: [ExecutableItems] Invalid world: myWorld2 in the option disableItemsPerWorld
+[20:08:36] [Server thread/INFO]: ExecutableItems ERROR, Couldn't load the Material + GROUPS value of blocks from config, value: GRASS (Item: Prem_Grass_Cutter).(detailedBlocks) >> Check the wiki if you want the list of materials and groups
+[20:08:37] [Server thread/INFO]: ExecutableItems Amount of Executable Items configurations loaded: 108
+[20:08:37] [Server thread/INFO]: ExecutableItems Items with display conditions :  
+[20:08:37] [Server thread/INFO]: ========*======== ExecutableItems ========*========
+[20:08:37] [Server thread/INFO]: [DesirePaths] Enabling DesirePaths v1.10
+[20:08:37] [Server thread/INFO]: >> DesirePaths 1.10 enabled successfully
+[20:08:37] [Server thread/INFO]: [spark] Starting background profiler...
+[20:08:37] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
+[20:08:37] [Server thread/INFO]: Done preparing level "world" (10.882s)
+[20:08:37] [Server thread/INFO]: Running delayed init tasks
+[20:08:37] [Server thread/INFO]: Done (34.851s)! For help, type "help"
+[20:08:37] [Server thread/INFO]: Timings Reset
+[20:08:37] [Server thread/INFO]: [TimeManager] The server's initial tick was set in the config.yml.
+[20:08:37] [Server thread/INFO]: [TimeManager] The server's initial tick is #1162348 (16:08:37 UTC).
+[20:08:37] [Server thread/INFO]: [TimeManager] The server's current tick is #1162348 (16:08:37 UTC).
+[20:08:37] [Server thread/INFO]: [TimeManager] The world world had its time resynchronized to the server time.
+[20:08:37] [Server thread/INFO]: [TimeManager] The world world is running since 0 whole day(s) (0001-01-01).
+[20:08:37] [Server thread/INFO]: [TimeManager] The world world starts at 06:00:00 (+0 ticks).
+[20:08:37] [Server thread/INFO]: [TimeManager] The world world's current time is 06:00:00 (#0).
+[20:08:37] [Server thread/INFO]: [TimeManager] The world world's current speed is 1.0.
+[20:08:37] [Server thread/INFO]: [TimeManager] The world world_nether had its time resynchronized to the server time.
+[20:08:37] [Server thread/INFO]: [TimeManager] The world world_nether is running since 0 whole day(s) (0001-01-01).
+[20:08:37] [Server thread/INFO]: [TimeManager] The world world_nether starts at 06:00:00 (+0 ticks).
+[20:08:37] [Server thread/INFO]: [TimeManager] The world world_nether's current time is 06:00:00 (#0).
+[20:08:37] [Server thread/INFO]: [TimeManager] The world world_nether's current speed is 1.0.
+[20:08:37] [Server thread/INFO]: [TimeManager] The world world_the_end had its time resynchronized to the server time.
+[20:08:37] [Server thread/INFO]: [TimeManager] The world world_the_end is running since 0 whole day(s) (0001-01-01).
+[20:08:37] [Server thread/INFO]: [TimeManager] The world world_the_end starts at 06:00:00 (+0 ticks).
+[20:08:37] [Server thread/INFO]: [TimeManager] The world world_the_end's current time is 06:00:00 (#0).
+[20:08:37] [Server thread/INFO]: [TimeManager] The world world_the_end's current speed is 1.0.
+[20:08:37] [Server thread/INFO]: [TimeManager] All worlds have been syncronized to the server time. If you want to keep them synchronized, set their 'sync' option to true.
+[20:09:09] [Server thread/INFO]: Server Plugins (20):
+[20:09:09] [Server thread/INFO]: Paper Plugins:
+[20:09:09] [Server thread/INFO]:  - WolfyUtilities
+[20:09:09] [Server thread/INFO]: Bukkit Plugins:
+[20:09:09] [Server thread/INFO]:  - BetterCallFishing, CustomCrafting, Denizen, DesirePaths, DirectionalBlock, ExecutableItems, FancyPhysics, HibiscusCommons, HMCCosmetics, HMCWraps
+[20:09:09] [Server thread/INFO]:  LightAPI, LoneLibs, Multiverse-Core, ProtocolLib, Quantov, SCore, SkinsRestorer, Terra, TimeManager
